@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rabbinical Teaching Methods
-permalink: /misc/rabbinical-teaching-methods/
+description: Tools and techniques that Rabbis and authors of the text used to communicate their teachings.
 ---
 A collection of some of the teaching methods used by Rabbis.
 

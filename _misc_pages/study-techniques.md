@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Study Techniques
-permalink: /misc/study-techniques/
+description: Various techniques for studying the Bible.
 ---
 
 Table of Contents
