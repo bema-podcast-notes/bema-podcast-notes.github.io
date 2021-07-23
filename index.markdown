@@ -4,7 +4,7 @@
 
 layout: home
 ---
-# Hi!
+<h1>Hi!</h1>
 
 My name is Adam and I'm listening to the [BEMA Podcast](https://www.bemadiscipleship.com/) by [Marty Solomon](https://www.bemadiscipleship.com/hosts/marty) and co-hosted by [Brent Billings](https://www.bemadiscipleship.com/hosts/brent).  
 
