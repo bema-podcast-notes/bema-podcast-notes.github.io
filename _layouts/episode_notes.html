@@ -1,0 +1,37 @@
+---
+layout: default
+---
+  {%- if page.episodeIndex %}  
+  {% assign episode = site.data.episodes.items[page.episodeIndex] %}
+  {% endif -%}
+
+  {%- if page.title_override %}  
+  {% assign title = page.title_override %}
+  {%- elsif episode %}  
+  {% assign title = episode.title %}
+  {% else %}
+  {% assign title = "Unknown" %}
+  {% endif -%}
+  <header class="post-header">
+
+  {%- if episode %}  
+  <a href="{{ episode.link }}"><h1 class="post-title">{{ title }}</h1></a>
+  {%- else %}  
+  <h1 class="post-title">{{ title }}</a>
+  {% endif -%}
+  </header>
+
+  <div class="post-content">
+    {%- if episode %}
+    <strong>Episode Length:</strong> {{ episode.itunes_duration }}<br />
+    <!-- <strong>Description</strong> -->
+    <blockquote>
+        {{ episode.content_encoded }}
+    </blockquote>
+    {% endif -%}
+    
+    <h2>Notes</h2>
+    {{ content }}
+  </div>
+
+</article>
