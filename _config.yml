@@ -39,6 +39,21 @@ collections:
   session_1:
     permalink: /session1/:path/
     output: true
+  session_2:
+    permalink: /session2/:path/
+    output: true
+  session_3:
+    permalink: /session3/:path/
+    output: true
+  session_4:
+    permalink: /session4/:path/
+    output: true
+  session_5:
+    permalink: /session5/:path/
+    output: true
+  session_6:
+    permalink: /session6/:path/
+    output: true
   misc_pages:
     permalink: /misc/:path/
     output: true
