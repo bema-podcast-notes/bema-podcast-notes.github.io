@@ -41,3 +41,57 @@ layout: default
   </div>
 
 </article>
+
+<script src="https://a.fireside.fm/assets/sub-dff87b629d2964b4f88ad685e29302d6e78ca68d650bb6081e3e2ce7bc6a9dd5.js" data-turbolinks-track="true"></script>
+<link rel="stylesheet" media="all" href="https://a.fireside.fm/assets/dracula_embed-3b5740b478e315497bc53a68887f6893652851e131cfd6d8a04ddf891b123988.css" data-turbolinks-track="true" />
+<script src="https://a.fireside.fm/assets/dracula_wavesurfer-f395c4ca5182e6364efddd509f9acc29532bff1fd7945df0b68b66e199c19428.js" data-turbolinks-track="true"></script>
+<script src="https://a.fireside.fm/assets/dracula_embed-592c687f35e98aa18d01907318360fe0a6c3626876dd2e695521e85911feda38.js" data-turbolinks-track="true"></script>
+
+<script>
+  // Get the timecode (in seconds) from the URL
+  const urlParams = new URLSearchParams(window.location.search);
+  var seconds = urlParams.has("t") ? urlParams.get("t") : 0;
+
+  $(function() {
+    // Create a new instance of the MediaElement Player
+    $('#audio_player').mediaelementplayer({
+      audioHeight: 40,
+      startVolume: 1.0,
+      alwaysShowHours: true,
+      features: ['playpause','progress','current','|','duration','volume','speed'],
+      success: function(mediaElement, originalNode) {
+        mediaElement.addEventListener('loadeddata', function() {
+          // Player is ready
+          // Set the playhead based on URL parameters
+          if (parseInt(seconds) > 0) {
+            mediaElement.setCurrentTime(parseInt(seconds));
+          }
+        }, false);
+
+        // When the user actually presses play, send a request to Aphid to track
+        // the play and update the play-count in a more accurate fashion.
+        // This avoids the false-downloads that Safari generates on page-load.
+        var playcount = 0;
+        mediaElement.addEventListener('playing', function() {
+          if (playcount==0) {
+            jQuery.get("{{ episode.playerURL }}");
+            playcount += 1;
+          }
+        }, false);
+
+        // Listener to update the Link with Timecode URL
+        mediaElement.addEventListener('timeupdate', function(e) {
+          $("#timestamp_link").prop("href", "/30?t=" + parseInt(mediaElement.currentTime));
+        }, false);
+      }
+    });
+
+    // Activate modals
+    $('a[data-modal]').click(function(event) {
+      $(this).modal({
+        fadeDuration: 100,
+      });
+      return false;
+    });
+  });
+</script>
