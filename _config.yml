@@ -27,7 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: G-BZGEW8HB4G
 # twitter_username: adamaverycole
-github_username:  adamaverycole
+github_username: adamaverycole
 github_repo: https://github.com/bema-podcast-notes/bema-podcast-notes.github.io/blob/main/
 
 # collections:
@@ -59,10 +59,11 @@ collections:
     output: true
 
 # Build settings
-# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-theme: minima
++ remote_theme: jekyll/minima
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
