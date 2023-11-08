@@ -2,7 +2,7 @@
 layout: default
 ---
   {%- if page.episodeIndex %}  
-  {% assign episode = site.data.episodes.items[page.episodeIndex] %}
+  {% assign episode = site.data.episodes[page.episodeIndex] %}
   {% endif -%}
 
   {%- if page.title_override %}  
@@ -13,25 +13,28 @@ layout: default
   {% assign title = "Unknown" %}
   {% endif -%}
   <header class="post-header">
-
-  {%- if episode %}  
-  <a href="{{ episode.link }}"><h1 class="post-title">{{ title }}</h1></a>
-  {%- else %}  
-  <h1 class="post-title">{{ title }}</a>
-  {% endif -%}
+    <h1 class="post-title">{{ title }}</h1>
+    <h2>{{ episode.subtitle }}</h2>
   </header>
 
   <div class="post-content">
     {%- if episode %}
-    <strong>Episode Length:</strong> {{ episode.itunes_duration }}<br />
-    <!-- <strong>Description</strong> -->
-    <blockquote>
-        {{ episode.content_encoded }}
-    </blockquote>
+
+    <strong>BEMA Episode Link:</strong> <a href="{{ episode.link }}" target="_blank">{{ episode.title }}</a><br />
+    <strong>Episode Length:</strong> {{ episode.duration }}<br />
+    <strong>Published Date:</strong> {{ episode.pubDate}}<br />
+    <strong>Session {{ episode.season }}</strong><br />
+    <strong>About this episode:</strong><br />
+    {{ episode.description }}
     {% endif -%}
     
     <h2>Notes</h2>
-    {{ content }}
+    <p>
+      <em>*Note: The following notes are handwritten by me, Adam, and I reserve the right to be wrong.</em>
+    </p>
+    <p>
+      {{ content }}
+    </p>
   </div>
 
 </article>
