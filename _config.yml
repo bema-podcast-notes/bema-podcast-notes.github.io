@@ -28,6 +28,19 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
+# collections:
+#   misc:
+#     output: true
+#     permalink: /misc/:path/
+
+collections:
+  session_1:
+    permalink: /session1/:path/
+    output: true
+  misc_pages:
+    permalink: /misc/:path/
+    output: true
+
 # Build settings
 # remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 theme: minima

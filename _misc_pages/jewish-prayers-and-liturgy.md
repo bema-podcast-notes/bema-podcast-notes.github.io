@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Jewish Prayers and Liturgy
-permalink: /misc/jewish-prayers-and-liturgy/
+description: Jewish prayers and Liturgy with relevance to the Jewish People and the Bible.
+output: true
 ---
 Here are some Jewish Prayers and Liturgy that has shown relevance in my study of the Bible and specifically in my study of the teachings of Jesus.  
 
