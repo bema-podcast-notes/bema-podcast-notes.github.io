@@ -3,7 +3,21 @@ layout: default
 ---
   {%- if page.episodeIndex %}  
   {% assign episode = site.data.episodes[page.episodeIndex] %}
+  {% assign previousEpisodeIndex = page.episodeIndex | minus: 1 %}
+  {% assign previousEpisode = site.data.episodes[previousEpisodeIndex] %}
+  {% assign nextEpisodeIndex = page.episodeIndex | plus: 1 %}
+  {% assign nextEpisode = site.data.episodes[nextEpisodeIndex] %}
   {% endif -%}
+
+  {% capture editPreviousNextNav %}
+  <a href="{{ site.github_repo }}{{ page.path }}">Edit</a>
+  {%- if previousEpisodeIndex >= 0 and previousEpisode %}
+  | <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '' }}">Previous</a>
+  {% endif -%}
+  {%- if nextEpisode %}
+  | <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '' }}">Next</a>
+  {% endif -%}
+  {% endcapture %}
 
   {%- if page.title_override %}  
   {% assign title = page.title_override %}
@@ -12,7 +26,7 @@ layout: default
   {% else %}
   {% assign title = "Unknown" %}
   {% endif -%}
-  <a href="{{ site.github_repo }}{{ page.path }}">Edit</a>
+  {{ editPreviousNextNav }}
   <header class="post-header">
     <h1 class="post-title">{{ title }}</h1>
     <h2>{{ episode.subtitle }}</h2>
@@ -38,6 +52,7 @@ layout: default
     <p>
       {{ content }}
     </p>
+    {{ editPreviousNextNav }}
   </div>
 
 </article>
