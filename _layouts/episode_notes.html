@@ -20,6 +20,8 @@ layout: default
   <div class="post-content">
     {%- if episode %}
 
+    <iframe src="{{ episode.playerURL }}?theme=dark" width="740" height="200" frameborder="0" scrolling="no"></iframe>
+
     <strong>BEMA Episode Link:</strong> <a href="{{ episode.link }}" target="_blank">{{ episode.title }}</a><br />
     <strong>Episode Length:</strong> {{ episode.duration }}<br />
     <strong>Published Date:</strong> {{ episode.pubDate}}<br />
