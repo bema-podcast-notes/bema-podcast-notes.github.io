@@ -14,9 +14,9 @@ I reserve the right to be incorrect.
 
 ## My Notes
 
-I have binged this podcast and did not take the time to take notes along the way. As I go back through the podcast, I'll take notes and publish them here.  
+I have binged this podcast and did not take the time to take notes along the way. As I go back through the podcast, I'll take notes and publish them here.
 
-### [Session 1]({{ '/session1' | relative_url }})  
+### [Session 1]({{ '/session1' | relative_url }}) {#session1}
 
 {% assign sorted_pages = site.session_1 | sort:"episodeIndex" %}
 {% for page in sorted_pages %}
@@ -26,7 +26,7 @@ I have binged this podcast and did not take the time to take notes along the way
 {% endif -%}
 {% endfor %}
 
-### [Session 2]({{ '/session2' | relative_url }})  
+### [Session 2]({{ '/session2' | relative_url }}) {#session2}
 
 {% assign sorted_pages = site.session_2 | sort:"episodeIndex" %}
 {% for page in sorted_pages %}
@@ -36,7 +36,7 @@ I have binged this podcast and did not take the time to take notes along the way
 {% endif -%}
 {% endfor %}
 
-### [Session 3]({{ '/session3' | relative_url }})  
+### [Session 3]({{ '/session3' | relative_url }}) {#session3}
 
 {% assign sorted_pages = site.session_3 | sort:"episodeIndex" %}
 {% for page in sorted_pages %}
@@ -46,7 +46,7 @@ I have binged this podcast and did not take the time to take notes along the way
 {% endif -%}
 {% endfor %}
 
-### [Session 4]({{ '/session4' | relative_url }})  
+### [Session 4]({{ '/session4' | relative_url }}) {#session4}
 
 {% assign sorted_pages = site.session_4 | sort:"episodeIndex" %}
 {% for page in sorted_pages %}
@@ -56,7 +56,7 @@ I have binged this podcast and did not take the time to take notes along the way
 {% endif -%}
 {% endfor %}
 
-### [Session 5]({{ '/session5' | relative_url }})  
+### [Session 5]({{ '/session5' | relative_url }}) {#session5}
 
 {% assign sorted_pages = site.session_5 | sort:"episodeIndex" %}
 {% for page in sorted_pages %}
@@ -66,7 +66,7 @@ I have binged this podcast and did not take the time to take notes along the way
 {% endif -%}
 {% endfor %}
 
-### [Session 6]({{ '/session6' | relative_url }})  
+### [Session 6]({{ '/session6' | relative_url }}) {#session6}
 
 {% assign sorted_pages = site.session_6 | sort:"episodeIndex" %}
 {% for page in sorted_pages %}
@@ -76,7 +76,7 @@ I have binged this podcast and did not take the time to take notes along the way
 {% endif -%}
 {% endfor %}
 
-### [Session 7]({{ '/session7' | relative_url }})  
+### [Session 7]({{ '/session7' | relative_url }}) {#session7}
 
 {% assign sorted_pages = site.session_7 | sort:"episodeIndex" %}
 {% for page in sorted_pages %}
@@ -86,7 +86,7 @@ I have binged this podcast and did not take the time to take notes along the way
 {% endif -%}
 {% endfor %}
 
-### [Session 8]({{ '/session8' | relative_url }})  
+### [Session 8]({{ '/session8' | relative_url }}) {#session8}
 
 {% assign sorted_pages = site.session_8 | sort:"episodeIndex" %}
 {% for page in sorted_pages %}
