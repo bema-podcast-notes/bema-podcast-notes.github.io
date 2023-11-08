@@ -17,3 +17,11 @@ I reserve the right to be incorrect.
 I have binged this podcast and did not take the time to take notes along the way. As I go back through the podcast, I'll take notes and publish them here.  
 
 [Session 1]({{ '/session1' | relative_url }})  
+
+{% assign sorted_pages = site.session_1 | sort:"episodeIndex" %}
+{% for page in sorted_pages %}
+{%- if page.episodeIndex %}  
+{% assign episode = site.data.episodes[page.episodeIndex] %}
+<a href="{{ page.url }}">{{ page.title }}</a> - {{ episode.subtitle }}
+{% endif -%}
+{% endfor %}
