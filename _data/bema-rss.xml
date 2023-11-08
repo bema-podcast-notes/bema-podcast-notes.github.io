@@ -2,11 +2,11 @@
 <rss version="2.0" encoding="UTF-8" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:atom="http://www.w3.org/2005/Atom/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" xmlns:fireside="http://fireside.fm/modules/rss/fireside">
   <channel>
     <fireside:hostname>feed01.fireside.fm</fireside:hostname>
-    <fireside:genDate>Sun, 02 Jan 2022 17:44:18 -0600</fireside:genDate>
+    <fireside:genDate>Thu, 06 Jan 2022 03:46:34 -0600</fireside:genDate>
     <generator>Fireside (https://fireside.fm)</generator>
     <title>The BEMA Podcast</title>
     <link>https://www.bemadiscipleship.com</link>
-    <pubDate>Sun, 02 Jan 2022 23:41:28 -0000</pubDate>
+    <pubDate>Thu, 06 Jan 2022 09:45:07 -0000</pubDate>
     <description>The BEMA Podcast is a walk-through of the context of the Bible and the Text itself, as well as surrounding history. We deconstruct our common readings of the Bible and attempt to reconstruct them through the lens of historical context.
 The main body of work is contained in Seasons 1–5, and we encourage you to start with episode 0 and continue in order through episode 204.
 BEMA Discipleship is a ministry of Impact Campus Ministries.
@@ -7510,6 +7510,35 @@ I will betroth you to myself in faithfulness, and you shall know the <span style
       <podcast:person email="" href="https://brentbillings.com/" role="host">Brent Billings</podcast:person>
       <podcast:person email="" href="https://www.martysolomon.com/" role="host">Marty Solomon</podcast:person>
       <podcast:person email="" href="https://b-olivialibrary.com/" role="guest">John Roberts</podcast:person>
+    </item>
+    <item>
+      <title>252: John — What’s in a Logos?</title>
+      <link>https://www.bemadiscipleship.com/252</link>
+      <guid isPermaLink="false">dd5fdab6-912e-4c7e-b6e2-bdd0880badae</guid>
+      <pubDate>Thu, 06 Jan 2022 01:00:00 -0800</pubDate>
+      <author>BEMA Discipleship</author>
+      <enclosure url="https://aphid.fireside.fm/d/1437767933/7d8cc2be-fe66-43fb-ada4-e62e2f8c00e7/dd5fdab6-912e-4c7e-b6e2-bdd0880badae.mp3" length="18578295" type="audio/mpeg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>6</itunes:season>
+      <itunes:author>BEMA Discipleship</itunes:author>
+      <itunes:subtitle>An Introduction to Jesus</itunes:subtitle>
+      <itunes:duration>38:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://assets.fireside.fm/file/fireside-images/podcasts/images/7/7d8cc2be-fe66-43fb-ada4-e62e2f8c00e7/cover.jpg?v=2"/>
+      <description>&lt;p class=""&gt;Marty Solomon and Brent Billings start a verse-by-verse journey through the Gospel of John, beginning with a discussion about how John introduces us to Jesus.&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://amzn.to/3EfwgXW" target="_blank"&gt;&lt;em&gt;Reading the Gospel of John Through Palestinian Eyes&lt;/em&gt; by Yohanna Katanacho&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://gtitours.simplecast.com/episodes/4-the-fifth-gospel-interview-with-gary-burge" target="_blank"&gt;The Fifth Gospel: Interview with Gary Burge — GTI Tours Podcast #4&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://gtitours.simplecast.com/episodes/45-why-context-matters-interview-with-dr-gary-burge" target="_blank"&gt;Why Context Matters: Interview with Dr. Gary Burge — GTI Tours Podcast #45&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://amzn.to/31nQdgo" target="_blank"&gt;&lt;em&gt;Interpreting the Gospel of John&lt;/em&gt; by Gary M. Burge&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://www.garyburge.org/publications.html" target="_blank"&gt;Publications of Gary M. Burge&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://www.bemadiscipleship.com/87" target="_blank"&gt;BEMA 87: John — Grafted&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://amzn.to/3G6R3xc" target="_blank"&gt;&lt;em&gt;Word Pictures&lt;/em&gt; by Brian Godawa&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://amzn.to/2mo2j2s" target="_blank"&gt;Zondervan Archaeological Study Bible&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://www.bible.com/bible/107/JHN.1.NET" target="_blank"&gt;John 1 in the New English Translation&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://amzn.to/3lqQdUq" target="_blank"&gt;NIV Cultural Backgrounds Study Bible&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://amzn.to/3ltwpiW" target="_blank"&gt;&lt;em&gt;Heart and Mind&lt;/em&gt; by Alexander John Shaia&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://bibleproject.com/explore/video/john-1-12/" target="_blank"&gt;John 1–12 — BibleProject&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://bibleproject.com/explore/video/john-13-21/" target="_blank"&gt;John 13–21 — BibleProject&lt;/a&gt;&lt;/p&gt; 
+</description>
+      <content:encoded>
+        <![CDATA[<p class="">Marty Solomon and Brent Billings start a verse-by-verse journey through the Gospel of John, beginning with a discussion about how John introduces us to Jesus.</p><p class=""><a href="https://amzn.to/3EfwgXW" target="_blank"><em>Reading the Gospel of John Through Palestinian Eyes</em> by Yohanna Katanacho</a></p><p class=""><a href="https://gtitours.simplecast.com/episodes/4-the-fifth-gospel-interview-with-gary-burge" target="_blank">The Fifth Gospel: Interview with Gary Burge — GTI Tours Podcast #4</a></p><p class=""><a href="https://gtitours.simplecast.com/episodes/45-why-context-matters-interview-with-dr-gary-burge" target="_blank">Why Context Matters: Interview with Dr. Gary Burge — GTI Tours Podcast #45</a></p><p class=""><a href="https://amzn.to/31nQdgo" target="_blank"><em>Interpreting the Gospel of John</em> by Gary M. Burge</a></p><p class=""><a href="https://www.garyburge.org/publications.html" target="_blank">Publications of Gary M. Burge</a></p><p class=""><a href="https://www.bemadiscipleship.com/87" target="_blank">BEMA 87: John — Grafted</a></p><p class=""><a href="https://amzn.to/3G6R3xc" target="_blank"><em>Word Pictures</em> by Brian Godawa</a></p><p class=""><a href="https://amzn.to/2mo2j2s" target="_blank">Zondervan Archaeological Study Bible</a></p><p class=""><a href="https://www.bible.com/bible/107/JHN.1.NET" target="_blank">John 1 in the New English Translation</a></p><p class=""><a href="https://amzn.to/3lqQdUq" target="_blank">NIV Cultural Backgrounds Study Bible</a></p><p class=""><a href="https://amzn.to/3ltwpiW" target="_blank"><em>Heart and Mind</em> by Alexander John Shaia</a></p><p class=""><a href="https://bibleproject.com/explore/video/john-1-12/" target="_blank">John 1–12 — BibleProject</a></p><p class=""><a href="https://bibleproject.com/explore/video/john-13-21/" target="_blank">John 13–21 — BibleProject</a></p><p><a href="https://www.bemadiscipleship.com/donate" rel="payment">Support The BEMA Podcast</a></p>]]>
+      </content:encoded>
+      <itunes:summary>
+        <![CDATA[<p class="">Marty Solomon and Brent Billings start a verse-by-verse journey through the Gospel of John, beginning with a discussion about how John introduces us to Jesus.</p><p class=""><a href="https://amzn.to/3EfwgXW" target="_blank"><em>Reading the Gospel of John Through Palestinian Eyes</em> by Yohanna Katanacho</a></p><p class=""><a href="https://gtitours.simplecast.com/episodes/4-the-fifth-gospel-interview-with-gary-burge" target="_blank">The Fifth Gospel: Interview with Gary Burge — GTI Tours Podcast #4</a></p><p class=""><a href="https://gtitours.simplecast.com/episodes/45-why-context-matters-interview-with-dr-gary-burge" target="_blank">Why Context Matters: Interview with Dr. Gary Burge — GTI Tours Podcast #45</a></p><p class=""><a href="https://amzn.to/31nQdgo" target="_blank"><em>Interpreting the Gospel of John</em> by Gary M. Burge</a></p><p class=""><a href="https://www.garyburge.org/publications.html" target="_blank">Publications of Gary M. Burge</a></p><p class=""><a href="https://www.bemadiscipleship.com/87" target="_blank">BEMA 87: John — Grafted</a></p><p class=""><a href="https://amzn.to/3G6R3xc" target="_blank"><em>Word Pictures</em> by Brian Godawa</a></p><p class=""><a href="https://amzn.to/2mo2j2s" target="_blank">Zondervan Archaeological Study Bible</a></p><p class=""><a href="https://www.bible.com/bible/107/JHN.1.NET" target="_blank">John 1 in the New English Translation</a></p><p class=""><a href="https://amzn.to/3lqQdUq" target="_blank">NIV Cultural Backgrounds Study Bible</a></p><p class=""><a href="https://amzn.to/3ltwpiW" target="_blank"><em>Heart and Mind</em> by Alexander John Shaia</a></p><p class=""><a href="https://bibleproject.com/explore/video/john-1-12/" target="_blank">John 1–12 — BibleProject</a></p><p class=""><a href="https://bibleproject.com/explore/video/john-13-21/" target="_blank">John 13–21 — BibleProject</a></p><p><a href="https://www.bemadiscipleship.com/donate" rel="payment">Support The BEMA Podcast</a></p>]]>
+      </itunes:summary>
+      <fireside:playerURL>https://fireside.fm/player/v2/7HMQ5AvZ+smcnG3GM</fireside:playerURL>
+      <fireside:playerEmbedCode>
+        <![CDATA[<iframe src="https://fireside.fm/player/v2/7HMQ5AvZ+smcnG3GM" width="740" height="200" frameborder="0" scrolling="no">]]>
+      </fireside:playerEmbedCode>
+      <podcast:person email="" href="https://brentbillings.com/" role="host">Brent Billings</podcast:person>
+      <podcast:person email="" href="https://www.martysolomon.com/" role="host">Marty Solomon</podcast:person>
     </item>
   </channel>
 </rss>
