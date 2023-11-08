@@ -1,7 +1,7 @@
 # For additional usage doc, see: https://jekyllrb.com/docs/usage/
 
 buildyaml:
-	pwsh ./scripts/gen-episodes-yaml.ps1
+	pwsh ./_scripts/gen-episodes-yaml.ps1
 	exit
 
 build:
