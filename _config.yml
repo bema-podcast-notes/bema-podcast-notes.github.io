@@ -54,6 +54,12 @@ collections:
   session_6:
     permalink: /session6/:path/
     output: true
+  session_7:
+    permalink: /session7/:path/
+    output: true
+  session_8:
+    permalink: /session8/:path/
+    output: true
   misc_pages:
     permalink: /misc/:path/
     output: true

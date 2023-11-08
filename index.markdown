@@ -16,9 +16,79 @@ I reserve the right to be incorrect.
 
 I have binged this podcast and did not take the time to take notes along the way. As I go back through the podcast, I'll take notes and publish them here.  
 
-[Session 1]({{ '/session1' | relative_url }})  
+### [Session 1]({{ '/session1' | relative_url }})  
 
 {% assign sorted_pages = site.session_1 | sort:"episodeIndex" %}
+{% for page in sorted_pages %}
+{%- if page.episodeIndex %}  
+{% assign episode = site.data.episodes[page.episodeIndex] %}
+<a href="{{ page.url }}">{{ page.title }}</a> - {{ episode.subtitle }}
+{% endif -%}
+{% endfor %}
+
+### [Session 2]({{ '/session2' | relative_url }})  
+
+{% assign sorted_pages = site.session_2 | sort:"episodeIndex" %}
+{% for page in sorted_pages %}
+{%- if page.episodeIndex %}  
+{% assign episode = site.data.episodes[page.episodeIndex] %}
+<a href="{{ page.url }}">{{ page.title }}</a> - {{ episode.subtitle }}
+{% endif -%}
+{% endfor %}
+
+### [Session 3]({{ '/session3' | relative_url }})  
+
+{% assign sorted_pages = site.session_3 | sort:"episodeIndex" %}
+{% for page in sorted_pages %}
+{%- if page.episodeIndex %}  
+{% assign episode = site.data.episodes[page.episodeIndex] %}
+<a href="{{ page.url }}">{{ page.title }}</a> - {{ episode.subtitle }}
+{% endif -%}
+{% endfor %}
+
+### [Session 4]({{ '/session4' | relative_url }})  
+
+{% assign sorted_pages = site.session_4 | sort:"episodeIndex" %}
+{% for page in sorted_pages %}
+{%- if page.episodeIndex %}  
+{% assign episode = site.data.episodes[page.episodeIndex] %}
+<a href="{{ page.url }}">{{ page.title }}</a> - {{ episode.subtitle }}
+{% endif -%}
+{% endfor %}
+
+### [Session 5]({{ '/session5' | relative_url }})  
+
+{% assign sorted_pages = site.session_5 | sort:"episodeIndex" %}
+{% for page in sorted_pages %}
+{%- if page.episodeIndex %}  
+{% assign episode = site.data.episodes[page.episodeIndex] %}
+<a href="{{ page.url }}">{{ page.title }}</a> - {{ episode.subtitle }}
+{% endif -%}
+{% endfor %}
+
+### [Session 6]({{ '/session6' | relative_url }})  
+
+{% assign sorted_pages = site.session_6 | sort:"episodeIndex" %}
+{% for page in sorted_pages %}
+{%- if page.episodeIndex %}  
+{% assign episode = site.data.episodes[page.episodeIndex] %}
+<a href="{{ page.url }}">{{ page.title }}</a> - {{ episode.subtitle }}
+{% endif -%}
+{% endfor %}
+
+### [Session 7]({{ '/session7' | relative_url }})  
+
+{% assign sorted_pages = site.session_7 | sort:"episodeIndex" %}
+{% for page in sorted_pages %}
+{%- if page.episodeIndex %}  
+{% assign episode = site.data.episodes[page.episodeIndex] %}
+<a href="{{ page.url }}">{{ page.title }}</a> - {{ episode.subtitle }}
+{% endif -%}
+{% endfor %}
+
+### [Session 8]({{ '/session8' | relative_url }})  
+
+{% assign sorted_pages = site.session_8 | sort:"episodeIndex" %}
 {% for page in sorted_pages %}
 {%- if page.episodeIndex %}  
 {% assign episode = site.data.episodes[page.episodeIndex] %}
