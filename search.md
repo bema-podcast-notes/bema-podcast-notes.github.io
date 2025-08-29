@@ -210,5 +210,5 @@ permalink: /search/
 }
 </style>
 
-<script src="https://unpkg.com/lunr.min/lunr.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
