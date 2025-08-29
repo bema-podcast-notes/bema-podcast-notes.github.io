@@ -75,6 +75,7 @@ collections:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   # - jekyll-remote-theme
 
 # Exclude from processing.
