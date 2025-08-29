@@ -1,0 +1,20 @@
+---
+layout: null
+---
+[
+{%- assign all_posts = site.documents | where_exp: "item", "item.layout == 'episode_notes'" -%}
+{%- for post in all_posts -%}
+  {%- assign episode = site.data.episodes[post.episodeIndex] -%}
+  {
+    "id": {{ post.episodeIndex | jsonify }},
+    "title": {{ post.title | jsonify }},
+    "url": {{ post.url | jsonify }},
+    "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+    "session": {%- if episode -%}{{ episode.season | jsonify }}{%- else -%}"Unknown"{%- endif -%},
+    "episode_title": {%- if episode -%}{{ episode.title | jsonify }}{%- else -%}{{ post.title | jsonify }}{%- endif -%},
+    "subtitle": {%- if episode -%}{{ episode.subtitle | jsonify }}{%- else -%}""{%- endif -%},
+    "description": {%- if episode -%}{{ episode.description | strip_html | strip_newlines | jsonify }}{%- else -%}""{%- endif -%},
+    "duration": {%- if episode -%}{{ episode.duration | jsonify }}{%- else -%}""{%- endif -%}
+  }{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+]
