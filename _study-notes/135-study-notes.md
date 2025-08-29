@@ -1,0 +1,112 @@
+# BEMA Episode 135: Uncut Corners - Study Notes
+
+## Title & Source Summary
+
+**Episode:** BEMA 135 - "Uncut Corners"  
+**Hosts:** Marty Solomon and Brent Billings  
+**Topic:** Opening of the book of Acts and the beginning of the Spirit-filled movement that changed the course of human history. This episode examines the ascension of Jesus and Pentecost through the lens of Jewish context and Roman political history.
+
+## Key Takeaways
+
+• The ascension narrative in Acts deliberately parallels the Roman story of Julius Caesar's ascension and deification, showing Jesus as the true divine ruler
+• Pentecost (Shavuot) is not about starting a new religion but calling Jewish people back to their original moorings in following God correctly
+• The Festival of Shavuot encompasses both the giving of Torah at Sinai and celebration of the wheat harvest, both themes reflected in Acts 2
+• True Pentecost includes caring for the marginalized ("uncut corners") - generosity and social justice are essential elements
+• The early church exemplified authentic Shavuot celebration by holding all things in common and caring for those in need
+• Acts represents a Jewish movement of repentance (t'shuvah), not conversion to a new religion
+
+## Main Concepts & Theories
+
+### Political Context: Caesar's Ascension Story
+
+The episode opens with crucial historical context from around 44-30 BCE. Julius Caesar was assassinated without a male heir, leaving his adopted nephew Octavian (later Caesar Augustus) to compete with Mark Antony for the throne. When a bright comet appeared (magnitude -4, as bright as Venus), Octavian cleverly proclaimed it was his father Julius ascending to godhood, making himself "son of god." The Roman Senate supported this narrative while also claiming they were Caesar's ambassadors tasked with spreading Rome "to the very ends of the earth." This story predates the Gospels by 60-90 years.
+
+### Literary Parallel: Jesus' Ascension
+
+Luke's account of Jesus' ascension deliberately mirrors the Caesar story. Jesus ascends before witnesses (11 apostles, matching the tradition of 12 Roman senators) and commissions them as witnesses/ambassadors to spread the Kingdom "to the very ends of the earth." This represents a "tale of two kingdoms" - Empire versus Shalom - where the Gospel authors subvert Roman political propaganda by applying titles like "Son of God," "Lord of Lords," and "Prince of Peace" to Jesus.
+
+### Festival Context: Shavuot/Pentecost
+
+Pentecost occurs during Shavuot (Festival of Weeks), which celebrates:
+
+1. **The Harvest:** Both barley (poor man's grain) and wheat (fine flour) harvests
+2. **Torah at Sinai:** Jewish calculation places the giving of the law exactly 50 days after Passover
+
+### Sinai-Pentecost Parallels
+
+The episode identifies striking parallels between Mount Sinai and Pentecost:
+
+- **Location:** Mount Sinai vs. Mount Zion (both "Mountain of the Lord")
+- **Sound:** Thunder (glossa in Greek) vs. Tongues (also glossa)
+- **Temple:** Physical tabernacle vs. believers as living stones
+- **Fire:** Consuming sacrifices vs. settling on people
+- **Message from God:** Moses descending vs. Peter preaching
+- **Numerical outcome:** 3,000 killed at golden calf vs. 3,000 saved at Pentecost
+
+This presents Pentecost as the redemption of the golden calf incident.
+
+### Agricultural Metaphor: Harvest Seasons
+
+The timing connects Jesus' death and resurrection to harvest festivals:
+
+- **Passover:** Jesus crucified
+- **First Fruits:** Jesus resurrected (barley harvest - poor man's grain)
+- **Shavuot:** Church birth (wheat harvest - fine flour)
+
+### Social Justice: Uncut Corners
+
+The law required farmers to leave field corners unharvested for "the alien, the orphan, and the widow" (Leviticus 23:22). This principle connects to Ruth's story and becomes the litmus test for authentic Pentecost celebration. As Marty's teacher Ray said: "If there are no uncut corners in your celebration of Jesus, you are not Pentecostal. I don't care how many of you are speaking in tongues."
+
+## Examples & Applications
+
+### Historical Example: Ruth and Boaz
+
+The book of Ruth, traditionally read during Shavuot, exemplifies uncut corners through Boaz's generosity to Ruth (who represents the alien, orphan, and widow). Ruth gleans from barley through wheat harvest, showing sustained care for the marginalized.
+
+### Early Church Model
+
+Acts 2:42-47 describes the ideal Pentecostal community:
+
+- Devoted to teaching, fellowship, breaking bread, and prayer
+- Shared possessions and sold property for those in need
+- Met daily in temple courts and homes
+- Enjoyed favor with all people
+
+### Modern Application
+
+Authentic Christian community should reflect Shavuot principles by:
+
+- Combining spiritual experience with social justice
+- Creating economic systems that care for the marginalized
+- Maintaining Jewish roots while being inclusive of outsiders
+- Focusing on repentance/return rather than religious conversion
+
+## Potential Areas for Further Exploration
+
+1. **Roman Imperial Theology:** How other Gospel narratives subvert imperial propaganda and political claims
+2. **Jewish Festival Calendar:** Deep dive into how other biblical festivals illuminate New Testament events
+3. **Book of Ruth Studies:** Comprehensive study of Ruth as Shavuot literature and model for inclusive community
+4. **Early Church Economics:** Investigation of the Acts 2 economic model and its implications for modern Christian community
+5. **Septuagint Translation Issues:** How Greek translation choices (like glossa for thunder/tongues) create literary connections
+6. **T'shuvah vs. Conversion:** Theological implications of viewing early Christianity as Jewish repentance movement rather than new religion
+7. **Ascension Theology:** The significance of ascension in Christian doctrine and its neglect in modern church practice
+
+## Comprehension Questions
+
+1. **Historical Context:** Explain how Octavian's use of Caesar's comet to claim divine sonship created a political template that Luke later subverts in Acts. What specific parallels exist between the two ascension stories?
+
+2. **Festival Understanding:** How does understanding Shavuot as both Torah-giving celebration and harvest festival enhance our reading of Acts 2? What are the key connections between Sinai and Pentecost?
+
+3. **Social Justice Integration:** What does the phrase "uncut corners" mean in biblical context, and why does Marty argue it's essential to authentic Pentecostal experience? How did the Acts 2 church embody this principle?
+
+4. **Jewish vs. Gentile Movement:** Why is it significant that Acts 1-9 represents a completely Jewish story rather than a conversion to a new religion? How does this understanding change our interpretation of Peter's Pentecost sermon?
+
+5. **Agricultural Timing:** How do the timing of Jesus' death (Passover), resurrection (First Fruits), and the church's birth (Shavuot) connect to the biblical harvest cycle, and what theological significance does this carry?
+
+## Brief Personalized Summary
+
+Episode 135 masterfully demonstrates how understanding historical and cultural context transforms our reading of familiar biblical stories. The revelation that Luke's ascension narrative deliberately parallels and subverts Roman imperial propaganda shows the early Christian movement's political sophistication. Rather than creating entirely new religious concepts, the Gospel writers strategically appropriated and redirected existing cultural symbols and stories.
+
+The connection between Pentecost and Shavuot is particularly illuminating, revealing that the birth of the church wasn't about starting a new religion but about Jewish people returning to authentic covenant relationship with God. The agricultural imagery of harvest seasons beautifully connects Jesus' death, resurrection, and the church's birth to God's provision and timing.
+
+Most challenging is the "uncut corners" principle - the idea that authentic spiritual experience must include social justice and care for the marginalized. This challenges modern Christianity to examine whether our celebrations of Pentecost include the economic and social dimensions that characterized the early church. The Acts 2 community serves as both inspiration and indictment, showing what's possible when spiritual experience translates into practical generosity and inclusive community.
