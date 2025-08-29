@@ -96,7 +96,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - google-site-verification=y-i2rqFqsJR8JJDxGXQNVQGdeldKVb3Ko0Wd2JZq7K0
   - README.md
   - update_permalinks.py
   - Makefile
