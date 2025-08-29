@@ -60,6 +60,12 @@ collections:
   session_8:
     permalink: /session8/:path/
     output: true
+  session_9:
+    permalink: /session9/:path/
+    output: true
+  session_10:
+    permalink: /session10/:path/
+    output: true
   misc_pages:
     permalink: /misc/:path/
     output: true
@@ -79,14 +85,18 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - google-site-verification=y-i2rqFqsJR8JJDxGXQNVQGdeldKVb3Ko0Wd2JZq7K0
+  - README.md
+  - update_permalinks.py
+  - Makefile
