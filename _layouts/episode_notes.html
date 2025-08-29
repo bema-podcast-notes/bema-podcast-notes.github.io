@@ -12,10 +12,10 @@ layout: default
   {% capture editPreviousNextNav %}
   <a href="{{ site.github_repo }}{{ page.path }}">Edit</a>
   {%- if previousEpisodeIndex >= 0 and previousEpisode %}
-  | <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '' }}">Previous</a>
+  | <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', 'ep' }}">Previous</a>
   {% endif -%}
   {%- if nextEpisode %}
-  | <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '' }}">Next</a>
+  | <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', 'ep' }}">Next</a>
   {% endif -%}
   {% endcapture %}
 
