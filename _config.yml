@@ -100,3 +100,5 @@ exclude:
   - README.md
   - update_permalinks.py
   - Makefile
+  - _scripts/
+  - _study-notes/
