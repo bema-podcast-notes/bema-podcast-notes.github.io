@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" encoding="UTF-8" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:atom="http://www.w3.org/2005/Atom/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:fireside="https://fireside.fm/modules/rss/fireside">
   <channel>
-    <fireside:hostname>feed03.fireside.fm</fireside:hostname>
-    <fireside:genDate>Mon, 25 Aug 2025 22:48:06 -0500</fireside:genDate>
+    <fireside:hostname>feed02.fireside.fm</fireside:hostname>
+    <fireside:genDate>Thu, 28 Aug 2025 03:46:05 -0500</fireside:genDate>
     <generator>Fireside (https://fireside.fm)</generator>
     <title>The BEMA Podcast</title>
     <link>https://www.bemadiscipleship.com</link>
-    <pubDate>Fri, 22 Aug 2025 12:55:04 -0700</pubDate>
+    <pubDate>Thu, 28 Aug 2025 01:45:04 -0700</pubDate>
     <description>The BEMA Podcast is a walk-through of the context of the Bible and the Text itself, as well as surrounding history. We deconstruct our common readings of the Bible and attempt to reconstruct them through the lens of historical context.
 The main body of work is contained in Seasons 1–5, and we encourage you to start with episode 0 (or even -1) and continue in order through episode 204. Beyond that, we explore new topics, revisit old topics, and dive deeper into practical ways of living out the things we have learned together.
 BEMA Discipleship is a ministry of Impact Campus Ministries.
@@ -15274,6 +15274,36 @@ I will betroth you to myself in faithfulness, and you shall know the <span style
       </fireside:playerEmbedCode>
       <podcast:person email="" href="" role="host">Josh Bossé</podcast:person>
       <podcast:person email="" href="https://brentbillings.com/" role="host">Brent Billings</podcast:person>
+    </item>
+    <item>
+      <title>465: Qohelet’s Reflection</title>
+      <link>https://www.bemadiscipleship.com/465</link>
+      <guid isPermaLink="false">abe910a2-9c74-4296-8762-9198e73775ed</guid>
+      <pubDate>Thu, 28 Aug 2025 01:00:00 -0700</pubDate>
+      <author>BEMA Discipleship</author>
+      <enclosure url="https://aphid.fireside.fm/d/1437767933/7d8cc2be-fe66-43fb-ada4-e62e2f8c00e7/abe910a2-9c74-4296-8762-9198e73775ed.mp3" length="30733913" type="audio/mpeg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>9</itunes:season>
+      <itunes:author>BEMA Discipleship</itunes:author>
+      <itunes:subtitle>Finding Meaning by Living in the Present</itunes:subtitle>
+      <itunes:duration>1:02:32</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/7/7d8cc2be-fe66-43fb-ada4-e62e2f8c00e7/cover.jpg?v=2"/>
+      <description>&lt;p class=""&gt;Marty Solomon, Brent Billings, and Josh Bossé close out this series, and—instead of letting Qohelet do the talking—consider the reflection of Qohelet in our hearts and in our lives.&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://amzn.to/46azYSQ" target="_blank"&gt;The Jesus Quest by Ben Witherington III&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://amzn.to/2sfziLd" target="_blank"&gt;Sabbath as Resistance by Walter Brueggemann&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://www.impacttheu.com/opportunities" target="_blank"&gt;Opportunities — Impact Campus Ministries&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://www.impacttheu.com/campuses" target="_blank"&gt;Campuses — Impact Campus Ministries&lt;/a&gt;&lt;/p&gt;&lt;p class=""&gt;&lt;a href="https://lp.constantcontactpages.com/sl/8cT9N9b/joshb" target="_blank"&gt;Sign up for Josh’s newsletter — Constant Contact&lt;/a&gt;&lt;/p&gt; 
+</description>
+      <content:encoded>
+        <![CDATA[<p class="">Marty Solomon, Brent Billings, and Josh Bossé close out this series, and—instead of letting Qohelet do the talking—consider the reflection of Qohelet in our hearts and in our lives.</p><p class=""><a href="https://amzn.to/46azYSQ" target="_blank">The Jesus Quest by Ben Witherington III</a></p><p class=""><a href="https://amzn.to/2sfziLd" target="_blank">Sabbath as Resistance by Walter Brueggemann</a></p><p class=""><a href="https://www.impacttheu.com/opportunities" target="_blank">Opportunities — Impact Campus Ministries</a></p><p class=""><a href="https://www.impacttheu.com/campuses" target="_blank">Campuses — Impact Campus Ministries</a></p><p class=""><a href="https://lp.constantcontactpages.com/sl/8cT9N9b/joshb" target="_blank">Sign up for Josh’s newsletter — Constant Contact</a></p><p><a rel="payment" href="https://www.bemadiscipleship.com/support">Support The BEMA Podcast</a></p>]]>
+      </content:encoded>
+      <itunes:summary>
+        <![CDATA[<p class="">Marty Solomon, Brent Billings, and Josh Bossé close out this series, and—instead of letting Qohelet do the talking—consider the reflection of Qohelet in our hearts and in our lives.</p><p class=""><a href="https://amzn.to/46azYSQ" target="_blank">The Jesus Quest by Ben Witherington III</a></p><p class=""><a href="https://amzn.to/2sfziLd" target="_blank">Sabbath as Resistance by Walter Brueggemann</a></p><p class=""><a href="https://www.impacttheu.com/opportunities" target="_blank">Opportunities — Impact Campus Ministries</a></p><p class=""><a href="https://www.impacttheu.com/campuses" target="_blank">Campuses — Impact Campus Ministries</a></p><p class=""><a href="https://lp.constantcontactpages.com/sl/8cT9N9b/joshb" target="_blank">Sign up for Josh’s newsletter — Constant Contact</a></p><p><a rel="payment" href="https://www.bemadiscipleship.com/support">Support The BEMA Podcast</a></p>]]>
+      </itunes:summary>
+      <fireside:playerURL>https://fireside.fm/player/v2/7HMQ5AvZ+Zh0uQ6Bz</fireside:playerURL>
+      <fireside:playerEmbedCode>
+        <![CDATA[<iframe src="https://fireside.fm/player/v2/7HMQ5AvZ+Zh0uQ6Bz" width="740" height="200" frameborder="0" scrolling="no">]]>
+      </fireside:playerEmbedCode>
+      <podcast:person email="" href="" role="host">Josh Bossé</podcast:person>
+      <podcast:person email="" href="https://brentbillings.com/" role="host">Brent Billings</podcast:person>
+      <podcast:person email="" href="https://www.martysolomon.com/" role="host">Marty Solomon</podcast:person>
     </item>
   </channel>
 </rss>
