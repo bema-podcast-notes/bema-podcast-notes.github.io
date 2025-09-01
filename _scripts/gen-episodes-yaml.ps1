@@ -31,7 +31,7 @@ foreach ($episode in $feedEntries) {
 layout: episode_notes
 title: "$episodeTitle"
 episodeIndex: $episodeIndex
-permalink: /$episodeNumber
+permalink: /ep/$episodeNumber
 ---
 No notes yet.
 "@
