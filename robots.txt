@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Disallow Jekyll build and development files
+Disallow: /.sass-cache/
+Disallow: /.jekyll-cache/
+Disallow: /gemfiles/
+Disallow: /vendor/
+Disallow: /_*/
+
+# Disallow development and utility files
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
+Disallow: /README.md
+Disallow: /Makefile
+Disallow: /*.py
+Disallow: /search-data.json
+
+# Allow important pages for SEO
+Allow: /search.html
+Allow: /episodes.html
+Allow: /misc.html
+Allow: /session*/
+Allow: /misc/
+
+# Disallow drafts and private content
+Disallow: /drafts/
+Disallow: /_drafts/
+
+# Sitemap location (Jekyll generates this automatically)
+Sitemap: https://bema-podcast-notes.github.io/sitemap.xml
