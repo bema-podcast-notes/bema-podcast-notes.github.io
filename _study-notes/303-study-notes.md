@@ -6,12 +6,12 @@ This episode provides a comprehensive overview of the scholarly history surround
 
 ## Key Takeaways
 
-• **Historical Shift**: For 1,500 years, John was considered the gospel of highest honor, but Enlightenment criticism (18th-19th centuries) demoted it as the least historically reliable and most Greek/Gnostic
-• **Jewish Recognition**: In 1924, Jewish scholar Israel Abrahams declared John "the most Jewish of the four gospels," fundamentally challenging prevailing academic assumptions
-• **The "New Look"**: J.A.T. Robinson's 1957 paradigm shift challenged five major assumptions about John, leading to renewed appreciation for its historical value and Jewish context
-• **Source Material**: Modern scholarship recognizes that John likely drew from multiple independent sources, not just the Synoptic Gospels
-• **Literary Sophistication**: John employs distinct stylistic motifs including misunderstandings, ironies, asides, hierarchies of meaning, and hidden glimpses of Christ's identity
-• **Contemporary Trends**: Current scholarship focuses on John's Jewish background (aided by Dead Sea Scrolls), early dating possibilities, literary structure, social realities, and relationship to Roman imperial ideology
+- **Historical Shift**: For 1,500 years, John was considered the gospel of highest honor, but Enlightenment criticism (18th-19th centuries) demoted it as the least historically reliable and most Greek/Gnostic
+- **Jewish Recognition**: In 1924, Jewish scholar Israel Abrahams declared John "the most Jewish of the four gospels," fundamentally challenging prevailing academic assumptions
+- **The "New Look"**: J.A.T. Robinson's 1957 paradigm shift challenged five major assumptions about John, leading to renewed appreciation for its historical value and Jewish context
+- **Source Material**: Modern scholarship recognizes that John likely drew from multiple independent sources, not just the Synoptic Gospels
+- **Literary Sophistication**: John employs distinct stylistic motifs including misunderstandings, ironies, asides, hierarchies of meaning, and hidden glimpses of Christ's identity
+- **Contemporary Trends**: Current scholarship focuses on John's Jewish background (aided by Dead Sea Scrolls), early dating possibilities, literary structure, social realities, and relationship to Roman imperial ideology
 
 ## Main Concepts & Theories
 

@@ -1,0 +1,189 @@
+# BEMA Episode 60: Joel — Locusts
+
+## Title & Source Summary
+
+This episode provides an in-depth study of the Book of Joel, a short three-chapter prophetic book that uses the vivid metaphor of a devastating locust plague to describe the Babylonian conquest and God's subsequent discipline of Judah. Joel moves from imagery of complete destruction to powerful declarations of hope, restoration, and the promise that God will pour out His Spirit on all people. This episode is part of the Babylonian prophets series, examining how prophetic voices addressed God's people during one of their darkest historical periods.
+
+## Key Takeaways
+
+- The Book of Joel uses the metaphor of a locust plague to describe the overwhelming destruction brought by the Babylonian conquest
+- Joel's prophecy follows a pattern: vivid imagery of destruction, invitation to repentance, return to the metaphor, another plea to repent, and finally a shift toward hope and restoration
+- The phrase "rend your hearts, not your garments" calls for genuine internal transformation rather than mere external displays of grief
+- Joel represents a tonal shift in the prophets from condemnation and woes toward hope and restoration as God's people move through the exilic period
+- Joel's prophecy that God will "pour out my spirit on all people" (sons, daughters, men, women, young, old, servants) becomes foundational for understanding the New Testament Pentecost event
+- The prophecy bookends with the image of new wine—first snatched away at the beginning, then dripping from mountains at the end—symbolizing the movement from loss to restoration
+- God promises to "repay you for the years the locusts have eaten," demonstrating that even in the midst of devastating discipline, God's redemptive plan continues
+
+## Main Concepts & Theories
+
+### The Locust Plague Metaphor
+
+Joel begins his prophecy by introducing a massive locust plague that has devastated the land. The text describes four different types of locusts consuming everything in waves: "What the locust swarm has left, the great locusts have eaten. What the great locusts have left, the young locusts have eaten. What the young locusts have left, other locusts have eaten."
+
+This metaphor works on multiple levels:
+
+1. **Historical Reality**: Locust plagues were real meteorological events in the ancient Middle East, occurring when winds shifted off the Mediterranean Sea at particular times of year, bringing overwhelming swarms of insects that could devastate entire regions
+2. **Military Invasion**: The imagery clearly describes the Babylonian army—a "mighty army without number" with "the teeth of a lion"—that conquered Judah with devastating completeness
+3. **Blended Imagery**: Joel intentionally blurs the line between literal locusts and the Babylonian army, using descriptions that apply to both ("they climb along the walls, they're crawling into your windows"), creating a powerful composite image of unstoppable destruction
+
+The metaphor captures both the sheer numbers of the invading force and the complete devastation left behind—nothing remains, all fields are stripped bare, all produce is gone, and the land looks like it has been picked clean.
+
+### The Structure of Prophetic Warning
+
+Joel follows a deliberate pattern that reflects how prophetic messages typically function:
+
+1. **Image/Metaphor**: Vivid poetic description of the situation
+2. **Call to Repentance**: Invitation to turn back to God
+3. **Return to Image**: Deeper exploration of the metaphor
+4. **Second Plea**: Another call to respond appropriately
+5. **Declaration of Hope**: Vision of restoration and redemption
+
+This structure serves both to communicate the severity of the situation and to provide a pathway forward through repentance and trust in God's redemptive purposes.
+
+### Rending Hearts vs. Rending Garments
+
+The phrase "rend your heart and not your garments" addresses the difference between external religious performance and genuine internal transformation. In ancient Eastern culture, rending (tearing) one's garments from collar to hem was a dramatic expression of grief—a visceral, visible demonstration of inner anguish.
+
+Joel calls for something deeper: actual transformation of the heart. God desires genuine care, real change, and authentic grief over sin—not merely the outward show of religious emotion. This connects to a broader biblical theme where God consistently values the condition of the heart over external ritual compliance.
+
+The episode shares a powerful modern example of a man literally rending his garment upon hearing of his father's death, and connects this to the tearing of the temple curtain at Jesus's death—understood as God the Father rending His garment in grief at His Son's death. The temple curtain was reportedly four to six inches thick, making the sound of its tearing a profoundly significant moment.
+
+### The Shift in Prophetic Tone
+
+Joel marks a transition in the overall prophetic message as God's people move through their historical experience:
+
+**Three Phases of Prophetic Voice**:
+1. **Warning** (Pre-Assyrian period): Prophets warn of coming judgment if the people don't change their ways
+2. **Woes** (Assyrian/Babylonian period): Prophets describe the devastation and discipline currently happening
+3. **Hope** (Exilic period): Prophets shift toward restoration, encouragement, and vision for the future
+
+Joel bridges the transition from woes to hope. The people have experienced the devastation, they are living through the consequences of their choices, and now the prophetic voice begins to say, "You have been disciplined—now hang in there because God is going to put it back together."
+
+This is compared to parental discipline: there's a phase of stopping the chaos, a phase of punishment, a phase of experiencing consequences, and then a phase of helping the child get through to the other side with hope and restoration.
+
+### The Promise of the Spirit
+
+One of Joel's most significant contributions to biblical theology is the prophecy: "Afterward, I will pour out my spirit on all people. Your sons and daughters will prophesy. Your old men will dream dreams. Your young men will see visions. Even on my servants, both men and women, I will pour out my spirit in those days."
+
+This is revolutionary in several ways:
+
+1. **Universal Scope**: "All people"—not just a select few prophets or leaders
+2. **Gender Inclusivity**: Explicitly includes both men and women, sons and daughters
+3. **Age Inclusivity**: Young and old, encompassing all generations
+4. **Social Inclusivity**: Even servants, breaking down social hierarchies
+5. **Prophetic Activity**: All will prophesy, dream dreams, see visions—direct connection with God's Spirit
+
+This prophecy becomes foundational for understanding the New Testament event of Pentecost (Acts 2), where Peter explicitly quotes Joel to explain what is happening when the Spirit falls on the gathered believers.
+
+### God's Redemptive Restoration
+
+Despite the complete devastation described in the first half of Joel, the prophecy pivots dramatically toward hope. God promises:
+
+- "I will repay you for the years the locusts have eaten"
+- Restoration of grain, new wine, and olive oil
+- Abundant harvests and overflowing vats
+- Removal of shame from God's people
+- Defeat of enemies who scattered and oppressed them
+- A day when "the mountains will drip new wine, and the hills will flow with milk"
+
+The message is clear: the situation is horrible, even catastrophic, but it is "far from hopeless." God has not abandoned His people and is actively working redemptively even in the midst of their darkest moment.
+
+### The Bookend of New Wine
+
+The prophecy uses the image of wine to frame the entire message:
+
+**Beginning**: "Wail, all you drinkers of wine. Wail because of the new wine, for it has been snatched from your lips"—like someone about to enjoy fine wine who has the glass pulled away at the last moment just as it reaches their mouth
+
+**Ending**: Vision of "new wine dripping from the mountains" and abundant overflow from the vats—complete restoration and abundance
+
+This movement from deprivation to abundance, from loss to restoration, encapsulates the entire prophetic message and God's redemptive arc for His people.
+
+## Examples & Applications
+
+### Historical Context: Locust Plagues
+
+To understand the power of Joel's metaphor, it's helpful to visualize actual locust plagues in the Middle East. Modern photographs and videos show swarms so dense they:
+- Blacken the sky completely
+- Cover every surface in writhing masses
+- Strip all vegetation bare in hours
+- Create road hazards from crushed bodies (as happened with a cricket infestation in the Pacific Northwest that actually shut down a freeway due to slick roads from crushed insects)
+
+The sheer number and devastating completeness of locust plagues makes them a perfect metaphor for the Babylonian conquest.
+
+### Application: Moving Through Discipline Well
+
+Joel's message contains a crucial application for how God's people should respond to discipline and difficult seasons:
+
+1. **Don't Give Up**: The temptation during prolonged difficulty is to abandon faith or become cynical
+2. **Weather the Storm Well**: How we walk through discipline matters—will we do so humbly or bitterly?
+3. **Resist Despair**: Even in the darkest moment, God's redemptive plan is still at work
+4. **Genuine Repentance**: Seek real heart change, not just religious performance
+5. **Trust in Restoration**: God promises to restore what has been lost
+
+This applies not just to ancient Judah but to any person or community walking through seasons of discipline, difficulty, or devastation.
+
+### Connection to the Exodus Narrative
+
+Joel deliberately uses imagery that calls back to the Exodus story:
+- The acacias watered by the fountain flowing from the temple connect to the acacia wood used in building the Tabernacle
+- The river flowing from the temple watering even the desert recalls God's provision in the wilderness
+
+These connections ask the question: "Will we remember our own story?" The discipline and restoration God's people are experiencing is meant to recall their foundational narrative of slavery, liberation, wilderness, and promised land.
+
+### New Testament Fulfillment
+
+Joel's prophecy finds direct fulfillment in the New Testament:
+
+**Pentecost (Acts 2)**: Peter quotes Joel 2:28-32 to explain the outpouring of the Spirit on all the gathered believers—men, women, young, old, from various nations. What Joel prophesied centuries earlier comes to concrete reality in the formation of the early church.
+
+**Eschatological Imagery**: Joel's visions of cosmic signs (sun darkened, moon turned to blood, stars no longer shining) appear throughout New Testament apocalyptic literature, particularly in Revelation, as symbols of God's final judgment and redemption.
+
+### Temple Curtain Connection
+
+The episode draws a powerful connection between rending garments and the tearing of the temple curtain at Jesus's death. A Jewish reader would hear God the Father rending His garments in grief at His Son's death. Given that the curtain was reportedly four to six inches thick, the sound of it tearing would have been profound and terrifying—a cosmic expression of divine anguish.
+
+## Potential Areas for Further Exploration
+
+1. **Comparative Study of Locust Imagery**: How do other ancient Near Eastern texts use locust plagues as metaphors? What did this imagery communicate in the broader cultural context?
+
+2. **The Valley of Jehoshaphat**: What is the significance of this location in Joel 3? What does the name mean, and why is it chosen as the site of judgment?
+
+3. **Joel's Place in the Prophetic Timeline**: More precisely dating Joel's ministry and understanding how it relates chronologically to other prophets like Jeremiah, Habakkuk, and Obadiah
+
+4. **The Sabeans**: Who were this "nation far away" mentioned in Joel 3:8? What role did they play in the ancient Near Eastern world?
+
+5. **New Wine Symbolism Throughout Scripture**: Trace the imagery of wine, new wine, and winemaking through the biblical narrative from Genesis to Revelation
+
+6. **Gender Inclusivity in Old Testament Prophecy**: How does Joel's explicit inclusion of women receiving the Spirit compare to other prophetic and biblical texts? What does this reveal about God's design for spiritual community?
+
+7. **The Day of the Lord**: This phrase appears multiple times in Joel. How does Joel's usage compare to other prophetic books, and how does this concept develop throughout Scripture?
+
+8. **Agricultural Metaphors in Prophecy**: Study how prophets use imagery of harvest, planting, drought, and abundance to communicate spiritual and theological truths
+
+9. **Liturgical Use of Joel**: How have Jewish and Christian liturgical traditions incorporated Joel's calls to fasting, sacred assembly, and corporate repentance?
+
+10. **Restoration Theology**: Compare Joel's vision of restoration with other prophetic restoration passages (Isaiah 40-66, Ezekiel 36-37, etc.) to understand the full biblical picture of God's redemptive work
+
+## Comprehension Questions
+
+1. **Metaphor Analysis**: How does Joel use the locust plague as a multi-layered metaphor? Explain how the imagery applies to both literal locusts and the Babylonian invasion, and why this blended approach is effective.
+
+2. **Heart vs. Performance**: What does Joel mean by "rend your heart and not your garments"? Explain the cultural practice of rending garments and why God desires something deeper than this external expression.
+
+3. **Prophetic Progression**: Describe the three phases of prophetic voice (Warning, Woes, Hope) and explain where Joel fits in this progression. Why does the prophetic tone shift at this point in Israel's history?
+
+4. **The Spirit Promise**: What is revolutionary about Joel's prophecy that God will pour out His Spirit on "all people"? List the different categories of people Joel specifically includes and explain the significance of this inclusivity.
+
+5. **Restoration Hope**: Despite describing utter devastation in the first half of the book, Joel shifts dramatically toward hope in the second half. What specific promises does God make about restoration, and what does the phrase "I will repay you for the years the locusts have eaten" reveal about God's character and redemptive purposes?
+
+## Personalized Summary
+
+The Book of Joel presents us with one of Scripture's most vivid contrasts between devastating loss and abundant restoration. Using the unforgettable image of a locust plague—swarms so dense they blacken the sky and strip the land completely bare—Joel describes the Babylonian conquest and its aftermath with poetic power that still resonates millennia later.
+
+What strikes me most about this prophecy is its honest acknowledgment of how bad things truly are while simultaneously insisting that the situation is "far from hopeless." Joel doesn't minimize the devastation or offer cheap comfort. Instead, he calls for genuine transformation—a rending of hearts, not just garments—while promising that God's redemptive work continues even in the darkest moments.
+
+The promise that God will "repay you for the years the locusts have eaten" speaks profoundly to anyone who has experienced seasons of loss, difficulty, or divine discipline. God doesn't just promise survival—He promises restoration, abundance, and a future where new wine drips from mountains and rivers flow from His temple to water even the desert places.
+
+Perhaps most significantly, Joel prophesies a coming day when God's Spirit will be poured out on everyone—sons and daughters, young and old, men and women, servants included. This radical vision of universal access to God's Spirit, spoken centuries before Pentecost, reveals that God's plan has always been inclusive, generous, and transformative for all people.
+
+As we read Joel, we're invited to consider: How do we walk through difficult seasons? Do we seek genuine heart transformation or settle for religious performance? Can we trust that even when everything seems stripped away, God's redemptive plan is still at work? Joel insists that if we will weather the storm well, we will find that God has never left our side and is even now preparing restoration beyond what we can imagine.

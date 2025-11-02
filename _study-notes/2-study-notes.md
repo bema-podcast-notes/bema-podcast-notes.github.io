@@ -6,12 +6,12 @@ This episode explores Genesis 2-3, the narrative of Adam and Eve in the Garden o
 
 ## Key Takeaways
 
-• The Adam and Eve narrative is structured as a chiasm (literary pattern) with nakedness and shame at its center, revealing the story's core theme
-• Being made "in the image of God" means possessing the divine quality of knowing when to exercise self-restraint, unlike animals who always act on their desires
-• The Hebrew word play between "naked" (arowm/erowm) and "crafty" (eruwm) suggests deeper meaning about the serpent's human-like qualities
-• Woman (ishah) is described as "help that opposes" (ezer k'negdo) - not subservient, but providing necessary tension for human flourishing
-• The story addresses shame and identity, with God asking "Who told you that you were naked?" - challenging voices that contradict how God created us
-• El Shaddai may mean "the God who knows when to say enough," connecting to themes of divine restraint and wisdom
+- The Adam and Eve narrative is structured as a chiasm (literary pattern) with nakedness and shame at its center, revealing the story's core theme
+- Being made "in the image of God" means possessing the divine quality of knowing when to exercise self-restraint, unlike animals who always act on their desires
+- The Hebrew word play between "naked" (arowm/erowm) and "crafty" (eruwm) suggests deeper meaning about the serpent's human-like qualities
+- Woman (ishah) is described as "help that opposes" (ezer k'negdo) - not subservient, but providing necessary tension for human flourishing
+- The story addresses shame and identity, with God asking "Who told you that you were naked?" - challenging voices that contradict how God created us
+- El Shaddai may mean "the God who knows when to say enough," connecting to themes of divine restraint and wisdom
 
 ## Main Concepts & Theories
 

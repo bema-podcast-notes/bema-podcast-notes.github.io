@@ -1,0 +1,206 @@
+# BEMA Episode 63: Job — Perspective
+
+## Title & Source Summary
+
+This episode explores the book of Job beyond its familiar narrative of suffering, revealing it as a masterfully crafted dramatic chiasm that addresses the problem of divine perspective versus human understanding. Hosts Marty Solomon and Brent Billings examine Job not merely as a story about enduring pain, but as an ancient wisdom drama that tackles humanity's perpetual question: "Why do we suffer?" Through literary analysis, cultural context, and structural examination, the episode unveils Job as one of the most sophisticated pieces of biblical literature, centered on the theme that true wisdom and understanding belong only to God.
+
+## Key Takeaways
+
+- Job is a drama (play) with assigned parts, not simply a historical narrative
+- The book is structured as an elaborate chiasm (possibly the most complex in Scripture)
+- Job Chapter 28 sits at the center of the chiastic structure, emphasizing that wisdom belongs to God alone
+- The story likely has ancient roots but was rewritten and reshaped through different periods (possibly Solomonic wisdom literature and exilic period)
+- Job's friends practice "sitting shiva," the Jewish custom of being present in silence with those who grieve
+- Job never receives an explanation for his suffering, reflecting the reality that we often don't get answers in life
+- The book invites readers to trust God's perspective when we lack wisdom to understand our circumstances
+- References to Satan as a personified character and zodiac constellations suggest later editing during the Hellenistic period
+- Jewish midrash offers additional interpretive layers, including that Job was a non-Jewish (pagan) figure
+
+## Main Concepts & Theories
+
+### Job as Drama
+
+The book of Job functions as a theatrical play with assigned roles and dialogue, similar to dramatic works studied in literature classes. This doesn't diminish its truth or authority but helps us understand its genre and purpose. The dramatic structure allows the author to explore complex theological questions through character interactions, creating a framework for examining suffering from multiple perspectives.
+
+### The Practice of Sitting Shiva
+
+Job's friends initially demonstrate the Jewish practice of "sitting shiva" - being present with someone in grief without speaking unless spoken to first. This ancient custom recognizes that suffering people don't need explanations or platitudes; they need presence. The tragedy in Job is that his friends eventually violate this practice, spending the bulk of the book offering unsolicited theological explanations that miss the mark entirely. The book becomes "an entire drama on doing the wrong thing: how to be a bad friend."
+
+### Dating and Development of Job
+
+The episode presents three viable theories about Job's origins, suggesting all may contain truth:
+
+1. **Ancient Tale**: The story's roots likely extend back to humanity's earliest wrestling with suffering, possibly to the patriarchal period (Abraham's era), as evidenced by archaic Hebrew prose elements
+2. **Solomonic Wisdom Literature**: A sage like Solomon may have taken the ancient tale and reworked it into sophisticated wisdom literature
+3. **Exilic Reworking**: During the Babylonian exile, when Israel faced corporate suffering, writers added introductory and concluding elements using Hellenistic-period language (personified Satan, zodiac references)
+
+This multi-layered development parallels how cultures continually remake stories (like Robin Hood or Spider-Man) to address contemporary concerns while preserving core truths.
+
+### The Chiastic Structure
+
+Job represents an extraordinary example of chiastic literary construction - described as "a chiasm of chiasms." Unlike simple chiastic patterns, Job features:
+
+- Multiple nested chiasms within the overall structure
+- Double chiasms (chiasm A and chiasm B operating simultaneously)
+- Sub-chiasms within major sections that are themselves double chiasms
+- Pericopes (small text sections) containing their own parallelisms
+
+Computer-based algorithmic analysis by a Japanese Bible scholar revealed the stunning complexity of these interlocking structures, suggesting either incredible human craftsmanship or supernatural inspiration (or both).
+
+### Chapter 28: The Center Point
+
+Job 28 serves as the chiasm's center, the focal point toward which the entire book builds. This chapter contrasts human achievement with divine wisdom:
+
+**Human Accomplishments**: People have mined mountains for precious metals and gems, tunneled through rock, searched the earth's farthest recesses, and brought hidden treasures to light. Ancient mining operations represented remarkable human ingenuity and determination.
+
+**Wisdom's Inaccessibility**: Despite all human achievement, wisdom cannot be mined from hills, bought with gold, or discovered through exploration. Even destruction and death have only heard rumors of wisdom. Birds cannot see its path, and proud beasts don't tread where it dwells.
+
+**Divine Monopoly on Wisdom**: Only God knows where wisdom dwells because He views the ends of the earth and sees everything under heaven. When He established natural forces and measured creation, He looked at wisdom, appraised it, confirmed it, and tested it.
+
+**Human Access Point**: The passage concludes that "the fear of the Lord, that is wisdom, and to shun evil is understanding" - suggesting reverence for God provides the only access to true wisdom.
+
+### Perspective as the Central Theme
+
+The episode argues that Job fundamentally addresses perspective - specifically the infinite gap between human and divine perspective. While readers know the "backstory" (the heavenly wager between God and Satan), Job himself never learns why he suffered. This narrative choice mirrors real life: we rarely receive neat explanations for our pain.
+
+The absurdity of God making a wager with Satan (based on divine confidence in Job's faithfulness) highlights how incomprehensible divine purposes can be from a human vantage point. The author invites readers to consider "infinite and eternal possibilities" behind suffering - even foolish or ridiculous ones beyond human comprehension.
+
+### The Non-Resolution Ending
+
+Job concludes without the explanation readers expect. After God's whirlwind speech that puts Job's limited perspective in its place, there's restoration but no clarification. Job doesn't learn about the heavenly wager or why everything happened. This literary choice reflects theological truth: faith often means trusting God without understanding the full story. God can "mine wisdom from the hills of suffering as easily as man mines minerals from the mountains," but humans lack the divine perspective to see how or why.
+
+### Jewish Interpretive Traditions (Midrash)
+
+The episode mentions several midrashic traditions that provide additional layers of interpretation:
+
+- **Job as Dinah's Husband**: Dinah (Jacob's daughter from Genesis, victim of sexual assault in Shechem) later married Job, providing context for his wife's cynical worldview
+- **Job as Egyptian Magician**: Along with Jethro (Moses's father-in-law) and Balaam, Job served as one of three magicians in Pharaoh's court
+- **Job as Non-Jewish**: The text never identifies Job as Jewish, and Jewish tradition treats him as a righteous pagan
+
+These interpretive traditions don't claim historical accuracy but offer imaginative frameworks for understanding character motivations and theological implications.
+
+## Examples & Applications
+
+### Contemporary Story Remakes
+
+The episode draws parallels between biblical literary development and modern storytelling:
+
+- **Robin Hood**: Every time culture perceives the rich exploiting the poor, Hollywood remakes Robin Hood because the core story addresses perennial concerns
+- **Spider-Man**: Multiple remakes of comic book heroes demonstrate how stories get retold for new audiences
+- **Disney Adaptations**: Stories like Aladdin and Beauty and the Beast have been updated from their original forms to resonate with contemporary audiences while preserving core narratives
+
+This comparison helps modern readers understand that biblical texts could undergo similar processes of retelling and reshaping without losing their inspired, authoritative status.
+
+### The NOOMAs by Rob Bell
+
+Two specific NOOMA videos are recommended:
+
+1. **Matthew**: Addresses grief and appropriate responses to others' suffering, illustrating the principle of sitting shiva
+2. **Whirlwind**: Specifically explores the book of Job and the question of divine perspective in suffering
+
+### Mining as Metaphor
+
+Ancient mining operations provide the central metaphor of Job 28:
+
+- Miners would cut shafts far from human dwellings in places "untouched by human feet"
+- Workers would "dangle and sway" in dangerous conditions to extract resources
+- The process involved assaulting "flinty rock," laying bare mountain roots, tunneling through stone
+- Miners' eyes would "see all its treasures" as they brought "hidden things to light"
+
+This intensive human effort contrasts sharply with wisdom's inaccessibility, emphasizing that spiritual understanding requires a different kind of seeking - reverence for God rather than human achievement.
+
+### The Heavenly Wager
+
+The opening chapters present an almost absurd scenario: God, impressed with Job's faithfulness, essentially boasts to Satan about him. Satan challenges that Job only serves God because of divine blessing. God permits Satan to test Job, confident in his servant's faithfulness.
+
+This narrative framework raises uncomfortable questions: Could any of our suffering result from similar "heavenly wagers"? While the episode doesn't endorse this as systematic theology, it uses the story's strangeness to point toward the unknowable dimensions of why suffering occurs. If Job had known the backstory - that his suffering demonstrated God's confidence in him - how might that have changed his experience?
+
+### Real-World Application to Suffering
+
+The episode invites listeners experiencing suffering to:
+
+1. **Resist demanding explanations**: Job never got his answers, yet found peace
+2. **Trust divine perspective**: God sees and understands what we cannot
+3. **Practice presence over platitudes**: When supporting suffering friends, sit shiva rather than offering explanations
+4. **Acknowledge mystery**: The "infinite and eternal possibilities" behind suffering exceed human comprehension
+5. **Seek wisdom through reverence**: The fear of the Lord, not intellectual achievement, provides access to understanding
+
+## Potential Areas for Further Exploration
+
+### Literary Structure Deep Dive
+
+- Examine the specific chiastic structures using the referenced Japanese scholar's computer algorithm analysis
+- Study individual pericopes and their internal parallelisms
+- Compare Job's chiastic complexity to other biblical chiasms (Lamentations, Daniel, etc.)
+- Analyze how the nested chiasms create "conversations" between sections
+
+### Comparative Ancient Near Eastern Literature
+
+- Research wisdom literature from cultures contemporary to ancient Israel
+- Examine other ancient texts addressing the problem of suffering
+- Study theatrical/dramatic literature from the ancient world
+- Investigate how Job relates to other wisdom literature (Proverbs, Ecclesiastes, Song of Songs)
+
+### Development of Satan in Biblical Literature
+
+- Trace the evolution of Satan as a personified figure through biblical texts
+- Compare early Hebrew understanding of "the satan" (the accuser/adversary) to later personification
+- Examine Hellenistic influence on Jewish theology regarding spiritual beings
+- Study how exile impacted Israel's understanding of evil and spiritual opposition
+
+### Jewish Interpretive Traditions
+
+- Explore midrashic methods of biblical interpretation
+- Study the specific midrashim mentioned about Job, Jethro, and Balaam
+- Investigate how Jewish tradition handles the question of Job's ethnicity
+- Examine the role of imaginative interpretation in rabbinic literature
+
+### The Theology of Suffering
+
+- Compare Job's approach to suffering with other biblical perspectives (Psalms, Prophets, New Testament)
+- Study how different theological traditions interpret the book of Job
+- Examine pastoral applications of Job to contemporary suffering
+- Investigate how Job relates to the problem of evil (theodicy)
+
+### Cross-Cultural Grieving Practices
+
+- Research the practice of sitting shiva in Jewish tradition and its biblical roots
+- Compare ancient and modern grieving customs across cultures
+- Study psychological research on effective support for those experiencing loss
+- Examine how religious communities can better practice presence with the suffering
+
+### God's Whirlwind Speech
+
+- Analyze Job 38-41 (God's speech to Job) and its rhetorical structure
+- Study the natural phenomena God uses to illustrate divine perspective
+- Examine how God's response avoids answering Job's questions directly
+- Investigate the literary function of Behemoth and Leviathan in the divine discourse
+
+### The Character of Elihu
+
+- Study the unique role of the young Elihu who appears late in the narrative
+- Examine whether Elihu's speeches represent wisdom or another example of poor counsel
+- Investigate theories about Elihu as a later textual addition
+- Analyze how Elihu's perspective differs from the three friends
+
+## Comprehension Questions
+
+1. **How does understanding Job as a drama (play) rather than simply a historical narrative change your interpretation of the book? What does the dramatic genre allow the author to accomplish that straight narrative might not?**
+
+2. **Job Chapter 28 contrasts human achievement (mining precious resources) with the inaccessibility of wisdom. What does this central passage suggest about the relationship between human effort and divine understanding? How does this apply to our attempts to understand suffering?**
+
+3. **The episode presents three theories about Job's development: ancient tale, Solomonic wisdom literature, and exilic reworking. How does the possibility that biblical texts were reshaped over time affect your view of biblical authority and inspiration? Can a text be both historically developed and divinely inspired?**
+
+4. **Job's friends initially practice "sitting shiva" correctly but then violate it by offering explanations. What does this suggest about appropriate responses to others' suffering? Why is presence often more valuable than explanation?**
+
+5. **Job never learns the "backstory" about the heavenly wager, yet the story ends with his restoration and renewed trust in God. What does this teach about faith and the necessity (or lack thereof) of understanding why we suffer? How might knowing the reasons for suffering change or not change our experience of it?**
+
+## Summary
+
+BEMA Episode 63 transforms the book of Job from a familiar story about patience in suffering into a sophisticated literary masterpiece addressing the fundamental gap between human and divine perspective. Through examining Job as drama, recognizing its intricate chiastic structure, and focusing on the central wisdom poetry of Chapter 28, the episode reveals that the book's primary message isn't about why suffering occurs but about trusting God's wisdom when we lack understanding.
+
+The episode emphasizes that humans have accomplished remarkable things - mining mountains, extracting treasures, exploring the farthest reaches of earth - yet wisdom remains inaccessible through human effort alone. Only God possesses the comprehensive perspective necessary to understand suffering's purposes. The story's refusal to provide Job with explanations mirrors real life: we often must trust without understanding.
+
+Key practices emerge from this study: sitting shiva (being present without offering explanations), recognizing our limited perspective, and accessing wisdom through "fear of the Lord" rather than intellectual achievement. The book invites sufferers to consider infinite possibilities operating beyond their comprehension and to trust that God can mine wisdom from suffering's hills as easily as humans mine minerals from mountains.
+
+Ultimately, Job offers not resolution but invitation - to trust the story even when we can't see the whole picture, to seek wisdom through reverence rather than explanation, and to recognize that divine perspective infinitely exceeds our capacity to comprehend the purposes behind our pain.

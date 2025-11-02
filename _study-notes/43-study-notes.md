@@ -1,0 +1,367 @@
+# BEMA Episode 43: Go in Peace - Study Notes
+
+## Title & Source Summary
+
+**Episode:** BEMA 43 - Go in Peace  
+**Hosts:** Marty Solomon and Brent Billings
+**Source Material:** 2 Kings 5 - The Story of Naaman
+
+This episode explores the story of Naaman, the Aramean military commander who seeks healing from leprosy. The narrative provides profound insights into God's patience, the messiness of faith, and the permission to navigate life's complexities with grace. Marty acknowledges that this teaching was originally inspired by a sermon from Rob Bell at Mars Hill Bible Church.
+
+## Key Takeaways
+
+- Life is incredibly messy and complicated, and simple religious answers often fail to address real-world complexity
+- God's patience and compassion extend far beyond human religious expectations and theological precision
+- "Go in peace" represents a liberating approach to ministry and discipleship that trusts God's work in people's lives
+- Faith journeys are progressive; people don't need perfect theology to encounter God authentically
+- The story of Naaman demonstrates that God works with people where they are, not where we think they should be
+- Insecurity and fear distort our ability to trust God's goodness and see opportunities for grace
+- Sometimes the most helpful response to someone's struggle is not correction but compassionate release: "Go in peace"
+
+## Main Concepts & Theories
+
+### Biblical Review and Narrative Structure
+
+The episode begins with an extensive review of the biblical narrative covered so far in BEMA:
+
+**The Preface (Genesis 1-11):**
+- Creation is fundamentally good
+- God invites creation to rest and trust
+- Humanity struggles with fear and insecurity, leading to self-preservation rather than self-sacrifice
+- God continually reaffirms His goodness despite human failure
+
+**The Introduction (Genesis 12-50):**
+- The family of Abraham demonstrates imperfect but persistent trust
+- They believe God is putting the world back together
+- New stories can be written; tomorrow doesn't have to be like today
+
+**The Narrative - A Tale of Two Kingdoms:**
+- Empire vs. Shalom: two competing narratives throughout Scripture
+- Empire: fear, self-preservation, fame, leisure, comfort, wealth
+- Shalom: wholeness built on mercy, invitation, self-sacrifice, trust
+
+**Torah Foundation:**
+- Exodus: God rescues His people and marries them at Mount Sinai
+- God invites Israel to be a "kingdom of priests"
+- Leviticus: The owner's manual for priesthood, covering atonement, lifestyle, festivals, and justice
+- Numbers: The desert honeymoon where Israel experiences (yada - to know) relationship with God
+- Deuteronomy: Remember where you came from; care for the alien, orphan, and widow
+
+**Historical Books:**
+- Joshua: God places His people at the crossroads of the world
+- Judges: Not a "sin cycle" but a "redemption cycle" - sin is part of the cycle, but God's patient redemption defines it
+- Ruth: A beautiful example of people living out the kingdom of priests calling
+- Samuel/Kings and Chronicles: Two perspectives on the period of the kings
+  - Story A (Samuel/Kings): Israel's perspective, current events/headlines
+  - Story B (Chronicles): Judah's perspective, documentary/hindsight view
+- The kingdom splits under Rehoboam and Jeroboam ("the Boam Boys") due to choosing empire over trust
+
+### Hebrew Concepts and Linguistic Insights
+
+**Ish Gadol (אִישׁ גָּדוֹל):**
+- Literally "great man"
+- *Ish*: man
+- *Gadol*: weight, significance, importance
+- Connected linguistically to *kavod* (glory/weightiness)
+- Describes someone whose presence is felt when they enter a room
+- Naaman is an *ish gadol* - a person of immense importance and celebrity
+
+**Kavod (כָּבוֹד):**
+- Previously discussed in the context of Pharaoh's hardened heart
+- Two words for "hardening": *hazak* (strengthened/encouraged) and *kavod* (heavy/dense)
+- In Western thought, God's glory is bright, shining light
+- In Eastern/Hebrew thought, *kavod* is thick, heavy, weighty, dark
+- God's glory presses you down; you fall to your knees because the presence is so dense
+- Positive use: significance and weight of importance
+- Naaman carries this weightiness as an *ish gadol*
+
+**Yada (יָדַע):**
+- The word "to know"
+- Not just intellectual knowledge but experiential knowledge
+- Israel's 40 years in the desert was to "know" (*yada*) what it means to be in relationship with God
+- Knowing through experiencing
+
+### The Naaman Narrative: A Detailed Analysis
+
+**The Setup:**
+- Naaman is commander of the Aramean army
+- He is an *ish gadol* - highly regarded, great in his master's sight
+- Through him, the LORD had given victory to Aram (acknowledging God's sovereignty even over foreign nations)
+- He is a valiant soldier
+- BUT he has leprosy - a devastating disease incompatible with his status
+
+**The Journey:**
+- A young Israelite servant girl suggests Naaman visit "the prophet who is in Samaria"
+- The king of Aram sends Naaman with a letter to the king of Israel
+- Naaman brings lavish gifts: 10 talents of silver, 6,000 shekels of gold, 10 sets of clothing
+- The number symbolism: 6 (human effort/wealth) versus 7 (divine completion)
+
+**The Insecure King:**
+- The unnamed king of Israel tears his robes in panic
+- "Am I God? Can I kill and bring back to life?"
+- His insecurity makes him see threat instead of opportunity
+- He assumes the king of Aram is trying to pick a quarrel
+- This demonstrates what fear and insecurity do: they distort reality and prevent us from seeing God's work
+
+**Elisha's Response:**
+- Elisha sends a message: "Why have you torn your robes? Have the man come to me"
+- When Naaman arrives with horses, chariots, and full entourage at Elisha's modest house, Elisha doesn't even come to the door
+- He sends a servant with instructions: "Go wash yourself seven times in the Jordan"
+- This is a prophet-of-God power move - no pomp, no ceremony, no performance
+- The instructions include washing SEVEN times (not six) - divine completion, not human effort
+
+**The Jordan River:**
+- In our modern context, the Jordan seems significant
+- In the ancient world, the Jordan was an unimpressive, dirty creek
+- Compared to the mighty rivers of Aram (Abana and Pharpar), the Jordan is embarrassing
+- Naaman expected something impressive; he got a muddy creek
+
+**Naaman's Anger:**
+- "I thought he would surely come out to me and stand and call on the name of the LORD his God, wave his hand over the spot and cure me"
+- Naaman expected performance, spectacle, recognition of his status as *ish gadol*
+- His pride is offended: "Aren't the rivers of Damascus better than all the waters of Israel?"
+- He turns and leaves in a rage
+
+**The Servants' Wisdom:**
+- Naaman's servants reason with him: "If the prophet had told you to do some great thing, would you not have done it?"
+- "How much more then when he tells you, 'Wash and be cleansed'?"
+- This is profound: we often expect faith to be complex, difficult, impressive
+- Sometimes the pathway is simple obedience to small, humble instructions
+
+**The Healing:**
+- Naaman dips seven times in the Jordan
+- His flesh is restored and becomes "clean like that of a young boy"
+- Complete restoration, youth renewed
+- The seven washings accomplish what six units of wealth could not
+
+### Naaman's Theological Journey
+
+**First Statement - Revolutionary Monotheism:**
+- "Now I know that there is no God in all the world except in Israel"
+- This is a MASSIVE theological leap in the ancient polytheistic world
+- The ancient Near Eastern worldview was thoroughly polytheistic
+- Even the Israelites struggled with monotheism (worshiping Baal and Asherah)
+- Gods were understood geographically - each land had its own deity
+- Naaman's confession breaks through this geographical limitation
+
+**Second Request - Geographical Theology:**
+- Immediately after this revolutionary statement, Naaman asks for dirt
+- "Please let me, your servant, be given as much earth as a pair of mules can carry"
+- He wants to create a "prayer patch" back in Aram - a piece of Israel where he can worship Israel's God
+- This reveals he still operates partially within the geographical god framework
+- The juxtaposition is striking: revolutionary faith mixed with fundamental theological misunderstanding
+
+**Third Confession - The Messy Reality:**
+- "When my master enters the temple of Rimmon to bow down and he is leaning on my arm and I have to bow there also, when I bow down in the temple of Rimmon, may the LORD forgive your servant for this"
+- Naaman's vocational reality: he works in the temple of a false god
+- He's not returning to a thriving Jewish community
+- No synagogues, no seminary, no theological education awaits him
+- Just a servant girl from Israel and a very complicated situation
+- He's asking for permission to continue in a compromised situation
+
+### Elisha's Response: "Go in Peace"
+
+**What We Expect:**
+- Traditional evangelical responses: "Turn or burn"
+- "If you don't stand for something, you'll fall for anything"
+- "Heaven or hell, make your choice - get off the fence"
+- Run from compromise, flee from false worship
+- Correct his theology before he leaves
+- Give him a systematic theology course
+- Set clear boundaries and expectations
+
+**What Elisha Says:**
+- "Go in peace" (Lech l'shalom - לֵךְ לְשָׁלוֹם)
+- That's it. No theological correction. No conditions. No curriculum.
+- The Hebrew equivalent of: "You've got a long walk home. You'll figure it out."
+- Trust in God's continued work in Naaman's life
+- Recognition that the journey of faith is exactly that - a journey
+
+**The Liberating Implications:**
+- Life is messy and complicated
+- People don't live in sterile, black-and-white environments
+- Work environments are gray and complex
+- Family situations are incredibly messy
+- "Just do what the Bible says" is often unhelpful because application is complex
+- God is patient and continues to work with people beyond our intervention
+- Sometimes the most pastoral response is: "It'll be alright. God's with you. You'll figure it out."
+
+### Application for Modern Discipleship
+
+**For Those Who Are Stuck:**
+- You don't have all the answers - that's okay
+- Your theology isn't perfect - you're in good company (Naaman)
+- Your situation is complicated - God knows
+- You're making imperfect decisions - God is patient
+- You've met God and you're doing your best - go in peace
+
+**For Those Helping Others:**
+- Not every situation requires correction
+- Sometimes people need permission more than instruction
+- "Go in peace" is a legitimate ministry response
+- Trust God's work in others' lives beyond your involvement
+- The journey is long; they'll figure it out with God's help
+- Don't panic when people make poor decisions
+- Acknowledge the messiness of life
+
+**The Contrast with Religious Culture:**
+- Religious culture often demands immediate perfection
+- We expect people to have complete theological clarity
+- We panic when situations are morally complex
+- We provide simple answers to complex questions
+- We create pressure and anxiety rather than peace
+- We make ourselves gatekeepers of others' faith journeys
+
+### Connecting to the Larger BEMA Narrative
+
+**God's Consistent Character:**
+- From Torah through the Prophets, God remains: "Adonai, faithful, loving, compassionate, merciful, slow to anger, abounding in love"
+- Despite all the mistakes, Baal worship, and compromise, God hasn't changed
+- The story of Naaman reinforces what we learned with Elijah: God's patience exceeds human expectations
+- This is the same God who endured the redemption cycle in Judges
+- The same God who called Israel to be a kingdom of priests
+- The same God who told them to remember they were once slaves, aliens, orphans, and widows
+
+**The Two Kingdoms Theme:**
+- Empire demands perfection, performance, and rigid control
+- Shalom offers patience, mercy, invitation, and trust
+- Elisha's response embodies Shalom - wholeness that includes the journey, the mess, the incomplete theology
+- The unnamed king of Israel embodies Empire - fear, insecurity, seeing threats instead of opportunities
+- Naaman's journey from six to seven, from wealth to simple obedience, from performance to humble washing - this is the journey from Empire to Shalom
+
+## Examples & Applications
+
+### Real-World Scenarios Where "Go in Peace" Applies
+
+**The Workplace Dilemma:**
+A Christian works in an environment where they're expected to participate in practices that feel ethically gray - corporate events that include excessive drinking, marketing that stretches the truth, or industry standards that conflict with personal values. They can't simply quit (financial responsibilities, family needs, limited options). The "turn or burn" approach would demand immediate departure. The "go in peace" approach acknowledges the complexity, encourages ongoing discernment, and trusts God's guidance through the mess.
+
+**The Family Gathering:**
+A believer is expected to participate in family traditions that feel religiously problematic - holidays with pagan origins, cultural practices from other faiths, or family events centered around activities they've come to question. Like Naaman bowing in Rimmon's temple because of his position, they must navigate loyalty to family while growing in faith. "Go in peace" gives permission to navigate this complexity rather than demanding immediate, relationship-destroying confrontation.
+
+**The Theological Journey:**
+A person is deconstructing harmful theology, asking hard questions, and doesn't have answers yet. They believe in God but can't affirm all the doctrines they once held. They're in the middle of the journey. Traditional evangelical culture often demands they "get right" before they can belong. "Go in peace" says: "You've met God. You love God. You're seeking. That's enough for now. Keep walking."
+
+**The Ministry Context:**
+A pastor or ministry leader encounters someone making poor decisions - questionable relationships, financial choices that seem unwise, career paths that appear misguided. The temptation is to fix, correct, control. But sometimes the most helpful response is: "I see you're wrestling. God's with you. You'll figure this out. Go in peace." This requires tremendous trust in God's work apart from our intervention.
+
+**The Complicated Relationship:**
+Someone is in a relationship that doesn't fit neat categories - dating a non-believer, maintaining friendship with someone in destructive patterns, loving a family member who actively opposes their faith. Black-and-white thinking demands clean separation. "Go in peace" allows for ongoing presence, influence, and love while acknowledging the complexity.
+
+### Historical Context Examples
+
+**Ancient Near Eastern Religious Practice:**
+In the ancient world, Naaman's situation was common. People served in royal courts that included temple service to various deities. A person couldn't simply resign from court because of religious conviction - that wasn't how the system worked. Naaman's request reveals he's navigating a real vocational constraint, not simply compromising for convenience.
+
+**The Jordan River Geography:**
+The Jordan River's unimpressive nature makes Elisha's instruction even more pointed. Naaman comes from the region of mighty rivers - the Euphrates and Tigris systems. The Abana (Amanah) and Pharpar rivers near Damascus were clear, beautiful mountain streams. The Jordan, especially in summer, was muddy, narrow, and unimpressive. To wash in the Jordan wasn't just obedience; it was humiliation for an *ish gadol*.
+
+**Leprosy in the Ancient World:**
+Leprosy (likely various skin diseases, not just Hansen's disease) was devastating not just physically but socially. It brought ritual impurity, social isolation, and religious exclusion. For an *ish gadol* to have leprosy created unbearable tension - great status meets great shame. His healing wasn't just physical but represented complete restoration to community and status.
+
+### Contemporary Applications
+
+**For College Students and Young Adults:**
+Recent graduates enter workplaces that don't align perfectly with their values. They face ethical complexity, relational messiness, and vocational decisions without clear "biblical" answers. "Go in peace" empowers them to navigate with integrity while acknowledging they're figuring it out.
+
+**For Parents:**
+Children make decisions that seem unwise or spiritually concerning. The parental impulse is to fix, correct, control. "Go in peace" models trust in God's ongoing work in their children's lives, providing support rather than pressure, presence rather than panic.
+
+**For Those in Cross-Cultural Contexts:**
+Missionaries and cross-cultural workers constantly navigate cultural practices that feel uncomfortable or theologically questionable. They must discern what's essential and what's cultural, what's compromise and what's contextualization. "Go in peace" gives permission for the ongoing journey of discernment.
+
+**For the Doubting and Questioning:**
+People in seasons of doubt, deconstruction, or theological reassessment often feel pressure to "get their faith right" before they're welcome in community. "Go in peace" says: "You've encountered God. You're seeking. You're on the journey. That's enough. Welcome."
+
+## Potential Areas for Further Exploration
+
+### Theological Questions
+
+1. **The Nature of Progressive Revelation and Sanctification:** How does Naaman's story inform our understanding of how people grow in faith over time? What does this teach about God's patience with theological immaturity?
+
+2. **The Relationship Between Orthodoxy and Orthopraxy:** Naaman has imperfect theology but genuine encounter with God. What does this suggest about the relationship between correct belief and authentic faith?
+
+3. **The Limits of Human Responsibility in Discipleship:** Where is the line between our responsibility to teach and God's responsibility to transform? How do we discern when to speak and when to release someone to "go in peace"?
+
+4. **Monotheism's Development in Biblical History:** How does Naaman's monotheistic confession fit into the larger biblical narrative of Israel's own journey toward exclusive worship of YHWH?
+
+5. **The Problem of Syncretism vs. The Reality of Process:** How do we distinguish between dangerous syncretism (mixing false worship with true) and the messy process of growing in understanding?
+
+### Cultural and Historical Studies
+
+6. **Ancient Near Eastern Religious Geography:** What was the dominant worldview about gods and geography in the ancient world? How revolutionary was the concept of a universal God?
+
+7. **The Role of Servants and Slaves in Ancient Households:** The story includes an unnamed Israelite servant girl and Naaman's servants who speak wisdom. What can we learn about social structures and the value of marginalized voices?
+
+8. **Aram and Israel's Relationship:** What was the political and military relationship between Aram (Syria) and Israel during this period? Why would the king of Aram care about his commander's healing?
+
+9. **Leprosy and Purity Laws:** How would Naaman's leprosy have affected his ability to serve in temple contexts? What would healing mean for his vocational life?
+
+10. **The Ministry of Elijah and Elisha:** How do Elijah and Elisha's ministries compare and contrast? What does this passage reveal about Elisha's prophetic authority and approach?
+
+### Practical Ministry Questions
+
+11. **Creating Space for Messy Faith:** How can faith communities create environments where people can be honest about theological questions, moral complexity, and life's messiness without fear of rejection?
+
+12. **The Counseling and Pastoral Care Implications:** When is "go in peace" an appropriate response in counseling contexts, and when do people need more direct guidance or intervention?
+
+13. **Navigating Moral Complexity in Leadership:** How do church leaders respond to congregants in ethically complex situations without compromising truth or creating unnecessary burdens?
+
+14. **The Tension Between Truth and Grace:** How do we maintain theological conviction while extending the kind of grace Elisha demonstrates? Is this a both/and or must we choose?
+
+15. **Developing Discernment for Timing:** How do we develop wisdom to know when correction is needed and when release ("go in peace") is the better response?
+
+### Contemporary Application Studies
+
+16. **Marketplace Christianity:** What does Naaman's story teach about Christians working in secular environments that may require participation in practices that feel compromising?
+
+17. **Political and Cultural Engagement:** How does "go in peace" inform how believers engage with political structures, cultural institutions, and social systems that don't align with kingdom values?
+
+18. **Interfaith Relationships and Witness:** Does this passage inform how we relate to people of other faiths who are genuinely seeking but within a different religious framework?
+
+19. **Mental Health and Spiritual Formation:** How does recognizing life's messiness and giving ourselves permission to "go in peace" relate to mental health, anxiety, and the pressure to have everything figured out?
+
+20. **Community and Belonging for the Questioning:** How can communities embody "go in peace" for those in seasons of doubt, deconstruction, or theological transition?
+
+## Comprehension Questions
+
+### Question 1: Theological Understanding
+What revolutionary theological statement does Naaman make, and why is this significant in the context of ancient Near Eastern polytheistic culture? How does his subsequent request for dirt reveal he still operates within certain theological limitations?
+
+**Answer:** Naaman declares, "Now I know that there is no God in all the world except in Israel." This is revolutionary because the ancient world was thoroughly polytheistic with a geographical understanding of deity - each land had its own god(s). Naaman's confession breaks through this limitation to affirm exclusive monotheism. However, he immediately asks for dirt from Israel to take back to Aram so he can worship on Israelite soil, revealing he still partially operates within the geographical framework - thinking he needs Israel's dirt to worship Israel's God. This shows the journey of faith: revolutionary insight mixed with incomplete understanding.
+
+### Question 2: Hebrew Language and Concepts
+Explain the meaning of *ish gadol* and *kavod*. How do these concepts illuminate Naaman's character and the nature of God's glory in Hebrew thought versus Western understanding?
+
+**Answer:** *Ish gadol* means "great man" - *ish* (man) + *gadol* (weight, significance). It describes someone whose presence is felt when they enter a room; Naaman is a person of immense importance and celebrity. *Kavod* means glory/weightiness, connected to the same root as *gadol*. Western understanding pictures God's glory as bright, shining light, while Hebrew thought sees *kavod* as thick, heavy, weighty, even dark - a presence so dense it presses you down to your knees. Naaman carries social *kavod* (weightiness/importance), while God's *kavod* is the ultimate weighty presence that demands recognition.
+
+### Question 3: Narrative Symbolism
+What is the significance of the number symbolism in the story (six versus seven), and how does this relate to the contrast between human effort and divine completion?
+
+**Answer:** Naaman brings six units of wealth (6,000 shekels of gold) as payment for healing - representing human effort, resources, and attempting to solve problems through human means. Elisha instructs him to wash seven times in the Jordan - seven representing divine completion, perfection, and Sabbath rest. The contrast shows that Naaman's six (wealth, status, effort) cannot accomplish what God's seven (simple obedience, divine instruction, rest in God's provision) can achieve. It's a movement from self-reliance to God-reliance, from empire (achievement through human resources) to Shalom (wholeness through trust and obedience).
+
+### Question 4: The Two Kingdoms Theme
+How does the unnamed king of Israel's response to Naaman's arrival contrast with Elisha's response, and what does this reveal about the "empire versus Shalom" theme?
+
+**Answer:** The king tears his robes in panic, asking "Am I God? Can I kill and bring back to life?" His insecurity makes him see threat ("Why does this fellow send someone to me...See how he is trying to pick a quarrel with me?"). This embodies Empire - fear, self-preservation, seeing threats instead of opportunities. Elisha, by contrast, simply says "Have the man come to me and he will know that there is a prophet in Israel." He doesn't even come to the door, sending a servant with simple instructions. This embodies Shalom - confidence in God's work, no need for performance or self-protection, trust that God's power doesn't require impressive displays. The king operates from fear; Elisha operates from rest.
+
+### Question 5: Application and Ministry
+What does Elisha's response "go in peace" teach about how we should respond to people in complicated, messy situations who have encountered God but don't have perfect theology or clear-cut solutions to their ethical dilemmas?
+
+**Answer:** Elisha's "go in peace" teaches that we can trust God's ongoing work in people's lives beyond our intervention. Rather than demanding immediate theological correction or ethical clarity, we can acknowledge: (1) They've genuinely encountered God - that's foundational; (2) The journey of faith is exactly that - a journey that takes time; (3) Life is messy and complicated, and simple answers often don't address real complexity; (4) God is patient and will continue to teach and guide them; (5) Sometimes the most pastoral response is permission and release rather than pressure and correction. This doesn't mean abandoning truth or never speaking correction, but recognizing that people grow in understanding over time, and sometimes what they need most is the assurance that "it'll be alright. God's with you. You'll figure it out."
+
+## Brief Personalized Summary
+
+The story of Naaman powerfully demonstrates that God's patience exceeds our religious expectations and that authentic faith journeys are messy, complex, and progressive. Naaman, an important foreign military commander with leprosy, seeks healing and encounters the God of Israel. His story includes revolutionary theological insight (recognizing there's no God except Israel's God), persistent theological confusion (asking for dirt to worship geographically), and honest admission of vocational complexity (he must continue bowing in a false temple).
+
+What's remarkable is Elisha's response: "Go in peace." No theological correction. No curriculum. No conditions. Just release and trust that God will continue the work He's begun.
+
+This liberates us in two directions. For those of us navigating messy, complicated situations: You don't need perfect theology or clear-cut answers to every ethical dilemma. If you've met God and you're seeking to follow, that's enough for now. Go in peace. For those of us trying to help others: We don't need to fix, correct, or control. Sometimes the most helpful response is permission and trust - "It'll be alright. God's with you. You'll figure it out."
+
+Life isn't full of black-and-white situations with obvious biblical solutions. We work in gray environments, navigate complex family dynamics, and face decisions that don't have clear scriptural prescriptions. The phrase "just do what the Bible says" is often unhelpful because application is extraordinarily complex.
+
+Naaman's journey from six to seven - from human wealth and effort to simple obedience and divine completion - mirrors our own journey from Empire (achievement, performance, self-reliance) to Shalom (wholeness through trust, rest, and mercy). The unnamed king embodies Empire fear; Elisha embodies Shalom confidence.
+
+This story, embedded in the larger biblical narrative, reinforces God's consistent character: faithful, loving, compassionate, merciful, slow to anger, abounding in love. From the redemption cycle in Judges to the patience shown to struggling kings, God remains unchanged in His commitment to work with imperfect people in messy situations.
+
+The most profound gift this story offers is permission - permission to be on a journey, permission to not have all the answers, permission to navigate complexity without panic, and permission to extend that same grace to others. Go in peace.

@@ -1,0 +1,186 @@
+# BEMA Episode 39: A King After God's Own Heart - Study Notes
+
+## Title & Source Summary
+
+This episode examines the famous story of David and Goliath from 1 Samuel 17, exploring the deeper cultural, theological, and narrative significance beyond the surface-level "underdog defeats giant" interpretation. Marty Solomon and Brent Billings unpack the symbolic meaning of the story, David's character as a shepherd-king, and what it means to be "a man after God's own heart." The episode reveals how this story connects to broader biblical themes of trusting God's story versus relying on human strength, and the importance of being willing to act for God's reputation (kiddush hashem).
+
+## Key Takeaways
+
+- The David and Goliath story is set in the Valley of Elah, one of four strategic valleys leading to Jerusalem, making this a critical defensive battle for Israel
+- Saul's 40-day paralysis represents a period of testing where he was found wanting as king, unwilling to act in faith
+- The number 666 is symbolically connected to Goliath (6 cubits tall, 600 shekel spearhead, possibly 6 fingers like his brother), evoking imagery of the serpent from Genesis 3
+- David crushing Goliath's head echoes God's promise in Genesis 3:15 about the offspring of the woman crushing the serpent's head
+- Saul, from the tribe of Benjamin (known for expert slingers), should have been the one to face Goliath with a sling, but his unwillingness to act meant God used David instead
+- David's willingness to "throw his stone" matters more than being the best at what you do - God uses those who are willing to act
+- David was driven by kiddush hashem (sanctifying God's name) rather than personal glory or fame
+- David represents the quintessential shepherd-king who leads with his voice, sees the marginalized, and seeks restorative justice (mishpat)
+- The "days of David" are considered the glory days of Israelite history, though David's life also includes morally questionable moments
+- David's intimate spiritual practice and worship, as evidenced in the Psalms, set him apart as someone who knew how to practice the presence of God
+
+## Main Concepts & Theories
+
+### The Valley of Elah: Strategic Geography
+
+The battle takes place in one of four valleys serving as "fingers" stretching into Jerusalem from the coast. These valleys were critical access points that needed to be defended against invasion. The Philistines camped on one ridge (between Sokoh, Ephes Dammim, and Azekah), while the Israelites occupied another ridge across the valley. This geographical setup shows Israel was greatly outnumbered and defending a strategic chokepoint to their homeland.
+
+### Ish HaBaynim: Champion Warfare
+
+The Hebrew term "ish habonim" refers to the great champion or champion man. In ancient Near Eastern warfare, armies would sometimes settle conflicts through single combat between champions rather than full-scale battles that would result in massive casualties. This was a common practice to avoid bloodbaths when two large armies faced each other. Goliath represents the Philistine champion challenging Israel to send their best warrior.
+
+### The 40-Day Test
+
+Goliath came out every morning and evening for 40 days - timing that coincided with the daily sacrifice times in Jerusalem. The number 40 in biblical narrative represents a period of testing (40 years in the wilderness, 40 days of Jesus' temptation). The text makes clear that Saul and Israel had been tested for 40 days and found wanting - they were paralyzed by fear and unwilling to trust God's story. This sets the stage for God to do something new through David.
+
+### The 666 Symbolism: Goliath as Serpent
+
+The text provides several numerical details about Goliath that, when examined together, create symbolic resonance:
+- Height: 6 cubits and a span
+- Spearhead weight: 600 shekels
+- Armor: 5000 shekels (though the armor is described as "scales")
+- Brother with 6 fingers (mentioned in Chronicles)
+
+This creates a pattern of 6's associated with Goliath, evoking the number 666 which represents sinful humanity and evil forces. Combined with the description of scale armor, Goliath is symbolically portrayed as serpent-like, connecting to the serpent in the Garden of Eden.
+
+### Genesis 3:15 Fulfillment
+
+God's curse on the serpent in Genesis 3:15 states: "I will put enmity between you and the woman, between your offspring and her offspring. He shall crush your head and you shall bruise his heel." David's defeat of Goliath specifically involves crushing his head - first with the stone, then by cutting it off. This creates a pre-Jesus fulfillment of the promise that the offspring would crush the serpent's head, portraying David as defeating the forces of evil represented by Goliath.
+
+### The Tribe of Benjamin and the Sling
+
+Judges 20:15-17 records that the tribe of Benjamin had 700 select left-handed slingers who could "sling a stone at a hair and not miss." These were elite special forces warriors, the ancient equivalent of Navy SEALs. Saul was from the tribe of Benjamin, which means he came from the very tribe renowned for their expertise with the sling. This makes Saul's refusal to face Goliath even more egregious - he possessed exactly the skill set needed but wouldn't use it.
+
+### The Incomplete Number: 600 vs 700
+
+In 1 Samuel 13, after Samuel tells Saul his kingdom won't endure because he hasn't kept God's commands, Saul counts his men and has 600. The text in Judges mentioned 700 expert slingers from Benjamin. The number 7 represents completeness and perfection in Hebrew numerology, while 6 represents sinful humanity and incompleteness. Saul with 600 men is symbolically acting in his own strength rather than God's - he's incomplete, that "ar'ar" bush (cursed man) who looks good on the outside but isn't doing things God's way.
+
+### "Throw Your Stone": The Principle of Willing Action
+
+David wasn't the best slinger in Israel - that honor belonged to the Benjamites, particularly Saul's tribe. But David was willing to use what he had. The principle is that God can use a stone in the air more than a stone that stays in the riverbed or pocket. Everyone has a stone to throw - a talent, passion, training, or vocation - and it's more important to be willing to use it than to be the absolute best at it. Saul, even if skilled, accomplished nothing by staying in his tent. David, though just a shepherd boy, could be used by God because he was willing to act.
+
+### Kiddush Hashem: Sanctifying God's Name
+
+The Hebrew phrase "kiddush hashem" means "sanctification of the name" - acting in ways that bring honor and holiness to God's reputation. David repeatedly asks, "Who is this uncircumcised Philistine that he should defy the armies of the living God?" His motivation isn't personal glory but defending God's reputation. He declares he will defeat Goliath "so that the whole world will know that there is a God in Israel." This contrasts sharply with Saul, who seems paralyzed by concern for his own life and reputation rather than God's.
+
+### The Shepherd-King Contrast
+
+David's response to Saul subtly highlights the contrast between them. David says, "I've been watching my sheep... I went after the lion and bear and killed them." The implication is, "I've been doing the work of a shepherd, Saul - what have you been doing?" Saul was supposed to be the shepherd of Israel, but he's been cowering in fear while David has been faithfully protecting his flock. This foreshadows David as the true shepherd-king who will lay down his life for his sheep.
+
+### David's Character: Seven Observations
+
+1. **Intimate Spiritual Practice**: David had an unusually intimate walk with God, practicing the presence of God. Even if only half the Psalms attributed to him are authentic, they reveal someone with profound spiritual awareness who sang to God with raw emotion and genuine expression.
+
+2. **Unconcerned with Personal Fame**: David sought to spread God's fame, not his own. He was driven by kiddush hashem - making God's name known and honored.
+
+3. **Thirst for Restorative Justice**: David fought battles not for conquest or territorial expansion, but in response to injustice and the misuse of power. He sought to bring mishpat (restorative justice) to those who had been wronged.
+
+4. **Seeing the Marginalized**: David noticed the down and out, remembered where he came from, and actively sought to bring justice to the marginalized.
+
+5. **Generous Distribution**: David shared spoils of victory even with those who didn't contribute to the battle, simply because they belonged to the community. He understood God's economy works differently than human merit systems.
+
+6. **Counterintuitive Leadership**: David's upside-down approach to ruling God's kingdom God's way set him apart as a different kind of king and leader.
+
+7. **Later Forgetfulness**: The episode hints that later in life, David seems to forget where he comes from, foreshadowing the Bathsheba story and other moral failures.
+
+### The Glory Days Paradox
+
+The "days of David" remain the glory days of Israelite history - the Star of David appears on Israel's flag, and people looked for a "son of David" when Jesus came. Yet David's actual track record includes many questionable decisions beyond just the Bathsheba incident. This creates a tension: David is revered more than Abraham or Moses in many ways, yet his moral character is often less exemplary. The resolution seems to be that David's heart orientation toward God and willingness to repent mattered more than moral perfection.
+
+## Examples & Applications
+
+### Modern Application: Throwing Your Stone
+
+The principle of "throw your stone" applies directly to modern disciples. Many people wait until they feel fully qualified, perfectly trained, or completely ready before acting. But God uses willing people more than perfect people. Whether it's:
+- Using professional skills for kingdom purposes
+- Sharing faith despite feeling inadequate
+- Serving in ministry without formal theological training
+- Acting on conviction even when afraid
+
+The key is willingness to act in faith rather than waiting for perfect competence. David wasn't the expert, but he was willing, and that made all the difference.
+
+### Kiddush Hashem in Daily Life
+
+David's motivation of kiddush hashem challenges modern believers to examine their motivations. When facing challenges or opportunities:
+- Am I concerned with how this reflects on God's reputation?
+- Am I seeking personal glory or God's glory?
+- Will my actions make God's name known and honored?
+
+This reframes decisions from "What's in it for me?" to "How does this impact how others see God?"
+
+### The Danger of Staying in Your Tent
+
+Saul represents the tragedy of unused potential. He had the right background, the right skills, the right position - but fear kept him inactive. Modern parallels include:
+- Believers who know what they should do but remain paralyzed by fear
+- Talented people who never use their gifts because the risk seems too great
+- Leaders who have the position but won't lead when it matters
+
+The story warns that God will work around those who refuse to act, raising up others (even unlikely ones like shepherd boys) who are willing.
+
+### Practicing the Presence of God
+
+David's spiritual practice, exemplified in the Psalms, provides a model for intimate relationship with God. Modern applications include:
+- Regular worship that expresses raw, genuine emotion
+- Meditating on Scripture "day and night"
+- Creating intentional space and time for God
+- Speaking to God with complete honesty, including doubts and complaints
+
+Brother Lawrence's "Practicing the Presence of God" offers a later Christian expression of the same principle David embodied.
+
+### Seeing and Serving the Marginalized
+
+David's attention to the down and out, his sharing of spoils with those who didn't contribute, and his pursuit of justice for the wronged provide examples of kingdom economics:
+- Sharing resources with community members regardless of "merit"
+- Fighting for those who have been mistreated
+- Responding to misuse of power with action, not just words
+- Remembering your own humble origins and staying grounded
+
+## Potential Areas for Further Exploration
+
+1. **The Psalms of David**: A deep dive into David's worship and prayer life as expressed in the Psalms, examining how they reveal his spiritual practice and relationship with God.
+
+2. **David's Moral Failures**: A thorough examination of David's questionable decisions throughout his life, including but not limited to the Bathsheba incident, to understand the complexity of being "a man after God's own heart" while still making serious mistakes.
+
+3. **The Tribe of Benjamin**: Further study of Benjamin's unique characteristics, their role in Israelite history, and the significance of both Saul and later Paul coming from this tribe.
+
+4. **Mishpat - Restorative Justice**: An in-depth exploration of the Hebrew concept of restorative justice and how it differs from retributive justice, as exemplified in David's reign.
+
+5. **The Son of David**: Tracing the "son of David" theme through Scripture, examining how Solomon failed to fulfill this role and why people continued looking for the promised son of David that would eventually be identified with Jesus.
+
+6. **Numbers in Hebrew Narrative**: A systematic study of how numbers function symbolically in Hebrew Scripture (40 for testing, 7 for completeness, 6 for humanity/incompleteness, etc.).
+
+7. **Ancient Near Eastern Warfare**: Research into champion warfare (ish habonim) and other warfare practices in the ancient Near East to better understand the cultural context of the David and Goliath story.
+
+8. **The Valley of Elah Archaeological Evidence**: Examining archaeological findings from the Valley of Elah and the sites mentioned (Sokoh, Azekah, Ephes Dammim) to understand the historical and geographical context.
+
+9. **Shepherd Imagery in Scripture**: Tracing the shepherd metaphor from David through the prophets to Jesus as the Good Shepherd, understanding the full weight of this imagery in biblical theology.
+
+10. **Rob Bell's "Jesus Wants to Save Christians"**: Reading this book's treatment of David and Solomon to explore why the "son of David" remained an unfulfilled expectation until Jesus.
+
+## Comprehension Questions
+
+1. **What is the significance of the 40-day period in the David and Goliath story, and what does it reveal about Saul's character as king?**
+
+   The 40-day period represents a time of testing (40 being a biblical number associated with testing, like the 40 years in the wilderness). During these 40 days, Saul and the Israelites were tested and found wanting - they remained paralyzed by fear, unwilling to trust God's story or act in faith. This demonstrates that Saul has failed the test of kingship, setting the stage for God to work through David instead.
+
+2. **How does the text use numerical symbolism to connect Goliath to the serpent in the Garden of Eden, and what theological point is being made?**
+
+   Goliath is associated with the number 6 multiple times (6 cubits tall, 600 shekel spearhead, brother with 6 fingers), creating a 666 pattern that represents sinful humanity and evil. Combined with his scale armor, he's portrayed as serpent-like. David crushing Goliath's head fulfills Genesis 3:15's promise that the offspring of the woman would crush the serpent's head, symbolizing David's defeat of evil forces.
+
+3. **Why is it significant that Saul was from the tribe of Benjamin, and how does this detail deepen the critique of his inaction?**
+
+   The tribe of Benjamin was renowned for having 700 elite left-handed slingers who could "sling a stone at a hair and not miss" (Judges 20:15-17). Saul came from the very tribe with expertise in the exact weapon needed to defeat Goliath. His refusal to act despite having the perfect skill set makes his cowardice even more inexcusable - he should have been the one marching down the hill with a sling.
+
+4. **What does it mean that David was motivated by "kiddush hashem," and how did this differ from typical motivations for going into battle?**
+
+   Kiddush hashem means "sanctification of the name" - acting to bring honor to God's reputation. David repeatedly focused on Goliath defying "the armies of the living God" and stated he would defeat him "so that the whole world will know that there is a God in Israel." Unlike fighting for personal glory, territorial expansion, or national pride, David fought to defend and spread God's reputation.
+
+5. **What is the principle of "throw your stone," and how does David's story illustrate that willingness matters more than expertise?**
+
+   "Throw your stone" means using whatever gifts, talents, or abilities you have rather than waiting to be perfectly qualified. David wasn't the expert slinger (the Benjamites were), but he was willing to act. God can use a stone in the air more than a stone that stays in the riverbed. Saul might have been skilled, but his unwillingness to act made him useless. David's willingness, despite being "just a shepherd boy," allowed God to work through him.
+
+## Personalized Summary
+
+The story of David and Goliath is far richer than a simple tale of an underdog defeating a giant. It's a carefully crafted narrative that uses geographical details, numerical symbolism, and intertextual connections to explore profound theological themes. The 40-day standoff represents Saul's failed test of kingship - his unwillingness to act in faith despite having the perfect background and skills (being from Benjamin, the tribe of expert slingers) to defeat Goliath. Meanwhile, David, driven not by personal ambition but by kiddush hashem (defending God's reputation), demonstrates that God uses those who are willing to act, even if they're not the most qualified.
+
+The symbolic connection between Goliath (with his 666 numerical associations and scale armor) and the serpent from Genesis, coupled with David crushing his head, positions this story as a pre-figurement of Christ's ultimate victory over evil. Yet David isn't presented as morally perfect - later episodes will explore his significant failures. What makes him "a man after God's own heart" is his intimate spiritual practice (evidenced in the Psalms), his consistent orientation toward God's glory rather than his own, his concern for the marginalized, and his counterintuitive approach to leadership that embodied the shepherd-king ideal.
+
+The central challenge of the episode is to "throw your stone" - to use whatever you have in willing service rather than waiting for perfect qualifications. Whether it's talents, training, passions, or vocations, God works through those willing to act in faith, trusting that the battle is the Lord's and He will give the victory.

@@ -1,0 +1,210 @@
+# BEMA Episode 109: Which Soil? - Study Notes
+
+## Title & Source Summary
+
+**Episode:** 109 - Which Soil?  
+**Hosts:** Marty Solomon and Brent Billings
+**Focus:** Matthew 13:1-23 - The Parable of the Sower (or more accurately, the Parable of the Soils)
+
+This episode begins BEMA's journey through the parables of Jesus, starting with what is traditionally called the Parable of the Sower. Marty and Brent explore how this teaching is actually better understood as the Parable of the Soils, challenging Western interpretations that miss Jesus's true intent. They examine the Jewish rabbinical tradition of four-part teaching models and reveal how Jesus uses this parable not to affirm what we already know, but to provoke self-examination and transformation. The discussion emphasizes that God is the sower, and the critical question for listeners is: which type of soil are you?
+
+## Key Takeaways
+
+- The parable is misnamed in Western tradition - it should be called the "Parable of the Soils," not the "Parable of the Sower"
+- God is the sower, not us - the variable in the parable is the condition of the soil (our hearts), not the one sowing the seed
+- Jesus uses a common Jewish rabbinical teaching method: the four-part learner model, which would have been familiar to his audience
+- The purpose of the parable is to challenge and transform the listener, not to reaffirm what they already believe
+- Jesus intentionally teaches in parables so that only those truly willing to do the work of understanding will receive the message
+- Each type of soil has corresponding Old Testament passages that provide instruction on how to prepare that soil
+- Parables are meant to provoke wrestling and change, requiring active engagement from the hearer
+- The parable calls for self-examination: which soil are you, and what work do you need to do to prepare your heart?
+
+## Main Concepts & Theories
+
+### The Four Soils Framework
+
+**Soil 1: The Path (Hard Ground)**
+- Characteristic: Does not understand the message
+- Problem: The evil one snatches away the seed before it can take root
+- Remedy: Break up the unplowed ground through tzedekah (righteousness/generosity) - Hosea 10:12
+- Application: Become the kind of person God calls you to be through generous, righteous living
+
+**Soil 2: The Rocky Ground (Shallow Soil)**
+- Characteristic: Receives the word with joy but has no depth
+- Problem: No root system; falls away when trouble or persecution comes
+- Remedy: Develop deep roots through hagah (meditation/dwelling) in the Law of the Lord - Isaiah 5:24, Jeremiah 17, Ezekiel 17
+- Application: Become like the acacia tree planted by streams of living water, with deep root systems that can withstand drought
+
+**Soil 3: The Thorny Ground (Competing Growth)**
+- Characteristic: Hears and understands but is choked out
+- Problem: The worries of life and deceitfulness of wealth prevent fruitfulness
+- Remedy: Circumcise your heart and remove idolatry - Jeremiah 4:3-4
+- Application: Confront the idolatry of wealth, empire, and worldly concerns that distract from Kingdom priorities
+
+**Soil 4: The Good Soil (Prepared Ground)**
+- Characteristic: Hears, understands, and produces a crop
+- Result: Yields 30, 60, or 100 times what was sown
+- Key: This soil has been prepared and is ready to receive what God is sowing
+
+### Jewish Rabbinical Teaching Method: The Four Learners
+
+Jesus employs a teaching template common in his cultural context. Rabbis regularly used four-part models to teach about different types of students:
+
+**Traditional Four Learner Model:**
+1. The Sponge - Takes in everything and keeps everything (undiscerning)
+2. The Funnel - Takes in everything but loses everything (no retention)
+3. The Strainer - Takes in everything but keeps only the bad (poor discernment)
+4. The Sieve - Takes in everything but keeps only the good (desired outcome)
+
+**Another Model:**
+- Quick learner/slow doer
+- Quick learner/quick doer
+- Slow learner/quick doer
+- Slow learner/slow doer
+
+These models don't require the rabbi to explicitly ask, "Which one are you?" The template itself does the work, provoking self-examination and reflection.
+
+### Jesus as an Eastern Rabbi vs. Western Teacher
+
+By Western educational standards, Jesus would be considered a "horrible teacher" because:
+- He intentionally teaches in ways that obscure understanding for those not truly seeking
+- He uses parables specifically so people won't understand unless they do the work
+- He quotes Isaiah 6, indicating that people have closed their eyes and ears because they don't want to change
+- His measuring stick for success is transformation, not information transfer
+
+Western teaching prioritizes:
+- Clarity and accessibility
+- Maximum comprehension for all listeners
+- Information dissemination
+- Measurable learning outcomes
+
+Eastern rabbinical teaching prioritizes:
+- Challenge and provocation
+- Requiring active engagement from the learner
+- Transformation over information
+- Wrestling with complex ideas
+- Making students work for understanding
+
+### The Purpose of Parables
+
+Parables are not meant to:
+- Reaffirm what we already believe
+- Make us feel comfortable
+- Provide simple answers
+- Be easily understood by passive listeners
+
+Parables are designed to:
+- Challenge the hero (the listener)
+- Provoke wrestling and deep thought
+- Require active engagement and work
+- Transform and refine the hearer
+- Separate those truly seeking from those merely curious
+
+### Remez: Old Testament Callbacks
+
+Jesus's explanation of the parable contains subtle references (remez) to Old Testament passages that provide practical instruction for each soil type:
+
+- **Hosea 10:12** - For the path: "Break up your unplowed ground...it is time to seek the Lord"
+- **Isaiah 5:24** - For rocky soil: Deep roots come from not rejecting the law of the Lord
+- **Jeremiah 17 & Ezekiel 17** - Additional passages about developing deep roots
+- **Jeremiah 4:3-4** - For thorny soil: "Break up your unplowed ground and do not sow among thorns. Circumcise yourselves to the Lord, circumcise your hearts"
+
+Each remedy connects directly to the problem Jesus identifies in his explanation, showing the integrated nature of Scripture and the importance of Old Testament context for understanding Jesus's teaching.
+
+### The Acacia Tree Metaphor (Callback to Session 1)
+
+The acacia tree, discussed in BEMA Session 1, serves as a perfect illustration of the rocky soil remedy:
+- Appears dead and dry on the surface during drought
+- Has an incredibly deep root system that sustains it
+- Planted by streams of living water (Psalm 1)
+- Represents someone who delights in the law of the Lord day and night
+- Can withstand persecution and trouble because of deep roots
+
+### The Idolatry Connection (Callback to Session 2)
+
+The thorny soil connects to BEMA Session 2's discussion of Israel's core idolatry:
+- Not primarily worship of false gods
+- The "lust for empire" - pursuing power, wealth, and security through worldly means
+- This is precisely what Jesus identifies as "the worries of this life and the deceitfulness of wealth"
+- The chronicler's perspective revealed this as the persistent sin that led to exile
+
+## Examples & Applications
+
+### Practical Self-Examination Questions
+
+**Am I the Path?**
+- Do I struggle to understand spiritual truths?
+- Am I closed off to challenging ideas?
+- Do I need to become more generous and righteous in my daily life?
+- Have I allowed my heart to become hardened?
+
+**Am I Rocky Ground?**
+- Do I get excited about spiritual things but then fade when difficulty comes?
+- Is my spiritual life shallow, lacking depth and root system?
+- Do I spend time dwelling on (hagah-ing) Scripture?
+- When persecution or trouble comes, do I quickly fall away?
+
+**Am I Thorny Ground?**
+- Am I choked by worry about provision, success, or security?
+- Is the pursuit of wealth competing with Kingdom priorities in my life?
+- What modern idolatries (career, comfort, status) am I serving?
+- Am I trying to serve both God and the "lust for empire"?
+
+**Am I Good Soil?**
+- Have I done the work of preparing my heart?
+- Am I producing fruit in proportion to what God has sown in my life?
+- Am I both hearing and understanding, leading to transformation?
+
+### Modern Western Misapplication
+
+Many Western teachers use this parable to encourage evangelism: "Go sow seed everywhere - some people will receive it, some won't. Don't be discouraged." This interpretation:
+- Makes us the sower instead of God
+- Reaffirms our existing beliefs rather than challenging us
+- Focuses on others rather than self-examination
+- Misses the transformative intent of the parable
+
+### The Isaiah 6 Connection
+
+Jesus quotes Isaiah 6:9-10, a difficult passage where God tells Isaiah that his ministry will result in people not understanding. This reveals:
+- People have the capacity to understand but choose not to
+- Understanding would require repentance and change
+- Many prefer comfortable ignorance to challenging truth
+- God's word requires active engagement, not passive reception
+- The parable format filters for those truly seeking transformation
+
+## Potential Areas for Further Exploration
+
+1. **Deeper study of Jewish hermeneutics** - The next BEMA episode promises to explore PaRDeS (p'shat, remez, drash, sod) in detail
+2. **The 30, 60, 100-fold yield** - What is the significance of these different levels of fruitfulness in good soil?
+3. **Other rabbinical four-part teaching models** - How do these appear throughout Jewish literature?
+4. **The four patriarchs as four learner types** - Which patriarch represents which learning style?
+5. **Comparison of Eastern and Western educational philosophy** - How does this affect modern discipleship?
+6. **The role of difficulty in spiritual formation** - Why does Jesus make understanding intentionally difficult?
+7. **Other parables using the four-part structure** - How does this template appear elsewhere in Jesus's teaching?
+8. **Practical spiritual disciplines for soil preparation** - What specific practices help break up hard ground, develop roots, and remove thorns?
+9. **The relationship between understanding and doing** - How does the parable address both comprehension and application?
+10. **Modern idolatries that function as "thorns"** - What are the contemporary equivalents to the "lust for empire"?
+
+## Comprehension Questions
+
+1. Why is "Parable of the Soils" a more accurate title than "Parable of the Sower," and how does this change affect the interpretation and application of the teaching?
+
+2. Explain the Jewish rabbinical teaching method of the "four learners" model. How does Jesus's use of this familiar template help his audience engage with the parable?
+
+3. According to the episode, why does Jesus teach in parables, and how does this challenge Western assumptions about effective teaching? What does the Isaiah 6 quotation reveal about this?
+
+4. For each of the four soil types, identify: (a) the characteristic problem, (b) the Old Testament passage (remez) that provides the remedy, and (c) what practical action is required to address that soil condition.
+
+5. How does understanding the "lust for empire" from BEMA Session 2 help interpret the "thorns" in this parable? What connection does this reveal about consistent themes in Scripture?
+
+## Summary
+
+BEMA Episode 109 fundamentally reframes one of Jesus's most famous parables by correctly identifying it as the Parable of the Soils rather than the Parable of the Sower. This shift is crucial: God is the one sowing seed, and the question isn't whether we should evangelize different types of people, but rather which type of soil we ourselves are.
+
+Jesus uses a familiar Jewish rabbinical teaching method - the four-part learner model - that would have immediately resonated with his first-century audience. This template doesn't require the rabbi to explicitly ask, "Which one are you?" because the question is implicit in the structure itself. The parable identifies four soil types: the path (hard, doesn't understand), the rocks (shallow, no roots), the thorns (choked by worldly concerns), and the good soil (prepared and fruitful).
+
+Critically, the episode emphasizes that parables are not meant to reaffirm what we already believe or make us comfortable. They are designed to challenge, provoke, and transform. Jesus, as an Eastern rabbi rather than a Western teacher, intentionally makes understanding difficult. He teaches in parables so that only those truly willing to do the work will receive the message, as illustrated by his quotation from Isaiah 6 about people who have eyes but don't see, ears but don't hear, because they don't truly want to change.
+
+Each soil type has a corresponding Old Testament remedy: the path needs tzedekah (righteousness/generosity) to break up hard ground; the rocks need hagah (meditation on Torah) to develop deep roots like the acacia tree; the thorns need to circumcise their hearts and remove idolatry, particularly the "lust for empire" - the pursuit of wealth, power, and security through worldly means. These remez (hints or callbacks) to Old Testament passages show how integrated and interconnected Scripture is, and how understanding the Hebrew Bible is essential for comprehending Jesus's teaching.
+
+The central call of the parable is self-examination: which soil are you, and what work do you need to do to prepare your heart to receive what God is sowing? This requires honesty, effort, and a willingness to be transformed rather than merely informed. The episode sets the stage for deeper exploration of Jewish hermeneutical methods in the next episode, while providing a model for how to approach all of Jesus's parables with fresh eyes, informed by their original cultural and religious context.

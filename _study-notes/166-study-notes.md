@@ -2,8 +2,8 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 166: Hebrews — Atonement 101  
-**Hosts:** Marty Solomon and Brent Billings  
+**Episode:** BEMA 166: Hebrews — Atonement 101    
+**Hosts:** Marty Solomon and Brent Billings    
 **Topic:** This episode provides a comprehensive overview of various atonement theories that have developed throughout Christian history, examining their historical contexts and theological implications. The discussion centers on the book of Hebrews as the primary New Testament text addressing atonement, while critiquing the over-reliance on penal substitutionary atonement in modern evangelical theology.
 
 ## Key Takeaways

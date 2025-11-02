@@ -1,0 +1,508 @@
+# BEMA Episode 72: Session 2 Capstone - Study Notes
+
+## Title & Source Summary
+
+**Episode:** BEMA 72 - Session 2 Capstone  
+**Hosts:** Marty Solomon and Brent Billings  
+**Topic:** A comprehensive review and summary of the Prophets and Writings (Tanakh), concluding Session 2 of the BEMA Podcast
+
+This episode serves as a capstone for Session 2, providing a metanarrative overview of the Hebrew Scriptures (Tanakh) from Genesis through the prophetic period. Marty and Brent trace the narrative arc from creation through exile and return, highlighting the central tension between Empire and Shalom that runs throughout Scripture. The episode also previews Session 3, which will focus on the life and teachings of Jesus.
+
+## Key Takeaways
+
+- The Hebrew Scriptures follow a coherent narrative arc centered on God seeking partners to restore creation through Shalom rather than Empire
+- Genesis 1-11 establishes that God's creation is good, requiring us to trust rather than act from fear and self-preservation
+- The patriarchs (Abraham, Isaac, Jacob, Joseph) demonstrate dysfunctional but ultimately faithful partnership with God
+- The central conflict throughout Scripture is between Empire (self-centered power) and Shalom (self-sacrificial restoration)
+- Israel's call was to be a "kingdom of priests" partnering with God to restore the world
+- The prophets provided a three-part message: Warning, Woe, and Hope
+- Two different perspectives tell Israel's history: Samuel/Kings (focused on idolatry/immorality) and Chronicles (focused on empire/injustice)
+- The "silent years" between the Old and New Testaments are crucial for understanding Jesus' context
+- Session 3 will focus on the Gospels and the life of Jesus, primarily using Matthew as the framework
+
+## Main Concepts & Theories
+
+### The Narrative Arc of Tanakh
+
+The Hebrew Scriptures are not merely a collection of disparate books but follow a unified narrative structure with clear thematic development:
+
+**Stage Setting (Genesis 1-11 - The Preface)**
+- Creation is declared good by God
+- Humanity must choose trust over fear
+- When we believe God loves His creation, we can live sacrificially
+- When we doubt God's goodness, we act from fear, self-interest, and self-preservation
+- This preface establishes the foundational worldview necessary for understanding the entire biblical narrative
+
+**The Family of God (Genesis 12-50)**
+- Abraham, Isaac, Jacob, and Joseph model imperfect but ultimately faithful partnership
+- Despite their dysfunction, these patriarchs "lean into trust"
+- Sometimes taking a generation to figure it out, they consistently return to God's narrative
+- They demonstrate that God's love changes everything, even working through flawed people
+
+### Empire vs. Shalom: The Central Tension
+
+This binary framework defines the core conflict throughout Scripture from Exodus to Revelation:
+
+**Empire**
+- Self-centered worldview: "I am most important"
+- Operates from scarcity mentality
+- Achieves goals by pushing others down
+- Prioritizes personal desires regardless of impact on others
+- Characterized by domination, extraction, and self-preservation
+- Exemplified by Egypt, Assyria, Babylon, and eventually Solomon's kingdom
+
+**Shalom**
+- Other-centered worldview: community restoration
+- Operates from abundance mentality
+- Self-sacrificial posture
+- Ensures those around us have what they need
+- "Puts the world back together"
+- The way of God's kingdom and His called partners
+
+### The Partnership Model: Israel as Priests
+
+**The Exodus and Sinai Wedding**
+- God rescues Israel from Empire (Egypt) to become His partner
+- Mount Sinai represents a wedding ceremony
+- God's proposal: "If you say yes, you will be for me a kingdom of priests"
+- The tabernacle serves as their "honeymoon suite" and ongoing workspace
+
+**The Priestly Education (Leviticus through Deuteronomy)**
+
+1. **Leviticus** - Learning priesthood
+   - Begins with atonement (right relationship with God)
+   - Defines priestly identity and practice
+   - Establishes distinct living (kosher food, farming methods, clothing)
+   - Teaches celebration through festivals
+   - Parties reveal the oppressed who need more celebration in their lives
+
+2. **Numbers** - Experiencing priesthood
+   - Desert honeymoon period
+   - Learning by doing, not just knowing intellectually
+   - Heart formation through experience
+
+3. **Deuteronomy** - Remembering priesthood
+   - Final review before entering the Promised Land
+   - "Remember your story" - you were slaves, aliens, orphans, widows
+   - When you remember your past oppression, you notice current oppression
+   - Aliens, orphans, and widows will always exist in a broken world
+   - God's partners must see and respond to these vulnerable populations
+
+### The Historical Period: Two Perspectives
+
+The historical books offer two distinct interpretative lenses on the same events:
+
+**Source A: Samuel and Kings**
+- Northern Kingdom (Israel) perspective
+- Written in real-time or close to events
+- "Agenda-driven headline" approach
+- Focuses on **idolatry and immorality** as primary problems
+- More concerned with religious unfaithfulness and moral failure
+
+**Source B: Chronicles**
+- Southern Kingdom (Judah) perspective
+- Written centuries later, placed at the end of Tanakh
+- "Documentary" approach looking back on history
+- Focuses on **empire and injustice** as root problems
+- Recognizes: "We were right about immorality, but we missed the bigger picture"
+- Identifies lust for empire as the fundamental issue
+
+### The Kingdom Period
+
+**Saul** - The people's choice
+- Donkey herder from Benjamin
+- Represents the kind of king the people want
+- Chosen based on human standards
+
+**David** - God's choice
+- Shepherd from Judah
+- Represents the kind of king God wants
+- Chosen based on God's standards, heart orientation
+
+**Solomon (Shlomo)** - The tragic turn
+- Likely had good intentions
+- Used Imperial methods to accomplish goals
+- Built a kingdom that couldn't be maintained
+- Became "the new Pharaoh" - brought the story full circle back to Egypt
+- His empire required the very oppression God rescued Israel from
+
+**The Divided Kingdom**
+- Solomon's successors couldn't maintain his empire
+- Political insecurity led to the kingdom splitting
+- Instead of trusting God in insecurity, leaders sought political solutions
+- This pattern caused the progressive unraveling of God's people
+
+### The Prophetic Pattern: Warning, Woe, and Hope
+
+The prophets spoke into the mess with a consistent three-part message structure:
+
+**Warning** - Call to return before judgment
+- Prophets like Amos, Hosea, Micah, First Isaiah
+- Used vivid imagery: plumb line, marriage to prostitute, vineyard
+- Called people to t'shuvah (return, repentance)
+
+**Woe** - Announcement of coming/present judgment
+- Prophets like Second Isaiah, Jeremiah, Lamentations
+- "Time for repentance has passed"
+- Deep grieving and lament
+- The world is falling apart as consequence
+
+**Hope** - Promise of future restoration
+- Even in the darkest moments, hope remains
+- Joel, Ezekiel, Daniel, Third and Fourth Isaiah
+- Assurance that justice will come
+- Vision of the servant, the suffering one
+- Promise that God's people will make it through
+
+### The Prophetic Timeline
+
+**Pre-Assyrian Period**
+- Amos: The plumb line - God's standard of justice
+- Hosea: Marriage to Gomer - Israel's unfaithfulness
+- Micah: God as judge
+- First Isaiah: The vineyard imagery
+
+**Assyrian Period** (Conquest of Northern Kingdom)
+- Jonah: Why God doesn't punish enemies (shows divine patience)
+- Nahum: God will address injustice (divine justice)
+- These prophets represent the tension between mercy and justice
+
+**Babylonian Period** (Conquest of Southern Kingdom)
+- Zephaniah: Call to t'shuvah
+- Second Isaiah: Chapters of woe with sprinkles of hope
+- Jeremiah: The weeping prophet
+- Lamentations: Alphabetic chiastic acrostic of deep lament with treasure of hope at center
+- Habakkuk: Complaint against God from the watchtower
+- Obadiah: Short message to Edom
+- Joel: Locust plague as metaphor for destruction and hope
+
+**Exile Period**
+- Ezekiel: Strengthening resolve to live in exile well
+- Daniel: Assurance that justice will come; vision of "one like a son of man"
+- Job: Wisdom literature as prophetic drama
+- Third Isaiah: Servant discourse and the suffering servant
+
+**Remnant Period** (Under Persian rule)
+- Fourth Isaiah: Completing the voices of Isaiah
+- Ezra: Shepherding, pastoral leadership model
+- Nehemiah: Prophetic, fiery leadership model
+- Haggai: 6-9 month ministry with message to "build"
+- Zechariah: Decades-long ministry of apocalyptic visions providing affirmation and hope
+- Malachi: Q&A dialogue between God and people
+- Esther: The Purim story and question of God's mission
+
+### The Ending Tension
+
+Tanakh concludes not with resolution but with tension:
+- How should God's people respond to foreign empires?
+- What does it mean to be God's partner under Persian, Greek, or Roman rule?
+- Different perspectives exist on how to engage with imperial powers
+- This unresolved tension sets the stage for Jesus' arrival
+
+## Examples & Applications
+
+### The Genesis 1 Principle in Modern Life
+
+The book "Tattoos on the Heart" by Greg Boyle (mentioned in the episode) illustrates Genesis 1 theology in action. Boyle's work with gang members in Los Angeles demonstrates what happens when people believe God is "crazy about His creation." When we trust that God loves His creation and has made it good, we can:
+- Lay down our lives for others without fear
+- Act from abundance rather than scarcity
+- See intrinsic worth in every person, even those society rejects
+
+In contrast, when we doubt God's goodness:
+- We operate from fear and self-preservation
+- We hoard resources
+- We devalue others to elevate ourselves
+- We create the very chaos and brokenness we fear
+
+### Empire vs. Shalom in Contemporary Context
+
+**Empire mentality shows up when:**
+- Corporations prioritize shareholder profit over employee wellbeing
+- Nations build security through military dominance rather than justice
+- Individuals climb career ladders by undermining colleagues
+- Churches grow by attracting transfers rather than transforming communities
+- We consume without considering environmental or human cost
+
+**Shalom mentality shows up when:**
+- Businesses structure themselves for stakeholder benefit (employees, communities, environment)
+- Nations pursue security through addressing root causes of conflict
+- Individuals use their platform to elevate others
+- Churches measure success by neighborhood transformation
+- We make consumption choices based on impact on vulnerable populations
+
+### The "Alien, Orphan, Widow" Lens
+
+Deuteronomy's call to "remember" creates a specific lens for seeing the world. In contemporary application:
+
+**Historical memory**: "You were slaves, aliens, orphans, widows"
+- Remembering our own vulnerability, powerlessness, or marginalization
+- Recognizing we all have been or could be in vulnerable positions
+
+**Present awareness**: "You will always have aliens, orphans, widows"
+- Immigrants and refugees (modern aliens)
+- Children in foster care, those who've lost parents (modern orphans)
+- Single parents, elderly without family support, abandoned spouses (modern widows)
+
+**Responsive action**: When we remember our story, we notice and respond to current vulnerability
+
+### Solomon's Warning for Organizations
+
+Solomon's trajectory offers a cautionary tale for modern institutions:
+1. Start with good intentions and noble goals
+2. Adopt "efficient" imperial methods to achieve those goals quickly
+3. Build something impressive that requires increasing extraction to maintain
+4. Become the very oppressor you originally opposed
+5. Create a system successors cannot sustain
+6. Collapse follows
+
+This pattern appears in:
+- Churches that build empires requiring constant growth to maintain staff and buildings
+- Non-profits that adopt corporate methods and lose their mission
+- Revolutionary movements that become oppressive regimes
+- Individuals who compromise values for success, then can't sustain the image
+
+### Two Perspectives on Our Own Failures
+
+The Samuel/Kings vs. Chronicles framework offers wisdom for contemporary self-reflection:
+
+**In the moment** (Samuel/Kings perspective):
+- We often focus on surface-level failures
+- Moral failures and obvious sins get attention
+- "We have a morality problem"
+
+**Looking back** (Chronicles perspective):
+- With time and distance, deeper patterns emerge
+- Systemic issues and root causes become visible
+- "We were right about the symptoms, but we missed the disease"
+
+Churches might initially address:
+- Sexual immorality, substance abuse (Samuel/Kings view)
+
+But later recognize the deeper issue was:
+- Empire-building, ignoring injustice, failing to see the vulnerable (Chronicles view)
+
+Both perspectives are valuable, but the deeper structural critique often only becomes clear with time and reflection.
+
+### The Prophetic Pattern in Modern Advocacy
+
+The Warning-Woe-Hope structure models healthy prophetic voice today:
+
+**Warning**: Calling attention to injustice before crisis
+- Environmental activists warning about climate change
+- Anti-racism educators calling for systemic change
+- Economic justice advocates highlighting inequality
+
+**Woe**: Naming the reality of consequences already unfolding
+- Documenting harm already caused
+- Grieving and lamenting what's been lost
+- Being honest about the severity of the situation
+
+**Hope**: Pointing toward restoration and possibility
+- Never ending with only doom
+- Holding space for God's redemptive work
+- Painting vision of what could be
+
+The prophets model how to be truth-tellers without becoming cynics, how to grieve without despairing, and how to hope without denying reality.
+
+## Potential Areas for Further Exploration
+
+### Theological Deep Dives
+
+1. **Creation Theology and Trust**
+   - How does belief in "very good" creation shape ethics, environmentalism, and human dignity?
+   - What are the psychological and spiritual implications of viewing creation through scarcity vs. abundance?
+   - How do different creation narratives (Genesis 1 vs. Genesis 2-3) complement each other?
+
+2. **Covenant and Partnership**
+   - What does it mean to be God's partner rather than merely His subject or servant?
+   - How does the marriage metaphor (Hosea, Exodus) shape our understanding of covenant?
+   - What are the mutual obligations in biblical covenant relationships?
+
+3. **Priesthood and Missional Identity**
+   - What does "kingdom of priests" mean for individual believers and corporate church?
+   - How does Levitical priesthood inform New Testament "priesthood of all believers"?
+   - What is the relationship between holiness/distinctiveness and engagement with the world?
+
+4. **Empire Critique and Biblical Politics**
+   - How do biblical texts critique imperial power structures?
+   - What alternatives to empire does Scripture offer?
+   - How should modern believers engage with state power and nationalism?
+
+### Historical and Cultural Studies
+
+5. **The Silent Years (Intertestamental Period)**
+   - What happened between Malachi and Matthew?
+   - How did Persian, Greek, and Roman rule shape Judaism?
+   - What are the Maccabean revolts and why do they matter for understanding Jesus?
+   - How did Pharisees, Sadducees, Essenes, and Zealots emerge?
+
+6. **Dual Perspectives in Historical Narrative**
+   - Why do Samuel/Kings and Chronicles tell the same story differently?
+   - What can we learn from multiple perspectives on the same events?
+   - How should we read "biased" historical accounts in Scripture?
+
+7. **Prophetic Literature and Poetry**
+   - How do we interpret prophetic imagery and symbolism?
+   - What is the relationship between forth-telling (speaking truth to power) and foretelling (prediction)?
+   - How do we distinguish time-bound cultural elements from timeless principles?
+
+### Practical Applications
+
+8. **Remembrance and Social Justice**
+   - How does "remembering" function as spiritual practice?
+   - What is the connection between memory and moral action?
+   - How can communities practice corporate remembrance?
+
+9. **Celebration and Justice**
+   - What is the relationship between festival/party and noticing the oppressed?
+   - How can communities celebrate in ways that reveal rather than hide injustice?
+   - What does it mean to "party correctly" in biblical terms?
+
+10. **Leadership Models: Ezra vs. Nehemiah**
+    - When is pastoral shepherding leadership most needed?
+    - When is prophetic fiery leadership most appropriate?
+    - How can these different styles complement each other?
+    - What are the strengths and weaknesses of each approach?
+
+### Literary and Structural Analysis
+
+11. **Chiastic Structure in Biblical Literature**
+    - What is chiasm and why does Hebrew literature use it?
+    - How does the chiastic structure of Lamentations function?
+    - What other biblical books display chiastic patterns?
+
+12. **Alphabetic Acrostics**
+    - Why use alphabetic acrostics in poetry (Lamentations, Psalms 119)?
+    - What is the literary and theological function of this structure?
+    - How does form shape content in these texts?
+
+### Thematic Connections
+
+13. **The Suffering Servant**
+    - How does Isaiah's servant develop across Second and Third Isaiah?
+    - What are the different interpretive traditions about the servant's identity?
+    - How did early Christians read these texts in light of Jesus?
+
+14. **Wisdom as Prophetic Voice**
+    - How does wisdom literature (Job, Proverbs, Ecclesiastes) function prophetically?
+    - What is the relationship between wisdom and Torah?
+    - How do wisdom books critique conventional religious thinking?
+
+15. **Apocalyptic Literature**
+    - What is apocalyptic literature and why does it emerge?
+    - How do Daniel and Zechariah use apocalyptic imagery?
+    - What is the relationship between apocalyptic and prophetic literature?
+
+## Comprehension Questions
+
+### Question 1: The Empire vs. Shalom Framework
+**Q:** Explain the central difference between Empire and Shalom as presented in this episode. How does this binary help understand the narrative arc of Scripture? Provide at least one biblical example of each.
+
+**Answer Guidelines:**
+- Empire operates from self-centered worldview, achieving goals by pushing others down, prioritizing personal desires regardless of impact
+- Shalom operates from other-centered worldview, self-sacrificial posture, ensuring those around us have what they need
+- This binary runs from Exodus through Revelation as the core tension
+- Empire examples: Egypt, Assyria, Babylon, Solomon's kingdom
+- Shalom examples: God's rescue of Israel, the priesthood model, the prophetic call to justice
+- This framework helps identify the core conflict in every biblical story
+
+### Question 2: The Purpose of Remembering
+**Q:** According to Deuteronomy's message, what is the purpose of remembering that Israel were once "slaves, aliens, orphans, and widows"? What is the connection between memory and action?
+
+**Answer Guidelines:**
+- Remembering our own vulnerability creates empathy for currently vulnerable people
+- When we remember we were aliens, we notice current aliens
+- When we remember being orphans, we see current orphans
+- When we remember being widows, we respond to current widows
+- Aliens, orphans, and widows will always exist in a broken world
+- God needs His partners to see these vulnerable populations
+- Memory becomes the lens for moral awareness and responsive action
+- Forgetting our story leads to ignoring current oppression
+
+### Question 3: Two Perspectives on History
+**Q:** What are the two different perspectives on Israel's history represented in Samuel/Kings versus Chronicles? Why are both perspectives valuable, and what does Chronicles reveal that Samuel/Kings missed?
+
+**Answer Guidelines:**
+- Samuel/Kings: Northern Kingdom perspective, real-time reporting, focused on idolatry and immorality
+- Chronicles: Southern Kingdom perspective, written centuries later, focused on empire and injustice
+- Samuel/Kings takes an "agenda-driven headline" approach
+- Chronicles takes a "documentary" approach looking back
+- Chronicles recognizes "we were right but we missed the bigger picture"
+- Both moral failure (idolatry/immorality) and systemic failure (empire/injustice) are real
+- Sometimes we only see deeper structural problems with time and distance
+- Multiple perspectives on the same events provide fuller understanding
+
+### Question 4: The Prophetic Pattern
+**Q:** Describe the three-part structure of the prophetic message: Warning, Woe, and Hope. Why are all three elements necessary? Give examples of prophets representing each element.
+
+**Answer Guidelines:**
+- **Warning**: Call to return before judgment (Amos, Hosea, Micah, First Isaiah, Zephaniah)
+- **Woe**: Announcement of judgment and lament (Second Isaiah, Jeremiah, Lamentations)
+- **Hope**: Promise of restoration (Joel, Ezekiel, Daniel, Third and Fourth Isaiah)
+- All three are necessary for complete prophetic message
+- Warning gives opportunity for repentance
+- Woe honestly names reality and consequences
+- Hope prevents despair and points toward God's redemptive work
+- This pattern allows for truth-telling without cynicism
+- It models grieving without despairing
+- It offers hope without denying reality
+
+### Question 5: Solomon's Trajectory
+**Q:** How did Solomon's kingdom represent a return to Egypt, and what does this teach about the danger of using imperial methods to achieve good goals? What made his kingdom unsustainable?
+
+**Answer Guidelines:**
+- Solomon likely had good intentions and was trying to do the right thing
+- He used "Imperial methods" to accomplish his goals
+- This brought the story full circle - Solomon became "the new Pharaoh"
+- The kingdom required extraction and oppression to maintain
+- His successors couldn't sustain what he built
+- This led to political insecurity, kingdom splitting, and unraveling
+- The lesson: using Empire methods ultimately recreates Empire
+- Good intentions don't justify oppressive means
+- What's built through imperial power requires imperial power to maintain
+- The sustainability question reveals the fundamental flaw in the approach
+
+## Personalized Summary
+
+Session 2 of the BEMA Podcast traces the grand narrative of the Hebrew Scriptures as a coherent story about God seeking partners to restore creation. The journey begins with the foundational truth that God's creation is good, and we can therefore live from trust rather than fear. Through the dysfunctional but ultimately faithful patriarchs, we see that God works through imperfect people who lean into His story.
+
+The central tension throughout Scripture is between Empire (self-centered power and extraction) and Shalom (self-sacrificial restoration). God rescued Israel from Egyptian Empire to become His partners - a kingdom of priests called to restore the world. Through Torah, God educated this partner in what priesthood means: right relationship with God (atonement), distinct living, celebration that reveals the oppressed, and above all, remembering their story so they would notice and respond to aliens, orphans, and widows.
+
+The historical period reveals the tragedy of partnership gone wrong. Israel asked for kings like the nations, and while David represented God's heart, Solomon used imperial methods that transformed him into a new Pharaoh. The kingdom split, and two different perspectives emerged on why things fell apart: Samuel/Kings blamed idolatry and immorality, while Chronicles (written centuries later) identified the deeper issue - the lust for empire and injustice.
+
+Into this unraveling, God sent prophets with a consistent three-part message: Warning (return before judgment), Woe (honest lament about consequences), and Hope (promise of restoration). Through Assyrian conquest, Babylonian exile, and Persian restoration, these prophetic voices called God's people back to their identity and mission.
+
+The Hebrew Scriptures end not with resolution but with tension: How should God's partners engage with Empire? This unresolved question sets the stage for Session 3 and the arrival of Jesus, who will embody the answer to how Shalom overcomes Empire.
+
+The power of this narrative framework is that it provides a lens for reading every biblical story and for engaging our own world. We still face the choice between Empire and Shalom. We still must remember our own vulnerability to notice current vulnerability. We still need both immediate moral awareness (Samuel/Kings) and deeper structural critique (Chronicles). We still need the prophetic pattern of Warning, Woe, and Hope. And we still await the full realization of God's restoration project, partnering with Him in the meantime to put the world back together.
+
+## Additional Resources
+
+### Books Mentioned
+- **"Tattoos on the Heart"** by Greg Boyle - Contemporary application of Genesis 1 theology working with gang members in Los Angeles
+
+### Ministry Information
+- **BEMA Discipleship**: BEMAdiscipleship.com
+- **Impact Campus Ministries**: Support for college student ministry and general campus ministry work
+- Support options include monthly recurring gifts, annual gifts, and donations to general fund
+
+### What's Next
+- **Session 3**: Focus on the Gospels and the life of Jesus
+- **The Silent Years**: Critical period between Old and New Testaments that transformed Judaism
+- **Gospel Study**: Primarily using Matthew's Gospel to walk through every story and parable of Jesus' life
+- **Publishing Schedule**: Episodes will release every other week initially, then weekly
+
+### Study Tips
+- Don't get lost in Session 1 - continue forward to see how the story develops
+- Session 2 (the Prophets) is challenging but essential
+- The repetition in prophetic literature reinforces the Warning-Woe-Hope pattern
+- Understanding Tanakh's narrative arc is crucial preparation for understanding Jesus
+- Review the visual slides/diagrams provided in show notes for structured overview
+
+**Podcast Details:**
+- Episode: BEMA 72
+- Title: Session 2 Capstone
+- Hosts: Marty Solomon (@martysolomon) and Brent Billings (@eibcb)
+- Website: BEMAdiscipleship.com
+- Format: Capstone/Summary Episode
+- Length: Session 2 Review + Session 3 Preview

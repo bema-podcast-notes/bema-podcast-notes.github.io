@@ -1,0 +1,311 @@
+# BEMA Episode 108: The Fruit of Beelzebul - Study Notes
+
+## Title & Source Summary
+
+**Episode:** 108 - The Fruit of Beelzebul  
+**Hosts:** Marty Solomon and Brent Billings
+**Focus:** Matthew 12:22-50 - Jesus's response to the Pharisees' accusation that He works by the power of Beelzebul, His teaching on blasphemy against the Holy Spirit, the sign of Jonah, and His redefinition of family
+
+This episode explores one of the most contentious confrontations between Jesus and the Pharisees, where religious leaders accuse Jesus of casting out demons by the power of Beelzebul (Satan). Marty unpacks the cultural and theological background of this accusation, clarifies what Jesus means by the "unforgivable sin," and reveals how Jesus's teaching about good and bad trees applies directly to discerning God's work in unexpected places. The episode concludes with Jesus's radical redefinition of family based on doing the will of the Father rather than biological relationships.
+
+## Key Takeaways
+
+- The accusation of working by Beelzebul was the Pharisees attempting to dismiss Jesus's ministry as satanic or pagan idolatry rather than the work of God
+- Jesus's logic is clear: a kingdom divided against itself cannot stand, so He cannot be casting out demons while simultaneously working for evil
+- Blasphemy against the Holy Spirit is not an unforgivable moment in time, but rather the ongoing stance of opposing what God is clearly doing in the world
+- Jesus applies His "good tree/good fruit" teaching from the Sermon on the Mount to demonstrate that His ministry bears undeniable good fruit
+- The sign of Jonah is not primarily about Jesus's resurrection but about Gentiles responding to God's message while religious insiders miss it
+- What we look for, we will find - if we look for the Kingdom of God in unexpected places, we will discover it
+- True transformation comes not from expelling evil but from filling our lives with the good things we were created to do
+- Jesus redefines family around those who do the will of the Father, creating tension with biological family expectations
+
+## Main Concepts & Theories
+
+### Beelzebul: Lord of the Flies vs. Lord of the Heavens
+
+The term "Beelzebul" originates from the Old Testament and has two possible etymological backgrounds:
+
+1. **Baal-Zebub (Lord of the Flies)**: The more likely interpretation connects to Philistine mythology where Baal was believed to cast out disease. Since flies were associated with sickness, death, and decay in ancient cultures, Baal was seen as the one who could drive away flies and therefore disease. The Philistines worshiped "Baal-Zebub" as the lord who controls and expels sickness.
+
+2. **Baal-Zebul (Lord of the Heavens)**: An alternative interpretation suggests the original term was "Baal-Zebul" meaning "heavenly lord" or "lord of all," which the Hebrews mockingly corrupted to "Baal-Zebub" (lord of flies) to ridicule Philistine worship.
+
+The Pharisees' accusation that Jesus works by Beelzebul suggests they believe He is using pagan, demonic power rather than divine authority. This is particularly offensive given that Jesus has just healed a demon-possessed man who was blind and mute.
+
+### Jesus's Logical Response: A Kingdom Divided Cannot Stand
+
+Jesus responds with three devastating logical arguments:
+
+1. **Internal Contradiction**: "If Satan drives out Satan, he is divided against himself. How then can his kingdom stand?" Evil cannot work against itself without self-destruction.
+
+2. **Unique Authority**: "By whom do your people drive them out?" Jesus points out that casting out demons is unique to His ministry. While other rabbis performed miracles (healing the sick, even raising the dead like Elijah), driving out demons was understood in Second Temple Jewish thought as something only God could do. Demons are spiritual entities that only God has authority over.
+
+3. **The Strong Man Principle**: "How can anyone enter a strong man's house and carry off his possessions unless he first ties up the strong man?" Jesus must be stronger than the demonic realm to plunder it, proving He cannot be part of it.
+
+### Blasphemy Against the Holy Spirit: The Unforgivable Sin
+
+The Greek word "blasphemeo" means to speak ill of, tear down, or slander. Jesus's warning about blasphemy against the Holy Spirit is often misunderstood as a specific unforgivable moment, but the teaching is more nuanced:
+
+**What it IS:**
+- Standing in opposition to what God is clearly doing
+- Seeing the work of the Holy Spirit and calling it evil
+- Religious leaders using their influence to work counter to God's obvious activity
+- Becoming the "anti-story" - God's people working against God's purposes
+
+**What it is NOT:**
+- A single mistake that permanently damns someone
+- Theological disagreement or critique
+- Missing the point or getting something wrong
+- Doubting or questioning
+
+Jesus distinguishes between speaking "against the Son of Man" (which can be forgiven) and speaking "against the Holy Spirit" (which cannot be forgiven). This reflects the difference between critiquing a teacher or disagreeing with doctrine versus actively opposing God's work when the Holy Spirit is clearly bearing testimony to it.
+
+The warning is particularly directed at religious leaders who are "astute theologically" and "religiously trained" but who use their knowledge and influence to stand in the way of what God is doing. The sin isn't unforgivable because God won't forgive it; it's unforgivable because you cannot receive forgiveness while actively standing in that place of opposition.
+
+### Good Trees and Good Fruit: Discerning God's Work
+
+Jesus applies His teaching from the Sermon on the Mount (Matthew 7:15-20) directly to this situation:
+
+"Make a tree good and its fruit will be good, or make a tree bad and its fruit will be bad. For a tree is recognized by its fruit."
+
+The key insight: You don't identify a bad tree by looking for bad fruit - you identify a good tree by finding good fruit. Jesus argues:
+
+- The demonically oppressed are healed
+- The blind receive sight
+- The lame walk
+- Those with leprosy are cured
+
+This undeniable good fruit proves Jesus cannot be a bad tree. The Pharisees want to assign evil motives to obviously good outcomes, which defies logic and observation.
+
+This principle has profound implications for how we view people who don't "wear the right labels" but produce good fruit in the world. If we see genuine good fruit - love, justice, compassion, freedom, healing - we should recognize God's work regardless of the source.
+
+### The Sign of Jonah: When Outsiders Get It and Insiders Don't
+
+When the Pharisees demand a sign, Jesus responds with the "sign of Jonah." While Matthew (writing after the resurrection) includes a reference to "three days and three nights" that readers would connect to Jesus's death and resurrection, the primary meaning must be something the original audience could understand.
+
+Jesus points to two Old Testament examples:
+
+1. **Nineveh**: The pagan city that repented at Jonah's preaching
+2. **Queen of Sheba**: The Gentile queen who traveled to hear Solomon's wisdom
+
+The pattern is clear: **Gentiles responded to God's message while God's people resisted.**
+
+Jesus's point: "You want a sign? The Gentiles are believing! The very thing your scriptures predicted would happen is happening before your eyes - outsiders are coming into the Kingdom of God - and you're missing it."
+
+This teaching challenges us to ask: Are we missing the obvious? Are we setting up camp with the Pharisees, asking God for signs of things that are already happening all around us?
+
+### What You Look For, You Will Find
+
+Marty shares a principle from one of his favorite teachers: "What you look for, you will find."
+
+- If we look for the world being corrupt and falling apart, we will find it
+- If we look for broken places and disharmony, there are plenty of examples
+- If we look for everything wrong and all the ways people mess up, failure abounds
+
+**But:**
+
+- If we look for the Kingdom of God bursting forth in unexpected places
+- If we try to find light shining in dark places
+- If we stay attentive to the work of God in people who don't wear the T-shirts
+- We might find God more than ever
+
+The challenge: Are there "signs of Jonah" all over our world that we're missing because we're looking for the wrong things?
+
+### Darkness and Light: Transformation Through Addition, Not Subtraction
+
+In the teaching about the unclean spirit returning with seven others (Matthew 12:43-45), Jesus illustrates a profound principle about spiritual transformation:
+
+**The Problem with Subtraction:**
+Darkness is not a thing - it's the absence of light. You cannot physically grab darkness and remove it. Similarly, evil and brokenness in our lives cannot simply be expelled through willpower and effort.
+
+**The Solution Through Addition:**
+The only way to get rid of darkness is to turn on the light. The only way to overcome evil in our lives is to fill the void with the good things we were created to do.
+
+Jesus criticizes the Pharisees: "You're working so hard to expel what's wrong, to push out evil, to get rid of the evil spirit. The problem is you're not working hard at putting anything good in its place. Where's the goodness? Where's the compassion? Where's the justice?"
+
+**Practical Application:**
+Marty shares personally about struggling with pornography addiction: "We can work so hard to get rid of a thing and it never actually works. We spend all of our energy trying to not engage porn... That porn addiction is the absence of the thing that you were created to do. The porn addiction isn't actually a thing. You can't get rid of it. You can only do the thing you were made to do."
+
+The breakthrough came not through fighting the addiction but through discovering and pursuing his calling - memorizing and studying the Text with passion. When he filled his life with what he was made to do, the addiction lost its power.
+
+### Redefining Family: Biology vs. Doing the Will of the Father
+
+When Jesus's mother and brothers come wanting to speak to Him, Jesus makes a radical statement:
+
+"Who is my mother, and who are my brothers? Here are my mother and my brothers. For whoever does the will of my Father in heaven is my brother and sister and mother."
+
+**The Family Rift:**
+Marty suggests there was genuine tension in Jesus's family. Mary, despite treasuring everything about Jesus's miraculous birth in her heart, was still human with limited perspective. She may have expected Jesus to be something different than what He became. His family stands outside, not sitting at His feet - they want Him to come out to them, not willing to engage with what He's doing inside.
+
+**The Tension:**
+This creates a difficult paradox, especially for college-age students:
+- The commandment to honor father and mother remains
+- Jesus never broke this commandment and honored Mary and Joseph
+- Yet there comes a moment where obedience to God's calling may conflict with family expectations
+
+**The Resolution:**
+Jesus isn't giving license to disrespect parents or abandon family. Rather, He's establishing priority: "I'm not going to miss out on the thing that God is doing in God's household (beit av) just to keep this other beit av happy."
+
+The key is honoring and respecting biological family while not forsaking the truer, deeper family created by doing the will of the Father. It's a tension to manage with grace, not a binary choice.
+
+Notably, the family eventually comes around - it will be Mary at the foot of the cross, and Jesus with John saying, "Behold, your mother, and woman, behold your son." One of Jesus's last acts was healing the rift in His family.
+
+## Examples & Applications
+
+### Recognizing Good Fruit in Unexpected Places
+
+**The Challenge:**
+Many Christians are taught that non-believers cannot truly do good - that when they're happy, they're not really happy; when they're patient, it's really selfishness; whatever good you see is actually bad because good can only come from believers.
+
+**Jesus's Teaching:**
+This runs contrary to everything Jesus teaches. When you see good fruit - genuine love, justice, compassion, healing, freedom - it's God at work. The sign of Jonah is all around us.
+
+**Application:**
+- Look for the Kingdom of God in people who don't wear Christian T-shirts
+- Recognize and celebrate good fruit wherever it appears
+- Be surprised by where God is working
+- Don't dismiss obvious good just because it comes from an unexpected source
+
+### Fighting Addiction Through Calling, Not Willpower
+
+**The Problem:**
+Spending enormous energy trying to "not engage" something - whether pornography, substance abuse, negative thought patterns, or other struggles. This approach focuses on subtraction (removing the bad) rather than addition (adding the good).
+
+**The Principle:**
+The addiction or struggle is the absence of the thing you were created to do. It cannot be expelled directly; it can only be displaced by filling your life with your God-given purpose.
+
+**Practical Steps:**
+1. Identify what you were made to do - your calling, passion, purpose
+2. Pursue that calling with intentionality and energy
+3. Fill your time and attention with productive, life-giving activities
+4. Allow the good to displace the bad naturally
+
+**Marty's Example:**
+After returning from Israel and Turkey with a fire to study Scripture, spending 3-4 hours daily memorizing and studying the Text, he found that his pornography addiction simply lost its grip. He didn't fight it directly; he filled his life with something better.
+
+### Asking for Signs of What's Already Happening
+
+**The Pharisees' Error:**
+They demanded signs while God's work was happening all around them. Gentiles were responding to the Kingdom message, fulfilling prophetic expectations, and they were missing it entirely.
+
+**Modern Application:**
+How often do we:
+- Pray for God to move while ignoring where He's already moving?
+- Ask for signs of revival while dismissing spiritual hunger in unexpected places?
+- Wait for God to show up while He's already present in the margins?
+- Look for "biblical" manifestations while missing the Kingdom in front of us?
+
+**The Invitation:**
+Pay attention to where people are responding to truth, goodness, justice, and love - even if they don't use our language or fit our expectations. That might be the sign of Jonah.
+
+### Managing Family Tension with Grace
+
+**The Reality:**
+Many people face moments where their calling from God creates tension with family expectations. This might involve:
+- Career choices that family doesn't understand
+- Ministry direction that disappoints parental hopes
+- Theological evolution that concerns relatives
+- Life decisions that break family patterns
+
+**The Balance:**
+1. Honor and respect family genuinely (this is non-negotiable)
+2. Don't forsake the calling God has placed on your life
+3. Communicate clearly and compassionately
+4. Maintain relationship while establishing boundaries
+5. Trust that family may come around with time (as Jesus's family did)
+6. Recognize you're part of a bigger family of those doing God's will
+
+**The Long View:**
+Family rifts can be healed. Jesus Himself experienced family misunderstanding and ultimately reconciliation. Walking faithfully may eventually bring family into the very thing they initially opposed.
+
+## Potential Areas for Further Exploration
+
+### The Three Days and Three Nights Pattern
+
+Marty suggests there are remez (hints/allusions) to "three days and three nights" throughout the Old Testament beyond just the Jonah reference. Research questions:
+
+- What other significant events in Scripture involve three days and three nights?
+- How does the pattern of three days relate to biblical themes of death and resurrection?
+- What would the original audience have understood from this reference?
+- Are there rabbinic teachings about the significance of three days?
+
+### The Seven Nations and Seven Spirits
+
+Marty wonders about a connection between the seven spirits that return to the "swept clean house" and the seven nations of Canaan that Israel was supposed to expel and replace. Exploration areas:
+
+- What is the biblical significance of the number seven in judgment contexts?
+- How does the Conquest narrative relate to spiritual warfare?
+- What happens when God's people expel evil but don't fill the land with righteousness?
+- Are there parallels between Israel's incomplete conquest and incomplete personal transformation?
+
+### Beelzebul in Intertestamental Literature
+
+The episode focuses on Old Testament background, but further study could examine:
+
+- How did Second Temple Judaism understand Beelzebul/Beelzebub?
+- What do the Dead Sea Scrolls or other intertestamental writings say about demonic hierarchy?
+- How did Jewish exorcism practices differ from what Jesus demonstrated?
+- What authority did rabbis claim over demons (if any) in Jesus's time?
+
+### The Anti-Story Theme
+
+Marty references Session 1's teaching about God's people becoming the "anti-story." This deserves deeper exploration:
+
+- What are biblical examples of God's people opposing God's purposes?
+- How do religious systems become obstacles to spiritual transformation?
+- What are warning signs that we're becoming the anti-story?
+- How can religious communities maintain faithfulness without becoming gatekeepers who exclude God's work?
+
+### Good Fruit in Non-Christian Contexts
+
+Jesus's teaching raises profound questions about common grace and the Kingdom of God:
+
+- What does it mean that Gentiles are experiencing the Kingdom of God?
+- How do we understand good fruit produced by people of other faiths or no faith?
+- What is the relationship between explicit faith in Jesus and participation in Kingdom work?
+- How does recognizing good fruit outside Christianity affect evangelism and mission?
+
+### The Nature of Blasphemy Against the Holy Spirit
+
+While the episode provides helpful clarity, deeper questions remain:
+
+- Can someone commit this sin unknowingly?
+- How do we distinguish between blasphemy and honest doubt or critique?
+- What role does repentance play in making this sin "unforgivable"?
+- Are there historical examples of people who committed this sin and later repented?
+- How should this warning shape pastoral care and counseling?
+
+### Family Systems and Calling
+
+Jesus's interaction with His family touches on complex dynamics:
+
+- How do we navigate cultural family expectations that differ from Kingdom values?
+- What does honoring parents look like when pursuing a calling they oppose?
+- How can churches better support people facing family tension over calling?
+- What are healthy boundaries in family relationships for those in ministry?
+- How do we distinguish between godly conviction and rebellion?
+
+## Comprehension Questions
+
+1. **Explain the logical argument Jesus uses to refute the Pharisees' accusation that He casts out demons by Beelzebul.** Why is casting out demons uniquely significant in Second Temple Jewish thought, and how does this strengthen Jesus's argument?
+
+2. **What is blasphemy against the Holy Spirit, and why is it described as unforgivable?** Distinguish between what this sin is and what it is not, and explain why Jesus directs this warning specifically to the Pharisees.
+
+3. **Jesus says "a tree is recognized by its fruit" when responding to the Pharisees.** How does this principle apply to the Pharisees' accusation, and what are the implications for how we should evaluate spiritual movements or individuals today?
+
+4. **What is the primary meaning of the "sign of Jonah" that Jesus's original audience would have understood?** How does this differ from the post-resurrection meaning that Matthew's readers would recognize, and what challenge does this sign present to religious insiders?
+
+5. **Describe the principle of darkness and light that relates to the teaching about the unclean spirit returning with seven others.** How does this principle apply to personal transformation and overcoming destructive patterns, and why is "trying not to do something" an ineffective strategy?
+
+## Personal Summary
+
+This episode addresses one of the most intense confrontations between Jesus and religious leaders, revealing how theological knowledge can become a barrier to recognizing God's work. The Pharisees saw miraculous good fruit - healing, deliverance, restoration - and called it evil because it didn't fit their expectations or threatened their authority.
+
+Jesus's response is both logical and pastoral. He demonstrates the absurdity of their accusation (Satan can't fight himself), the uniqueness of His authority (only God casts out demons), and the evidence of good fruit (undeniable healings and freedom). But His warning about blasphemy against the Holy Spirit goes deeper - it's not about a single unforgivable moment but about the dangerous position of opposing what God is clearly doing.
+
+The "sign of Jonah" cuts to the heart of religious blindness: outsiders were responding to God while insiders demanded more proof. This pattern continues today when we miss God's work in unexpected places because we're looking for the wrong things. What we look for, we will find.
+
+The teaching about the returning unclean spirit revolutionizes how we think about transformation. We cannot overcome darkness by fighting it; we can only displace it with light. We cannot defeat evil by trying harder; we can only fill our lives with the good things we were created to do. This shifts the focus from subtraction (stop doing bad) to addition (start doing good).
+
+Finally, Jesus's redefinition of family around those who do the will of the Father creates both tension and hope. Biological family matters and should be honored, but there's a deeper family formed by shared obedience to God. The tension this creates is real and difficult, but Jesus models that it's possible to honor both while keeping our hand to the plow.
+
+The episode challenges us to examine where we might be standing with the Pharisees - missing the obvious, opposing the good, demanding signs of what's already happening. It invites us to look for the Kingdom in unexpected places, to recognize good fruit regardless of the source, and to pursue transformation by filling our lives with purpose rather than fighting our darkness directly.

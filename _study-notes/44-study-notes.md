@@ -1,0 +1,255 @@
+# BEMA 44: Our Harps in the Trees - Study Notes
+
+## Title & Source Summary
+
+This episode explores the Book of Psalms as a collection of ancient songs that served as worship music, prayer, and emotional expression for the people of Israel. The hosts examine how the Psalms provided space for every human emotion and experience in relationship with God, from praise and thanksgiving to lament and calls for vengeance. The episode emphasizes that the Psalms are practical tools for navigating the redemption cycle and maintaining faith during life's various seasons.
+
+## Key Takeaways
+
+- The Psalms are songs meant to be sung corporately by God's people, functioning as the "pop music" of ancient Hebrew culture
+- There is a Psalm for every emotion and situation - "there's a Psalm for that"
+- The Psalms include multiple categories: lament (communal and individual), thanksgiving, praise, hymns, and imprecatory (vengeance) Psalms
+- Psalms 120-134 are specifically designated as "Psalms of Ascent" - songs for pilgrimage journeys to Jerusalem
+- The Psalms create space for authentic expression of all emotions to God, including anger, grief, and desires for vengeance
+- Imprecatory Psalms can do transformative work by allowing expression of vengeance while preventing its actual pursuit
+- Psalm 109 demonstrates how a Psalm can shift perspective from expressing anger toward enemies to reflecting on what those enemies might say about the Psalmist
+- Modern worship culture often lacks space for lament and diverse emotional expression that the Psalms modeled
+- Singing is a spiritual discipline - sometimes we sing for others when they cannot, and sometimes others sing for us
+- The most tragic moment in biblical history is when God's people hung their harps in the trees by the rivers of Babylon, having nothing left to sing about
+
+## Main Concepts & Theories
+
+### The Psalms as Wisdom Literature/Tools for the Journey
+
+The Psalms are categorized as part of the wisdom literature, which the BEMA hosts prefer to call "tools for the journey." These are resources given to help God's people navigate the ongoing redemption cycle. Unlike doctrinal statements or theological treatises, the Psalms engage the heart through poetry and music, providing emotional and spiritual sustenance during life's struggles.
+
+### Categories of Psalms
+
+The episode references a categorization table that breaks Psalms into several types:
+
+**Psalms of Lament** (Communal and Individual)
+- Example: Psalm 12 - expressing grief over the disappearance of faithful people and the prevalence of lies and flattery
+- These create space for authentic grief and pain in community and personal worship
+
+**Psalms of Thanksgiving and Praise**
+- Example: Psalm 8 - celebrating God's majesty and humanity's dignified place in creation
+- These express gratitude and wonder at God's character and works
+
+**Hymnic Psalms/Doxologies**
+- Example: Psalm 150 - pure praise using every instrument and calling all creation to worship
+- These are celebrations designed for corporate worship gatherings
+
+**Imprecatory Psalms**
+- Example: Psalm 109 - calling for judgment and vengeance on enemies
+- These are among the most difficult Psalms for modern readers to understand
+
+### Psalms of Ascent (Psalms 120-134)
+
+These fifteen Psalms were specifically written for pilgrimage journeys to Jerusalem for festivals like Passover and Sukkot. What makes them remarkable is their diversity - they contain songs for every emotional state a traveler might experience. Some years the journey to Jerusalem would be joyful, other years filled with despair or frustration, and the Psalms of Ascent provided appropriate songs for each mood.
+
+- Psalm 120 expresses distress, frustration with deceitful tongues, and the weariness of living among those who hate peace
+- Psalm 128 celebrates blessing, family, prosperity, and peace
+
+This collection demonstrates that authentic worship doesn't require pretending to feel a certain way but rather expressing truth to God regardless of emotional state.
+
+### The Function of Imprecatory Psalms
+
+Imprecatory Psalms are those that call for God's vengeance on enemies. The famous example includes phrases like "dash their children upon the rocks" (Psalm 137:9). These Psalms serve multiple purposes:
+
+1. **Authentic Expression**: They demonstrate that God can handle our raw, unfiltered emotions, including anger and desire for revenge
+2. **Preventing Violence**: By giving voice to vengeance, these Psalms help people avoid actually pursuing revenge themselves - "leave vengeance to me," says the Lord (Romans 12:19)
+3. **Transformative Reflection**: Some imprecatory Psalms, like Psalm 109, can work transformation in the singer over time
+
+### Psalm 109: A Deep Dive into Imprecatory Prayer
+
+Psalm 109 presents a fascinating case study. At first reading, it appears to be a straightforward vengeance prayer with three sections:
+
+1. **Verses 1-5**: The Psalmist describes being surrounded by enemies (plural) despite showing them friendship
+2. **Verses 6-19**: Calls for judgment on "my enemy" (singular) - wishes for death, widowhood, fatherless children, total destruction
+3. **Verses 20-31**: Returns to personal petition and praise
+
+The Hebrew grammar reveals something profound. Verse 20 can be translated two ways:
+- "May this be the LORD's payment to my accusers" (traditional)
+- "This is what my accusers want Adonai to do" (alternate, supported by David Stern's Complete Jewish Bible)
+
+The shift from plural "enemies" in the first section to singular "enemy" in the middle section suggests the Psalmist may be quoting what his accusers are saying about him. This interpretation is strengthened by the consistent singular pronouns throughout the imprecatory section.
+
+This means the Psalm can do transformative work: Initially, the singer expresses frustration toward enemies, but upon repeated singing and reflection, begins to consider what enemies might justly say about them. The Psalm moves from external anger to internal reflection - a sophisticated emotional and spiritual technology.
+
+The episode suggests this Psalm may have originated from David's encounter with Nabal and Abigail (1 Samuel 25), where David intended to kill Nabal and his men out of anger but was convinced by Abigail to reconsider, later reflecting on how his enemies had a case against him.
+
+### The Absence of Lament in Modern Worship
+
+Modern church culture has largely eliminated space for lament, maintaining an exclusively upbeat, energetic, praising atmosphere. The episode critiques this as insufficient for the full range of human experience. The example given is of a family who lost their 20-something son unexpectedly to a heart attack - they came to church the following week and found no musical space to express their grief, only songs declaring "God is good, God is awesome."
+
+In contrast, biblical worship culture through the Psalms created explicit space for:
+- Communal lament (after tragedies affecting the whole community)
+- Individual lament (personal suffering and loss)
+- Anger at injustice
+- Calls for God to act
+- Wrestling with doubt and pain
+
+### Song as Communal Spiritual Practice
+
+The episode emphasizes that singing is often a spiritual discipline rather than spontaneous expression. Key insights include:
+
+1. **Singing for Others**: Sometimes when attending worship, you sing not because you feel like it, but to bear witness for others who are struggling
+2. **Others Singing for You**: In seasons of depression, cynicism, or despair, watching others sing with authentic faith can sustain your own faith
+3. **Testimony Through Song**: The image of the grieving family closing their eyes, tears streaming, hands raised in worship despite their loss becomes a powerful testimony that "if they can praise God in their grief, I'm going to be okay"
+4. **Beyond Doctrine**: In moments of struggle, people don't turn to doctrinal statements or belief pages on websites - they turn to song, poetry, and meditative moments that engage the soul
+
+### The Tragedy of Babylon: Harps in the Trees
+
+The episode's title comes from the exile narrative when God's people were marched to Babylon. Psalm 137:1-2 records: "By the rivers of Babylon we sat and wept when we remembered Zion. There on the poplars we hung our harps."
+
+When their captors mockingly demanded, "Sing us one of the songs of Zion," the people had no song left. They hung their instruments in the trees because they had reached a place of such despair that nothing seemed worth singing about.
+
+This is identified as "one of the greatest, most tragic moments in biblical history" - when God's people found themselves with nothing to sing about and nothing to sing for. The episode's prayer is that modern believers would never reach that place, but instead would always find their harps, pull them from the trees, and discover a way to express whatever worship they need to express to God.
+
+## Examples & Applications
+
+### Real-World Application: Charleston Church Shooting
+
+The episode references the 2015 Charleston church shooting where a white supremacist killed nine African American church members during a Bible study. The hosts wonder whether that community had access to communal Psalms of lament during their recovery, or whether modern worship constraints prevented them from expressing their collective grief and anger through song. This illustrates how ancient practices might better serve contemporary tragedies than current worship models.
+
+### Personal Example: Watching Others Worship in Grief
+
+Marty shares a powerful personal testimony of watching a family from his church who had just lost their 20-something son unexpectedly to a heart attack. Despite the worship songs being inadequate to their grief ("God is good, God is awesome" praise songs), he watched them close their eyes with tears running down their cheeks, lift their hands, and praise God anyway. This image has sustained him for years during his own moments of cynicism, pessimism, and despair, reminding him that if they could find space to praise God amid their grief, he would be okay. This illustrates the principle of singing for one another in community.
+
+### Biblical Example: David, Nabal, and Abigail (1 Samuel 25)
+
+Though not recounted in full in the episode, the hosts suggest Psalm 109 may have originated from David's experience with Nabal and Abigail. David, furious at Nabal's insult after protecting his flocks, set out with his men to kill Nabal and all his household. Abigail, Nabal's wife, intercepted David with provisions and wisdom, convincing him that taking vengeance would bring bloodguilt on him. David blessed her for keeping him from acting rashly. Later, God struck Nabal dead, vindicating David without David having to act.
+
+This narrative demonstrates how imprecatory Psalms might function: giving voice to legitimate anger and desire for justice while surrendering actual vengeance to God. David's later reflection might have produced a Psalm that both expresses anger and leads to self-examination about whether enemies have legitimate grievances.
+
+### Liturgical Example: Psalms of Ascent as Road Trip Songs
+
+The Psalms of Ascent (120-134) functioned as "car songs" for ancient Israelites making pilgrimage to Jerusalem three times yearly. Unlike modern road trip playlists that might aim for a consistent mood, these pilgrimage songs acknowledged that different years and different journeys would carry different emotional weights. One year you might sing Psalm 128 about blessing and prosperity; another year Psalm 120 about dwelling among those who hate peace. The practice normalized bringing your actual emotional state to worship rather than performing an expected mood.
+
+### Cultural Example: Pop Music vs. Doctrinal Statements
+
+The episode makes the point that when people are struggling, they don't seek comfort in theological propositions or church doctrinal statements. Instead, they turn to music, poetry, and contemplative practices. This explains why the Psalms functioned as the "pop music" of Hebrew culture - they were what people had on their lips, in their hearts, accessible and meaningful in ways that more formal religious discourse could never be. Modern worship music serves a similar function, which is why its emotional range matters so significantly.
+
+## Potential Areas for Further Exploration
+
+### The Literary Structure and Poetry of Hebrew Psalms
+
+The episode focuses on categories and emotional content but doesn't deeply explore Hebrew poetic devices like parallelism, chiasm, acrostic structure, or the technical aspects of psalm construction. Further study could examine:
+- How Hebrew poetry works differently from Western poetry
+- The use of parallelism (synonymous, antithetical, synthetic)
+- Acrostic Psalms (like Psalm 119 where each section begins with successive Hebrew letters)
+- Chiastic structures that place key themes at the center
+- The role of selah and other musical notations
+
+### The Use of Psalms in Jewish Liturgy
+
+The episode mentions corporate singing and pilgrimage but doesn't detail how Psalms were integrated into daily prayers, Sabbath liturgy, or festival celebrations. Areas to explore:
+- The daily Hallel (Psalms of praise)
+- Psalms in the Siddur (prayer book)
+- Psalms for specific festivals and occasions
+- The Great Hallel (Psalm 136) and its responsive structure
+- Midnight Psalms and mourning practices
+
+### Messianic Psalms and New Testament Interpretation
+
+Many Psalms are interpreted as prophetic of the Messiah and are quoted extensively in the New Testament. Further study could examine:
+- Royal Psalms and their Messianic application
+- Psalm 22 and the crucifixion
+- Psalm 2 and Jesus as the anointed King
+- Psalm 110 as the most quoted Old Testament passage in the New Testament
+- How Jesus used Psalms (especially on the cross)
+- Early Christian interpretation and application
+
+### The Role of Music in Ancient Israelite Worship
+
+The episode mentions instruments (Psalm 150) but doesn't explore:
+- The role of Levitical musicians and singers in Temple worship
+- Specific instruments mentioned and their cultural significance
+- How melodies might have sounded (ancient musicology)
+- The relationship between music and sacrifice
+- The professionalization of Temple musicians
+
+### Comparative Study: Lament in Different Traditions
+
+Since the episode critiques the absence of lament in modern evangelical worship, further exploration could include:
+- How Catholic, Orthodox, and Anglican traditions handle lament
+- The role of requiem masses and funeral liturgies
+- African American spirituals and the blues as lament traditions
+- How other religious traditions incorporate lament
+- The therapeutic value of ritualized grief
+
+### Imprecatory Psalms and Ethics of Vengeance
+
+The episode introduces imprecatory Psalms but doesn't fully address the ethical questions they raise:
+- How do these Psalms relate to Jesus' teaching to love enemies?
+- The difference between personal vengeance and God's justice
+- Whether Christians should pray imprecatory Psalms today
+- The psychological and spiritual value of expressing vs. suppressing anger
+- How imprecatory Psalms relate to nonviolence and peacemaking
+
+### Authorship and Historical Context of Individual Psalms
+
+Many Psalms include superscriptions attributing them to David or other authors with historical notes. Further study could examine:
+- Which Psalms are genuinely Davidic and which are later compositions?
+- Psalms associated with specific events in David's life
+- Psalms of Asaph, the Sons of Korah, and other authors
+- Psalms from the exile and post-exilic periods
+- How historical context illuminates interpretation
+
+### The Theology of the Psalms
+
+The Psalms contain rich theological content that could be systematically explored:
+- The character and attributes of God in the Psalms
+- Creation theology in the Psalms
+- The covenant and Torah in Psalms
+- Wisdom theology (especially Psalm 1, 19, 119)
+- Temple theology and the presence of God
+- Eschatology and hope in the Psalms
+
+### Psalms in Christian Worship History
+
+How have Christians used Psalms throughout history?
+- Psalm-singing in the early church
+- Monastic psalm recitation (praying through all 150 Psalms weekly)
+- The Reformation and metrical Psalms
+- Psalms in contemporary worship movements
+- Why some traditions sing only Psalms (exclusive psalmody)
+
+### Emotional and Psychological Dimensions of the Psalms
+
+Building on the episode's emphasis on emotional authenticity:
+- The Psalms and mental health
+- Lament as a therapeutic practice
+- The psychology of praise and gratitude
+- Processing trauma through psalm-like expression
+- The neuroscience of music and worship
+
+## Comprehension Questions
+
+1. **What are the Psalms of Ascent (Psalms 120-134), and why is it significant that they contain songs expressing different emotional states?**
+
+   The Psalms of Ascent are fifteen Psalms specifically designated for pilgrimage journeys to Jerusalem for festivals. Their significance lies in their emotional diversity - they include songs for distress (Psalm 120) and songs for blessing and joy (Psalm 128). This variety demonstrates that authentic worship doesn't require pretending to be in a particular emotional state. Different years and different journeys would carry different moods, and the Psalms provided appropriate expressions for each. This models bringing one's actual experience to God rather than performing an expected happiness.
+
+2. **Explain how Psalm 109 can be understood as doing transformative work in the person praying it, according to the grammatical analysis presented in the episode.**
+
+   Psalm 109 begins with the Psalmist describing plural "enemies" who have surrounded him (verses 1-5), but then shifts to singular pronouns when describing desired vengeance (verses 6-19). The Hebrew in verse 20 can be translated either as "May this be the LORD's payment to my accusers" or "This is what my accusers want Adonai to do." The shift from plural to singular suggests the middle section might be quoting what the Psalmist's enemies say about him. This means that initially the Psalm expresses anger outward, but upon repeated singing, can lead to self-reflection: "What would my enemies say about me? Do they have a valid point?" The Psalm moves from expressing vengeance to prompting examination of one's own behavior.
+
+3. **What is the primary function of imprecatory Psalms, and how does this relate to the biblical principle of leaving vengeance to God?**
+
+   Imprecatory Psalms serve to give voice to desires for vengeance without actually pursuing revenge. By naming and expressing anger and the desire for justice through song and prayer, these Psalms provide an outlet that prevents people from taking matters into their own hands. They demonstrate that God can handle our raw emotions, including anger, and they help us surrender vengeance to God rather than pursuing it ourselves. This aligns with the biblical principle "Leave vengeance to me, says the Lord" - the Psalms become the mechanism for handing that vengeance over through expression rather than action.
+
+4. **According to the episode, what is lacking in modern worship culture, and what real-world example illustrates this gap?**
+
+   Modern evangelical worship culture lacks space for lament and diverse emotional expression, maintaining an exclusively upbeat, energetic, praising atmosphere. The example given is a family who lost their adult son unexpectedly to a heart attack. When they came to church the following week, the worship songs were all praise songs declaring "God is good, God is awesome," providing no musical space for them to express their grief corporately. In contrast, biblical worship through the Psalms created explicit space for both communal and individual lament, anger at injustice, and wrestling with pain - not just celebration and praise.
+
+5. **What does it mean that singing is a spiritual discipline, and how does the practice of corporate singing support individuals who are struggling in their faith?**
+
+   Singing as a spiritual discipline means we don't always sing because we feel like it, but because it's a practice we maintain regardless of emotion. In corporate worship, this creates a reciprocal support system: sometimes you sing for others when they cannot find words or faith, and sometimes others sing for you when you're in despair, cynicism, or depression. The example given is of the grieving family who, despite inadequate worship songs, closed their eyes with tears streaming and lifted their hands to praise God. Watching them became a sustaining testimony for the observer: "If they can find space to praise God in their grief, I'm going to be okay." This illustrates how communal singing bears witness to shared faith even when individuals struggle to believe.
+
+## Brief Summary
+
+BEMA Episode 44 explores the Book of Psalms as a comprehensive collection of worship songs that provided ancient Israel - and can provide us today - with musical and poetic tools for every season of faith. The Psalms encompass praise, thanksgiving, lament, anger, celebration, and even calls for vengeance, demonstrating that God welcomes authentic emotional expression rather than requiring a performance of constant happiness.
+
+The episode particularly highlights the Psalms of Ascent (120-134) as pilgrimage songs for every mood, and carefully examines imprecatory Psalms - especially Psalm 109 - showing how they can both express legitimate anger and lead to self-reflection and transformation. The hosts critique modern worship culture for eliminating space for lament, arguing that authentic worship requires room for the full range of human experience.
+
+Central to the episode is the understanding that singing is a communal spiritual discipline: we sing for one another when faith falters, and others' worship sustains us in our darkest moments. The tragic image of God's people hanging their harps in the trees by the rivers of Babylon - having nothing left to sing about - serves as a warning and an invitation to always find our harps, pull them down, and discover a way to express whatever worship we need to bring to God. The Psalms are not merely religious texts but living tools for navigating the redemption cycle, engaging our hearts through poetry and music in ways that doctrinal statements never could.

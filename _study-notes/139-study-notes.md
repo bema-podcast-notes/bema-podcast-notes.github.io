@@ -2,8 +2,8 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 139: Theosabes  
-**Hosts:** Marty Solomon & Brent Billings  
+**Episode:** BEMA 139: Theosabes    
+**Hosts:** Marty Solomon & Brent Billings    
 **Topic:** Paul's first missionary journey to Cyprus and Pisidian Antioch, exploring the complex relationship between Jews, converts, and God-fearing Gentiles in the early Christian movement. The episode examines how Paul's ministry challenged existing religious boundaries and social structures in the Greco-Roman world.
 
 ## Key Takeaways

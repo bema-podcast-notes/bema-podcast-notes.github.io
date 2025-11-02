@@ -68,7 +68,9 @@ def process_study_notes_file(study_notes_path):
         return False, f"Error reading session file: {str(e)}"
     
     # Check if session file contains "No notes yet."
-    if "No notes yet." not in session_content:
+    if "### BEMA Episode" in session_content:
+        return False, f"Session file {session_file} already contains '### BEMA Episode' notes - skipping"
+    elif "No notes yet." not in session_content:
         return False, f"Session file {session_file} doesn't contain 'No notes yet.' - skipping"
     
     # Adjust markdown headings in study content

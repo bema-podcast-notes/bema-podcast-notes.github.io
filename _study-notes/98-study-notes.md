@@ -1,0 +1,232 @@
+# BEMA Episode 98: A Good Eye - Study Notes
+
+## Title & Source Summary
+
+**Episode:** 98 - A Good Eye  
+**Hosts:** Marty Solomon and Brent Billings
+**Focus:** Matthew 6:19-34, 7:1-12 (Sermon on the Mount)
+
+This episode explores a crucial Hebrew idiom embedded in Jesus's Sermon on the Mount teaching about worry, generosity, and judgment. The hosts unpack the ancient concept of "ayin tovah" (a good eye) versus "ayin ra'ah" (a bad eye), demonstrating how this framework connects the seemingly disconnected teachings on treasure, worry, judgment, and prayer. The discussion reveals how Jesus challenges his disciples to trust God's story from Genesis 1, which fundamentally shapes how we view the world, treat others, and respond to scarcity versus abundance.
+
+## Key Takeaways
+
+- The phrase "the eye is the lamp of the body" is not about physical eyesight but refers to the Hebrew idiom of having a "good eye" (ayin tovah) or "bad eye" (ayin ra'ah)
+- A "good eye" means viewing the world generously, optimistically, and with trust in God's abundance, while a "bad eye" means viewing the world through scarcity, worry, and fear
+- Worry is the primary obstacle to generosity and directly leads to judging others
+- Jesus's teaching on not judging refers specifically to passing value judgments on people's worth, not about discerning right from wrong
+- The "dogs and pigs" metaphor refers to Gentiles, and Jesus warns against throwing Torah teachings at people who haven't agreed to follow God's covenant
+- All of these teachings are interconnected: treasure determines heart focus, which shapes our eye/perspective, which affects worry, which influences generosity and judgment
+- The Sermon on the Mount is not a collection of unrelated sayings but a cohesive "thread" of thought centered on how we treat people
+
+## Main Concepts & Theories
+
+### The Hebrew Idiom: Ayin Tovah vs. Ayin Ra'ah
+
+In rabbinical tradition, people were described as having either a "good eye" (ayin tovah) or a "bad eye" (ayin ra'ah). This wasn't about physical vision but about one's worldview:
+
+**Ayin Tovah (Good Eye):**
+- Seeing the world in a positive light
+- Choosing to see possibilities, potential, and goodness
+- Connected to generosity and a posture of abundance
+- Rooted in trusting God's story from Genesis 1 (that the world is fundamentally good)
+- Results in being generous with time, resources, and judgment of others
+
+**Ayin Ra'ah (Bad Eye):**
+- Seeing the world through scarcity and fear
+- Focusing on sin, disruption, corruption, and what's wrong
+- Connected to stinginess and hoarding
+- Rooted in starting the story at Genesis 3 (the fall)
+- Results in worry, lack of generosity, and harsh judgment of others
+
+The NIV translation notes helpfully indicate that "healthy" eyes imply generosity, while "unhealthy" eyes imply stinginess, capturing this Hebrew concept.
+
+### The Connection Between Treasure, Heart, and Eye
+
+Jesus builds a logical progression:
+1. **Treasure determines heart focus** - "Where your treasure is, there your heart will be also"
+2. **Heart focus shapes your eye** - Whether you have a good or bad eye depends on what you treasure
+3. **Your eye fills your being** - A good eye fills you with light; a bad eye fills you with darkness
+4. **This determines your master** - You either serve God (abundance) or money (scarcity)
+
+### Worry as the Enemy of Generosity
+
+Jesus explicitly connects worry to the eye metaphor. Worry is incompatible with ayin tovah:
+- Worry assumes scarcity ("there won't be enough")
+- Worry prevents generosity ("if I give, I'll lack")
+- Worry stems from not trusting God's provision
+- Jesus points to birds and flowers as examples of God's faithful provision
+- The antidote to worry is seeking first God's kingdom and his tzedekah (righteousness/generosity)
+
+### Three Types of Judgment
+
+The episode clarifies that when Jesus says "do not judge," he's addressing a specific type of judgment:
+
+1. **Civil Judgment** - Legal judgments made by courts and judges (NOT what Jesus is addressing)
+
+2. **Judgment of Discernment** - Distinguishing between right and wrong, holy and common, light and darkness. The rabbis said, "In the beginning, God separated light from darkness and that is forever our task as well." This is a legitimate and necessary form of judgment (NOT what Jesus is prohibiting)
+
+3. **Value Judgment of People** - Determining the worth of human beings. THIS is what Jesus forbids. Only God can judge the value of a person. We cannot decide who has worth and who doesn't.
+
+### Dogs, Pigs, and Pearls
+
+**Context for Understanding:**
+- "Dogs" and "pigs" were Jewish figures of speech for Gentiles/pagans
+- "Pearls" in rabbinic thought refers to teachings, wisdom, and Torah
+- "Stringing pearls" means connecting teachings from throughout Scripture
+
+**Jesus's Warning:**
+People who claim to speak for God cannot throw their morality before people who haven't agreed to follow it. Key applications:
+- We can't impose Torah/biblical morality on those who never signed up for that covenant
+- Parents struggle with this when trying to force Jesus-based morality on children who don't follow Jesus
+- Christians often try to hold the secular world to biblical standards they never agreed to
+- Instead of throwing pearls, we should let our good deeds shine, bringing shalom to chaos
+- The goal is to create openness through relationship and witness, not through demands
+
+### The Connection Between Worry and Judgment
+
+The hosts propose a crucial insight: **we judge people because we worry.**
+
+Specifically:
+- We don't forgive because we worry offenders won't get what they deserve
+- We're afraid that forgiveness means what they did was "okay"
+- We're worried there won't be restitution or justice
+- This worry leads us to pass value judgments on people's worth
+- Political and social divisions are rooted in worry about "the other side"
+
+### Ask, Seek, Knock in Context
+
+The famous passage about prayer is not a standalone promise but part of this unified teaching:
+- When worried that people won't get their "comeuppance," give that to God
+- Ask God to handle justice and do the right thing
+- Trust that God knows how to give good gifts
+- The teaching isn't about getting whatever we pray for, but about praying for what God wants to do
+- It's about trusting God to handle what we're worried about
+
+### Trusting the Story
+
+Throughout the episode, the hosts circle back to Session 1 of BEMA's concept of "trusting the story":
+- God created a good world (Genesis 1, not Genesis 3)
+- God has our best interests in mind
+- God knows what we need and provides at the right time
+- This was taught in the desert: "Man shall not live by bread alone"
+- Trusting this story produces ayin tovah, which produces generosity, which reduces worry and judgment
+
+## Examples & Applications
+
+### Modern Political Division
+
+The hosts note that both sides of the current sociopolitical spectrum are "bathed in worry":
+- One group worries about certain people "coming in and taking everything"
+- Another group worries that others will "screw everything up"
+- This worry causes both sides to judge the other's worth
+- When we set worry aside and don't judge, we discover others are "more human than we realized"
+- They're not the "dogs and pigs" we thought they were
+- Giving others the benefit of the doubt enables working together
+
+### Parents and Children
+
+Multiple applications are mentioned regarding parent-child relationships:
+- Parents throwing religious platitudes at adolescent or college-age children
+- Children often react against these "pearls" by pushing harder in the opposite direction
+- Parents trying to impose Christian morality on children who haven't chosen to follow Jesus
+- The better approach is building relationship and creating openness rather than making demands
+
+### College Students and Friends
+
+Students often write asking how to handle friends doing "horrible things":
+- The key question is: "Are they Jesus followers?"
+- If not, we must be careful about using Jesus-based morality as our measuring stick
+- We can't use "because Leviticus says..." on people who never signed up for Leviticus
+- The focus should be on witness and relationship, not moral demands
+
+### Herodian Tendencies
+
+Brent identifies strongly with the Herodian worldview in this passage:
+- Herodians prioritized security, wealth, and comfort
+- Jesus's teaching on not worrying about food, drink, and clothing would make Herodians uncomfortable
+- Many modern Christians are functionally Herodian despite different theological commitments
+- We serve the god of money while claiming to serve God
+
+### Seeing with a Good Eye in Scripture Study
+
+Once you start seeing the Sermon on the Mount through the lens of ayin tovah, you notice:
+- The same themes from beginning to end
+- Everything connects to how we treat people
+- The progression isn't chunks but a continuous thread of thought
+- Tzedekah (righteousness/generosity) ties throughout the teaching
+
+## Potential Areas for Further Exploration
+
+1. **Lois Tverberg's Books:**
+   - "Walking in the Dust of Rabbi Jesus" (discusses ayin tovah/ra'ah)
+   - "Sitting at the Feet of Rabbi Jesus" (discusses "stringing pearls")
+
+2. **Dallas Willard's "The Divine Conspiracy":**
+   - Explores how these concepts in the Sermon on the Mount flow together
+   - Discusses the connection between worry and judgment in depth
+
+3. **The Story in Matthew 15 (Syrophoenician Woman):**
+   - Jesus refers to not giving children's bread to "dogs"
+   - The woman embraces the metaphor and responds with faith
+   - The hosts promise to address this story in a future episode
+
+4. **Genesis 1 vs. Genesis 3 as Starting Points:**
+   - How starting with creation (goodness) vs. the fall (sin) shapes entire worldviews
+   - Connection between creation theology and abundance mentality
+   - How this affects mission, evangelism, and cultural engagement
+
+5. **The Desert Lessons in Session 1:**
+   - How Israel learned to trust God's provision in the wilderness
+   - The meaning of "man shall not live by bread alone"
+   - Connection between manna and Jesus's teaching on worry
+
+6. **Rabbinical Teaching on Separating Light from Darkness:**
+   - The ongoing human task of discernment
+   - How this relates to sanctification and moral formation
+   - Balancing discernment with non-judgment
+
+7. **Kingdom Theology and Social Engagement:**
+   - How to "let your light shine" without throwing pearls before swine
+   - The difference between witness and moral imposition
+   - Bringing shalom to chaos in practical terms
+
+8. **The Whole Sermon on the Mount as One Teaching:**
+   - Reviewing the entire sermon in light of this unified thread
+   - How each section builds on and reinforces the others
+   - The centrality of "people, people, people" throughout
+
+9. **Tzedekah (Righteousness) as Generosity:**
+   - Hebrew understanding of righteousness as care for others
+   - How this differs from Western concepts of righteousness
+   - The connection between justice, generosity, and right relationship
+
+10. **Forgiveness and Justice:**
+    - How to balance forgiveness with concern for justice
+    - Trusting God to handle what offenders "deserve"
+    - The relationship between worry, control, and unforgiveness
+
+## Comprehension Questions
+
+1. What is the difference between "ayin tovah" and "ayin ra'ah," and how does this Hebrew idiom help us understand Jesus's teaching about the eye being the lamp of the body?
+
+2. According to the episode, what is the primary obstacle to generosity, and how does it lead to judging others? Trace the connection between these concepts in Jesus's teaching.
+
+3. When Jesus says "do not judge," what specific type of judgment is he prohibiting? What types of judgment are legitimate and necessary, and why is this distinction important?
+
+4. What do "dogs," "pigs," and "pearls" represent in Jesus's teaching, and what is the practical application of his warning not to throw pearls before swine? How does this relate to modern Christian witness?
+
+5. How does the "ask, seek, knock" passage about prayer connect to the preceding teachings on worry and judgment? What is Jesus actually inviting his disciples to do when they're worried about justice and others getting what they deserve?
+
+## Summary
+
+Episode 98 reveals that the Sermon on the Mount is far more unified than many realize. At its center is the Hebrew concept of the "good eye" (ayin tovah) - a way of viewing the world through the lens of God's abundance, goodness, and trustworthiness established in Genesis 1.
+
+When we have a good eye, we see possibilities, trust God's provision, and respond with generosity. When we have a bad eye (ayin ra'ah), we see scarcity, which produces worry, which stifles generosity and leads us to pass value judgments on others. Jesus systematically dismantles this destructive pattern by calling us back to trust - trust in the God who feeds birds, clothes flowers, and knows exactly what we need.
+
+The radical implication is that our worry about others (whether they'll "get what's coming to them") reveals our lack of trust in God's justice. Instead of judging people's worth, we're called to give that concern to God in prayer, trusting that our Father knows how to give good gifts. This applies not just to individual relationships but to our broader social and political anxieties about "the other side."
+
+Perhaps most challenging is Jesus's warning about throwing pearls before swine - we cannot impose biblical morality on people who never signed up for God's covenant. Instead, we must focus on witness, relationship, and bringing shalom to chaos, allowing people to come to God with open hearts rather than feeling judged and condemned.
+
+The golden thread running through it all: treat others as you want to be treated, for this sums up the law and the prophets. In the end, trusting the story still changes everything.
+
+**Note:** This is the 100th episode of the BEMA Podcast (numbered as Episode 98 due to early numbering conventions).

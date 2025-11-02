@@ -1,0 +1,211 @@
+# BEMA Episode 61: Ezekiel - Strength
+
+## Title & Source Summary
+
+This episode examines the apocalyptic visions of the prophet Ezekiel and his message of encouragement to the people of Judah trapped in Babylonian exile. The focus is on understanding Ezekiel as a prophet of strength who uses apocalyptic imagery to communicate that God has not abandoned his people, but has actually accompanied them into exile and will return with them when they rebuild.
+
+## Key Takeaways
+
+- Ezekiel represents a shift in prophetic voice from warning and woe to hope and strength during the exilic period
+- The name "Ezekiel" means "God strengthens" or "strengthened by God" (from the Hebrew word *chazak*)
+- Ezekiel introduces apocalyptic literature to convey hope through symbols and images about the present, not primarily about future events
+- Ezekiel employed "guerrilla theater" - dramatic prophetic actions designed to communicate God's message to the people
+- The central message: God's presence departed the temple and went east with the exiles to Babylon, and will return west with them when they rebuild
+- Apocalyptic literature uses images and symbols to convey hope to their present day, not to predict specific future events
+
+## Main Concepts & Theories
+
+### The Exilic Prophetic Voice
+
+The exilic period required a fundamentally different prophetic approach than earlier periods. While pre-exilic prophets focused on warning and pronouncing woe, the time for preventive repentance had passed. The people now faced different questions:
+
+- Are we going to be here forever?
+- What did we do to deserve this?
+- Has God forsaken us?
+- Is God even real?
+
+These questions necessitated a message of strength and hope rather than judgment. The people needed empowerment to "choose the right in the middle of the wrong" and overcome their circumstances.
+
+### Strength (*Chazak*)
+
+The Hebrew word *chazak* means "to strengthen" and appears in several significant contexts:
+
+- In Pharaoh's hardened heart (strengthened/hardened)
+- In Joshua's commission: *chazak va'chamatz* ("be strong and courageous")
+- In Ezekiel's name: *Chazak-iel* ("God strengthens")
+
+This concept of strength operates on two levels:
+1. Ezekiel himself needed strength for his difficult prophetic calling
+2. Ezekiel's message was intended to strengthen God's people in exile
+
+### Apocalyptic Literature
+
+Ezekiel introduces a new literary genre to the biblical narrative. Key characteristics:
+
+**Definition**: Apocalyptic literature uses images and symbols to convey hope to their present day.
+
+**Etymology**: The word "apocalyptic" means "to uncover" or "to reveal," suggesting present revelation rather than future prediction.
+
+**Purpose**: Not primarily about predicting future events or providing blueprints for end-times scenarios, but about "peeling back the curtain" to reveal what is actually happening in the present spiritual reality.
+
+**Common Misconception**: Western interpretation has done significant damage to understanding prophecy and eschatology by treating apocalyptic literature as a detailed roadmap of future events rather than symbolic communication about present circumstances.
+
+### Ezekiel's Guerrilla Theater
+
+Ezekiel was not primarily an author but a performer - a thespian who enacted prophetic messages. Examples include:
+
+**Ezekiel 4**: Building a model of Jerusalem from materials (possibly like Legos), cutting his hair with a sword and burning some in the model, chopping up the model to symbolize Jerusalem's destruction, and cooking food over animal excrement (after negotiating with God to use animal rather than human waste).
+
+This dramatic approach involved:
+- Running into busy public areas
+- Enacting shocking prophetic messages
+- Leaving quickly while the audience processed the meaning
+
+### The Vision of God's Mobility (Ezekiel 1)
+
+The opening vision contains several crucial elements:
+
+**Four as Universal Symbol**: The creatures with four faces looking in four directions represent the four corners of the earth - the most inclusive, expansive language possible. God can see everything, everywhere.
+
+**Eyes Everywhere**: The abundance of eyes on the creatures and wheels emphasizes God's comprehensive vision - nothing goes unseen.
+
+**Synchronized Movement**: Everything moves together perfectly - creatures, wings, and wheels in complete coordination.
+
+**Wheel Technology**: Unlike other throne room visions, Ezekiel's emphasizes movement through extensive imagery of wheels. This is revolutionary because:
+- Traditional Jewish belief held that God's presence was located in the tabernacle/temple
+- The temple had been destroyed
+- The vision of wheels communicates that God is mobile and not confined to a specific location
+
+### The Journey of God's Presence
+
+**Ezekiel 10 - Departure**: The glory of the Lord departs from the destroyed temple and heads east - the direction of Babylon where the people have been exiled.
+
+**Implication**: God's presence was not trapped in or destroyed with the temple. God accompanied his people into exile.
+
+**Later Chapters - Return**: In the closing chapters, Ezekiel prophesies that God's presence will return from the east as the people return to rebuild Jerusalem.
+
+This creates a powerful narrative arc:
+1. God's presence was in the temple
+2. The people were exiled east to Babylon
+3. God's presence departed and went east with them
+4. The people will return west to rebuild
+5. God's presence will return west with them
+
+### Parallel to the Tower of Babel
+
+The episode notes an interesting parallel: In both the Tower of Babel story and the Babylonian exile, people move east and God desires them to return west. However, in the exile, the movement east is involuntary punishment rather than willful disobedience.
+
+## Examples & Applications
+
+### Contemporary Relevance of Exile Questions
+
+The questions faced by the exiles remain relevant today:
+- Modern believers experiencing spiritual dryness may wonder if God has forsaken them
+- Communities facing displacement or persecution may question God's presence
+- Personal crises can trigger doubts about God's care and reality
+
+Ezekiel's message applies: God's presence is not confined to specific locations or circumstances but moves with his people.
+
+### Apocalyptic Literature in Modern Context
+
+Understanding apocalyptic literature properly prevents:
+- Endless speculation about end-times scenarios
+- Using ancient texts as detailed predictive blueprints
+- Missing the present-focused encouragement these texts offer
+
+Instead, readers should ask: "What hope is this symbolic language conveying about present circumstances?"
+
+### Creative Communication of Truth
+
+Ezekiel's use of guerrilla theater demonstrates that:
+- Truth can be communicated through dramatic, artistic means
+- Shocking or unconventional methods may be necessary to break through apathy
+- The mind of an innovator, creativity of an artist, and imagination of a storyteller can serve prophetic purposes
+
+Modern application: The church must be creative, industrious, and innovative in communicating hope to contemporary culture.
+
+### Strength Through Explanation and Assurance
+
+Ezekiel strengthens the people through:
+1. Partial explanation (Ezekiel 16-17 explain reasons for exile)
+2. Assurance of God's continued presence
+3. Vision of future restoration
+
+This model applies to pastoral care: People experiencing hardship need both honest acknowledgment of causes and assured hope for the future.
+
+## Potential Areas for Further Exploration
+
+### Detailed Symbolism in Ezekiel 1
+
+- What do the specific animals (lion, ox, eagle, human) represent?
+- Why are the rims described as "high and awesome" and "full of eyes"?
+- What is the significance of the fire, lightning, and brilliant light?
+- How does the "vault sparkling like crystal" function in the vision?
+
+### Other Apocalyptic Literature in the Old Testament
+
+The episode mentions four books containing apocalyptic literature:
+- Ezekiel (studied here)
+- Daniel (mentioned for future study)
+- Zechariah (mentioned for in-depth apocalyptic discussion)
+- What is the fourth book?
+
+### Ezekiel's Other Major Visions
+
+- The Valley of Dry Bones (Ezekiel 37)
+- The Vision of the New Temple (Ezekiel 40-48)
+- How do these visions communicate strength and hope?
+
+### Comparison with Other Exilic Prophets
+
+- How does Ezekiel's message compare with other exilic prophets?
+- What unique contributions does each exilic prophet make?
+- How do their styles and emphases differ?
+
+### The Relationship Between Warning, Woe, and Hope
+
+- What determines which prophetic voice is appropriate for which circumstances?
+- Can all three exist simultaneously?
+- How do we discern which message contemporary situations require?
+
+### Jewish Interpretation of Ezekiel
+
+The episode notes that even within Jewish scholarship, Ezekiel is "one of the most difficult prophecies to unpack in all of its detail and nuance." Further study could explore:
+- Traditional Jewish commentaries on Ezekiel
+- Mystical (Kabbalistic) interpretations of the chariot vision
+- Restrictions on who could study certain passages
+
+### The Nature of God's Presence
+
+- How does the theology of God's presence develop throughout Scripture?
+- What is the relationship between God's omnipresence and his manifest presence?
+- How does the concept of God's mobile presence relate to incarnation and the Holy Spirit?
+
+### Prophetic Calling and Personal Cost
+
+Ezekiel's difficult calling (not quite as severe as Jeremiah's, but still challenging) raises questions:
+- What makes a prophetic calling "difficult"?
+- How do prophets find strength for their own challenging circumstances?
+- What support systems did prophets have?
+
+## Comprehension Questions
+
+1. **Conceptual Understanding**: Explain the meaning of the Hebrew word *chazak* and how it relates to Ezekiel's name and message. Why is "strength" an appropriate theme for an exilic prophet?
+
+2. **Literary Genre**: Define apocalyptic literature according to the episode's framework. How does this definition differ from popular contemporary understandings of apocalyptic texts, and why does this distinction matter?
+
+3. **Theological Interpretation**: Trace the movement of God's presence in the book of Ezekiel (direction of departure and return). What theological message does this convey to the exiles about God's character and relationship with his people?
+
+4. **Symbolic Analysis**: What elements in Ezekiel's vision (chapter 1) emphasize God's comprehensive sight and unlimited mobility? List at least three specific details and explain their significance.
+
+5. **Application**: The episode states that Ezekiel strengthens God's people through "encouragement," "explanation," and "assurance." Give one specific example of each from the book of Ezekiel and explain how it would provide strength to people in exile.
+
+## Summary
+
+BEMA Episode 61 reframes the book of Ezekiel as a message of strength for a people in crisis. Rather than viewing Ezekiel's bizarre visions as cryptic predictions about the distant future, the episode reveals them as carefully crafted symbols conveying urgent hope about present reality.
+
+The central revelation is profound in its simplicity: God is not trapped in destroyed buildings or limited to specific geographic locations. The same presence that dwelt in the temple departed eastward with the exiles to Babylon and will return westward with them when they rebuild. The extensive imagery of wheels, eyes, and synchronized movement in Ezekiel's opening vision establishes this revolutionary concept - God is mobile, all-seeing, and faithful to accompany his people wherever they go.
+
+Ezekiel emerges not as an obscure mystical writer but as a creative communicator using the tools of apocalyptic imagery and dramatic performance to answer the desperate questions of a defeated people: No, you are not abandoned. Yes, God is still with you. Yes, there is hope for restoration. The prophet whose name means "God strengthens" delivers exactly what the exiles need - not explanations for every detail of their suffering, but assurance that their God has not forsaken them and that their story is not finished.
+
+This message transcends the ancient exile, speaking to any community or individual who wonders whether God's presence remains in the midst of destruction, displacement, or despair. Ezekiel declares that divine presence is not confined to our structures, traditions, or expectations, but moves with us through every circumstance, maintaining faithful covenant relationship until the day of restoration comes.

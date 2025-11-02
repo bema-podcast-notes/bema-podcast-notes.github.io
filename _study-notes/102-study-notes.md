@@ -1,0 +1,166 @@
+# BEMA Episode 102: Son of Man - Study Notes
+
+## Title & Source Summary
+
+**Episode:** 102 - Son of Man  
+**Hosts:** Marty Solomon and Brent Billings
+**Focus:** Mark 2:1-12, Matthew 9:1-17, Hosea 6:6, Jeremiah 7, 16, 25, Daniel's "Son of Man" imagery
+
+This episode explores the story of the paralyzed man lowered through a roof by his friends, focusing on Jesus's declaration of forgiveness and his use of the title "Son of Man." The hosts examine how Jesus challenges conventional expectations about justice versus mercy, revealing that the Messiah came not to render judgment but to bring forgiveness and wholeness. The episode weaves together themes of faith, forgiveness, religious critique, and God's mission to bless all nations through caring for outsiders.
+
+## Key Takeaways
+
+- Faith is visible and actionable - Jesus responded to what he could see in the friends' determined efforts, not just internal belief
+- The title "Son of Man" carries dual meanings: both humanity itself and a reference to Daniel's vision of the one who would come in clouds to render justice
+- Jesus radically redefined messianic expectations by choosing forgiveness over justice, suggesting that even Abel (the first person to suffer unjustly) would forgive Cain rather than exact vengeance
+- Miraculous healings were teaching tools, not Jesus's primary mission - they served to illustrate and reinforce whatever lesson he was teaching
+- God desires mercy and compassion toward outsiders, not empty religious piety or sacrifice
+- New ideas require new frameworks - you cannot force transformative concepts into rigid, old worldview structures
+- Followers of Jesus are called to participate in the redemptive work of forgiveness, not just receive it
+
+## Main Concepts & Theories
+
+### The Setting: Insula and Rabbinical Teaching
+
+Jesus taught in a Capernaum insula, a multi-story residential structure typical of first-century Jewish communities. These buildings could accommodate tens to perhaps a hundred people in larger structures. Rabbis regularly taught in homes, with students sitting at their feet - a culturally expected practice in the Pharisaic world where Jesus primarily operated.
+
+### The Nature of Faith
+
+The text explicitly states that Jesus saw "their faith" - referring to the four friends who carried the paralytic, not the paralytic himself. This reveals that faith is not merely internal belief but visible, demonstrable action. The friends' determination to dig through the roof (a hours-long project involving mud, branches, and tiles) made their faith observable. This challenges Western individualistic concepts of faith.
+
+### Miracles as Teaching Tools
+
+The hosts emphasize that miraculous healing was not Jesus's primary mission but rather a pedagogical device. Healing is inherently problematic - once Jesus heals one person, what about everyone else with similar conditions? The healings served to illustrate and reinforce the specific teaching point Jesus was making in that moment. The paralytic becomes, in the hosts' words, "a prop" - a tool in Jesus's larger lesson about forgiveness and authority.
+
+### Son of Man: A Dual Meaning
+
+The phrase "Son of Man" (Hebrew: ben adam) carries two distinct possibilities:
+
+1. **Simple humanity**: In Ezekiel, God calls the prophet "son of man" simply meaning "you're just a human being." Jesus sometimes uses it this way to emphasize his full humanity.
+
+2. **Daniel's apocalyptic figure**: In Daniel 7, "one like a son of man" comes in the clouds before the Ancient of Days to establish justice. First-century Jewish sages interpreted this as ben adam (son of Adam) - suggesting Abel, the first person to suffer unjustly for doing right, would return to render justice for all who suffered similarly.
+
+Jesus's usage in this story deliberately invokes the second meaning, but with a shocking twist.
+
+### The Radical Forgiveness of Abel
+
+The rabbinical expectation was that when the "Son of Man" returned, he would exact justice and judgment - Abel would look at Cain and declare his punishment. Jesus revolutionary claims that the Son of Man comes instead with authority to forgive sins on earth. According to Marty's teacher Ray, this is "the only time in Jewish history where anybody has had the audacity to suggest that when Abel comes back, he's going to look at Cain, he's going to look him in the eyeballs, and he's going to say, 'I forgive you,' rather than, 'Here's what you got coming.'"
+
+This reframes the entire messianic mission from vengeance to restoration.
+
+### Blasphemy and Divine Authority
+
+The Pharisees correctly identify that only God can forgive sins - not interpersonal forgiveness, but the cosmic forgiveness Jesus pronounces. Jesus doesn't dispute this claim but rather demonstrates his divine authority by healing the paralytic, proving he has been "sent by God" and indeed has the authority he claims.
+
+### Remez: The Art of Biblical Hinting
+
+A remez is a deliberate quotation of Scripture designed to link the listener back to the broader context of that passage. When Jesus quotes Hosea 6:6 ("I desire mercy, not sacrifice"), he's not just citing a single verse but invoking the entire context of Hosea's condemnation. The Pharisees, who had memorized the entire Torah, would immediately recall the surrounding passages about Israel's disobedience, empty religious practice, and God's call to justice and mercy.
+
+### P'shat, Remez, and Drash
+
+Jewish hermeneutics operates on multiple levels:
+
+- **P'shat**: The surface-level, plain meaning of the text
+- **Remez**: The hint or allusion that points to deeper scriptural connections
+- **Drash**: The deeper truth or treasure buried in the story
+
+Critically, the drash never contradicts the p'shat - it only deepens, widens, and enriches the surface meaning with fuller color and profundity.
+
+### The Mamzer Agenda
+
+Throughout these stories, Matthew's Gospel emphasizes the mamzer (outsider, illegitimate one). Matthew himself was a tax collector - definitively an outsider. When Jesus calls him and Matthew throws a dinner party, he invites all his tax collector and sinner friends. Sharing a meal signifies right relationship and acceptance. Jesus's willingness to eat with outsiders demonstrates that God's mission has always been to bless all nations, not just maintain religious purity among insiders.
+
+### New Wine and New Wineskins
+
+Jesus's teaching about not putting new wine in old wineskins operates on multiple levels:
+
+- **P'shat level**: You cannot force new ideas into old, rigid worldviews. People satisfied with their current religious system won't be open to transformation.
+- **Remez level**: References to garments, wineskins, and bridegrooms appear in Jeremiah 13-17, connecting to warnings about destruction and the need for genuine rather than false piety.
+
+The hosts note that BEMA itself works like new wine - refreshing for those seeking something more, but rejected by those content with old systems.
+
+### Mercy Over Sacrifice
+
+The Hosea 6:6 quotation critiques empty religious observance divorced from justice and compassion. God's mission from Abraham onward has been to bless all nations. Israel's placement at the geographic crossroads was intentional - they were meant to show the world God's love, compassion, mercy, and forgiveness. Instead, religious leaders focused on piety and sacrifice while neglecting the outsider.
+
+Jesus fulfills the prophets by restoring outsiders to right relationship. Those who ignore the mamzer abolish the law and prophets, even if well-intentioned.
+
+## Examples & Applications
+
+### The Paralytic's Friends
+
+The four friends demonstrate visible, actionable faith by their extreme determination. They don't accept "the house is full" as a final answer. They problem-solve, climb the roof, spend hours digging through construction materials, and lower their friend to Jesus. This illustrates that faith is not passive belief but active persistence in pursuing wholeness and restoration.
+
+Modern application: How do we demonstrate visible faith on behalf of others? Are we willing to go to uncomfortable, inconvenient, or even socially awkward lengths to bring people to Jesus?
+
+### Matthew's Dinner Party
+
+When Matthew receives a second chance from Jesus, his immediate response is to invite all his outsider friends to meet the rabbi. This demonstrates the natural response to experiencing grace - sharing it with others who need it. Matthew doesn't keep his new relationship with Jesus private or exclusive.
+
+Modern application: When we experience transformation, do we instinctively invite other "outsiders" into that same experience? Or do we create insider/outsider dynamics even within Christian community?
+
+### The Pharisees' Critique
+
+The religious leaders question why Jesus eats with tax collectors and sinners. Their concern reveals a fundamental misunderstanding of God's mission. They see ritual purity and separation as the goal, missing that God desires mercy, compassion, and the restoration of outsiders.
+
+Modern application: How do contemporary Christian communities create similar barriers? Do we emphasize doctrinal purity, moral behavior, or church attendance while neglecting the radical welcome and restoration Jesus modeled?
+
+### The Fasting Question
+
+John the Baptist's disciples ask why Jesus's disciples don't fast. Jesus responds that you don't fast at a wedding party while the bridegroom is present. But he also hints at coming destruction - not for the Romans, but for Jerusalem itself.
+
+Modern application: Are we able to discern the appropriate spiritual posture for our current moment? Sometimes celebration is appropriate; sometimes lament and fasting are needed.
+
+### New Wine in Old Wineskins
+
+Some people enthusiastically receive BEMA's teaching because their old framework wasn't working - they were yearning for something more. Others reject it entirely because their current system satisfies them. This isn't about intelligence or sincerity, but about readiness for transformation.
+
+Modern application: Are we humble enough to admit when our current understanding isn't working? Can we hold our theological frameworks with open hands, willing to expand or even replace them when we encounter new insights from Scripture?
+
+## Potential Areas for Further Exploration
+
+1. **The Book of Daniel and Apocalyptic Literature**: How did first-century Jews interpret Daniel's visions? What was the broader context of apocalyptic expectation in the Second Temple period?
+
+2. **Atonement and Forgiveness Theology**: How does Jesus's authority to forgive sins relate to traditional Jewish understanding of atonement through sacrifice? How does this connect to Jesus's later death and resurrection?
+
+3. **Jewish Hermeneutical Methods**: Deep dive into the four levels of Jewish interpretation (P'shat, Remez, Drash, and Sod). How can modern readers apply these methods to Scripture study?
+
+4. **The Historical Jesus and Miracle Tradition**: What do extra-biblical Jewish sources say about miracle-working rabbis in the first century? How common were miraculous claims?
+
+5. **Meal Fellowship in First-Century Judaism**: Explore the social, religious, and theological significance of table fellowship. Who ate with whom, and what did it signify?
+
+6. **The Prophetic Critique of Empty Religion**: Study the prophets (Hosea, Amos, Micah, Isaiah, Jeremiah) to understand their consistent critique of sacrifice without justice, ritual without compassion.
+
+7. **Matthew's Gospel and the Mamzer Theme**: Trace how the theme of outsiders and illegitimate ones runs throughout Matthew's entire Gospel narrative.
+
+8. **Abel and Cain in Jewish Interpretation**: How did rabbinical tradition interpret the first murder? What theological significance did Abel hold beyond the Genesis narrative?
+
+9. **The Geography of Capernaum**: Study the archaeological remains of Capernaum, including insula structures and synagogue remains. How does understanding the physical setting enhance our reading of the Gospels?
+
+10. **Pharisees, Sadducees, and Essenes**: Compare and contrast the major Jewish movements of the Second Temple period. How did their worldviews differ, and which was Jesus most aligned with?
+
+## Comprehension Questions
+
+1. **Explain the dual meaning of "Son of Man" and how Jesus's use of this title challenged first-century messianic expectations.** Include both the simple meaning from Ezekiel and the apocalyptic meaning from Daniel, and describe the revolutionary nature of Jesus's claim to forgive rather than judge.
+
+2. **What is a remez, and how does Jesus use this technique when quoting Hosea 6:6?** Explain how the Pharisees would have understood the broader context Jesus was invoking, and what critique he was making of their religious practice.
+
+3. **Why does the text emphasize that Jesus saw "their faith" (the friends') rather than the paralytic's faith?** What does this teach us about the nature of biblical faith, and how does it challenge Western individualistic concepts of belief?
+
+4. **Describe the relationship between miracles and teaching in Jesus's ministry.** Why is miraculous healing "problematic," and how did Jesus use the paralytic's healing to reinforce his teaching point?
+
+5. **What does Jesus mean by "new wine in old wineskins," and how does this apply both to first-century Judaism and to modern engagement with Scripture?** Include both the p'shat (surface) and potential remez (hint) levels of meaning.
+
+## Personalized Summary
+
+BEMA Episode 102 presents one of the most profound revelations about Jesus's mission and identity. By examining the story of the paralytic lowered through the roof, we discover that Jesus didn't come primarily to heal bodies but to demonstrate God's radical commitment to forgiveness over judgment. The title "Son of Man" invoked powerful messianic expectations - the Jewish world anticipated Abel's return to finally exact justice for all who had suffered unjustly. Instead, Jesus declared that the Son of Man comes with authority to forgive sins, even suggesting that Abel himself would forgive Cain rather than condemn him.
+
+This teaching shattered expectations. The religious leaders wanted judgment on the Romans who oppressed them. Jesus warned that judgment was actually coming for Jerusalem because they had missed God's mission entirely. From Abraham forward, God's purpose was to bless all nations through Israel. Instead of showing the world God's mercy, compassion, and justice, they had created systems of religious purity that excluded outsiders.
+
+The episode weaves together multiple Gospel stories - the paralytic, the calling of Matthew, the dinner with tax collectors and sinners, and the teaching about fasting and new wineskins - to show Matthew's consistent agenda: God's heart for the mamzer, the outsider, the illegitimate one. Jesus fulfills the law and prophets by restoring outcasts to right relationship. Those who neglect this mission, however sincere their religious observance, abolish the very Scriptures they claim to uphold.
+
+The practical implications are staggering. We are called not merely to receive forgiveness but to participate in God's redemptive work of forgiving others. We must cultivate visible, actionable faith like the paralytic's friends who refused to accept barriers. We should respond to grace like Matthew, immediately inviting other outsiders to encounter Jesus. And we must hold our theological frameworks with humility, recognizing that new insights from Scripture may require new wineskins.
+
+Most powerfully, this episode reminds us that God desires mercy, not sacrifice. Religion divorced from justice and compassion for the marginalized is precisely what the prophets condemned. If we are not looking out for the outsider, we are missing the entire point of the biblical narrative - regardless of how doctrinally pure or morally upright we consider ourselves.
+
+*Study notes created from BEMA Discipleship Podcast Episode 102 transcript. For the full audio experience and discussion, visit bemadiscipleship.com.*
