@@ -2,23 +2,23 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 136: Each One  
-**Hosts:** Marty Solomon & Brent Billings  
+**Episode:** BEMA 136: Each One    
+**Hosts:** Marty Solomon & Brent Billings    
 **Topic:** Analysis of Acts chapters 3-6, focusing on the post-Pentecost early church community and their manifestation of Kingdom living through practical service, healing, and shared resources. The discussion centers on how the early believers fulfilled messianic prophecies through collective action rather than waiting for individual messianic fulfillment.
 
 ## Key Takeaways
 
-• The early church demonstrated Kingdom living through practical actions: healing the sick, sharing possessions, caring for widows, and addressing community conflicts constructively
+- The early church demonstrated Kingdom living through practical actions: healing the sick, sharing possessions, caring for widows, and addressing community conflicts constructively
 
-• Persecution consistently followed acts of Kingdom demonstration, creating a pattern of "doing good → facing opposition" throughout Acts 3-6
+- Persecution consistently followed acts of Kingdom demonstration, creating a pattern of "doing good → facing opposition" throughout Acts 3-6
 
-• Jewish messianic expectations focused more on the arrival of an age (olam haba) than a single person, emphasizing collective transformation over individual saviorism
+- Jewish messianic expectations focused more on the arrival of an age (olam haba) than a single person, emphasizing collective transformation over individual saviorism
 
-• The connection between Peter's shadow healing (Acts 5) and Isaiah 32's "shadow of a great rock" reveals Luke's literary technique linking apostolic ministry to prophetic fulfillment
+- The connection between Peter's shadow healing (Acts 5) and Isaiah 32's "shadow of a great rock" reveals Luke's literary technique linking apostolic ministry to prophetic fulfillment
 
-• True messianic witness occurs when believers collectively embody Kingdom values, making God's will manifest "on earth as it is in heaven"
+- True messianic witness occurs when believers collectively embody Kingdom values, making God's will manifest "on earth as it is in heaven"
 
-• The Holy Spirit's empowerment available to early believers is the same power accessible to modern Christians - the difference lies in willingness to act
+- The Holy Spirit's empowerment available to early believers is the same power accessible to modern Christians - the difference lies in willingness to act
 
 ## Main Concepts & Theories
 

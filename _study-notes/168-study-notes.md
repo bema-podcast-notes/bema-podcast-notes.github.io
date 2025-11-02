@@ -2,8 +2,8 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 168: 1 Peter — Living Stones and a Spiritual House  
-**Hosts:** Marty Solomon and Brent Billings  
+**Episode:** BEMA 168: 1 Peter — Living Stones and a Spiritual House    
+**Hosts:** Marty Solomon and Brent Billings    
 **Topic:** An exploration of 1 Peter, examining the letter written by the apostle Peter to believers scattered across the Roman Empire's most challenging regions, focusing on the concept of living stones being built into a spiritual house and how to respond to persecution with hope and grace.
 
 This episode introduces Peter's first epistle as a letter written by the leader of the early apostolic movement to believers in remote and often persecuted regions like Cappadocia, Galatia, and Bithynia. The discussion emphasizes Peter's transformation from an impulsive disciple willing to fight with a sword to a mature leader advocating for peaceful resistance and hope in the face of suffering. The central metaphor of believers as "living stones" being built into a "spiritual house" (temple) provides the theological foundation for understanding community response to persecution.

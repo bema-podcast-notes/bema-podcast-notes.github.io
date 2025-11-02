@@ -1,0 +1,321 @@
+# BEMA Episode 73: Session 3 Intro - Study Notes
+
+## Title & Source Summary
+
+**Episode:** BEMA 73 - Session 3 Intro  
+**Hosts:** Marty Solomon & Brent Billings
+**Guest:** Jim Feicht (BEMA Irvine facilitator)
+**Release Date:** April 21, 2023 (Initial public release)
+
+This introductory episode marks the beginning of BEMA Session 3, which focuses on setting the historical stage for understanding the ministry of Jesus. The hosts provide a comprehensive review of Sessions 1 and 2 before introducing the structure and purpose of the upcoming session, which will explore the critical historical context needed to properly understand the Gospels.
+
+## Key Takeaways
+
+- Session 3 will focus on the Gospels, primarily using Matthew as a roadmap while examining all four Gospel accounts
+- Understanding the historical context before Jesus's ministry is absolutely critical to understanding what Jesus was actually doing
+- The period before the Gospels (often called "the silent years") was not historically silent - many significant events occurred that shaped the world into which Jesus came
+- Session 1 (Torah) remains foundational to understanding everything that follows, including the Jesus material
+- BEMA follows a five-session structure, building progressively from Genesis through the New Testament
+- The study requires both patience and willingness to sit with the material before jumping directly to familiar Gospel stories
+- Prayer, stillness, and experiencing God's love "right where you are" remains central to the BEMA journey
+
+## Main Concepts & Theories
+
+### The Five-Session BEMA Structure
+
+The BEMA Discipleship podcast is organized into five distinct sessions, each building upon the previous one:
+
+1. **Session 1: Torah** - Foundation and partnership with God
+2. **Session 2: History through Remnant** - The story of God's people from Joshua through the return from exile
+3. **Session 3: The Gospels** - The ministry of Jesus in historical context (current session beginning)
+4. **Session 4 & 5** - To be covered in future episodes
+
+### Review of Session 1: Torah as Partnership
+
+The first session established Torah not as merely a rule book but as a framework for partnership between God and His people. This is structured through the five books of Moses:
+
+**Genesis - Setting the Stage**
+God establishes the basis for partnership by introducing the "family of God" - Abraham (Abram), Isaac, Jacob, and Joseph. These patriarchal narratives provide the relational foundation for everything that follows.
+
+**Exodus - Choosing the Partner**
+The relationship becomes formalized as God chooses Israel and Israel chooses God. This is a mutual covenant relationship, not a one-sided imposition.
+
+**Leviticus - Defining the Partnership**
+Rather than being arbitrary rules, Leviticus provides the practical parameters and boundaries of the partnership. It defines what this relationship will actually look like in daily life.
+
+**Numbers - Shaping the Partner**
+The wilderness experience becomes the crucible for transformation. The Hebrew word "yada" (experiential knowing) captures the essence of this period - God's people must experience Him, not just know about Him intellectually.
+
+**Deuteronomy - Remembering**
+Moses calls the people to remember everything they have learned. Memory becomes essential to maintaining covenant faithfulness across generations.
+
+The overarching theme: Torah represents a missional call to partnership with God for the sake of the world.
+
+### Review of Session 2: History and Redemption Cycle
+
+**The Historical Books: God's Patience and the Redemption Cycle**
+
+The historical books demonstrate a repeated pattern that Marty identifies as the "redemption cycle":
+
+**Joshua - Placed for Mission**
+God strategically positions His people at "the crossroads of the Earth" - the land bridge between Africa, Asia, and Europe. This geography is intentional; Israel is meant to be a light to the nations, positioned where they can have maximum impact.
+
+**Judges and Ruth - The Struggle**
+This period shows both failure and success. It's not entirely negative - Ruth demonstrates faithfulness even as Judges shows repeated falling away. This reflects the realistic human experience of trying to walk faithfully with God.
+
+**Samuel and Kings - Identity and Obedience**
+These books chronicle Israel's struggle with who they are called to be versus who they become. The establishment of monarchy, the division of the kingdom, and eventual exile all stem from fundamental questions of identity and obedience.
+
+**Chronicles - Empire and Anti-Story**
+Written hundreds of years after Samuel-Kings, Chronicles provides a different perspective on the same history. It particularly focuses on how God's people became the very opposite of what they were called to be - how they became the "anti-story" instead of God's story for the world.
+
+### Wisdom Literature: Tools for Survival
+
+In the middle of the struggle documented in the historical books, God provides wisdom literature as practical tools for surviving and thriving:
+
+1. **Psalms - Art and Song**: Worship and expression for processing life with God
+2. **Proverbs - Conventional Wisdom**: "Wise sayings that are generally true" providing practical guidance
+3. **Ecclesiastes - Purpose and Meaning**: Wrestling with the "reason to get out of bed" each morning
+4. **Song of Songs - Relationships and Intimacy**: Not just marital intimacy but the full range of human relational needs
+
+These four tools equip God's people to navigate the redemption cycle without losing faith.
+
+### The Prophets: Warning, Woes, and Hope
+
+**Warning (Pre-Assyrian and Pre-Babylonian Prophets)**
+Prophets like Amos, Hosea, Micah, Isaiah (first section), and Zephaniah sound alarms before the disasters strike. They call for repentance and return to covenant faithfulness.
+
+**Woes (Pronouncing Judgment)**
+When warnings go unheeded, prophets like Jonah, Nahum, Jeremiah, Lamentations, Habakkuk, Obadiah, and Joel pronounce God's judgment. However, this judgment is never the final word.
+
+**Hope (Encouragement to the Exiled)**
+The story never ends with judgment. Prophets like Ezekiel, Daniel, Job, and Isaiah (third section) provide hope and encouragement to people in exile, reminding them that God's purposes will ultimately prevail.
+
+### The Remnant: Returning, Yearning, and Learning
+
+The final section of the Hebrew Scriptures covers the return from Babylonian exile:
+
+**Returning - Rebuild and Restore**
+Books like Isaiah (fourth section) and Ezra-Nehemiah document the physical return to the land and the rebuilding of Jerusalem and the temple.
+
+**Yearning - Longing for Former Glory**
+Prophets like Haggai capture the bittersweet reality of the return. Those who remembered Solomon's temple looked at the new temple and wept - it was a shadow of former glory. This yearning reflects the "already but not yet" tension that would continue through Jesus's time and into our own.
+
+**Learning - New World, New Approach**
+Prophets like Malachi and the book of Esther show that the post-exile world demanded new ways of being faithful. The old approaches wouldn't simply translate to this new reality.
+
+### The Silent Years: Not Historically Silent
+
+Marty emphasizes a crucial point often missed in Christian education: the period between the end of the Hebrew Scriptures (Malachi) and the beginning of the New Testament is traditionally called "the silent years" because there were no prophetic voices. However, this label is profoundly misleading historically.
+
+This period (approximately 400 years) was filled with massive historical events that shaped the world into which Jesus was born:
+- The rise and fall of empires
+- Greek conquest under Alexander the Great
+- Hellenization of the Near East
+- The Maccabean revolt
+- Roman occupation of Israel
+
+Understanding this historical context is not optional background information - it is essential to understanding what Jesus was doing and why His message was so revolutionary, dangerous, and misunderstood.
+
+### The Importance of Historical Context for Understanding Jesus
+
+Marty describes learning this historical context in Israel and Turkey as "one of those pieces that changed everything" for him. He emphasizes that readers of Scripture often "don't quite have the handles, where to hang it or where to put it in our understanding."
+
+Session 3 will deliberately spend significant time establishing historical context before diving into Gospel texts. This approach reflects a fundamental conviction: we cannot properly understand Jesus's words and actions without understanding the world He entered, the expectations people had, the power structures He challenged, and the story Israel believed they were living.
+
+### The Prayer and Posture of BEMA
+
+Guest Jim Feicht articulates the spiritual heart of the BEMA journey:
+
+"My heart, I would honestly say, is to be still and to know and to experience God in your silent times. Just pondering in awe and wonder about him... my hope is you will discover and uncover as you continue in this quest... how much he adores you, right where you're at right now."
+
+This captures several key BEMA themes:
+- **Stillness** - Creating space for God (echoing Session 1 concepts)
+- **Experiential knowledge** - Yada, knowing through experience, not just intellectual understanding
+- **God's unconditional love** - Being loved "just the way that I am"
+- **T'shuva** - "Come back. Come follow me" - the call to return that echoes through Scripture
+- **Journey metaphor** - Walking a path together, with inevitable stumbling and restoration
+
+The BEMA approach combines rigorous intellectual study of historical context with contemplative spiritual practice. Both are necessary; neither is sufficient alone.
+
+## Examples & Applications
+
+### Real-World Learning Example: On-Site Education
+
+Marty references learning this material firsthand in Israel and Turkey. This highlights an important educational principle: some things are better understood through experiential, contextual learning rather than purely abstract study. While not everyone can travel to the Middle East, the principle applies:
+
+- Reading Scripture with historical maps
+- Visualizing the geography and political realities
+- Connecting biblical events to archaeological findings
+- Understanding how physical environment shapes culture and story
+
+### Community Learning Model: BEMA Groups
+
+The episode references BEMA discussion groups "all over the country," with Jim facilitating one in Irvine, California. Jim mentions his group is "non-stop" - continuing through the summer without break. This demonstrates:
+
+- The value of processing complex material in community
+- Different groups move at their own pace
+- Commitment required for deep transformation
+- The podcast serves various learning contexts (individual listeners, discussion groups, etc.)
+
+### Prayer Warriors Don't Exist
+
+Marty makes an interesting aside: "We will never call him a prayer warrior because those don't exist." This likely connects to earlier BEMA teaching about the metaphor of spiritual warfare and how militaristic language can distort our understanding of prayer and spiritual life. Instead, Jim is described as having "a deep heart for prayer" - emphasizing relationship and intimacy over conquest and battle.
+
+### The "Podrishioners" Community
+
+The hosts mention listeners have called themselves "podrishioners" - a blend of "podcast" and "parishioners." This creative term reflects:
+
+- A sense of belonging to a community despite geographical distance
+- The podcast functioning as a teaching ministry, not just entertainment
+- Listeners taking ownership of their participation
+- The playful, accessible tone that characterizes BEMA
+
+### Resource Honesty: Acknowledging Gaps
+
+Marty's honest response to Brent's question about recommended resources demonstrates intellectual humility. Rather than pretending expertise he doesn't have, he:
+
+- Acknowledges he's still working through this material himself
+- Credits his teachers (particularly "Ray")
+- Mentions one resource (Jewish Annotated New Testament) with balanced evaluation
+- Admits the historical conversation is "debated" and "a little tricky"
+- Invites the community to research and share findings
+
+This models healthy scholarship and teaching - being honest about limitations while still confidently teaching what has been learned from credible sources.
+
+## Potential Areas for Further Exploration
+
+### The Intertestamental Period
+
+Often called "the silent years" or "the intertestamental period," this 400-year span between Malachi and Matthew deserves deep study:
+
+- The conquests of Alexander the Great and the spread of Hellenistic culture
+- The Ptolemaic and Seleucid dynasties that ruled Palestine
+- The Maccabean revolt and Hasmonean dynasty
+- The rise of Jewish sects: Pharisees, Sadducees, Essenes, Zealots
+- Roman conquest and the Herodian dynasty
+- The development of the synagogue system
+- Second Temple Judaism practices and beliefs
+- Messianic expectations in first-century Judaism
+
+### The Jewish Annotated New Testament
+
+Marty mentions this Oxford publication as one resource, noting it's "not my favorite Bible at all" but contains valuable scholarly articles. Further exploration might include:
+
+- Comparing various Jewish perspectives on the New Testament
+- Understanding how Jewish scholars read Christian texts
+- Exploring the articles Marty found valuable
+- Investigating why he didn't like the translation or footnotes
+- Finding complementary resources that provide similar insights
+
+### Ray Vander Laan's Influence
+
+Marty frequently mentions "Ray" as his primary teacher for this material (referring to Ray Vander Laan, producer of "That The World May Know" video series). Areas to explore:
+
+- Ray Vander Laan's "That The World May Know" film series
+- His teaching on Second Temple Judaism
+- His methodology of on-site education in Israel
+- His emphasis on cultural context for understanding Scripture
+- How his work has influenced contemporary evangelical biblical interpretation
+
+### On-Site Biblical Education
+
+The Israel and Turkey trips mentioned suggest the value of geographical and archaeological context:
+
+- Walking where Jesus walked and why that matters for interpretation
+- Understanding ancient trade routes and their significance
+- Seeing the actual terrain described in biblical narratives
+- Visiting archaeological sites that illuminate biblical history
+- Experiencing the cultural context that shaped the biblical world
+
+### The Structure and Chronology of the Four Gospels
+
+Marty mentions they'll use Matthew as their "roadmap" while examining all four Gospels. This raises questions:
+
+- Why Matthew as the primary framework?
+- How do the four Gospel accounts complement each other?
+- What is the historical relationship between the Gospels?
+- How do Jewish and Greco-Roman audiences differ in how they would hear these texts?
+- What does it mean to read the Gospels as Second Temple Jewish literature?
+
+### The Concept of "Anti-Story"
+
+Marty uses this term to describe Israel becoming the opposite of what they were called to be. Further exploration might include:
+
+- How does a covenant people become the "anti-story"?
+- What are the specific ways Israel embodied what they were supposed to resist?
+- How does empire corrupt mission?
+- What are the implications for the church today?
+- How does Jesus address and reverse the anti-story?
+
+### Wisdom Literature as Practical Tools
+
+The framework of four wisdom tools (art/song, conventional wisdom, purpose/meaning, relationships/intimacy) offers rich potential:
+
+- How do these four areas address universal human needs?
+- What happens when one or more is missing?
+- How might contemporary communities intentionally provide these tools?
+- Are there other "tools" in Scripture beyond these four?
+- How do we distinguish between timeless wisdom and culturally specific advice?
+
+### The Nature of Biblical Review and Memory
+
+Marty emphasizes the importance of review and references Deuteronomy's call to "remember." This suggests:
+
+- The biblical concept of memory as more than mental recall
+- How repetition and review function in biblical literature
+- The role of communal memory in maintaining identity
+- How Israel's festivals function as memory aids
+- The connection between remembering and faithfulness
+
+### Epic Music and Story Arc
+
+The episode opens with discussion of new, "epic" music reflecting "the climax of the story - we're coming towards the Jesus moment." This raises questions about:
+
+- Narrative structure and climax in biblical interpretation
+- How we understand Jesus as the "center" of the story
+- The relationship between Old Testament expectations and New Testament fulfillment
+- Whether "climax" is the right metaphor or if there are better ways to understand Jesus's place in the story
+- How our expectations shape our reading
+
+### Prayer, Stillness, and Experiencing God
+
+Jim's prayer emphasizes being still, experiencing God, and knowing His adoration. This connects to contemplative spiritual practices:
+
+- The role of silence and stillness in spiritual formation
+- Contemplative prayer traditions in Christian history
+- How study and contemplation complement each other
+- The Hebrew concept of "yada" (experiential knowledge) applied to prayer
+- Practices for cultivating stillness in a noisy world
+
+## Comprehension Questions
+
+1. **Synthesis Question**: How does the structure of the five books of Torah (Genesis through Deuteronomy) demonstrate a progression from initial relationship to mature partnership? Explain how each book contributes to this development.
+
+2. **Application Question**: Marty emphasizes that understanding the historical context of Jesus's time "changed everything" for his understanding of the Gospels. Why is historical context so critical to proper interpretation? Give an example of how missing historical context might lead to misunderstanding a biblical text.
+
+3. **Analytical Question**: The "silent years" between the Old and New Testaments are described as historically significant despite the absence of prophetic voices. Why might this period be crucial for understanding Jesus's ministry? What kinds of historical events during this time would have shaped first-century Jewish expectations?
+
+4. **Reflective Question**: Jim Feicht's prayer for BEMA listeners emphasizes being still, experiencing God's adoration "right where you're at," and responding to God's invitation to "come back" when we stumble. How does this spiritual posture complement the intellectual rigor of studying biblical history and context?
+
+5. **Interpretive Question**: Marty describes Israel becoming the "anti-story" during the period covered in Chronicles - becoming the opposite of what they were called to be. What does this concept mean, and how might it connect to the need for Jesus's coming? What would a people need to do or become to transform from God's story to the anti-story?
+
+## Brief Personalized Summary
+
+BEMA Episode 73 serves as a threshold - we're standing at the doorway to the Gospels, but before crossing, we must prepare ourselves. The episode provides both a backward glance (reviewing Sessions 1 and 2) and a forward look (setting up Session 3's approach to Jesus).
+
+The review reminds us that everything builds on everything else. Torah establishes partnership. History shows the struggle to live that partnership faithfully. Wisdom provides tools for the journey. Prophets warn, pronounce woes, and ultimately offer hope. The remnant returns, yearns, and learns. Each piece matters for understanding what comes next.
+
+But here's the critical insight that frames Session 3: we cannot properly understand Jesus without understanding the world He entered. The 400 years between Malachi and Matthew weren't silent - they were thunderous with empire, rebellion, occupation, and longing. Jesus didn't arrive in a vacuum. He arrived in a specific time, to a specific people, with specific expectations, fears, hopes, and wounds.
+
+This session will require patience. We won't jump immediately to familiar Gospel stories. Instead, we'll sit with the historical context, letting the world of Second Temple Judaism take shape in our imagination. This work is essential. As Marty testifies, it "changed everything" for how he understood Jesus.
+
+Jim's benediction captures the necessary posture: stillness, wonder, and receiving God's love exactly where we are. BEMA isn't just about accumulating information - it's about transformation through encountering God in Scripture, history, and community.
+
+The journey continues. Session 3 begins. The stage is being set for the Jesus moment, and understanding that moment properly will require all we've learned so far plus the courage to sit with unfamiliar history before rushing to familiar conclusions.
+
+As Jim models for us, may we walk this path together, stumbling and returning, always hearing the invitation: "Come back. Come follow me."
+
+**Study Notes created from BEMA Podcast Episode 73**
+**Transcript location:** `/Users/adamaverycole/Library/Mobile Documents/com~apple~CloudDocs/repos/github/bema-transcribe/episodes/73/Transcript for BEMA 73.txt`
+**Notes location:** `/Users/adamaverycole/Library/Mobile Documents/com~apple~CloudDocs/repos/github/bema-transcribe/episodes/73/73-study-notes.md`

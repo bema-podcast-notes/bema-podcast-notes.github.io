@@ -2,8 +2,8 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 165: Hebrews — Running a Better Race  
-**Hosts:** Marty Solomon and Brent Billings  
+**Episode:** BEMA 165: Hebrews — Running a Better Race    
+**Hosts:** Marty Solomon and Brent Billings    
 **Topic:** An introduction to the Book of Hebrews, exploring its context as a post-temple destruction sermon, its literary structure through the use of inclusio, and its central theme of Jesus as the better high priest who enables faithful perseverance.
 
 This episode establishes the foundation for understanding Hebrews as a homily written for Jewish believers wrestling with the destruction of the temple, showing how Jesus provides a better version of everything they held dear in the Levitical system while calling them to persevere through suffering just as Jesus did.

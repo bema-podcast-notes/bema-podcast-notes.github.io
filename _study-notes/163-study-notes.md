@@ -2,8 +2,8 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 163: Pastoral Epistles — Timid Timothy & Tough Titus  
-**Hosts:** Marty Solomon and Brent Billings  
+**Episode:** BEMA 163: Pastoral Epistles — Timid Timothy & Tough Titus    
+**Hosts:** Marty Solomon and Brent Billings    
 **Topic:** This episode examines the three Pastoral Epistles (1 Timothy, 2 Timothy, and Titus) by exploring the contrasting personalities and backgrounds of Paul's two key disciples, Timothy and Titus, and how Paul strategically deployed each according to Kingdom principles rather than worldly wisdom.
 
 ## Key Takeaways

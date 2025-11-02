@@ -2,19 +2,19 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 137: A Dry Tree  
-**Hosts:** Marty Solomon and Brent Billings  
+**Episode:** BEMA 137: A Dry Tree    
+**Hosts:** Marty Solomon and Brent Billings    
 **Topic:** This episode examines the methods of the early church in advancing God's Kingdom and explores the radical implications of Jesus's new Kingdom for outsiders. The discussion centers on Acts 7-8, analyzing Stephen's martyrdom, the church's non-violent response to persecution, and Philip's encounter with the Ethiopian eunuch.
 
 ## Key Takeaways
 
-• The early church used non-violent resistance rather than pacifism or redemptive violence to confront injustice
-• Jesus's teaching in the Sermon on the Mount was about exposing injustice through public demonstration, not passive submission
-• Early Christians chose martyrdom over self-defense as their method of bringing Kingdom
-• Persecution led to the scattering of believers, which accelerated the spread of the Gospel
-• The Kingdom's primary implication is radical inclusion - outsiders become insiders
-• Philip's encounter with the Ethiopian eunuch demonstrates how Scripture interpretation reveals God's heart for the excluded
-• The Ethiopian eunuch's question wasn't about messianic prophecy but about whether there was a place for him in God's family
+- The early church used non-violent resistance rather than pacifism or redemptive violence to confront injustice
+- Jesus's teaching in the Sermon on the Mount was about exposing injustice through public demonstration, not passive submission
+- Early Christians chose martyrdom over self-defense as their method of bringing Kingdom
+- Persecution led to the scattering of believers, which accelerated the spread of the Gospel
+- The Kingdom's primary implication is radical inclusion - outsiders become insiders
+- Philip's encounter with the Ethiopian eunuch demonstrates how Scripture interpretation reveals God's heart for the excluded
+- The Ethiopian eunuch's question wasn't about messianic prophecy but about whether there was a place for him in God's family
 
 ## Main Concepts & Theories
 

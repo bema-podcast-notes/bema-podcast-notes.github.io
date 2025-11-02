@@ -1,0 +1,245 @@
+# BEMA Episode 90: A Gospel of Two Kingdoms - Study Notes
+
+## Title & Source Summary
+
+This episode concludes the examination of Jesus's birth narrative by contrasting two competing visions of kingship and power. Marty Solomon and Brent Billings explore how both Matthew and Luke deliberately juxtapose the advent of Christ against the rulers of empire—Herod the Great and Caesar Augustus—to reveal fundamentally different understandings of what it means to be a king and what kind of kingdom God is establishing.
+
+## Key Takeaways
+
+- **The Christmas narrative is fundamentally political**: Both Matthew and Luke intentionally frame Jesus's birth in contrast to the most powerful rulers of their day (Herod the Great and Caesar Augustus) to make a theological statement about competing kingdoms.
+
+- **Herod the Great represents the pinnacle of Hellenistic empire**: Possibly the wealthiest person in human history, Herod exemplified empire through massive building projects, paranoid self-preservation, and the concentration of power and luxury.
+
+- **Jesus's birth subverts all expectations of power**: The King of the universe chooses to be born in poverty, in a stable, in the shadow of Herod's palace, to shepherds—the marginalized of society—deliberately inverting every marker of worldly greatness.
+
+- **Caesar Augustus claimed divine titles**: Terms like "Son of God," "Prince of Peace," "King of Kings," and "Lord of Lords" were first used as propaganda for Caesar Augustus, making the early Christian use of these titles for Jesus a direct challenge to imperial power.
+
+- **The narrative hasn't changed since Session 1**: The fundamental tension between Empire and Shalom that defined Israel's story from the Exodus onward continues in the Gospel accounts and remains relevant today.
+
+## Main Concepts & Theories
+
+### The Tale of Two Kingdoms Framework
+
+From the very first session of BEMA, the overarching narrative has been framed as "A Tale of Two Kingdoms"—Empire versus Shalom. This framework:
+
+- Traces back through Israel's entire story (the desert wilderness, the challenge of abundance, the tension of living in the Shephelah, Solomon's physical empire)
+- Appears prominently in both birth narratives (Matthew and Luke)
+- Uses contrasting images to force readers to examine their deepest assumptions about power, security, wealth, and what God is really like
+
+The Gospel writers are not merely recording historical events but deliberately structuring their narratives to present readers with a choice between two visions of how the world works.
+
+### Herod the Great: The Ultimate Expression of Empire
+
+**Historical Context:**
+- Son of Antipater from Idumea-Nabataea, who controlled the international spice trade
+- Inherited massive wealth—possibly earning over 100 times the national GDP of his region
+- Historians consider him potentially the wealthiest person to ever live; "Bill Gates would mow Herod's lawn"
+- Known to history as "Herod the Great" for his accomplishments, though some prefer "Herod the Wicked" for his character
+
+**Architectural Achievements:**
+Herod's building projects demonstrate the staggering scale of empire:
+
+- **The Temple Mount**: Constructed with stones so massive (one weighs 260 metric tons) that modern cranes couldn't move them into Jerusalem today. We have theories but no certainty about how these stones were quarried 3-4 miles away and transported.
+
+- **Masada**: A sprawling palace complex built atop a mountain in the middle of the desert, containing 12 of the 17 largest cisterns ever discovered, storing millions of gallons of water. Accessible only by a narrow snake trail, it served as one of three getaway palaces.
+
+- **The Herodium**: When Herod wanted a palace on a mountain but no mountain existed, he simply built one. He literally constructed an artificial mountain and then built a palace on and into it.
+
+- **Engineering Secrets**: Herod forbade his engineers from recording their methods, wanting history to remember only his greatness. As a result, we still don't understand how many of his achievements were accomplished (like growing wine at Avdat in the desert).
+
+**Psychological Profile:**
+Herod was characterized by extreme paranoia—so fearful of assassination or overthrow that he built an elaborate escape route with three palaces allowing him to flee the country in 6-8 days. This paranoia drove him to kill all male children in Bethlehem when he heard of a potential rival king.
+
+### The Subversive Nature of the Incarnation
+
+God's response to Herod's grandeur is deliberately subversive:
+
+- Jesus is born in **Bethlehem**, which happens to be the location of the Herodium, one of Herod's three great palaces
+- The birth occurs **"in the shadow of the Herodium"**—almost literally beneath one of the greatest architectural achievements of the ancient world
+- Rather than arriving in comparable splendor, Jesus is born to a **poor, rejected family** in a **stable** among **sheep dung**, **cattle feces**, and **shepherds' fires**
+- The announcement goes to **shepherds**—among the most marginalized people in society
+- This represents God's answer to Hellenistic greatness: not palace versus palace, but a complete inversion of what power and kingship mean
+
+This subversion challenges fundamental assumptions:
+- What is real power?
+- What is real wealth?
+- Where does security come from?
+- Who is God, and what is God trying to save us from?
+
+### Caesar Augustus: The Divine Emperor
+
+**Rise to Power:**
+- Born Octavian, the adopted nephew (and therefore legal son) of Julius Caesar
+- After Julius Caesar's assassination, competed with Mark Antony for control of Rome
+- Mark Antony had practical military power; Octavian had political cunning
+
+**The Comet and Claims to Divinity:**
+- "Caesar's Comet" appeared in the sky and was seen throughout the empire
+- Octavian claimed this was his father Julius Caesar ascending to become a god
+- Reasoning: "If Julius is now God, then I am the Son of God"
+- From this point forward, Roman emperors claimed incarnate deity (especially in Asia Minor and Greece, less so in Rome itself)
+- This established a pattern of emperor worship that became standard imperial propaganda
+
+**Imperial Titles:**
+Roman propaganda proclaimed Augustus using titles such as:
+- Son of the Most High
+- Prince of Peace
+- King of Kings
+- Lord of Lords
+- "No other name under heaven in which a man could be saved from terror, except that of Caesar Augustus"
+
+These titles appear on currency, plaques (like the one from Priene proclaiming the "gospel" of Caesar Augustus), and various pieces of literature throughout the empire.
+
+### Luke's Contrast: The True Titles
+
+When Luke writes "In those days, Caesar Augustus issued a decree..." he is deliberately invoking this entire context. The birth narrative then systematically challenges each of Augustus's claims:
+
+- Augustus claims to be "Son of God"—but Luke presents Jesus as the true Son of the Most High God
+- Augustus is called "Prince of Peace"—but Jesus is born as the genuine Prince of Peace
+- Augustus holds titles "King of Kings" and "Lord of Lords"—but these truly belong to the baby in the stable
+
+Luke's audience would have immediately recognized these as Caesar's titles being reassigned to Jesus—a provocative and politically dangerous claim.
+
+### The Pattern of Joseph: Egypt and Exodus Typology
+
+Matthew draws deliberate parallels between Jesus and the story of Israel:
+
+- Joseph (Jesus's earthly father) receives guidance through dreams, echoing Joseph son of Jacob ("here comes that dreamer")
+- The family flees to Egypt to escape Herod's violence
+- They return from Egypt, fulfilling the prophecy "Out of Egypt I called my son"
+- Jesus is presented as a "new Israel," walking through Israel's story and putting Torah on display
+
+This typology reinforces that Jesus is deeply connected to the Jewish story and represents not a break from Israel's narrative but its fulfillment.
+
+### The Question of Christmas and Empire
+
+The episode challenges contemporary Christmas celebrations:
+
+- Modern American Christmas emphasizes **silver and gold**, **comfort**, **wealth**, and **abundance**
+- These values align with **Herod's kingdom**, not Jesus's kingdom
+- Christmas songs celebrate the very things that represent empire rather than the radical humility of the incarnation
+- "Our Christmas is tied up in the wrong kingdom"
+
+The convicting question: "Would I even have noticed the King of the universe born in a stable, or would I simply have been looking for a better Caesar?"
+
+### Competing Narratives: Fear vs. Invitation
+
+The tale of two kingdoms comes down to fundamental questions about the narratives that drive our lives:
+
+**Empire's Narrative:**
+- Driven by fear
+- Driven by power
+- Driven by force
+- Built on self-preservation
+- Seeks security through control, wealth, and dominance
+
+**Shalom's Narrative:**
+- Driven by invitation to a better way
+- Not about self-preservation but self-sacrifice
+- Demonstrated in God's willingness to be born in "sheep crap"
+- Says "This is how much I love you"
+- Offers a fundamentally different vision of security, power, and human flourishing
+
+## Examples & Applications
+
+### Historical Examples of Empire vs. Shalom
+
+**Herod's Building Projects:**
+The Herodium, Masada, and the Temple Mount stones all represent attempts to achieve immortality through monuments. These structures declare "Look at how great I am" and "My power will last forever." Yet the same Herod who could build mountains lived in such paranoia that he constructed elaborate escape plans and murdered children to protect his throne.
+
+**Caesar's Propaganda Machine:**
+The widespread use of titles, coins, plaques, and public declarations about Augustus's divinity shows how empire maintains power through controlling narrative. The Priene inscription calling Augustus's birth "gospel" (good news) demonstrates that the early Christians weren't inventing new terminology—they were deliberately co-opting and subverting imperial language.
+
+### Contemporary Applications
+
+**Political Idolatry:**
+The temptation to look for a "better Caesar"—a more effective politician, a stronger president, a more powerful ruler—rather than embodying the kingdom values Jesus demonstrated. This applies across the political spectrum; the issue isn't which party or candidate but the tendency to seek salvation through political power.
+
+**Consumerist Christmas:**
+The way contemporary Christmas celebrations emphasize shopping, material gifts, decorations, and abundance directly contradicts the humility and poverty of Jesus's birth. This isn't about being anti-celebration but about recognizing when our celebrations align more with Herod's values than with Christ's.
+
+**Security Narratives:**
+Modern anxieties about national security, personal safety, financial security, and social status often drive us toward empire thinking—we want walls, weapons, wealth, and control. The kingdom of God suggests an entirely different source of security: trust in God's character and participation in His mission of reconciliation.
+
+**Social Media and Self-Promotion:**
+The contemporary obsession with personal branding, follower counts, and projecting an image of success parallels Herod's obsession with being remembered as "great." The incarnation suggests God operates by entirely different rules—choosing obscurity, service, and self-emptying love.
+
+### Practical Questions for Self-Examination
+
+1. **Do I have a narrative driven by fear or invitation?**
+   - When facing challenges, do I retreat to self-protective strategies or lean into vulnerable trust and service?
+
+2. **Where do I look for security?**
+   - Is my sense of safety tied to wealth, political outcomes, social status, or to participation in God's kingdom?
+
+3. **What would I have seen in first-century Palestine?**
+   - Would I have been impressed by Herod's palaces and Caesar's power, or would I have recognized God in a stable?
+
+4. **How do I measure greatness?**
+   - Do I evaluate success by worldly standards (influence, wealth, power, fame) or by kingdom standards (humility, service, love, sacrifice)?
+
+5. **What am I striving for?**
+   - Empire (self-advancement, self-protection, accumulation) or Shalom (reconciliation, justice, peace, sacrificial love)?
+
+## Potential Areas for Further Exploration
+
+### Theological Themes
+
+- **Incarnational Theology**: Deeper study of what it means that God chose vulnerability and poverty as the mode of divine revelation
+- **Kingdom of God**: More comprehensive exploration of how Jesus's teaching and actions consistently subvert power structures
+- **Christological Titles**: Investigation of how early Christians' use of imperial titles for Jesus functioned as both theology and political resistance
+
+### Historical Studies
+
+- **Herodian Architecture and Engineering**: Further research into the archaeological evidence of Herod's building projects and theories about construction methods
+- **Roman Imperial Cult**: More detailed examination of emperor worship practices throughout the Roman Empire
+- **First-Century Palestine Political Context**: Understanding the complex relationships between Rome, Herod's dynasty, and Jewish religious authorities
+
+### Biblical Studies
+
+- **Matthew's Gospel Structure**: Analysis of how the entire Gospel of Matthew continues the empire/shalom contrast introduced in the birth narrative
+- **Luke-Acts Political Theology**: Examination of how Luke's two-volume work consistently addresses questions of power, authority, and the nature of God's kingdom
+- **Prophecy Citations in Matthew 2**: Study of the Old Testament contexts of Rachel weeping in Ramah (Jeremiah 31:15) and "Out of Egypt I called my son" (Hosea 11:1)
+- **Exodus Typology**: Deeper exploration of how Jesus recapitulates Israel's story and what this means for understanding His mission
+
+### Practical Theology
+
+- **Economics and Kingdom Values**: How should Christians think about wealth, poverty, and economic systems in light of the empire/shalom contrast?
+- **Political Engagement**: What does faithful Christian political involvement look like when we reject both political idolatry and apathy?
+- **Church and Culture**: How can Christian communities embody counter-cultural kingdom values in a society shaped by empire thinking?
+- **Liturgy and Worship**: How might worship practices be reformed to better reflect the values of God's kingdom rather than cultural values?
+
+### Contemporary Issues
+
+- **Nationalism and Christianity**: Examining how national identity and Christian identity sometimes conflict, especially regarding questions of security and power
+- **Consumerism and Discipleship**: Understanding the challenge of living kingdom values in an aggressively consumerist culture
+- **Technology and Self-Presentation**: Exploring how digital culture encourages empire-building (personal branding, self-promotion) and what gospel alternatives look like
+- **Environmental Stewardship**: Considering how Herod's exploitation of resources for personal glory contrasts with a kingdom vision of creation care
+
+## Comprehension Questions
+
+1. **Compare and contrast the kingdoms of Herod and Jesus.** How do their births, values, and the way they exercise power differ? What is Matthew trying to communicate through this contrast?
+
+2. **Explain the significance of Caesar Augustus's claim to divinity and how it relates to Luke's birth narrative.** Why would it have been provocative for early Christians to use Caesar's titles for Jesus?
+
+3. **What does it mean that Jesus was born "in the shadow of the Herodium"?** How does the physical proximity of Jesus's birth to one of Herod's greatest palaces contribute to the theological message of the Gospel?
+
+4. **How does the episode connect the empire/shalom framework from Session 1 to the Christmas narrative?** Give at least three examples from Israel's earlier story where this framework appears.
+
+5. **The episode ends with a convicting question: "Would I have noticed the King of the universe born in a stable, or would I simply have been looking for a better Caesar?"** How do you answer this question for yourself? What in your life suggests you might be looking for Caesars rather than recognizing God's kingdom?
+
+## Brief Personalized Summary
+
+The birth narratives in Matthew and Luke are not simply heartwarming stories about a baby; they are subversive political statements about the nature of God's kingdom. Both Gospel writers deliberately frame Jesus's arrival in contrast to the most powerful rulers of their day—Herod the Great in Matthew's account and Caesar Augustus in Luke's—to force readers to confront their assumptions about power, security, and what it means to be great.
+
+Herod the Great represents the ultimate expression of Hellenistic empire: unimaginable wealth (possibly the richest person in history), architectural achievements that still baffle modern engineers, and monuments designed to ensure his greatness would never be forgotten. Yet this man, for all his power, lived in paranoid fear and resorted to infanticide to protect his throne.
+
+God's response to Herod is not to compete on Herod's terms but to subvert them entirely. Jesus is born in poverty, in a stable filled with animal waste, announced to shepherds—the marginalized of society. This birth takes place in Bethlehem, literally in the shadow of the Herodium, one of Herod's greatest palaces. The message is unmistakable: the King of the universe does not need palaces, wealth, or power as the world defines these things. God's kingdom operates by entirely different rules.
+
+Similarly, Luke frames his narrative against Caesar Augustus, who claimed divine titles like "Son of God," "Prince of Peace," "King of Kings," and "Lord of Lords" based on his connection to the supposedly ascended Julius Caesar. The birth of Jesus challenges every one of these claims, reassigning the titles to their true bearer—not the emperor in Rome but the baby in the manger.
+
+This tale of two kingdoms raises uncomfortable questions that remain relevant today: Are my values shaped more by empire (fear, power, self-preservation, accumulation) or by shalom (invitation, self-sacrifice, service, love)? Do I seek security through control and wealth or through trust in God's character? Would I recognize God's kingdom when it appears in unexpected places—among the poor, the marginalized, the powerless—or am I too busy looking for more impressive displays of strength?
+
+The challenge of Christmas is not to sentimentalize the birth of Jesus but to let it radically reorient our understanding of power, greatness, and what God is like. Empire hasn't changed since Herod and Caesar; it still promises security through strength and greatness through dominance. But God's kingdom offers something fundamentally different: a power perfected in weakness, a greatness defined by service, and a security found in self-giving love. The question is which kingdom captures our imagination and allegiance.
+
+*These study notes are based on BEMA Podcast Episode 90: "A Gospel of Two Kingdoms" with Marty Solomon and Brent Billings. For more information, visit bemadiscipleship.com*

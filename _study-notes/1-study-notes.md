@@ -2,19 +2,19 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 1 - Trust the Story (2016)  
-**Hosts:** Marty Solomon and Brent Billings  
+**Episode:** BEMA 1 - Trust the Story (2016)    
+**Hosts:** Marty Solomon and Brent Billings    
 **Topic:** An analysis of the Genesis 1 creation narrative as an ancient Hebrew poem, focusing on its literary structure, cultural context, and theological meaning regarding rest, identity, and God's view of creation.
 
 ## Key Takeaways
 
-• Genesis 1 is not a scientific account but an ancient Mesopotamian/Hebrew poem with sophisticated literary structure
-• The creation narrative is organized as a chiasm (mirror structure) with the word "moad" (sacred times/seasons) at its center
-• The story addresses liberated Hebrew slaves, teaching them their worth comes from being God's beloved creation, not their productivity
-• Sabbath rest is the central message - we are valued for who we are, not what we produce
-• The "evening and morning" refrain reflects Jewish understanding that each day begins with rest, not work
-• Creation is fundamentally "good" (tov), not perfect in a static sense but dynamic with potential
-• The seventh day has no closing refrain, suggesting God's invitation to eternal Sabbath rest continues
+- Genesis 1 is not a scientific account but an ancient Mesopotamian/Hebrew poem with sophisticated literary structure
+- The creation narrative is organized as a chiasm (mirror structure) with the word "moad" (sacred times/seasons) at its center
+- The story addresses liberated Hebrew slaves, teaching them their worth comes from being God's beloved creation, not their productivity
+- Sabbath rest is the central message - we are valued for who we are, not what we produce
+- The "evening and morning" refrain reflects Jewish understanding that each day begins with rest, not work
+- Creation is fundamentally "good" (tov), not perfect in a static sense but dynamic with potential
+- The seventh day has no closing refrain, suggesting God's invitation to eternal Sabbath rest continues
 
 ## Main Concepts & Theories
 

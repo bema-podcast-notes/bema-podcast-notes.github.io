@@ -1,0 +1,251 @@
+# BEMA Episode 37: A Love Story - Study Notes
+
+## Title & Source Summary
+
+**Episode Title:** A Love Story
+**Source:** BEMA Podcast Episode 37  
+**Hosts:** Marty Solomon and Brent Billings
+
+This episode provides a comprehensive walkthrough of the Book of Ruth, exploring it as both a beautiful romance and a profound missional narrative. Set during the tumultuous period of the Judges, Ruth's story demonstrates how God's mission is realized when Israel properly treats the alien, the orphan, and the widow. The four-chapter book showcases remarkable righteousness in the midst of widespread failure, ultimately contributing to the lineage of King David and, by extension, Jesus.
+
+## Key Takeaways
+
+- The Book of Ruth takes place during the period of the Judges, demonstrating that not everyone in Israel had abandoned God's commands during this dark time
+- Ruth, a Moabite woman, embodies the narrative of self-sacrifice and righteousness despite being a foreigner excluded from the assembly of Israel (Deuteronomy's prohibition)
+- Boaz exemplifies faithful obedience to Torah by leaving grain in the corners of his fields and going beyond minimum requirements to care for the vulnerable
+- The story is fundamentally about loving God through obedience to His commandments, particularly regarding care for aliens, orphans, and widows
+- Ruth's inclusion in David's lineage (and therefore Jesus' lineage) demonstrates God's redemptive plan working through unlikely people and circumstances
+- The kinsman-redeemer system from Leviticus provides the mechanism for Ruth and Naomi's restoration to the community
+- Naomi's bitterness may reflect either anger at God or guilt over perceived disobedience in going to Moab during the famine
+- The story shows that righteousness and participation in God's mission can flourish even when the broader culture is failing
+
+## Main Concepts & Theories
+
+### The Historical Context: Days of the Judges
+
+The opening verse establishes the timeframe: "In the days when the judges ruled" (Ruth 1:1). This places the narrative during the cyclical pattern of sin, oppression, crying out, and deliverance described in the Book of Judges. The contrast is striking—while the previous episode emphasized the widespread failure and sin cycles of this period, Ruth demonstrates that pockets of faithfulness existed. Not all of Israel had forgotten God's commands or their identity as former slaves in Egypt.
+
+### The Famine and the Journey to Moab
+
+Elimelech's decision to take his family to Moab during a famine presents an interpretive question. Traditionally, famines drove Israelites to Egypt, which had the Nile River ensuring consistent food supplies. However, God had warned against returning to Egypt. The hosts suggest two possible readings:
+
+1. **Disobedience:** The family may have been trusting in Moab's gods rather than Yahweh
+2. **Obedience:** They may have deliberately avoided Egypt despite it being the logical choice, demonstrating faithfulness even in hardship
+
+The text leaves this ambiguous, allowing readers to wrestle with the complexity of decision-making during crisis.
+
+### Naomi's Bitterness (Mara)
+
+Naomi's request to be called "Mara" (bitter) rather than "Naomi" (pleasant) reveals deep emotional and spiritual pain. The Hebrew root *mara* can mean both "bitter" and "rebellious," creating two possible interpretations:
+
+1. **Bitterness toward God:** Anger at God for allowing her husband and sons to die
+2. **Guilt and shame:** Self-condemnation for a perceived mistake in going to Moab, believing God is punishing her rebellion
+
+The statement "the LORD's hand has gone out against me" (Ruth 1:13) and "the Almighty has brought misfortune upon me" (Ruth 1:21) supports either reading. This ambiguity makes Naomi's character relatable to anyone who has experienced both anger at God and self-blame during suffering.
+
+### Ruth: The Righteous Moabitess
+
+Ruth's declaration of loyalty to Naomi (Ruth 1:16-17) is one of Scripture's most beautiful passages. Her commitment demonstrates:
+
+- **Covenant faithfulness:** "Your people will be my people, your God my God"
+- **Self-sacrifice:** Willingness to face the stigma of being a Moabite in Israel
+- **Lifelong commitment:** "Where you die, I will die, and there I will be buried"
+
+Despite being from a nation explicitly excluded from "the assembly of the LORD to the tenth generation" (Deuteronomy 23:3), Ruth embodies the very values God desired for Israel. This creates a powerful irony: a pagan Moabite woman demonstrates greater faithfulness than many Israelites.
+
+### Torah Economics: Gleaning Laws
+
+Ruth's knowledge of Israel's gleaning practices reveals that God's people had developed a reputation for caring for the vulnerable. Levitical law commanded:
+
+- Not harvesting the corners of fields (Leviticus 19:9)
+- Not picking up dropped sheaves (Deuteronomy 24:19)
+- Leaving these for "the alien, the fatherless and the widow" (Deuteronomy 24:19-21)
+
+Ruth, as an alien, orphan (fatherless in a patriarchal society), and widow, represented all three categories. Her decision to glean shows she had heard about this economic system even while in Moab, suggesting Israel's obedience had created a visible witness.
+
+### Boaz: The Righteous Kinsman-Redeemer
+
+Boaz exemplifies covenant faithfulness in multiple ways:
+
+1. **Obedience to gleaning laws:** He maintains unharvested corners and instructs workers not to pick up dropped grain
+2. **Extraordinary generosity:** He commands workers to deliberately drop extra grain for Ruth (Ruth 2:16)
+3. **Protection:** He ensures Ruth's safety from harassment and provides water (Ruth 2:9)
+4. **Recognition of righteousness:** He publicly honors Ruth's character despite her Moabite heritage (Ruth 2:11-12)
+5. **Willingness to redeem:** He commits to fulfill the kinsman-redeemer role even when it means marrying a Moabite
+
+The greeting "The LORD be with you!" exchanged between Boaz and his workers (Ruth 2:4) further indicates a community shaped by covenant faithfulness.
+
+### The Threshing Floor Encounter
+
+The threshing floor scene (Ruth 3) is loaded with cultural symbolism:
+
+- **Timing:** Harvest celebration involved eating, drinking, and sleeping at the threshing floor to protect grain from theft
+- **Uncovering feet:** A euphemism for uncovering Boaz's circumcision—the physical sign of his covenant with God
+- **Lying at his feet:** Ruth positions herself so Boaz literally sees her through the sign of his covenant, reminding him of his covenant obligation to care for aliens, orphans, and widows
+- **"Spread your garment":** A betrothal symbol; Ruth isn't asking to be a servant or concubine but a wife
+
+Boaz recognizes this as an act of "kindness" (*hesed*—covenant loyalty) greater than her care for Naomi, because Ruth could have pursued younger, wealthier men but instead called Boaz to fulfill his covenant obligations.
+
+### The Kinsman-Redeemer System
+
+Leviticus 25 establishes redemption laws to restore people who had fallen into debt or slavery. The kinsman-redeemer (*go'el*) had the responsibility to:
+
+- Buy back family land that had been sold
+- Marry a deceased relative's widow to preserve the family name (levirate marriage)
+- Redeem relatives from slavery
+
+Naomi identifies Boaz as "one of our guardian-redeemers" (Ruth 2:20), recognizing him as their "ticket back in" to full participation in Israel's economic and social life. However, a closer relative has the first right of redemption.
+
+### The Gate Transaction
+
+The city gate served as the ancient Near Eastern courthouse and business center. Boaz's public negotiation (Ruth 4) ensures legal validity through witnesses—ten elders plus additional community members.
+
+The closer kinsman initially agrees to redeem the land but backs out upon learning he must also marry Ruth the Moabitess. His concern about "endangering his estate" may reflect:
+
+- Economic burden of additional dependents
+- Social stigma of marrying a Moabite
+- Religious concerns about Deuteronomy's prohibition
+- Potential complications for inheritance
+
+The sandal exchange symbolizes the transfer of rights, an ancient Israelite legal custom the text explains for later readers unfamiliar with the practice.
+
+### Messianic Implications
+
+The genealogy ending Ruth's story proves crucial to biblical history:
+
+**Ruth → Obed → Jesse → David**
+
+This lineage means:
+
+- A Moabite woman becomes the great-grandmother of Israel's greatest king
+- David's legitimacy depends on accepting Ruth's inclusion despite Deuteronomy 23:3
+- By New Testament reckoning, Ruth is in Jesus' genealogy (Matthew 1:5)
+
+The elders' blessing references Perez, born from Judah's union with Tamar (Genesis 38)—another story of questionable legitimacy and unconventional inclusion. Both stories demonstrate God's redemptive work through unexpected people and irregular circumstances.
+
+## Examples & Applications
+
+### Real-World Example: Modern Refugee Care
+
+Just as Ruth was an alien seeking refuge in Israel, modern refugees face similar vulnerabilities. Churches and communities that provide:
+
+- Language assistance and cultural orientation
+- Economic opportunities and job training
+- Social integration and protection from exploitation
+- Legal advocacy and rights protection
+
+...are embodying the same mission Boaz demonstrated. The gleaning system wasn't charity but dignified participation in economic life—a model for refugee resettlement that preserves dignity while meeting needs.
+
+### Application: Righteousness in Cultural Decline
+
+The Book of Ruth's setting "in the days when the judges ruled" reminds believers that personal and community faithfulness matters even during periods of widespread cultural or religious decline. Boaz and Ruth didn't wait for society to improve; they lived out God's values regardless of surrounding failures. This encourages contemporary believers to:
+
+- Maintain obedience when broader culture drifts from biblical values
+- Create communities of righteousness that become known for their distinctive care
+- Trust that faithfulness can have generational impact (Ruth couldn't have known she'd be David's ancestor)
+
+### Application: Love Demonstrated Through Obedience
+
+The episode emphasizes Jesus' teaching: "If you love me, you will obey my commandments" (John 14:15). The book of Ruth illustrates this principle:
+
+- Boaz's love for God is shown through care for Ruth (obedience to gleaning laws)
+- Ruth's love for Naomi drives her self-sacrifice
+- Israel's corporate love for God should be visible in economic systems protecting vulnerable people
+
+Modern application includes examining which of God's commands we might consider optional, particularly those regarding economic justice, care for marginalized populations, and inclusion of outsiders.
+
+### Application: The Kinsman-Redeemer and Christ
+
+Christian theology has long seen Boaz as a type of Christ, the ultimate kinsman-redeemer who:
+
+- Takes on human nature to become our "kinsman"
+- Pays the price to redeem us from slavery to sin
+- Brings us into his family despite our outsider status
+- Restores our inheritance
+
+Ruth's position as a Moabite excluded from the assembly parallels humanity's alienation from God, making her redemption and inclusion particularly poignant as a picture of gospel grace.
+
+## Potential Areas for Further Exploration
+
+### The Moabite Question
+
+Deuteronomy 23:3-6 explicitly excludes Moabites and Ammonites from the assembly of the LORD "to the tenth generation." Yet Ruth is not only accepted but becomes David's great-grandmother. Further study could explore:
+
+- How did ancient Israelites reconcile Ruth's inclusion with Deuteronomy's prohibition?
+- Does Ruth's conversion ("your God will be my God") override ethnic exclusion?
+- What does this reveal about the relationship between ethnicity and covenant membership?
+- How does this inform New Testament theology of Gentile inclusion?
+
+### Economic Justice in Torah
+
+Ruth provides a case study of Levitical economic laws in practice. Deeper exploration might include:
+
+- How did the gleaning system compare to other ancient Near Eastern poverty relief?
+- What percentage of harvest was typically left for gleaning?
+- How did Jubilee, Sabbath years, and gleaning work together as an economic safety net?
+- What modern economic principles might reflect these values?
+
+### Women's Agency in Patriarchal Culture
+
+Despite living in a patriarchal society, both Ruth and Naomi demonstrate significant agency:
+
+- Naomi's strategic planning for Ruth's future
+- Ruth's bold initiative at the threshing floor
+- The community's recognition of Ruth's worth ("better than seven sons")
+
+Further study could examine:
+
+- How did Torah's commands regarding widows and inheritance protect women's interests?
+- What other biblical narratives feature women's strategic action within patriarchal constraints?
+- How does Ruth compare to other foreign women in biblical narrative (Rahab, Tamar, Bathsheba)?
+
+### The Book's Connection to Pentecost/Shavuot
+
+Ruth is read annually during Shavuot (Feast of Weeks/Pentecost), traditionally celebrated as the giving of Torah at Sinai. Investigation could include:
+
+- Why is Ruth associated with this particular festival?
+- How does the harvest setting connect to Shavuot's agricultural significance?
+- What thematic connections exist between Ruth and covenant renewal?
+- How might early Christians have understood Ruth in light of Pentecost (Acts 2)?
+
+### Genealogical Inclusion and Biblical Theology
+
+Ruth's presence in David's (and Jesus') genealogy raises important questions:
+
+- Why do both Matthew and Luke include Ruth in Jesus' lineage?
+- What other "irregular" inclusions appear in biblical genealogies?
+- How does Ruth's story inform understanding of who belongs to God's people?
+- What does this suggest about divine sovereignty working through human faithfulness?
+
+### The Literary Structure of Ruth
+
+The book demonstrates sophisticated literary artistry:
+
+- Chiastic structure and symmetry
+- Wordplay and name meanings
+- Dialogue-driven narrative
+- Contrasts between characters (Orpah/Ruth, Boaz/unnamed redeemer)
+
+Literary analysis could reveal additional theological layers and artistic techniques that enhance the story's impact.
+
+## Comprehension Questions
+
+1. **How does the Book of Ruth's setting "in the days when the judges ruled" create a contrast with the Book of Judges, and what does this contrast reveal about faithfulness during cultural decline?**
+
+2. **Explain the significance of Ruth "uncovering Boaz's feet" at the threshing floor. What was Ruth communicating through this symbolic action, and how did Boaz respond?**
+
+3. **What is a kinsman-redeemer (go'el), and why was this role crucial for Ruth and Naomi's situation? How does Boaz fulfill this role, and what obstacles did he overcome to do so?**
+
+4. **In what ways does Ruth, a Moabite woman, exemplify the values God desired for Israel? What irony exists in her character, and what does this suggest about God's mission?**
+
+5. **The episode argues that Ruth is "much more than just a love story between Boaz and Ruth." What is the deeper love story being told, and how does it connect to Jesus' teaching about love and obedience?**
+
+## Personalized Summary
+
+The Book of Ruth presents a powerful counter-narrative to the chaos and failure of the Judges period, demonstrating that God's mission continues through the faithfulness of ordinary people committed to extraordinary obedience. At its heart, this is a love story—not merely between Ruth and Boaz, but between God's people and their God, expressed through concrete obedience to commands protecting the vulnerable.
+
+Ruth's journey from Moabite outsider to great-grandmother of King David illustrates the scandalous inclusivity of God's redemptive plan. Her righteousness challenges assumptions about who can participate in God's mission, while Boaz's faithfulness shows what covenant love looks like in practice—generous, protective, and willing to embrace the excluded at personal cost.
+
+The gleaning laws, kinsman-redeemer system, and gate transactions aren't just ancient customs but expressions of a divine economy where dignity, justice, and restoration take priority over profit and social status. When these systems functioned as intended, they created visible witness to surrounding nations, making Israel's God known through the community's treatment of aliens, orphans, and widows.
+
+Perhaps most encouragingly, Ruth reminds us that faithfulness matters regardless of surrounding culture. Even in Israel's darkest period, Boaz and Ruth chose obedience, unaware their story would echo through millennia and ultimately point to the greater Kinsman-Redeemer who would include all outsiders in his family. Their example calls contemporary believers to similar faithfulness, trusting that loving God through obedience to his mission creates impact far beyond what we can see or imagine.

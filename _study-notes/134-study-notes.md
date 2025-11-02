@@ -2,7 +2,7 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 134: Session 4 Intro  
+**Episode:** BEMA 134: Session 4 Intro    
 **Hosts:** Marty Solomon & Brent Billings  
 **Focus:** Introduction to Session 4 of the BEMA Podcast series, which begins exploring how God's people apply the reality of Christ in their own contexts through the New Testament letters.
 
@@ -10,19 +10,19 @@ This episode serves as a comprehensive review of Sessions 1-3 and introduces the
 
 ## Key Takeaways
 
-• **Sequential Learning is Essential:** BEMA is designed as a linear journey where each session builds on previous knowledge - jumping into Session 4 without the foundation would be disorienting and ineffective
+- **Sequential Learning is Essential:** BEMA is designed as a linear journey where each session builds on previous knowledge - jumping into Session 4 without the foundation would be disorienting and ineffective
 
-• **The Story Arc Continues:** Session 4 represents the next phase where God's people learn to apply Christ's reality to their specific cultural contexts
+- **The Story Arc Continues:** Session 4 represents the next phase where God's people learn to apply Christ's reality to their specific cultural contexts
 
-• **Biblical Narrative Structure:** The entire biblical story follows a clear progression from partnership (Torah) through history, wisdom, prophecy, remnant, silent years, and Gospels
+- **Biblical Narrative Structure:** The entire biblical story follows a clear progression from partnership (Torah) through history, wisdom, prophecy, remnant, silent years, and Gospels
 
-• **Financial Support Enables Ministry:** The podcast and associated ministries depend on listener support across three areas: general fund, personal support, and BEMA ministry specifically
+- **Financial Support Enables Ministry:** The podcast and associated ministries depend on listener support across three areas: general fund, personal support, and BEMA ministry specifically
 
-• **Community Learning Matters:** BEMA groups worldwide create spaces for people to process this material together, emphasizing partnership and community
+- **Community Learning Matters:** BEMA groups worldwide create spaces for people to process this material together, emphasizing partnership and community
 
-• **Romans Requires Careful Handling:** Due to its elevated status in evangelical theology, Romans will receive verse-by-verse treatment to prevent accusations of selective interpretation
+- **Romans Requires Careful Handling:** Due to its elevated status in evangelical theology, Romans will receive verse-by-verse treatment to prevent accusations of selective interpretation
 
-• **Revelation is Critically Important:** Understanding how the story ends profoundly impacts how believers live today, making Revelation one of the most significant but misunderstood portions of Scripture
+- **Revelation is Critically Important:** Understanding how the story ends profoundly impacts how believers live today, making Revelation one of the most significant but misunderstood portions of Scripture
 
 ## Main Concepts & Theories
 

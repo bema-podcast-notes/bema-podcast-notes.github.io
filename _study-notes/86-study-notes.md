@@ -1,0 +1,210 @@
+# BEMA Episode 86: Luke - Ordered
+
+## Title & Source Summary
+
+This episode examines the Gospel of Luke through an alternative scholarly lens, challenging conventional assumptions about its authorship, audience, and purpose. Marty Solomon and Brent Billings explore M.D. Goulder's theory that Luke wrote his Gospel not as a chronological account for Gentile readers, but as a carefully structured companion reading designed to align with the Jewish synagogue liturgical calendar—specifically the parashah (Torah) and haftarah (Prophets) readings.
+
+## Key Takeaways
+
+- Luke was likely not a Gentile author but a Jewish proselyte (convert) who would have been trained in Jewish thought and practice
+- The traditional view that Luke wrote for a Gentile audience to provide a more chronological account may be incorrect
+- M.D. Goulder's theory proposes that Luke structured his Gospel as a companion reading to the synagogue lectionary cycle
+- The Greek word typically translated "orderly" in Luke 1:3 is better translated as "ordered" or "sequenced"
+- Luke demonstrates sophisticated use of Jewish literary devices including chiasmus and parallelism
+- "Servants of the word" (Luke 1:2) refers to the hazzanim—synagogue custodians responsible for maintaining and memorizing sacred texts
+- One of Luke's major themes is presenting Jesus as the second Moses, fulfilling the Deuteronomic promise
+- Luke's Gospel shows remarkable literary artistry when read in conjunction with the Torah and Prophets portions
+
+## Main Concepts & Theories
+
+### Luke's Identity and Background
+
+**Conventional View**: Luke is typically considered the only Gentile author in the Bible, a physician who wrote to a Gentile audience.
+
+**Alternative View**: Luke was likely a Jewish proselyte—a Gentile by birth who converted to Judaism before following Jesus. Evidence includes:
+- Luke traveled with the disciples before the Jerusalem Council (Acts 15) when Gentile inclusion was still controversial, yet no one questioned his presence
+- As a physician, Luke may have been an Asclepian priest before conversion, indicating high education and intellectual capacity
+- In Jewish understanding, a proselyte who undergoes circumcision becomes "as Jewish as if born Jewish"—a full son of Abraham
+- Luke's Gospel demonstrates deep knowledge of Jewish liturgy, literature, and thought patterns
+
+### The Audience Question
+
+**Who is Theophilus?**
+- Name means "friend of God" (Theo-philus) in Greek
+- Could be an actual person (possibly Herodian Jew with Greek name)
+- Could be a literary device addressing all "friends of God" (believers)
+- Could represent the church community collectively
+- Having a Greek name doesn't necessarily indicate Gentile ethnicity in the Hellenistic world
+
+**Rethinking the Gentile Audience Theory**: Multiple factors suggest a Jewish, not Gentile, primary audience:
+- Deep engagement with Jewish literary forms
+- Alignment with synagogue reading cycles
+- Themes requiring intimate knowledge of Torah and Prophets
+- Use of technical terminology like hazzanim (synagogue custodians)
+
+### Goulder's Revolutionary Theory
+
+**M.D. Goulder** (Harvard scholar) proposed in *The Evangelists' Calendar* that Luke designed his Gospel as a structured companion to the synagogue lectionary:
+
+**The Synagogue Reading Cycle**:
+- **Parashah**: Torah portion read weekly (completes Torah annually)
+- **Haftarah**: Prophets/Writings portion read weekly (completes cycle every three years)
+- These readings formed the backbone of Jewish worship and study
+
+**Luke's Design**:
+- Each section of Luke's Gospel corresponds to specific parashah and haftarah readings
+- Jesus's ministry events and teachings speak directly to the Torah portion being studied that week
+- This creates a three-dimensional reading experience: Torah → Prophets → Gospel
+- The structure is "ordered" or "sequenced" to follow the liturgical calendar, not necessarily chronological time
+
+**Implications**:
+- Explains why Luke's Gospel isn't strictly chronological despite traditional interpretation of Luke 1:3
+- Shows incredible literary sophistication and planning
+- Indicates Jewish audience familiar with synagogue worship
+- Suggests Jesus intentionally timed teachings to correspond with parashah themes
+- Makes Luke a companion volume for Jewish believers to use in worship and study
+
+### Literary Sophistication
+
+Luke employs advanced Eastern literary techniques:
+
+**Chiasmus**: A literary structure where concepts are presented in one order then repeated in reverse (A-B-C-B-A pattern), creating emphasis on the central element. Kenneth Bailey's scholarship demonstrates Luke's extensive use of this Hebrew literary device.
+
+**Parallelism**: Another hallmark of Hebrew poetry and literature, where ideas are presented in corresponding or contrasting pairs.
+
+**Thematic Development**: Luke presents Jesus as the "second Moses"—the prophet promised in Deuteronomy whom God would raise up "like Moses." This was a primary messianic expectation in Second Temple Judaism.
+
+### Translation Nuance
+
+**Luke 1:3 - "Orderly" vs. "Ordered"**:
+- Most English translations: "to write an orderly account"
+- Greek more accurately: "to write an ordered/sequenced account"
+- This subtle distinction supports Goulder's theory—Luke is ordering/sequencing his material to match the liturgical readings, not claiming strict chronological order
+
+### The Role of Hazzanim
+
+**Luke 1:2** references "eyewitnesses and servants of the word"—the Greek term for "servants" is the same used in the Septuagint for hazzanim.
+
+**Hazzanim responsibilities**:
+- Custodians of synagogue scrolls
+- Most synagogues owned only one or two scrolls (too expensive for complete libraries)
+- Hazzanim memorized entire sections of Scripture they didn't physically possess
+- Served as walking concordances for the community
+- Verified accuracy of quotations and references
+
+Luke's mention suggests he interviewed these memorization experts to ensure accuracy of Jesus's words and proper placement within the scriptural framework.
+
+### Dating and Order of the Gospels
+
+**Traditional View**: Mark (first) → Matthew (second) → Luke (third) → John (last)
+
+**Marty's Perspective**: Matthew (first) → Mark (second) → John (third) → Luke (last, much later)
+
+**Evidence for Luke being later**:
+- Luke 1:1 states "many have undertaken" to write accounts—indicating multiple prior attempts
+- The sophisticated structure would require time to develop
+- Understanding of how Jesus's ministry aligned with the three-year lectionary cycle would require retrospective analysis
+
+## Examples & Applications
+
+### Practical Use of Goulder's Framework
+
+**Historical Example**: A BEMA study group in Albany, New York, used Goulder's lectionary framework while studying Luke:
+- For each Luke passage studied, they identified the corresponding parashah and haftarah readings
+- This revealed layers of meaning and connection previously invisible
+- Demonstrated how Jesus's teachings directly addressed the Scripture portions being studied that week
+
+**Reading Strategy**: When studying Luke's Gospel:
+1. Identify which section you're reading
+2. Find the corresponding Torah portion (parashah) for that liturgical week
+3. Find the corresponding Prophets portion (haftarah)
+4. Read all three together to see the interconnections
+5. Notice how Jesus's words and actions fulfill, expand, or reinterpret the weekly readings
+
+### The Literary Art Analogy
+
+Understanding Luke as a carefully structured literary work changes how we approach it—like the difference between viewing a painting as random brushstrokes versus seeing it as a masterpiece where every element is intentionally placed. Luke's Gospel operates on multiple levels simultaneously:
+- Historical narrative of Jesus's life and ministry
+- Theological interpretation of Jesus's significance
+- Literary artwork using sophisticated Hebrew techniques
+- Liturgical companion for worship and study
+
+### Real-World Connection: Libraries and Ancient Knowledge
+
+The discussion about synagogue scrolls and hazzanim parallels modern library systems:
+- Not every location has every resource
+- Librarians (like hazzanim) know how to access information not physically present
+- Interlibrary loans parallel the practice of traveling to another synagogue to view their scrolls
+- The shift from memorization to written/digital access represents a fundamental change in knowledge transmission
+
+The episode's closing discussion about finding *The Evangelists' Calendar* through libraries reminds us that valuable resources often exist beyond our immediate purchase options—whether through public libraries, university collections, or interlibrary loan systems.
+
+## Potential Areas for Further Exploration
+
+### Theological and Academic Study
+
+1. **Comparative Gospel Analysis**: How does recognizing Luke's liturgical structure change our understanding of the Synoptic Problem (the relationship between Matthew, Mark, and Luke)?
+
+2. **Messianic Typology**: Explore Luke's presentation of Jesus as the "second Moses" throughout the Gospel. What specific parallels does Luke draw? How does this fit Second Temple messianic expectations?
+
+3. **Chiastic Structures in Luke**: Using Kenneth Bailey's work (*Poet & Peasant* and *Through Peasant Eyes*), identify major chiastic structures in Luke and analyze what they emphasize
+
+4. **The Liturgical Year**: Study the Jewish liturgical calendar and how the parashah cycle structures the year. How might this have shaped early Christian worship?
+
+5. **Proselyte Experience**: Research the conversion process for Gentiles becoming Jewish in the Second Temple period. What would Luke's background journey have looked like?
+
+### Literary and Historical Investigation
+
+6. **Source Q Investigation**: If Luke had access to Matthew, Mark, and "Source Q" (a hypothetical collection of Jesus's sayings), how do we reconcile this with the liturgical structure theory?
+
+7. **Theophilus Identity**: Conduct deeper research into who Theophilus might have been. Are there historical records of prominent "friends of God" in early Christian communities?
+
+8. **Gospel Chronology Debate**: Compare the actual order of events in Luke with Matthew and Mark. Where does Luke deviate from chronology, and do these deviations align with the lectionary structure?
+
+9. **The Hazzanim System**: How did the role of hazzanim develop? What training did they receive? How reliable was oral transmission of Scripture?
+
+10. **Early Christian Liturgy**: How did early Jewish believers structure their worship? Did they maintain synagogue attendance while also meeting separately?
+
+### Practical Application
+
+11. **Modern Lectionary Connections**: Many liturgical Christian traditions use lectionaries. How does understanding Luke's original liturgical context inform contemporary lectionary use?
+
+12. **Teaching Jesus in Context**: How can modern Bible teachers better present Jesus's words within their original Torah study framework rather than as disconnected sayings?
+
+13. **Community Study Models**: What would a small group study look like if it followed the Luke-parashah-haftarah model for a full liturgical year?
+
+### Scholarly Resources
+
+14. **Goulder's Complete Theory**: Read *The Evangelists' Calendar* in full. Do Goulder's theories about other New Testament books hold the same weight as his Luke material?
+
+15. **Kenneth Bailey's Literary Analysis**: Work through Bailey's identification of chiastic structures. Are his literary analyses convincing? Where might they be debatable?
+
+16. **Alternative Theories**: Research other scholarly theories about Luke's audience and purpose. What evidence supports or contradicts Goulder's approach?
+
+## Comprehension Questions
+
+1. **Analysis Question**: If Luke was a proselyte (Gentile convert to Judaism) rather than a born Jew, how might his unique perspective have shaped what he chose to include in his Gospel? What advantages might his background have given him for his apparent purposes?
+
+2. **Synthesis Question**: Explain how Goulder's theory that Luke wrote a "sequenced" rather than "orderly" Gospel changes our understanding of apparent chronological inconsistencies when comparing Luke to Matthew and Mark.
+
+3. **Application Question**: Imagine you're teaching Luke 4 (Jesus's temptation in the wilderness) to a group unfamiliar with Goulder's theory. How would your teaching change if you knew this section was meant to be read alongside a specific Torah portion about Israel's wilderness wandering?
+
+4. **Critical Thinking Question**: The episode mentions that Luke 1:1 states "many have undertaken" to write accounts of Jesus's life, yet only four Gospels are in our New Testament. What might this tell us about the early church's process of recognizing authoritative Scripture, and why might Luke's Gospel have been preserved while others weren't?
+
+5. **Contextual Question**: What is the significance of Luke referencing "servants of the word" (hazzanim) in his opening statement? How does understanding the role of hazzanim in preserving and transmitting Scripture affect our confidence in the accuracy of Luke's Gospel?
+
+## Personalized Summary
+
+This episode fundamentally challenges conventional assumptions about the Gospel of Luke that many of us learned in Bible classes or seminary. Rather than viewing Luke as simply "the physician's Gospel" written for Gentiles with careful attention to chronological detail, we're invited to see it as a masterfully crafted work of Jewish literature designed to accompany synagogue worship.
+
+The core insight—that Luke structured his Gospel as a companion to the weekly Torah and Prophets readings—transforms how we read this material. Suddenly, passages that seemed randomly placed or chronologically confusing reveal themselves as deliberately positioned to dialogue with specific Scripture portions. Jesus's teachings weren't just responses to immediate circumstances; they were fulfillments and reinterpretations of the exact texts his hearers were studying that week.
+
+This perspective elevates our appreciation for Luke's literary artistry. Imagine the complexity required to: (1) accurately record Jesus's words and deeds, (2) structure them to align with a three-year liturgical cycle, (3) employ sophisticated literary devices like chiasmus, and (4) develop major themes like Jesus as the second Moses—all while creating a readable narrative. If Goulder's theory is correct, Luke accomplished all of this simultaneously.
+
+The episode also reminds us that authorship and audience questions matter. Understanding Luke as a Jewish proselyte writing for a Jewish audience changes interpretive assumptions. References that might seem like explanations for outsiders instead become insider language for those familiar with synagogue life. The Gospel becomes not a bridge to Gentile understanding but a Jewish document proclaiming Jesus as the fulfillment of Jewish hope.
+
+Perhaps most practically, this episode models intellectual humility and ongoing learning. Marty presents Goulder's theory not as absolute truth but as a compelling framework that has shaped his own understanding. He acknowledges disagreeing with parts of Goulder's broader work while finding his Luke material convincing. This demonstrates that serious Bible study involves weighing evidence, considering multiple perspectives, and remaining open to insights that challenge our inherited assumptions.
+
+For modern readers, engaging with Luke through the lens of Torah and Prophets portions invites us into the world Jesus actually inhabited—a world saturated with Scripture, structured by liturgical rhythms, and expecting God to act again as God had acted before. When we read Luke alongside the parashah and haftarah, we're not just learning about Jesus; we're experiencing how the earliest Jewish believers understood his life and teachings as the climax of their sacred story.
+
+*Note: This episode is part of the BEMA Discipleship Podcast's exploration of the four Gospels. For full context, see the previous episodes on Matthew (Episode 84) and Mark (Episode 85), and the upcoming episode on John.*

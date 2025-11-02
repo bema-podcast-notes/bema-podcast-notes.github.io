@@ -2,8 +2,8 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 167: James — Mitzvoth  
-**Hosts:** Marty Solomon and Brent Billings  
+**Episode:** BEMA 167: James — Mitzvoth    
+**Hosts:** Marty Solomon and Brent Billings    
 **Topic:** An examination of the Book of James, focusing on understanding James as a letter from the Jewish leader of the Jerusalem church to Jewish believers scattered among the Gentile world, emphasizing the distinction between mitzvoth (deeds/works of obedience) and Paul's discussion of works of the law.
 
 This episode establishes the proper context for reading James by identifying the author as James son of Alphaeus (cousin of Jesus and leader of the Jerusalem church), examining the audience (Jewish believers in the diaspora), and clarifying that James is not contradicting Paul but addressing a different concern—the need for Jewish believers to maintain their covenant distinctiveness while living among Gentiles.

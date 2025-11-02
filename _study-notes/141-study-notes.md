@@ -2,8 +2,8 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 141 - Mathetes or Talmidim  
-**Hosts:** Marty Solomon and Brent Billings  
+**Episode:** BEMA 141 - Mathetes or Talmidim    
+**Hosts:** Marty Solomon and Brent Billings    
 **Topic:** An examination of Paul's evolving ministry methodology through Acts 16-20, contrasting Greek concepts of discipleship (mathetes) with Hebrew rabbinic discipleship (talmidim), and analyzing how Paul's approach transforms from church planting to disciple-making over his three missionary journeys.
 
 ## Key Takeaways

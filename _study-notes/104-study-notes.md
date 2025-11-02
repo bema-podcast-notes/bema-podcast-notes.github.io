@@ -1,0 +1,238 @@
+# BEMA Episode 104: Innocent as Doves - Study Notes
+
+## Title & Source Summary
+
+**Episode:** 104 - Innocent as Doves  
+**Hosts:** Marty Solomon and Brent Billings
+**Focus:** Matthew 10 (The Sending of the Twelve Disciples)
+
+This episode explores Jesus's second major discourse in the Gospel of Matthew, where He sends out His twelve disciples on a mission to bring the Kingdom of God to the lost sheep of Israel. The discussion examines the challenging instructions Jesus gives His disciples, the warnings about persecution they will face, and the radical nature of Kingdom mission work. The hosts also explore Matthew's literary structure as five books paralleling the five books of Moses, positioning Jesus as the new Moses.
+
+## Key Takeaways
+
+- Matthew's Gospel is structured around five major discourses that parallel the five books of Moses (Torah), reinforcing Jesus as the new Moses figure.
+- The second discourse (Matthew 10) is Jesus's mission instructions to His disciples as He sends them out to practice what they learned from the Sermon on the Mount.
+- Jesus sends His disciples specifically to "the lost sheep of Israel" - not to pagans or Gentiles, but to God's own people who already share the Jewish worldview.
+- The disciples are sent without provisions (money, bag, extra clothes, staff), forcing them to rely entirely on the hospitality of those they visit.
+- Jesus honestly warns His disciples that they will face persecution, flogging in synagogues, and betrayal - not from pagans, but from fellow believers.
+- The phrase "shrewd as serpents and innocent as doves" calls for extraordinary discernment and wisdom when navigating conflict within the faith community.
+- Jesus's reference to "bringing a sword" and family division quotes Micah 7, pointing to a time of moral corruption when God's people fail to act justly, love mercy, and walk humbly.
+- The mission requires total commitment - being "all in" - which Jesus expresses through the rabbinical understanding that the rabbi-disciple relationship is stronger than even parent-child bonds.
+- References to hell in this passage serve as hyperbole to emphasize proper reverence for God over fear of human persecution, not as a systematic theology of eternal punishment.
+- Hospitality is central to Kingdom mission - those who fail to show hospitality to Kingdom workers face judgment worse than Sodom and Gomorrah (whose primary sin was inhospitality).
+
+## Main Concepts & Theories
+
+### Matthew's Five-Book Structure
+
+Marty introduces the theory, supported by BibleProject and other scholars, that Matthew deliberately structured his Gospel into five major sections, each ending with a significant discourse from Jesus. This parallels the five books of Moses (Genesis, Exodus, Leviticus, Numbers, Deuteronomy) and reinforces the theme of Jesus as the new Moses.
+
+The five discourses are:
+1. The Sermon on the Mount (Matthew 5-7)
+2. Mission Instructions to the Twelve (Matthew 10)
+3. Parables of the Kingdom (Matthew 13)
+4. Fourth discourse (later in Matthew)
+5. Fifth discourse (later in Matthew)
+
+Marty speculates that if the parallels are intentional, they might run in reverse order (Deuteronomy to Genesis), symbolizing a return to the Garden and new creation through restoration of God's Kingdom.
+
+### The Twelve Disciples' Diverse Worldviews
+
+The list of twelve disciples reveals representatives from multiple competing Jewish worldviews:
+- **Pharisaical/Hasidim**: Peter, Andrew, James, John, Philip (the "Bethsaida Boys" from the Galilee triangle)
+- **Herodian**: Matthew the tax collector, Thomas (Didymus - Greek name), possibly James son of Alphaeus and Thaddeus (Greek names)
+- **Zealot**: Simon the Zealot, possibly Judas Iscariot ("man from Keriot," likely a zealot compound)
+- **Essene connections**: Some disciples had Essene ties
+- **Priestly connections**: John had relationships in the high priest's household
+
+This diverse group would have had fundamentally different political and theological perspectives, making their unity under Jesus's teaching remarkable. The comparison is made to "putting staunch Republicans in the same party with staunch Democrats."
+
+### Mission Without Provisions
+
+Jesus's command to take no gold, silver, copper, bag, extra shirt, sandals, or staff was not arbitrary cruelty but a deliberate teaching method. By stripping His disciples of resources, Jesus forced them to:
+- Rely completely on the hospitality of God's people
+- Experience vulnerability and dependence
+- Learn humility in receiving from others
+- Test whether God's people were living out Kingdom values
+
+This approach is deeply rabbinical - placing students in situations that require them to embody the very principles they're teaching.
+
+### "Shrewd as Serpents, Innocent as Doves"
+
+This paradoxical instruction recognizes the complexity of Kingdom mission work. The disciples needed:
+- **Wisdom and discernment** (shrewd as serpents) to navigate hostile situations and theological opposition
+- **Purity and innocence** (innocent as doves) to maintain moral integrity while facing persecution
+
+The phrase acknowledges that bringing good news to God's people would not be universally welcomed. Even among believers, Kingdom work requires extraordinary spiritual intelligence.
+
+### Persecution from Within
+
+One of the most challenging aspects of Jesus's teaching is His honesty about where opposition will come from. He warns His disciples they will be:
+- Flogged in synagogues (the center of Jewish religious life)
+- Brought before governors and kings
+- Betrayed by family members
+- Hated by everyone
+
+Critically, this persecution comes not from pagans but from within the community of faith. Jesus is sending them to "the lost sheep of Israel" - people who already believe in God, follow Torah, and attend synagogue. The "doctrine police" or "theology Gestapo" (Marty's terms) would enforce orthodox teaching through physical punishment.
+
+This reality resonates with many modern believers who have experienced conflict and rejection within church communities when pursuing Kingdom work that challenges traditional interpretations.
+
+### The "Son of Man" and Forgiveness
+
+When Jesus says, "You will not finish going through the towns of Israel before the Son of Man comes," Marty proposes an interpretation based on recent teaching context. Previously, Jesus used "Son of Man" language when demonstrating authority to forgive sins (the paralytic lowered through the roof).
+
+Rather than referring to the Second Coming or His immediate physical presence (which wouldn't make sense contextually), Jesus may be saying: "You will constantly encounter the Son of Man - you'll need to practice forgiveness - because your mission will require you to forgive those who hurt you over and over."
+
+This interpretation connects mission work directly to the practice of radical forgiveness, a core Kingdom value.
+
+### The Micah 7 Quotation
+
+When Jesus says He came "not to bring peace but a sword" and quotes about family division, He's directly referencing Micah 7:6. Understanding this requires reading Micah in context:
+
+**Micah 6:8** - God's true requirement: "Act justly, love mercy, walk humbly with your God"
+
+**Micah 7:2-7** - Description of a morally corrupt society where:
+- The best people are like briars and thorn hedges
+- No one can be trusted, not even family members
+- A son dishonors his father, daughter rises against mother
+- "A man's enemies are the members of his own household"
+- BUT - "As for me, I watch in hope for the LORD"
+
+Jesus is not promoting family conflict. He's diagnosing the reality: when Kingdom values (justice, mercy, humility) clash with the status quo, even among God's people, division results. The "sword" Jesus brings is the exposing of this corruption and the call to persevere in hope for God's salvation.
+
+Taking this verse out of context can make Jesus appear divisive and harsh, but in context, He's quoting prophetic scripture to prepare His disciples for the resistance they'll face while calling them to remain faithful.
+
+### Rewards as Present-Tense Realities
+
+Jesus concludes with teaching about rewards for those who welcome prophets, righteous people, and disciples. Marty emphasizes (as he did with the Sermon on the Mount) that these rewards are present-tense in the Greek and in theological understanding.
+
+The principle: **how you live determines what you reap.**
+- Show hospitality, justice, mercy, humility → experience the rewards of those values
+- Live with stinginess, "bad eye" (ayin ra'ah) → experience the consequences
+
+This isn't primarily about eternal rewards in heaven, but about the quality of life and community produced by Kingdom living versus empire living.
+
+### Hell References in Context
+
+Marty makes an important methodological point about Jesus's hell reference ("fear the one who can destroy both soul and body in hell"):
+
+1. **At this point in Matthew, there is no systematic theology of hell presented** - the Gospel hasn't provided a complete doctrine of eternal destinations
+2. **Context matters** - Jesus is using hyperbole to make a point about reverence and fear
+3. **The point**: Don't fear humans who can only hurt your body; have appropriate reverence for God and what God is doing in the collision of Empire and Shalom
+4. **We shouldn't "blackout theologically"** when we hear "hell" and forget everything else about context and literary device
+
+Marty doesn't deny or dismiss the reference, but refuses to build an entire theology from a single hyperbolic statement within a larger discourse about mission and persecution.
+
+### Hospitality and Sodom/Gomorrah
+
+Jesus warns that towns refusing hospitality to His disciples will face judgment worse than Sodom and Gomorrah. The key insight: **the primary sin of Sodom and Gomorrah was failure to show hospitality** (see Genesis 19, where they violently rejected and threatened guests).
+
+Jesus's logic: If pagan cities were judged for inhospitality, how much greater the judgment when God's own people - who should know better - refuse to welcome Kingdom workers bringing good news, healing, and shalom.
+
+This elevated hospitality from a cultural nicety to a core Kingdom value and test of faithfulness.
+
+### Total Commitment to Discipleship
+
+Jesus's statement "Anyone who loves their father or mother more than me is not worthy of me" sounds harsh to modern ears, but must be understood in rabbinical context:
+
+**Talmudic teaching (contemporary with Jesus)**: "The only relationship stronger than that between a father and son is the relationship bond between a rabbi and his disciple."
+
+In Jewish law and custom, once under a rabbi's wing, the rabbi had more legal status than parents. This wasn't Jesus being a "jerk" or demanding cult-like allegiance. This was standard rabbinical expectation.
+
+Jesus's point: **You cannot be half-in, half-out as a disciple.** Kingdom mission requires total commitment, especially when facing persecution, flogging, and family betrayal. Partial discipleship won't sustain you through the trials ahead.
+
+The cost is high, but Jesus is honest about what's required rather than offering false promises of easy faith.
+
+## Examples & Applications
+
+### Modern Church Conflict
+
+Marty openly shares his personal struggle: "I've been having a bad month this month. It's pretty rough, but this is how it works when you're on a mission." He finds Jesus's honesty about persecution from within the faith community "soothing to my soul."
+
+Many listeners write to Marty describing their own struggles to "find their way in the church because it's not always this incredible place full of love and hospitality and grace." This passage validates those experiences - Jesus predicted exactly this dynamic.
+
+**Application**: When you experience resistance, conflict, or even "flogging" (metaphorically or literally) for Kingdom work within religious communities, you're in good company. Jesus warned His disciples this would happen. It doesn't mean you're doing something wrong; it may mean you're doing something right.
+
+### Campus Ministry and Parental Concern
+
+Marty references his campus ministry work, noting that parents aren't always supportive of what he calls students to do: "I know how parents feel about half the things that I do in my campus ministry."
+
+He loves college ministry because students are "just old enough that when God calls them to do things, they can just do it" - they can make commitments that require separation from family expectations.
+
+**Application**: Kingdom calls sometimes require making decisions that family members don't understand or support. This isn't about hating family, but about prioritizing God's mission when it conflicts with family comfort or expectations.
+
+### BibleProject Collaboration
+
+The episode opens with appreciation for BibleProject (bibleproject.com), run by Tim Mackie and team in Portland, Oregon. Marty describes them as "cut from the same cloth" - doing similar work teaching biblical context, though "maybe not as heavily Jewish" in perspective.
+
+**Application**: Kingdom work isn't competitive. Different teachers and ministries can have different emphases while working toward the same goal of helping people understand Scripture in context. Collaboration and mutual appreciation strengthen the broader mission.
+
+### The Doctrine Police
+
+Marty uses vivid language - "theology Gestapo" and "doctrine police" - to describe those who would flog disciples in synagogues for teaching differently about Torah.
+
+**Application**: Every generation has gatekeepers who enforce orthodoxy, sometimes through social, institutional, or even physical punishment. Jesus's Gospel was so "different and counterintuitive" that He had to explicitly state He wasn't abolishing Torah. Disciples teaching His message faced the same accusations. Modern teachers of Kingdom theology face similar resistance when challenging traditional interpretations.
+
+### Finding People of Peace
+
+Jesus instructs disciples to "search there for some worthy person" or "person of shalom/peace" and stay with them. This isn't random - it's strategic.
+
+**Application**: In mission work, look for those who are already oriented toward Kingdom values (peace, hospitality, justice, mercy). Partner with them. Don't waste energy trying to convince hostile audiences. Stay with the people of peace until it's time to move on.
+
+### Fleeing Persecution
+
+Jesus tells disciples to "flee to another" town when persecuted. This is practical wisdom, not cowardice.
+
+**Application**: There's a time to stand firm and a time to move on. Not every conflict requires you to stay and fight. Sometimes Kingdom work means shaking the dust off your feet and finding more receptive soil. Wisdom knows the difference.
+
+## Potential Areas for Further Exploration
+
+1. **Complete Study of Matthew's Five-Book Structure**: Investigate whether the five discourses truly parallel the five books of Moses, and if so, whether they run in reverse order as Marty speculates. What thematic connections exist between each section and its corresponding Torah book?
+
+2. **Deep Dive into Rabbinical Discipleship Practices**: Research first-century rabbinical methods, particularly how rabbis taught through experiential learning, sent disciples on missions, and structured the rabbi-disciple relationship. How do Jesus's methods compare and contrast with other rabbis of His time?
+
+3. **Comprehensive Study of "Son of Man" Usage**: Track every instance of "Son of Man" in the Gospels to understand the full range of what Jesus meant by this self-designation. Does the forgiveness interpretation hold across all uses?
+
+4. **The Book of Micah in Jewish Interpretation**: Study how Micah was understood in Second Temple Judaism. What was the historical context? How did Jewish teachers interpret Micah 6-7? How would Jesus's audience have understood His quotation?
+
+5. **Hospitality in Ancient Near Eastern Culture**: Explore the cultural, legal, and religious significance of hospitality in the ancient world. Why was it so central? What were the obligations of hosts and guests? How does this background illuminate Jesus's teaching?
+
+6. **Hell and Gehenna in Second Temple Judaism**: Before building New Testament theology of hell, understand what Jesus's contemporaries believed. What did Gehenna refer to historically? What were competing Jewish views on afterlife, punishment, and judgment in the first century?
+
+7. **The Other Four Discourses in Matthew**: After studying the Sermon on the Mount (discourse 1) and Matthew 10 (discourse 2), examine discourses 3, 4, and 5. What themes emerge? How do they build on each other?
+
+8. **Persecution of Early Christians**: Study the history of persecution faced by Jesus's followers - both from Jewish authorities and later from Roman authorities. How did the early church navigate Jesus's instructions about persecution?
+
+9. **The Twelve Disciples' Individual Journeys**: Research what is known historically and traditionally about each disciple's later ministry. How did representatives of different worldviews work together? Did their backgrounds influence their later work?
+
+10. **Modern Application of Kingdom Mission**: How do Jesus's instructions to the twelve apply to contemporary Christian mission? What stays the same? What changes in different cultural contexts? How do we discern when to stay and when to flee?
+
+11. **Rewards Theology in Scripture**: Examine all biblical teaching about rewards to develop a comprehensive understanding. Are they primarily present-tense or future? Material or spiritual? Individual or communal?
+
+12. **The "Lost Sheep of Israel"**: Who exactly are the "lost sheep"? What makes them "lost" if they're already God's people? How does this concept relate to Jesus's other sheep/shepherd teachings?
+
+## Comprehension Questions
+
+1. **Structural Question**: How is Matthew's Gospel structured, and why is this structure significant for understanding Jesus as the new Moses? What are the five major discourses, and what might they parallel?
+
+2. **Mission Strategy Question**: Why does Jesus specifically send His disciples to "the lost sheep of Israel" rather than to Gentiles or Samaritans? What is the purpose of this particular mission, and what are they instructed to do when they arrive?
+
+3. **Contextual Interpretation Question**: When Jesus says "I did not come to bring peace but a sword" and quotes about family division, He's referencing Micah 7. What is the context of that Micah passage, and how does understanding that context change the meaning of Jesus's statement?
+
+4. **Persecution Question**: According to Jesus's teaching in Matthew 10, where will the primary persecution and opposition come from, and why is this significant? How does this relate to the instruction to be "shrewd as serpents and innocent as doves"?
+
+5. **Discipleship Question**: What does Jesus mean when He says "Anyone who loves their father or mother more than me is not worthy of me"? How does understanding first-century rabbinical culture help interpret this seemingly harsh statement?
+
+## Personal Summary
+
+Matthew 10 presents Jesus's second major discourse - His mission briefing to the twelve disciples before sending them out to practice Kingdom work. What strikes me most is Jesus's radical honesty about the difficulty they will face, not from enemies of God but from God's own people.
+
+The disciples represent a remarkable coalition of competing worldviews - Pharisees, Herodians, and Zealots working together under Jesus's teaching. He strips them of all provisions, forcing them to depend on the hospitality of those they visit, which becomes both a practical necessity and a spiritual test of whether God's people are living out Kingdom values.
+
+Jesus warns they'll be flogged in synagogues, betrayed by family, and persecuted in town after town. He calls them to be "shrewd as serpents and innocent as doves" - maintaining moral purity while navigating hostile religious environments with wisdom. This isn't a mission to convert pagans; it's a mission to bring Kingdom reality to people who already claim to follow God but may not be acting justly, loving mercy, or walking humbly.
+
+The quotation from Micah 7 is particularly powerful. When Jesus says He came to bring a sword and family division, He's diagnosing the moral state of the community - just as in Micah's day when corruption was so deep that even family members couldn't be trusted. Yet the Micah passage ends with hope: "As for me, I watch in hope for the LORD." That's the call to disciples - persevere through the difficulty because God will see and save.
+
+What resonates deeply is that Jesus demands total commitment. This isn't casual religious affiliation; it's all-in discipleship that may cost you relationships, safety, and comfort. But the rewards - present-tense Kingdom life characterized by justice, mercy, humility, and hospitality - are worth it.
+
+This passage doesn't let us create comfortable Christianity. It calls us to honest engagement with the reality that bringing God's Kingdom often creates conflict with religious status quo, and it requires courage, discernment, forgiveness, and unwavering commitment to persevere.

@@ -2,8 +2,8 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 164: Philemon — Faith Works  
-**Hosts:** Marty Solomon and Brent Billings  
+**Episode:** BEMA 164: Philemon — Faith Works    
+**Hosts:** Marty Solomon and Brent Billings    
 **Topic:** This episode examines Paul's personal letter to Philemon regarding the runaway slave Onesimus, exploring the cultural context of Roman citizenship and slavery, while highlighting Paul's humor and approach to faith-based obedience versus law-based compliance. The letter demonstrates the transformative power of viewing relationships through the lens of God's kingdom rather than worldly social hierarchies.
 
 ## Key Takeaways

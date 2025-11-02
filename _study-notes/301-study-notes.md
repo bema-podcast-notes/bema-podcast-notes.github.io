@@ -7,8 +7,6 @@
 - **Central Theme**: The nature of doubt and belief in discipleship
 - **Key Figure**: Thomas (also called Didymus/The Twin)
 
----
-
 ## Major Themes Explored
 
 ### 1. The Character of Thomas - "Unvarnished Honesty"
@@ -25,8 +23,6 @@
 - **Skeptical tendency**: Questions what others accept
 - **Honest about limitations**: Admits when he doesn't understand
 - **Possibly speaks for others**: Voices what everyone else is thinking but won't say
-
----
 
 ### 2. Two Types of Doubt and Belief
 
@@ -60,8 +56,6 @@
 - Results in action and change
 - Goal: Moving from cognitive to lived belief
 
----
-
 ### 3. The Disciples' Response vs. Thomas's Response
 
 #### The Other Disciples
@@ -80,8 +74,6 @@
 - **Transformation**: From cognitive doubt to lived belief
 - **Response**: "My Lord and my God" - complete confession
 
----
-
 ### 4. Jesus's Response to Doubt
 
 #### Jesus's Approach to Thomas
@@ -97,8 +89,6 @@
 2. **No condemnation**: Doesn't shame or reject
 3. **Then direction**: Challenges to move forward in faith
 
----
-
 ### 5. The Nature of Seeing and Believing
 
 #### Different Levels of Seeing
@@ -111,8 +101,6 @@
 
 - "Blessed are those who have not seen and yet have believed" (John 20:29)
 - Not condemnation of Thomas, but recognition of different paths to faith
-
----
 
 ## Key Questions for Reflection
 
@@ -131,8 +119,6 @@
    - Where do I need Jesus to "meet me where I am" like He did with Thomas?
    - What am I asking to "see" before I'll believe?
 
----
-
 ## Cultural and Historical Context
 
 ### First Century Setting
@@ -146,8 +132,6 @@
 - Writing to encourage persecuted Christians
 - "These are written that you may believe/continue believing"
 - Thomas represents the church's struggle with doubt amid persecution
-
----
 
 ## Theological Insights
 
@@ -175,8 +159,6 @@
 - Isolated faith vs. communal faith development
 - Speaking doubts aloud in safe community
 
----
-
 ## Notable Quotes and Insights
 
 ### From the Episode
@@ -195,8 +177,6 @@
 - "Lord, I believe, help thou mine unbelief" (borrowed from Mark 9:24)
 - "What I felt was not scalding pain... but light"
 - "My question not answered, but given its part in a vast unfolding design"
-
----
 
 ## Practical Applications
 
@@ -218,8 +198,6 @@
 2. **Meet People Where They Are**: Provide evidence/answers when appropriate
 3. **Focus on Lived Faith**: Encourage movement from head to heart belief
 
----
-
 ## Connection to Broader BEMA Themes
 
 - **Historical Context**: Understanding first-century persecution
@@ -227,8 +205,6 @@
 - **Deconstruction/Reconstruction**: Moving from inherited beliefs to owned faith
 - **Community**: Role of disciples in faith development
 - **Grace**: God's patient response to human questioning
-
----
 
 ## Discussion Questions
 
@@ -238,7 +214,5 @@
 4. What "locked doors" do you find yourself behind despite your beliefs?
 5. How can faith communities better support people experiencing doubt?
 6. What would it look like to respond to doubters with Jesus's approach?
-
----
 
 *These study notes are designed to facilitate deeper engagement with the themes of doubt, belief, and grace as explored in BEMA Episode 301, encouraging both intellectual understanding and practical application in faith communities.*

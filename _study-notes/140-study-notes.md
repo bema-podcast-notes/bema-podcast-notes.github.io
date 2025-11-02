@@ -2,20 +2,20 @@
 
 ## Title & Source Summary
 
-**Episode:** BEMA 140 - "Not to Burden You"  
+**Episode:** BEMA 140 - "Not to Burden You"    
 **Topic:** The Jerusalem Council (Acts 15) and the early church's approach to applying the Gospel to major cultural problems, specifically whether Gentile believers needed to become Jewish to be fully accepted into God's household.
 
 This episode examines how the early Christian community used principles of binding and loosing to navigate the inclusion of Gentiles, drawing parallels to modern church decision-making and cultural tensions.
 
 ## Key Takeaways
 
-• The early church faced a major cultural crisis about Gentile inclusion that mirrors modern diversity and inclusion challenges
-• Second Temple Judaism divided the law into three categories: cultic law (temple-based), ethical law (universally true), and works of the law (miqsat ma'asay haTorah - what makes you Jewish)
-• The Jerusalem Council exemplified healthy community decision-making through binding and loosing
-• Peter, James, and Paul each represented different perspectives but worked toward unity
-• The Noahic covenant provided the framework for Gentile behavioral expectations
-• Even apostolic leaders like Paul and Barnabas struggled with implementation despite theological agreement
-• The phrase "it seemed good to the Holy Spirit" suggests God participates in community discernment rather than dictating absolute positions on gray areas
+- The early church faced a major cultural crisis about Gentile inclusion that mirrors modern diversity and inclusion challenges
+- Second Temple Judaism divided the law into three categories: cultic law (temple-based), ethical law (universally true), and works of the law (miqsat ma'asay haTorah - what makes you Jewish)
+- The Jerusalem Council exemplified healthy community decision-making through binding and loosing
+- Peter, James, and Paul each represented different perspectives but worked toward unity
+- The Noahic covenant provided the framework for Gentile behavioral expectations
+- Even apostolic leaders like Paul and Barnabas struggled with implementation despite theological agreement
+- The phrase "it seemed good to the Holy Spirit" suggests God participates in community discernment rather than dictating absolute positions on gray areas
 
 ## Main Concepts & Theories
 

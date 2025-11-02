@@ -1,0 +1,251 @@
+# BEMA Episode 99: Fruit of Fools - Study Notes
+
+## Title & Source Summary
+
+**Episode:** 99 - Fruit of Fools  
+**Hosts:** Marty Solomon and Brent Billings
+**Focus:** Matthew 7:13-29 (Conclusion of the Sermon on the Mount)
+
+This episode concludes the BEMA Podcast's exploration of the Sermon on the Mount, examining Jesus's final teachings about narrow gates, discerning teachers by their fruit, the threefold teaching of the Kingdom, and building life on solid foundations. The discussion emphasizes that Jesus's teachings require intentional practice and orthopraxy (right practice) rather than just orthodoxy (right belief), challenging Western Christian assumptions about salvation, judgment, and what it means to follow Jesus authentically.
+
+## Key Takeaways
+
+- The narrow gate is not about eternal salvation versus damnation but about the intentional effort required to live out Kingdom teachings in daily life
+- False teachers are identified not primarily by incorrect doctrine but by the fruit of their lives - their conduct, character, and the outcomes of their ministry
+- The threefold teaching of the Kingdom requires: 1) God's finger moving, 2) people calling Him Lord, and 3) people responding in obedience
+- Building on the rock versus sand is not about intelligence but about trusting Jesus's radical reinterpretation of Torah and living it out despite cultural opposition
+- Kingdom theology is not the same as salvation theology - Kingdom comes when all three elements are present, regardless of the order
+- The Sermon on the Mount forms a chiastic structure, with parallel themes at the beginning and end reinforcing Jesus's emphasis on practice over mere profession
+
+## Main Concepts & Theories
+
+### The Narrow Gate and Intentional Discipleship (Matthew 7:13-14)
+
+The narrow gate teaching is frequently misinterpreted as a reference to heaven and hell. However, Jesus makes no mention of eternal destinations. Instead, he references the Jewish concept from Deuteronomy where Moses says, "I set before you the way of life and the way of death - choose life."
+
+The imagery of the narrow gate relates to intentional effort. Marty uses the analogy of a complex highway interchange where drivers must navigate multiple lane changes in a short distance. Without intention and focus, drivers will miss their exit. Similarly, living out the Kingdom of God requires deliberate effort and cannot be stumbled into accidentally.
+
+This teaching appears strategically after the "ask, seek, and knock" passage and parallels the beatitudes at the beginning of the sermon. Just as Jesus told his disciples "blessed are you when you are persecuted," he now warns that walking the Kingdom path will require narrow-gate intention because it goes against cultural norms.
+
+The "destruction" mentioned is not eternal damnation but the natural consequences of living contrary to how God designed the world to function. The "life" offered is the abundant Kingdom life available to those who intentionally align with God's ways.
+
+### Discerning Teachers by Their Fruit (Matthew 7:15-20)
+
+This teaching about false prophets appears in multiple locations throughout the Gospels, indicating it was one of Jesus's frequently repeated teachings. The repetition suggests this principle was central to his ministry.
+
+Western Christianity tends to define false teachers primarily through the lens of orthodoxy - correct doctrine and belief. The typical question asked is: "Are they interpreting things correctly?" However, Jesus's teaching focuses on orthopraxy - right practice and conduct.
+
+Jesus says "by their fruit you will recognize them," not "by their doctrine" or "by their words." The metaphor is straightforward: good fruit cannot come from thorn bushes or thistles, and conversely, genuine fig trees and grapevines cannot produce thorns. The fruit of a teacher's life reveals their true nature.
+
+This teaching connects beautifully with Paul's fruit of the Spirit in Galatians 5:22-23: love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control. A teacher whose life demonstrates these qualities is "walking in step with the Spirit" regardless of minor doctrinal differences.
+
+Conversely, if a teacher's ministry produces division, fits of rage, or other destructive outcomes, it does not matter how technically correct their doctrine might be - Jesus would still identify them as a false teacher. The orthopraxy is off, revealing the true nature of the tree.
+
+This principle also applies to the Pharisees, who said and did many right things externally but lacked the heart transformation Jesus taught throughout the Sermon on the Mount. Their fruit revealed the problem: they pushed sinners away rather than showing compassion, demonstrating a lack of love, joy, and gentleness despite their external correctness.
+
+### The Threefold Teaching of the Kingdom (Matthew 7:21-23)
+
+Jewish thought developed a threefold understanding of how Kingdom comes, possibly predating Jesus or perhaps originating with Jesus himself. Either way, all three elements appear in Jesus's teaching.
+
+The theology traces back to Exodus and the formation of Israel. At Mount Sinai, God declared that if Israel would enter covenant with Him, they would become "a kingdom of priests." The rabbis analyzed this story and identified three essential components:
+
+**1. The Finger of God Moves**
+
+This represents God's active intervention and initiative. In Exodus, this occurred through the plagues, the Passover, the exodus from Egypt, and the parting of the Red Sea. God demonstrated His power and rescued His people.
+
+Jesus references this explicitly in another teaching: "If I drive out demons by the finger of God, then the Kingdom of God has come among you" (Luke 11:20). For Christian theology, we can point to the cross and empty tomb as the ultimate movement of God's finger, though God's activity continues throughout all time. This is a "has happened and always happening" reality.
+
+**2. People Call Him Lord**
+
+At the Red Sea, for the first time in the biblical narrative, the Israelites actually called upon God's holy name (the Tetragrammaton, YHWH). Previously they had merely cried out generally, but now they specifically acknowledged Him as LORD.
+
+This represents recognition and acknowledgment of God's kingship. It is not about empire or Christendom imperialism but simply recognizing who the King is. The analogy was given of a French king who technically held the throne but had no subjects who acknowledged his rule - therefore his kingdom was never really a kingdom.
+
+**3. People Respond in Obedience**
+
+At Mount Sinai, God gave the Law (Torah) and said the people would be His kingdom "if" they agreed to follow His commands. Kingdom comes when people actually do the will of the Father, not merely profess allegiance.
+
+Jesus emphasizes this in Matthew 7:21: "Not everyone who says to me 'Lord, Lord' will enter the kingdom of heaven, but only the one who does the will of my Father who is in heaven." Many will claim to have prophesied, driven out demons, and performed miracles in Jesus's name, yet Jesus will say "I never knew you" because the obedience component was missing.
+
+**The Protestant Problem**
+
+Protestant Christianity tends to emphasize two of these three elements well. Protestants recognize that salvation is "all of God" (whether from a Calvinist or Arminian perspective) and emphasize confession - calling Jesus "Lord." However, Protestantism often struggles with the obedience component because of fears about "works-based religion" or "merit-based salvation." Luther even wanted to remove the Book of James from the canon because of its emphasis on works.
+
+When obedience is missing, Kingdom cannot fully manifest. This may explain why Protestant Christianity has sometimes failed to demonstrate Kingdom reality despite correct theology about grace and confession.
+
+**The Non-Christian Friend Problem**
+
+On the flip side, many people know individuals who would never claim to be Christians yet demonstrate extraordinary generosity, love, and Christ-like character. These people seem to have "more Jesus oozing out of their bones" than many professing Christians.
+
+In the threefold formula, God has moved in their lives (element 1) and they demonstrate obedience to Kingdom principles (element 3), but they lack the recognition piece - calling Jesus "Lord" (element 2). Therefore, Kingdom is not fully present in their experience either.
+
+**Order and Relationship to Salvation**
+
+The three elements do not need to occur in linear order (1-2-3). It is not a Western sequential process. God's finger has already moved and continues to move, so element one is always present. The question is whether we will do our part with elements two and three.
+
+Critically, this is Kingdom theology, not salvation theology. The rabbis were not discussing how to get into heaven but rather how Kingdom manifests in the world. While related to salvation, these are distinct concepts. The Protestant audience should not hear this as "you must have obedience to be saved" but rather as "Kingdom appears when all three elements are present."
+
+### Chiastic Structure of the Sermon on the Mount
+
+The episode references several parallel elements between the beginning and end of the sermon:
+
+- The beatitudes (especially "blessed are you when persecuted") parallel the narrow gate teaching - both emphasize that Kingdom living is difficult and requires intention
+- The teaching about not coming to abolish but fulfill the law (which is about orthopraxy - living Torah correctly) parallels the teaching about fruit (also about orthopraxy - evaluating teachers by their practice)
+- The "light of the world" and "salt of the earth" imagery at the beginning relates to the visible outcomes of Kingdom living discussed at the end
+
+This chiastic structure reinforces that the entire sermon is a unified teaching with consistent themes throughout, not a random collection of sayings.
+
+### Building on Rock or Sand (Matthew 7:24-27)
+
+The traditional interpretation of this parable suggests an obvious choice between wisdom and foolishness - who would be dumb enough to build on sand? However, the cultural context reveals greater complexity.
+
+The "sand" is not beach sand but the sediment at the bottom of a wadi - a desert ravine that remains dry most of the year but floods violently during rare rainstorms. The "rock" is bedrock or cliff face above the wadi.
+
+Both the fool and the wise person hear Jesus's words. The difference is in response: the wise person "puts them into practice" while the foolish person "does not put them into practice." This is not about construction materials but about location and lifestyle choices.
+
+Here is the crucial insight: Given how revolutionary, backwards, and counterintuitive Jesus's teaching is, building one's life on his interpretation of Torah is not the "obvious easy choice." Jesus had to preface the sermon by saying "Don't think I've come to abolish the law" precisely because his radical emphasis on love, internal heart transformation, and inclusion of outsiders seemed to contradict Torah.
+
+The person who builds on the cliff face is choosing to trust Jesus's radical reinterpretation despite cultural pressure and apparent foolishness. The person who builds in the wadi may seem to be making the "safe conventional choice" by following traditional religious interpretations, but destruction is inevitable because that is not how God designed the world to function.
+
+The flooding wadi represents the certain consequences that will come - perhaps not today or tomorrow or even this year, but eventually. Living contrary to Kingdom principles will fail. Living according to Jesus's teaching, though difficult and requiring "narrow gate intention," will withstand the storms.
+
+Jesus concludes by essentially saying: "Trust me. This is what the Torah was always meant to do. This is what the story has been about from the beginning." For BEMA's methodology, this means everything studied in the Old Testament (particularly Genesis and Exodus) must line up with Jesus's teaching. There is no "part A/part B" where God changed his mind between testaments. It is one continuous story from front to back.
+
+### S'micha - Teaching with Authority (Matthew 7:28-29)
+
+The crowds were amazed because Jesus taught "as one who had authority, not as their teachers of the law." The Hebrew word is s'micha, which refers to a rabbi's authority to reinterpret Torah.
+
+Typically, rabbis gained this authority through ordination by a recognized teacher after years of study. They would quote previous authorities and build their interpretations on established tradition. Jesus, however, taught with s'micha despite having no apparent rabbinic pedigree ("Who's his rabbi?").
+
+The amazement comes from Jesus's audacity to reinterpret Torah so radically - to essentially say "You have heard it said... but I say to you" throughout the sermon. This requires remarkable authority. Jesus is claiming to see the Bible more purely, clearly, succinctly, and accurately than any rabbi before or after him.
+
+For Christian believers, this is the foundation for trusting Jesus's interpretation above all others. His authority is not derived from human tradition but from his unique identity and insight into God's original intent for Torah.
+
+## Examples & Applications
+
+### The Highway Interchange Analogy
+
+Marty uses a specific example from the Tri-Cities area in Washington State (Pasco, Richland, Kennewick). There is an interchange where drivers coming from the north must merge from a left-side on-ramp, cross four or five lanes of traffic in less than a quarter mile, and exit on the right side.
+
+First-time drivers typically miss this exit because the maneuver seems impossible or they do not understand the directions. Even experienced drivers must approach it with resolute intention - checking blind spots, signaling clearly, making successive lane changes with focus and determination.
+
+This perfectly illustrates the "narrow gate" principle. Living out the Kingdom of God requires this same intentional focus. We will not stumble into Kingdom living accidentally any more than we would accidentally navigate that complex interchange. The wide road is easy because it requires no special effort - we simply go with the flow of traffic. The narrow road requires constant attention and deliberate choices.
+
+### The Fruit of Pharisaical Teaching
+
+The Pharisees provide a historical example of teachers who had correct orthodoxy but failed the fruit test. They said the right things and externally performed the right actions. Their doctrine was largely accurate.
+
+However, the fruit of their teaching and practice was problematic. They pushed sinners away rather than welcoming them. They created heavy burdens for people rather than demonstrating compassion. They lacked love, joy, and gentleness despite their external correctness.
+
+Jesus later tells his disciples: "Be careful to do what the Pharisees say, but do not do what they do." Follow their correct teaching but do not imitate their heartless application of it. This illustrates that orthodoxy without orthopraxy fails the test.
+
+### The Protestant Obedience Gap
+
+Protestant Christianity provides an example of missing one element of the threefold Kingdom teaching. Protestants excel at recognizing God's initiative (salvation is all of God) and emphasizing confession (calling Jesus "Lord"). These two elements receive extensive teaching and emphasis.
+
+However, the obedience component often gets minimized or excluded due to fears about works-righteousness. Any discussion of obedience risks accusations of promoting a merit-based salvation system, so Protestants tend to avoid the topic.
+
+The result, according to Jewish Kingdom theology, is that Kingdom cannot fully manifest when this essential element is missing. This may explain why Protestant Christianity sometimes fails to demonstrate Kingdom reality despite having correct theology about grace and faith.
+
+### The Generous Non-Christian Friend
+
+Many Christians know non-religious people who demonstrate remarkable Christ-like character - generosity, compassion, integrity, service. These individuals often seem to embody Jesus's teachings better than many church members.
+
+In the threefold formula, God has clearly moved in their lives (they demonstrate the fruit of the Spirit even without religious language for it). They live in obedience to Kingdom principles (loving neighbors, pursuing justice, practicing generosity). What is missing is the explicit recognition and acknowledgment of Jesus as Lord.
+
+This example challenges simplistic categories about who is "in" and who is "out" while still maintaining that all three elements are necessary for Kingdom to fully manifest.
+
+### Building in the Wadi
+
+Imagine someone in first-century Israel looking at available building sites. The wadi bottom looks attractive - flat, accessible, protected from wind, easy to build on. The cliff face is harder to access, more exposed, requires more effort to build on.
+
+For eleven months of the year, the wadi dweller congratulates himself on his wise choice. His house is comfortable and convenient. The cliff dweller looks foolish for choosing such a difficult location.
+
+Then the rainy season comes. The wadi floods violently, destroying everything in its path. The cliff dweller, though he endured more difficulty in construction, remains safe.
+
+Similarly, living by conventional religious wisdom may seem easier and more comfortable for years. But Jesus warns that destruction is inevitable because that is not how God designed the world to work. Living by Kingdom principles may be harder and invite criticism, but it is built on reality rather than cultural assumptions.
+
+## Potential Areas for Further Exploration
+
+### Deuteronomy's Life and Death Themes
+
+Jesus references the concept of choosing between life and death from Deuteronomy. A deeper study of how Moses frames covenant obedience as choosing life would illuminate Jesus's teaching. Key passages include Deuteronomy 30:15-20 where Moses explicitly sets before Israel "life and death, blessing and curse" and commands them to "choose life."
+
+The question is whether Jesus's "narrow gate leading to life" intentionally echoes this Deuteronomic language and how his audience would have heard these connections.
+
+### The Fruit of the Spirit Connection
+
+Marty suggests coupling Jesus's teaching about fruit with Paul's fruit of the Spirit in Galatians 5:22-23. While not directly connected textually, exploring how Paul's list (love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control) functions as a practical rubric for evaluating the "fruit" Jesus discusses would be valuable.
+
+Does Paul intend his list as a way to measure Kingdom living? How do these qualities relate to Jesus's broader teaching in the Sermon on the Mount about mercy, peacemaking, purity of heart, and persecution?
+
+### Kingdom vs. Salvation Theology
+
+The episode distinguishes between Kingdom theology and salvation theology but does not fully explore the relationship. How do these concepts relate? Is salvation a prerequisite for Kingdom participation? Can Kingdom be present without personal salvation? Can someone be "saved" but not participating in Kingdom?
+
+Exploring biblical passages about Kingdom (especially in the Gospels) alongside passages about salvation (especially in Paul's letters) could clarify this important distinction that Western Christianity often conflates.
+
+### Rabbinical Ordination and S'micha
+
+The concept of s'micha (teaching authority) deserves deeper exploration. How did first-century rabbinical ordination work? What were the typical pathways for gaining interpretive authority? How radical was it for Jesus to teach with s'micha without apparent credentials?
+
+Understanding the rabbinical system of Jesus's day would help modern readers grasp just how shocking his teaching authority would have been to his original audience.
+
+### Chiastic Structure Throughout Matthew
+
+The episode mentions chiastic structure in the Sermon on the Mount. Matthew's Gospel is known for its sophisticated literary structures. A comprehensive study of chiasms throughout Matthew would reveal how the author carefully organized material to emphasize key theological themes.
+
+Does the entire Gospel follow a chiastic pattern? How does recognizing these structures affect interpretation of individual passages?
+
+### Wadi Ecology and Ancient Construction
+
+The geological and cultural realities of building in the desert deserve more attention. How common was wadi flooding? How devastating were these floods? Did people actually build in wadis, or is this purely hypothetical?
+
+Understanding the practical realities of desert construction would help modern readers grasp the visceral power of Jesus's metaphor for his original audience.
+
+### Old Testament Foundations for Jesus's Teaching
+
+Marty emphasizes that everything in Jesus's teaching must line up with Old Testament themes, particularly Genesis and Exodus. A systematic study tracing how Jesus's Sermon on the Mount themes appear in Torah would be valuable:
+
+- How do the beatitudes relate to Genesis 1-2 (humanity's original design)?
+- How does "fulfilling the law" connect to the covenant at Sinai?
+- How does the "good eye" concept appear in Torah?
+- Where do we see Kingdom principles in the Exodus narrative?
+
+### Protestant vs. Catholic Approaches to Obedience
+
+The episode notes that Catholics might handle the obedience component differently than Protestants. Exploring how different Christian traditions have balanced grace and works, faith and obedience, would illuminate why Western Christianity struggles with aspects of Jesus's teaching.
+
+How do Catholic, Orthodox, and various Protestant traditions understand the relationship between faith and obedience? What are the strengths and weaknesses of each approach?
+
+### Orthopraxy in Other Religious Traditions
+
+Judaism emphasizes orthopraxy (right practice) over orthodoxy (right belief) in ways that Christianity generally does not. Exploring how Jewish tradition evaluates teachers and teaching based on conduct rather than doctrine could provide insights for Christian application.
+
+How does the concept of "walking" (halakah) in Judaism relate to Jesus's emphasis on fruit? What can Christians learn from Jewish emphasis on practice?
+
+## Comprehension Questions
+
+1. According to the episode, what is the primary meaning of Jesus's "narrow gate" teaching, and how does this differ from typical Western Christian interpretation? Use the highway interchange analogy to explain what Jesus means by the difficulty of finding and walking through the narrow gate.
+
+2. Explain the difference between orthodoxy and orthopraxy. How does Jesus's teaching about "knowing them by their fruit" emphasize orthopraxy over orthodoxy? Provide an example from the episode of how someone might have correct orthodoxy but fail the fruit test.
+
+3. Describe the threefold teaching of the Kingdom, including the three essential elements and where each appears in Scripture. How does the episode suggest that both Protestant Christianity and secular moral people might be missing one element? What are the implications of missing any one of these three components?
+
+4. Why is building on rock versus sand not simply about making an "obviously wise" versus "obviously foolish" choice? What makes trusting Jesus's interpretation of Torah the difficult choice for his original audience? Connect this to the concept of the narrow gate.
+
+5. What does s'micha mean, and why were the crowds amazed that Jesus taught with this kind of authority? How does Jesus's claim to s'micha relate to his statement "Do not think I have come to abolish the law"? What is Jesus asking his followers to trust about his interpretation of Scripture?
+
+## Personalized Summary
+
+This episode completes the Sermon on the Mount by challenging us to move beyond comfortable religious categories into the demanding reality of Kingdom living. Jesus is not offering us a binary choice between heaven and hell but inviting us into a way of life that requires constant intentional focus - like navigating that complex highway interchange where missing your exit is the default outcome without deliberate effort.
+
+The most striking insight is that Jesus evaluates teachers and disciples not primarily by doctrinal correctness but by the fruit of their lives. This shifts the question from "Do I believe the right things?" to "Am I producing the fruit of the Spirit - love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control?" A teacher who says all the right words but whose ministry produces division rather than unity, harshness rather than gentleness, is a false teacher regardless of theological accuracy.
+
+The threefold Kingdom teaching reveals why both religious and secular people can miss Kingdom reality. Protestants excel at recognizing God's initiative and confessing Jesus as Lord but often stumble over obedience due to fears about works-righteousness. Meanwhile, many non-religious people demonstrate profound obedience to Kingdom ethics and clearly experience God's work in their lives, yet lack explicit recognition of Jesus as Lord. Kingdom comes when all three elements are present: God's finger moves, people call Him Lord, and people respond in obedience.
+
+Perhaps most challenging is the recognition that building on rock rather than sand is not the easy obvious choice. Jesus's radical reinterpretation of Torah - emphasizing internal heart transformation, love for enemies, non-judgment, trust instead of worry - was so counterintuitive that he had to preface it by saying "Don't think I've come to abolish the law." Choosing to build life on these principles rather than conventional religious wisdom is the narrow gate, the difficult path, the cliff-face construction project. It looks foolish to those building comfortably in the wadi, right up until the inevitable flood comes.
+
+The call is to trust that Jesus sees Scripture more clearly than any other teacher before or after, and that his interpretation - though costly to implement - aligns with how God actually designed the world to function. This is not "part two" of God's plan but the original intent all along. Everything from Genesis forward has been pointing toward this Kingdom reality where transformed hearts produce transformed communities that reflect God's character to a watching world.
+
+The question Jesus leaves us with is whether we will merely say "Lord, Lord" or actually do the will of the Father. Will we just know the right doctrine, or will our lives bear good fruit? Will we stumble onto the wide road that requires no intention, or will we navigate with focus and determination through the narrow gate? The wisdom of Jesus's way may not be evident immediately, but when the storms come - and they will come - only those who built on the rock of actual Kingdom practice will remain standing.

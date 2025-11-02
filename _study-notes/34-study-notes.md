@@ -1,0 +1,210 @@
+# BEMA Episode 34: The Hardest Story in the Bible (for me)
+
+## Title & Source Summary
+
+This episode tackles one of the most morally challenging sections of Scripture: the Book of Joshua and its accounts of the Israelite conquest of Canaan. Marty Solomon openly acknowledges this as the most difficult book in the Bible for him personally, wrestling with how to reconcile stories of mass slaughter with the loving, patient God revealed throughout the rest of Scripture. Rather than providing easy answers, this episode models honest engagement with difficult biblical texts while maintaining intellectual and spiritual integrity.
+
+## Key Takeaways
+
+- The Book of Joshua presents significant moral and theological challenges that deserve honest wrestling rather than easy dismissal or simplistic justification.
+- Archaeological evidence does not support a literal, historical conquest as described in Joshua, leading many scholars to view it as employing the "conquest narrative" genre common in ancient Near Eastern literature.
+- God's commands in Joshua must be understood within the historical and cultural context, including the language of "consecration" rather than simple "destruction."
+- The Canaanite practices included horrific child sacrifice and oppressive sexual fertility cults that had continued for at least 450 years before the conquest.
+- The central themes of Joshua may actually be about redemption and covenant faithfulness rather than conquest, as evidenced by the stories that receive the most narrative attention (Rahab, the Gibeonites).
+- The phrase "chazak va'amatz" (be strong and courageous) appears throughout Joshua 1, creating a mutual encouragement between God, the leader, and the people that enables miraculous transformation.
+- Standing stones serve as tangible reminders that prompt the telling of God's faithfulness across generations.
+
+## Main Concepts & Theories
+
+### The Conquest Narrative Genre
+
+Ancient Near Eastern kings regularly recorded their military victories on steles (stone pillars with inscriptions), often dramatically embellishing their accomplishments. Examples include:
+
+- **Sennacherib's Account**: The Assyrian king claimed to have trapped Hezekiah "like a bird in a cage" and portrayed this as a victory, though biblical accounts show Sennacherib was forced to retreat due to plague.
+- **Rameses II vs. the Hittites**: Egyptian records claim Pharaoh single-handedly defeated the Hittites just before his army arrived, an obvious embellishment.
+
+The Book of Joshua may be employing this recognized literary genre to communicate theological truths rather than providing a journalistic historical account. This doesn't make it less "true" in the sense of inspired Scripture, but invites us to read it according to its literary conventions.
+
+### Archaeological Considerations
+
+From an academic perspective, there is no archaeological evidence supporting a literal conquest as described in Joshua. Jericho, for instance, shows no signs of conquest at the time traditionally associated with Joshua. While popular media (History Channel, etc.) sometimes presents sensationalized "evidence," respected archaeological scholarship does not support these claims.
+
+This scholarly consensus doesn't necessarily undermine the authority of Scripture, but it does invite us to consider what kind of literature we're reading and what the author intended to communicate.
+
+### Exegesis vs. Eisegesis
+
+**Exegesis** (Western approach): Drawing meaning out of the text based solely on what is written.
+
+**Eisegesis** (Eastern/Jewish approach): Reading into the text to find buried meanings, connections, and deeper layers of significance.
+
+The Jewish tradition embraces eisegesis, believing God has embedded multiple layers of meaning in Scripture. However, this must be grounded in what is actually present in the text, not simply imposed from outside.
+
+### What God Does and Doesn't Say
+
+A careful reading of Joshua reveals:
+
+- **Only Jericho** has a direct divine command for total destruction, connected to the principle of firstfruits (everything dedicated wholly to God).
+- **Many actions attributed to God** are actually reported as Joshua saying "the Lord says," without the narrative confirming that God actually spoke.
+- The Book of Joshua has no problem clearly indicating when God speaks directly, making His silence in other instances potentially significant.
+
+### The Language of Consecration
+
+The Hebrew word often translated "destroy" in Joshua is frequently the word for "consecrate" (herem). In ancient Israel, consecration could happen two ways:
+
+1. **Clean objects**: Give them to the Tabernacle/Temple for sacred use, or redeem them with money
+2. **Unclean objects**: Destroy them completely
+
+The example of the broken-neck donkey in Exodus illustrates this: because donkeys are unclean animals, they couldn't be given to the Temple and therefore had to be destroyed as a form of consecration.
+
+The Israelites may have interpreted "consecrate" the Canaanites as "destroy" them because they viewed pagans as unclean. However, the New Testament challenges this assumption that Gentiles are inherently unclean, suggesting the Israelites may have misunderstood God's intentions.
+
+### God Meeting People Where They Are
+
+God's communication and commands must be understood within the limitations of the recipient's worldview and cultural context. In 1000 BC and earlier, the language of war and conquest was universal. God met the ancient Israelites within their understanding and gradually moved humanity forward ethically and morally.
+
+This doesn't mean God endorsed everything in their culture, but that He worked within their frame of reference to progressively reveal His character and purposes.
+
+### The Canaanite Context
+
+Understanding the practices of the Canaanites/Amorites is essential for wrestling with this text:
+
+**Fertility Cults**: Widespread worship of deities like Astarte/Ashtoreth involved sacred prostitution. Women's husbands were required to spend time with temple prostitutes to ensure successful pregnancies and healthy babies, creating systematic sexual oppression and exploitation.
+
+**Child Sacrifice**: The Canaanites sacrificed their firstborn children to gods like Baal and Molech. Archaeological evidence includes:
+- Phoenician Baal statues that functioned as furnaces
+- Infants placed on red-hot metal arms that would slide into the furnace
+- Canaanite graveyards containing tens of thousands of infant corpses
+- The priests called the infant's scream of agony "the smile of Baal"
+
+**God's Patience**: Genesis 15 records God telling Abraham that "the sins of the Amorites have not yet reached their full measure." This was spoken approximately 450 years before the conquest, meaning God endured centuries of child sacrifice and sexual abuse before commanding judgment.
+
+This creates a profound tension: We ask "How can God allow such evil?" and when God finally acts, we ask "How can God authorize such violence?"
+
+### Joshua as Different from Other Conquerors
+
+Despite engaging in conquest, Joshua demonstrates distinctly different ethics from pagan kings:
+
+- **No mocking or inappropriate taunting** (unlike Sennacherib and other ancient commanders)
+- **Respectful treatment of bodies**: Though Joshua impales conquered kings on poles (a common ancient practice), he removes them by nightfall according to Torah commands
+- **Covenant faithfulness**: When the Gibeonites trick Israel into a peace treaty, Joshua honors the covenant despite the deception (Joshua 9)
+
+No other ancient conqueror would spare a vassal who had deceived them. Joshua stands out as uniquely constrained by ethical principles even in the midst of warfare.
+
+### The Chiastic Structure Theory
+
+Some scholars propose that the Book of Joshua is structured as a large chiasm (a literary structure where themes mirror each other around a central point). If this theory is correct, the center would be Joshua 11:19:
+
+> "Except for the Hivites living in Gibeon, not one city made a treaty of peace with the Israelites, who took them all in battle."
+
+This verse appears in the middle of a paragraph describing total destruction "without mercy." Yet the central phrase focuses on those who were saved through covenant. If this is the center of a chiastic structure, it would mean the entire book is pointing toward redemption and covenant faithfulness rather than conquest and destruction.
+
+Supporting this theory:
+
+- The stories that receive the most narrative attention are redemption stories (Rahab, the Gibeonites)
+- The conquest accounts are often brief, while rescue stories are developed in detail
+- The book's emphasis seems backward if conquest is the main point
+
+### Standing Stones (Masava)
+
+Standing stones or "stones of witness" were unmarked stones set up to prompt questions and storytelling. Unlike steles (which had writing), standing stones had no inscription. They were meant to:
+
+- Stand out as unusual or out of place
+- Prompt observers to ask "What happened here?"
+- Create opportunities for oral transmission of God's faithfulness
+
+**Joshua 4**: After crossing the Jordan, twelve stones were taken from the riverbed and set up as a memorial, ensuring future generations would ask about God's miracle and hear the story.
+
+**Modern Application**: Do we create "standing stones" in our lives—tangible reminders that prompt us to tell stories of God's faithfulness to our children and others?
+
+### Chazak Va'amatz (Be Strong and Courageous)
+
+This Hebrew phrase forms a refrain throughout Joshua 1, creating a pattern of mutual encouragement:
+
+1. **God to Joshua**: "Be strong and courageous" (repeated multiple times)
+2. **Joshua to the people**: "Be strong and courageous"
+3. **The people to Joshua**: "Be strong and courageous"
+
+This three-way encouragement creates a community prepared for miraculous transformation. When God encourages the leader, the leader encourages the people, and the people support their leader, spiritual conquest becomes possible.
+
+**Application**: The greatest takeaway from Joshua may not be about military conquest at all, but about the power of mutual encouragement and unified support in facing the challenges ("mountains") we each encounter.
+
+## Examples & Applications
+
+### Historical Examples
+
+**The Source by James Michener**: This historical fiction explores life in ancient Canaan through multiple time periods. The opening chapters vividly depict the oppression of fertility cults and child sacrifice, helping modern readers understand the moral context of the conquest narratives.
+
+**Sennacherib's Cylinder**: Archaeological artifact containing the Assyrian king's account of his campaign against Judah, demonstrating how ancient conquest narratives were written from the victor's perspective with significant embellishment.
+
+### Personal Applications
+
+**Creating Standing Stones**: Marty shares his example of keeping his high school football belt as a reminder of when God redirected his life from pursuing law at Dartmouth University to attending Bible college and entering ministry. These tangible objects create opportunities to share testimonies of God's faithfulness.
+
+**Wrestling with Difficult Texts**: Rather than avoiding or quickly resolving tensions in Scripture, this episode models sitting with discomfort and allowing questions to remain open. Faith can coexist with honest uncertainty about how to interpret challenging passages.
+
+**Chazak Va'amatz in Community**: When facing challenges, creating a culture of three-way encouragement (leaders encouraging people, people encouraging leaders, all grounded in God's encouragement) enables communities to accomplish what seems impossible.
+
+### Contemporary Parallels
+
+**Justice vs. Patience**: We face the same tension God faced—when is enough evil enough? We cry out for God to act against injustice, yet when He does act in judgment (whether in Scripture or through natural consequences), we question His methods. This tension reflects our limited perspective compared to God's comprehensive view.
+
+**Genre Recognition**: Just as we recognize that Psalms are poetry, parables are illustrative stories, and Revelation uses apocalyptic imagery, recognizing conquest narrative as a genre helps us read Joshua as its original audience would have understood it.
+
+## Potential Areas for Further Exploration
+
+### Biblical Studies
+
+- **Comparative Ancient Near Eastern Literature**: Study other conquest narratives from Egypt, Assyria, Babylon, and Phoenicia to understand the genre conventions and how Joshua compares
+- **Archaeological Evidence**: Examine the archaeological record for the Conquest period and theories of how Israel emerged in Canaan
+- **The New Testament's Use of Joshua**: How do New Testament authors reference or interpret the conquest narratives?
+- **Lamentations as a Chiasm**: Marty mentions this book as another example of a large chiastic structure that transforms the apparent meaning
+
+### Theological Questions
+
+- **Progressive Revelation**: How does God progressively reveal His character and ethical standards throughout Scripture?
+- **Divine Accommodation**: In what ways does God "meet people where they are" in Scripture, and how do we distinguish accommodation from endorsement?
+- **Textual Criticism and Authority**: How do questions about historicity relate to questions about biblical authority and inspiration?
+- **The Crucified Christ as Hermeneutical Lens**: Greg Boyd's sermon mentioned in the episode explores reading all of Scripture through the lens of the crucified Christ
+
+### Historical and Cultural Context
+
+- **Fertility Cults in the Ancient Near East**: Deeper study of Canaanite religious practices and their social implications
+- **Ancient Warfare Ethics**: What were the standards and expectations for warfare in the ancient world?
+- **The Concept of Herem (Consecration/Devotion to Destruction)**: How was this concept understood and practiced in ancient Israel?
+- **Gibeonite Deception and Treaty Law**: What do ancient Near Eastern treaties reveal about the unusual nature of Israel honoring a covenant made through deception?
+
+### Practical Ministry Applications
+
+- **Teaching Difficult Texts**: How can pastors and teachers help congregations wrestle honestly with challenging passages?
+- **Creating Modern "Standing Stones"**: What practices help contemporary believers remember and retell God's faithfulness?
+- **Building Cultures of Mutual Encouragement**: How can communities practice "chazak va'amatz" with three-way encouragement?
+
+## Comprehension Questions
+
+1. **What is the "conquest narrative" genre, and how might recognizing this genre change our reading of the Book of Joshua?** (Consider the examples of Sennacherib and Rameses II, and explain how ancient kings typically described their military victories.)
+
+2. **Explain the difference between "consecrate" (herem) and "destroy" as used in Joshua. Why might the Israelites have interpreted God's command to "consecrate" as a command to "destroy"?** (Include the example of the broken-neck donkey and discuss the New Testament's challenge to viewing Gentiles as inherently unclean.)
+
+3. **Describe the historical context of Canaanite practices, particularly regarding child sacrifice and fertility cults. According to Genesis 15, how long did God wait before commanding judgment?** (Explain the tension between asking "Why doesn't God stop evil?" and "How could God authorize violence?")
+
+4. **What evidence suggests that the Book of Joshua might be structured as a chiasm, and what would be the significance if Joshua 11:19 is the center?** (Discuss which stories receive the most narrative attention and what this suggests about the book's true emphasis.)
+
+5. **Explain the three-way pattern of "chazak va'amatz" (be strong and courageous) in Joshua 1, and what this teaches about community and spiritual transformation.** (Describe how this pattern moves between God, Joshua, and the people, and its application for facing challenges today.)
+
+## Personal Summary
+
+The Book of Joshua presents one of Scripture's most challenging moral dilemmas: how to reconcile accounts of divinely-commanded conquest with the loving, patient God revealed throughout the Bible. This episode refuses to offer easy answers, instead modeling honest wrestling with difficult texts while maintaining faith.
+
+Several perspectives help with this wrestling match: (1) The archaeological record doesn't support a literal conquest, suggesting Joshua may employ the common ancient "conquest narrative" genre to communicate theological truths; (2) Careful reading shows God directly commands destruction only at Jericho, while many other actions are attributed to God through Joshua's reports rather than direct divine speech; (3) The word often translated "destroy" is actually "consecrate," which the Israelites may have misinterpreted; (4) The Canaanites practiced horrific child sacrifice and sexual exploitation for at least 450 years before judgment came, creating tension between God's patience and His justice; (5) The stories emphasized in Joshua are actually about redemption (Rahab, the Gibeonites), not conquest, suggesting the book's true center may be covenant faithfulness.
+
+Perhaps most significantly, Joshua 1 establishes a pattern of mutual encouragement—"chazak va'amatz" (be strong and courageous)—flowing between God, leaders, and people. This three-way support system may be the book's greatest lesson: when communities practice mutual encouragement rooted in God's presence, miraculous transformation becomes possible.
+
+The episode concludes without resolving all tensions, acknowledging that some questions remain difficult. This honesty models intellectual integrity in faith, showing that wrestling with hard texts doesn't require abandoning the larger testimony of Scripture about God's character. The challenge is to hold both the difficulty of Joshua and the consistent witness to God's love, patience, and justice revealed throughout the biblical story.
+
+**Study Note**: Marty references several resources for further exploration:
+- Greg Boyd's sermon on reading Scripture through the lens of the crucified Christ
+- Rob Bell's book "What is the Bible?" (originally a Tumblr series)
+- James Michener's "The Source" for understanding ancient Canaanite culture
+- His own blog post from December 5, 2013 (linked in episode show notes)
+
+These resources offer various perspectives on the conquest narratives, though Marty notes he doesn't agree entirely with any of them. They represent different attempts to wrestle honestly with these challenging texts.
