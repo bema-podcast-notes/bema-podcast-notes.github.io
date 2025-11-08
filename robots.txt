@@ -22,6 +22,7 @@ Allow: /episodes.html
 Allow: /misc.html
 Allow: /session*/
 Allow: /misc/
+Allow: /sitemap.xml
 
 # Disallow drafts and private content
 Disallow: /drafts/
