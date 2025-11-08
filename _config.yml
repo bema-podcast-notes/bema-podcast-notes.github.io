@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A place for my notes as I listen through the BEMA Podcast and capture
   all of the information and details episode by episode.  
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bema-podcast-notes.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: G-BZGEW8HB4G
 # twitter_username: adamaverycole
 github_username: adamaverycole
@@ -68,6 +68,9 @@ collections:
     output: true
   misc_pages:
     permalink: /misc/:path/
+    output: true
+  sitemap:
+    permalink: /sitemapv2.xml
     output: true
 
 # Build settings
