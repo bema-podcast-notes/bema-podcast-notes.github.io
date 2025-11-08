@@ -115,13 +115,3 @@ I have binged this podcast and did not take the time to take notes along the way
 <a href="{{ page.url }}">{{ page.title }}</a> - {{ episode.subtitle }}
 {% endif -%}
 {% endfor %}
-
-<!-- ### [Session 11]({{ '/session11' | relative_url }}) {#session8}
-
-{% assign sorted_pages = site.session_11 | sort:"episodeIndex" %}
-{% for page in sorted_pages %}
-{%- if page.episodeIndex %}  
-{% assign episode = site.data.episodes[page.episodeIndex] %}
-<a href="{{ page.url }}">{{ page.title }}</a> - {{ episode.subtitle }}
-{% endif -%}
-{% endfor %} -->
