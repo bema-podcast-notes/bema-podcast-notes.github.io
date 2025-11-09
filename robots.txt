@@ -23,6 +23,8 @@ Allow: /misc.html
 Allow: /session*/
 Allow: /misc/
 Allow: /sitemap.xml
+Allow: /sitemapv2.xml
+Allow: /sitemap.html
 
 # Disallow drafts and private content
 Disallow: /drafts/
@@ -30,3 +32,5 @@ Disallow: /_drafts/
 
 # Sitemap location (Jekyll generates this automatically)
 Sitemap: https://bema-podcast-notes.github.io/sitemap.xml
+Sitemap: https://bema-podcast-notes.github.io/sitemapv2.xml
+Sitemap: https://bema-podcast-notes.github.io/sitemap.html

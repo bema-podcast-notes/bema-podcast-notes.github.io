@@ -69,9 +69,9 @@ collections:
   misc_pages:
     permalink: /misc/:path/
     output: true
-  sitemap:
-    permalink: /sitemapv2.xml
-    output: true
+  # sitemap:
+  #   permalink: /sitemapv2.xml
+  #   output: true
 
 # Build settings
 # + remote_theme: jekyll/minima
