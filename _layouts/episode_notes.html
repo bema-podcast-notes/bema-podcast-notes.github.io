@@ -1,58 +1,194 @@
----
-layout: default
----
-  {%- if page.episodeIndex %}  
-  {% assign episode = site.data.episodes[page.episodeIndex] %}
-  {% assign previousEpisodeIndex = page.episodeIndex | minus: 1 %}
-  {% assign previousEpisode = site.data.episodes[previousEpisodeIndex] %}
-  {% assign nextEpisodeIndex = page.episodeIndex | plus: 1 %}
-  {% assign nextEpisode = site.data.episodes[nextEpisodeIndex] %}
-  {% endif -%}
-
-  {% capture editPreviousNextNav %}
-  <a href="{{ site.github_repo }}{{ page.path }}">Edit</a>
-  {%- if previousEpisodeIndex >= 0 and previousEpisode %}
-  | <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}">Previous</a>
-  {% endif -%}
-  {%- if nextEpisode %}
-  | <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}">Next</a>
-  {% endif -%}
-  {% endcapture %}
-
-  {%- if page.title_override %}  
-  {% assign title = page.title_override %}
-  {%- elsif episode %}  
-  {% assign title = episode.title %}
-  {% else %}
-  {% assign title = "Unknown" %}
-  {% endif -%}
-  {{ editPreviousNextNav }}
-  <header class="post-header">
-    <h1 class="post-title">S{{ episode.season }} {{ title }}</h1>
-    <h2>{{ episode.subtitle }} [{{ episode.duration }}]</h2>
-  </header>
-
-  <div class="post-content">
-    {%- if episode %}
-
-    <iframe src="{{ episode.playerURL }}?theme=dark" width="740" height="200" frameborder="0" scrolling="no"></iframe>
-
-    <strong>BEMA Episode Link:</strong> <a href="{{ episode.link }}" target="_blank">{{ episode.title }}</a><br />
-    <strong>Episode Length:</strong> {{ episode.duration }}<br />
-    <strong>Published Date:</strong> {{ episode.pubDate}}<br />
-    <strong>Session {{ episode.season }}</strong><br />
-    <strong>About this episode:</strong><br />
-    {{ episode.description }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%- if page.episodeIndex %}
+    {% assign episode = site.data.episodes[page.episodeIndex] %}
+    {% assign previousEpisodeIndex = page.episodeIndex | minus: 1 %}
+    {% assign previousEpisode = site.data.episodes[previousEpisodeIndex] %}
+    {% assign nextEpisodeIndex = page.episodeIndex | plus: 1 %}
+    {% assign nextEpisode = site.data.episodes[nextEpisodeIndex] %}
     {% endif -%}
-    
-    <h2>Notes</h2>
-    <p>
-      <em>*Note: The following notes are handwritten by me, Adam, and I reserve the right to be wrong.</em>
-    </p>
-    <p>
-      {{ content }}
-    </p>
-    {{ editPreviousNextNav }}
-  </div>
 
-</article>
+    {%- if page.title_override %}
+    {% assign title = page.title_override %}
+    {%- elsif episode %}
+    {% assign title = episode.title %}
+    {% else %}
+    {% assign title = "Unknown" %}
+    {% endif -%}
+
+    <title>{{ title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/episode.css' | relative_url }}">
+    {% if site.google_analytics %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="site-title" style="text-decoration: none; color: white;">📖 {{ site.title }}</a>
+            <nav class="nav">
+                <a href="/">Home</a>
+                <a href="/#episodes">All Episodes</a>
+                <a href="/search/">Search</a>
+                <a href="/misc/">Resources</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Episode Hero Section -->
+    <section class="episode-hero">
+        <div class="container">
+            <div class="episode-meta-badge">
+                <span class="session-badge">Session {{ episode.season }}</span>
+                <span class="episode-number-badge">Episode {{ page.episodeNumber }}</span>
+            </div>
+            <h1>{{ title }}</h1>
+            {%- if episode %}
+            <p class="episode-subtitle">{{ episode.subtitle }}</p>
+            <div class="episode-meta">
+                <span>📅 {{ episode.pubDate }}</span>
+                <span>⏱️ {{ episode.duration }}</span>
+            </div>
+            {% endif -%}
+        </div>
+    </section>
+
+    <!-- Episode Navigation -->
+    <div class="container">
+        <div class="episode-nav">
+            <div class="episode-nav-left">
+                {%- if previousEpisodeIndex >= 0 and previousEpisode %}
+                <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="nav-btn nav-btn-prev">
+                    ← Previous Episode
+                </a>
+                {% else %}
+                <span class="nav-btn nav-btn-disabled">← Previous Episode</span>
+                {% endif -%}
+            </div>
+            <div class="episode-nav-center">
+                <a href="{{ site.github_repo }}{{ page.path }}" class="nav-btn nav-btn-edit" target="_blank">
+                    ✏️ Edit on GitHub
+                </a>
+            </div>
+            <div class="episode-nav-right">
+                {%- if nextEpisode %}
+                <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="nav-btn nav-btn-next">
+                    Next Episode →
+                </a>
+                {% else %}
+                <span class="nav-btn nav-btn-disabled">Next Episode →</span>
+                {% endif -%}
+            </div>
+        </div>
+    </div>
+
+    <!-- Episode Player & Info -->
+    {%- if episode %}
+    <div class="container">
+        <div class="episode-player-section">
+            <h2>🎧 Listen to This Episode</h2>
+            <div class="player-container">
+                <iframe src="{{ episode.playerURL }}?theme=dark" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
+            </div>
+
+            <div class="episode-info-grid">
+                <div class="info-card">
+                    <h3>Episode Details</h3>
+                    <p><strong>Episode Number:</strong> {{ page.episodeNumber }}</p>
+                    <p><strong>Session:</strong> {{ episode.season }}</p>
+                    <p><strong>Duration:</strong> {{ episode.duration }}</p>
+                    <p><strong>Published:</strong> {{ episode.pubDate }}</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Listen on BEMA</h3>
+                    <p>Visit the official BEMA website to listen to this episode and explore more resources.</p>
+                    <a href="{{ episode.link }}" target="_blank" class="btn btn-primary">
+                        Open on BEMA →
+                    </a>
+                </div>
+            </div>
+
+            {%- if episode.description %}
+            <div class="episode-description">
+                <h3>About This Episode</h3>
+                <p>{{ episode.description }}</p>
+            </div>
+            {% endif -%}
+        </div>
+    </div>
+    {% endif -%}
+
+    <!-- Episode Notes -->
+    <div class="container">
+        <article class="episode-notes-section">
+            <div class="notes-header">
+                <h2>📝 Episode Notes</h2>
+                <p class="notes-disclaimer">
+                    <em>Note: The following notes are handwritten by me, Adam, and I reserve the right to be wrong. These reflect my personal understanding and interpretation.</em>
+                </p>
+            </div>
+
+            <div class="notes-content">
+                {{ content }}
+            </div>
+        </article>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="container">
+        <div class="episode-nav">
+            <div class="episode-nav-left">
+                {%- if previousEpisodeIndex >= 0 and previousEpisode %}
+                <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="nav-btn nav-btn-prev">
+                    ← Previous Episode
+                </a>
+                {% else %}
+                <span class="nav-btn nav-btn-disabled">← Previous Episode</span>
+                {% endif -%}
+            </div>
+            <div class="episode-nav-center">
+                <a href="/#episodes" class="nav-btn nav-btn-home">
+                    📋 All Episodes
+                </a>
+            </div>
+            <div class="episode-nav-right">
+                {%- if nextEpisode %}
+                <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="nav-btn nav-btn-next">
+                    Next Episode →
+                </a>
+                {% else %}
+                <span class="nav-btn nav-btn-disabled">Next Episode →</span>
+                {% endif -%}
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p style="margin-bottom: 1rem;"><strong>{{ site.title }}</strong></p>
+            <p style="margin-bottom: 0.5rem;">These are my personal notes from the BEMA Podcast by Marty Solomon and Brent Billings.</p>
+            <p style="font-size: 0.9rem; opacity: 0.8;">These notes reflect my understanding and are not intended to represent the beliefs of the podcast hosts.</p>
+            <p style="margin-top: 1.5rem; font-size: 0.9rem;">
+                <a href="mailto:{{ site.email }}" style="color: white;">Contact</a> |
+                <a href="https://github.com/{{ site.github_username }}" style="color: white;">GitHub</a> |
+                <a href="https://www.bemadiscipleship.com/" style="color: white;">Official BEMA Site</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
