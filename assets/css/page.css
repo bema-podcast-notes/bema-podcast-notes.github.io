@@ -1,0 +1,308 @@
+/* Page-Specific Styles for Misc Resources */
+
+.page-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+}
+
+.page-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.page-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.95;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Page Content Section */
+.page-content-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin: 2rem auto;
+}
+
+.page-content {
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Typography for Page Content */
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4 {
+    color: #2c3e50;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.page-content h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 0.5rem;
+}
+
+.page-content h2 {
+    font-size: 1.6rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.4rem;
+}
+
+.page-content h3 {
+    font-size: 1.3rem;
+}
+
+.page-content h4 {
+    font-size: 1.1rem;
+}
+
+.page-content p {
+    margin: 1rem 0;
+}
+
+.page-content ul,
+.page-content ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.page-content li {
+    margin: 0.5rem 0;
+}
+
+/* Links */
+.page-content a {
+    color: #667eea;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.page-content a:hover {
+    border-bottom-color: #667eea;
+}
+
+/* Code */
+.page-content code {
+    background: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    color: #d63384;
+}
+
+.page-content pre {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    border-left: 4px solid #667eea;
+}
+
+.page-content pre code {
+    background: none;
+    padding: 0;
+    color: #333;
+}
+
+/* Blockquotes */
+.page-content blockquote {
+    border-left: 4px solid #667eea;
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    color: #555;
+    font-style: italic;
+    background: #f8f9fa;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+}
+
+/* Tables */
+.page-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+.page-content table th,
+.page-content table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.page-content table th {
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.page-content table tr:hover {
+    background: #f8f9fa;
+}
+
+/* Images */
+.page-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Horizontal Rules */
+.page-content hr {
+    border: none;
+    border-top: 2px solid #e0e0e0;
+    margin: 2rem 0;
+}
+
+/* Strong/Bold */
+.page-content strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Emphasis/Italic */
+.page-content em {
+    font-style: italic;
+}
+
+/* Table of Contents Styling */
+.page-content > p:first-child {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.page-content > ul:first-of-type {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    margin-top: 0.5rem;
+}
+
+.page-content > ul:first-of-type li {
+    margin: 0.3rem 0;
+}
+
+/* Resource Cards (for misc index page) */
+.resource-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.resource-card {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s;
+    border-left: 4px solid #667eea;
+}
+
+.resource-card:hover {
+    border-color: #667eea;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(102, 126, 234, 0.2);
+}
+
+.resource-card h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.4rem;
+    color: #2c3e50;
+}
+
+.resource-card h3 a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.resource-card h3 a:hover {
+    color: #667eea;
+}
+
+.resource-card p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 1.5rem 0;
+}
+
+.resource-link {
+    display: inline-block;
+    color: #667eea;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.resource-link:hover {
+    transform: translateX(4px);
+    color: #5568d3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .page-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .page-subtitle {
+        font-size: 1rem;
+    }
+
+    .page-content-section {
+        padding: 1.5rem;
+        margin: 1rem auto;
+    }
+
+    .page-content h1 {
+        font-size: 1.6rem;
+    }
+
+    .page-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .page-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .page-content ul,
+    .page-content ol {
+        padding-left: 1.5rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header,
+    .footer {
+        display: none;
+    }
+
+    .page-hero {
+        background: none;
+        color: #333;
+        page-break-after: avoid;
+    }
+
+    .page-content-section {
+        box-shadow: none;
+        page-break-inside: avoid;
+    }
+}

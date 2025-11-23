@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/page.css' | relative_url }}">
+    {% if site.google_analytics %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="site-title" style="text-decoration: none; color: white;">📖 {{ site.title }}</a>
+            <nav class="nav">
+                <a href="/">Home</a>
+                <a href="/#episodes">All Episodes</a>
+                <a href="/search/">Search</a>
+                <a href="/misc/">Resources</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>{{ page.title }}</h1>
+            {%- if page.description %}
+            <p class="page-subtitle">{{ page.description }}</p>
+            {% endif -%}
+        </div>
+    </section>
+
+    <!-- Page Content -->
+    <div class="container">
+        <article class="page-content-section">
+            <div class="page-content">
+                {{ content }}
+            </div>
+        </article>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p style="margin-bottom: 1rem;"><strong>{{ site.title }}</strong></p>
+            <p style="margin-bottom: 0.5rem;">These are my personal notes from the BEMA Podcast by Marty Solomon and Brent Billings.</p>
+            <p style="font-size: 0.9rem; opacity: 0.8;">These notes reflect my understanding and are not intended to represent the beliefs of the podcast hosts.</p>
+            <p style="margin-top: 1.5rem; font-size: 0.9rem;">
+                <a href="mailto:{{ site.email }}" style="color: white;">Contact</a> |
+                <a href="https://github.com/{{ site.github_username }}" style="color: white;">GitHub</a> |
+                <a href="https://www.bemadiscipleship.com/" style="color: white;">Official BEMA Site</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
