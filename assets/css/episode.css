@@ -74,49 +74,8 @@
     justify-self: end;
 }
 
-.nav-btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.95rem;
-    transition: all 0.2s;
-    border: 2px solid #667eea;
-    white-space: nowrap;
-}
-
-.nav-btn-prev,
-.nav-btn-next,
-.nav-btn-home {
-    background: #667eea;
-    color: white;
-}
-
-.nav-btn-prev:hover,
-.nav-btn-next:hover,
-.nav-btn-home:hover {
-    background: #5568d3;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
-}
-
-.nav-btn-edit {
-    background: white;
-    color: #667eea;
-}
-
-.nav-btn-edit:hover {
-    background: #f8f9fa;
-    transform: translateY(-2px);
-}
-
-.nav-btn-disabled {
-    background: #e0e0e0;
-    color: #999;
-    border-color: #e0e0e0;
-    cursor: not-allowed;
-}
+/* Navigation buttons use shared .btn system from common.css */
+/* Uses: .btn .btn-sm .btn-primary, .btn .btn-sm .btn-outline, .btn .btn-sm .btn-disabled */
 
 /* Episode Player Section */
 .episode-player-section {

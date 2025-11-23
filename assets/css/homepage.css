@@ -85,31 +85,8 @@ body {
     margin-top: 2rem;
 }
 
-.btn {
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    transition: transform 0.2s, box-shadow 0.2s;
-    display: inline-block;
-}
-
-.btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.btn-primary {
-    background: white;
-    color: #667eea;
-}
-
-.btn-secondary {
-    background: rgba(255,255,255,0.2);
-    color: white;
-    border: 2px solid white;
-}
+/* Buttons use shared .btn system from common.css */
+/* Homepage uses .btn-lg .btn-light and .btn-lg .btn-secondary */
 
 /* Updates Box */
 .updates-box {
@@ -378,20 +355,7 @@ body {
     font-size: 1rem;
 }
 
-.search-btn {
-    padding: 1rem 2rem;
-    background: #667eea;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.search-btn:hover {
-    background: #5568d3;
-}
+/* Search button uses .btn .btn-lg .btn-primary from common.css */
 
 /* Footer */
 .footer {
