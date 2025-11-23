@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }} - Your Complete Guide</title>
+    <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
+    {% if site.google_analytics %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="site-title">📖 {{ site.title }}</div>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#episodes">All Episodes</a>
+                <a href="/search/">Search</a>
+                <a href="/misc/">Resources</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Your Complete Guide to the BEMA Podcast</h1>
+            <p class="subtitle">465+ episodes of detailed notes, insights, and connections to help you understand the Bible in its ancient Hebrew context</p>
+            <div class="cta-buttons">
+                {% assign first_episode = site.session_1 | sort:"episodeIndex" | first %}
+                <a href="{{ first_episode.url }}" class="btn btn-primary">🚀 Start from Episode 1</a>
+                <a href="/search/" class="btn btn-secondary">🔍 Search Episodes</a>
+                <a href="#new" class="btn btn-secondary">❓ New to BEMA?</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updates Box -->
+    <div class="container">
+        <div class="updates-box">
+            <p><strong>✨ Recently added:</strong> Episodes 452-465 (Qohelet/Ecclesiastes series)</p>
+            <p><strong>📚 Total notes:</strong> 465+ episodes documented and counting</p>
+            <p><strong>🎯 Currently covering:</strong> Session 10 - New content added regularly!</p>
+        </div>
+    </div>
+
+    <!-- New Here Section -->
+    <div class="container">
+        <section class="section newcomer" id="new">
+            <h2>New Here?</h2>
+
+            <h3>What is BEMA?</h3>
+            <p><strong>The BEMA Podcast</strong> is a walk-through of the Bible and its surrounding historical context, hosted by Marty Solomon and co-hosted by Brent Billings. The podcast "deconstructs our common readings of the Bible and attempts to reconstruct them through the lens of historical context"—helping listeners understand Scripture through its original ancient Hebrew and cultural setting rather than through modern Western assumptions.</p>
+
+            <p>The name "BEMA" comes from the Hebrew word meaning "platform" or "raised place"—historically, it's where the Torah was read in the synagogue. The podcast lives up to this name by carefully examining biblical texts, exploring what they meant to their original audiences, and discovering how that understanding transforms our reading today.</p>
+
+            <h3>What You'll Find Here</h3>
+            <p>This site contains <strong>my personal notes</strong> from all 465+ episodes. As I've listened through the entire series, I've captured key concepts, historical context, Hebrew terms, connections between episodes, and episode summaries.</p>
+
+            <h3>Recommended Starting Points:</h3>
+            <ul>
+                {% assign get_started_episodes = "-1,0,1" | split: "," %}
+                {% for ep_num in get_started_episodes %}
+                  {% comment %} Find the page for this episode by episodeNumber {% endcomment %}
+                  {% assign episode_page = nil %}
+                  {% for collection in site.collections %}
+                    {% if collection.label contains "session" %}
+                      {% for page in collection.docs %}
+                        {% assign page_ep_num = page.episodeNumber | append: "" %}
+                        {% if page_ep_num == ep_num %}
+                          {% assign episode_page = page %}
+                          {% break %}
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                    {% if episode_page %}
+                      {% break %}
+                    {% endif %}
+                  {% endfor %}
+
+                  {% if episode_page %}
+                    {% assign episode = site.data.episodes[episode_page.episodeIndex] %}
+                    <li><a href="{{ episode_page.url }}">Episode {{ episode.title }}</a> — {{ episode.subtitle }}</li>
+                  {% endif %}
+                {% endfor %}
+            </ul>
+
+            <div class="cta-buttons" style="margin-top: 2rem;">
+                {% assign first_episode = site.session_1 | sort:"episodeIndex" | first %}
+                <a href="{{ first_episode.url }}" class="btn btn-primary">Begin Your Journey</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Featured Episodes -->
+    <div class="container">
+        <section class="section featured">
+            <h2>Most Impactful Episodes</h2>
+            <p>Start with these highly-recommended episodes that introduce key concepts and frameworks used throughout the podcast:</p>
+
+            <div class="episode-cards">
+                {% assign featured_episodes = "0,18,110,203,234,305" | split: "," %}
+                {% for ep_num in featured_episodes %}
+                  {% comment %} Find the page for this episode by episodeNumber {% endcomment %}
+                  {% assign episode_page = nil %}
+                  {% for collection in site.collections %}
+                    {% if collection.label contains "session" %}
+                      {% for page in collection.docs %}
+                        {% assign page_ep_num = page.episodeNumber | append: "" %}
+                        {% if page_ep_num == ep_num %}
+                          {% assign episode_page = page %}
+                          {% break %}
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                    {% if episode_page %}
+                      {% break %}
+                    {% endif %}
+                  {% endfor %}
+
+                  {% if episode_page %}
+                    {% assign episode = site.data.episodes[episode_page.episodeIndex] %}
+                    <div class="episode-card">
+                        <span class="episode-number">Episode {{ episode_page.episodeNumber }}</span>
+                        <h3>{{ episode.title }}</h3>
+                        <p>{{ episode.subtitle }}</p>
+                        <a href="{{ episode_page.url }}">Read notes →</a>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+
+    <!-- Enhanced Search -->
+    <div class="container">
+        <div class="search-highlight" id="search">
+            <h2 style="margin-bottom: 1rem;">🔍 Find What You're Looking For</h2>
+            <p>Search through 465+ episodes by topic, passage, concept, or keyword</p>
+            <form action="/search/" method="get">
+                <div class="search-box">
+                    <input type="text" name="q" class="search-input" placeholder="Try searching 'parables', 'covenant', 'sabbath'..." />
+                    <button type="submit" class="search-btn">Search</button>
+                </div>
+            </form>
+            <p style="margin-top: 1rem; color: #666; font-size: 0.9rem;">
+                Popular searches: Sermon on the Mount, PaRDeS, Kingdom of God, Passover, Paul's letters
+            </p>
+        </div>
+    </div>
+
+    <!-- Quick Access -->
+    <div class="container">
+        <section class="section quick-access">
+            <h2>Quick Access</h2>
+            <div class="access-grid">
+                <a href="#episodes" class="access-card">
+                    <div>📋 Browse All Episodes</div>
+                </a>
+                <a href="/session1/" class="access-card">
+                    <div>📖 Start Session 1</div>
+                </a>
+                <a href="/misc/" class="access-card">
+                    <div>📚 Additional Resources</div>
+                </a>
+                <a href="#latest" class="access-card">
+                    <div>✨ Latest Updates</div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <!-- All Sessions (Collapsible) -->
+    <div class="container">
+        <section class="section sessions" id="episodes">
+            <h2>All Sessions & Episodes</h2>
+            <p style="margin-bottom: 2rem; color: #666;">Click any session to expand and see all episodes. Sessions 1-5 form the core curriculum, covering the entire biblical narrative and church history.</p>
+
+            <!-- Session 1 -->
+            <details class="session-group" id="session1">
+                <summary>
+                    <span>Session 1: Genesis through Deuteronomy</span>
+                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_1 | size }} episodes)</span>
+                </summary>
+                <div class="episode-list">
+                    {% assign sorted_pages = site.session_1 | sort:"episodeIndex" %}
+                    {% for page in sorted_pages %}
+                      {% if page.episodeIndex %}
+                        {% assign episode = site.data.episodes[page.episodeIndex] %}
+                        <div class="episode-item">
+                            <a href="{{ page.url }}">{{ episode.title }}</a>
+                            <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            </details>
+
+            <!-- Session 2 -->
+            <details class="session-group">
+                <summary>
+                    <span>Session 2: Joshua through Malachi</span>
+                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_2 | size }} episodes)</span>
+                </summary>
+                <div class="episode-list">
+                    {% assign sorted_pages = site.session_2 | sort:"episodeIndex" %}
+                    {% for page in sorted_pages %}
+                      {% if page.episodeIndex %}
+                        {% assign episode = site.data.episodes[page.episodeIndex] %}
+                        <div class="episode-item">
+                            <a href="{{ page.url }}">{{ episode.title }}</a>
+                            <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            </details>
+
+            <!-- Session 3 -->
+            <details class="session-group">
+                <summary>
+                    <span>Session 3: The Gospels & Life of Jesus</span>
+                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_3 | size }} episodes)</span>
+                </summary>
+                <div class="episode-list">
+                    {% assign sorted_pages = site.session_3 | sort:"episodeIndex" %}
+                    {% for page in sorted_pages %}
+                      {% if page.episodeIndex %}
+                        {% assign episode = site.data.episodes[page.episodeIndex] %}
+                        <div class="episode-item">
+                            <a href="{{ page.url }}">{{ episode.title }}</a>
+                            <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            </details>
+
+            <!-- Session 4 -->
+            <details class="session-group">
+                <summary>
+                    <span>Session 4: Acts through Revelation</span>
+                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_4 | size }} episodes)</span>
+                </summary>
+                <div class="episode-list">
+                    {% assign sorted_pages = site.session_4 | sort:"episodeIndex" %}
+                    {% for page in sorted_pages %}
+                      {% if page.episodeIndex %}
+                        {% assign episode = site.data.episodes[page.episodeIndex] %}
+                        <div class="episode-item">
+                            <a href="{{ page.url }}">{{ episode.title }}</a>
+                            <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            </details>
+
+            <!-- Session 5 -->
+            <details class="session-group">
+                <summary>
+                    <span>Session 5: Church History (100 AD - Today)</span>
+                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_5 | size }} episodes)</span>
+                </summary>
+                <div class="episode-list">
+                    {% assign sorted_pages = site.session_5 | sort:"episodeIndex" %}
+                    {% for page in sorted_pages %}
+                      {% if page.episodeIndex %}
+                        {% assign episode = site.data.episodes[page.episodeIndex] %}
+                        <div class="episode-item">
+                            <a href="{{ page.url }}">{{ episode.title }}</a>
+                            <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            </details>
+
+            <!-- Session 6 -->
+            <details class="session-group">
+                <summary>
+                    <span>Session 6: Deep Dives & Guest Conversations</span>
+                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_6 | size }} episodes)</span>
+                </summary>
+                <div class="episode-list">
+                    {% assign sorted_pages = site.session_6 | sort:"episodeIndex" %}
+                    {% for page in sorted_pages %}
+                      {% if page.episodeIndex %}
+                        {% assign episode = site.data.episodes[page.episodeIndex] %}
+                        <div class="episode-item">
+                            <a href="{{ page.url }}">{{ episode.title }}</a>
+                            <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            </details>
+
+            <!-- Session 7 -->
+            <details class="session-group">
+                <summary>
+                    <span>Session 7: Sabbath & Spiritual Practices</span>
+                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_7 | size }} episodes)</span>
+                </summary>
+                <div class="episode-list">
+                    {% assign sorted_pages = site.session_7 | sort:"episodeIndex" %}
+                    {% for page in sorted_pages %}
+                      {% if page.episodeIndex %}
+                        {% assign episode = site.data.episodes[page.episodeIndex] %}
+                        <div class="episode-item">
+                            <a href="{{ page.url }}">{{ episode.title }}</a>
+                            <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            </details>
+
+            <!-- Session 8 -->
+            <details class="session-group">
+                <summary>
+                    <span>Session 8: Isaiah, Psalms & Talmudic Matthew</span>
+                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_8 | size }} episodes)</span>
+                </summary>
+                <div class="episode-list">
+                    {% assign sorted_pages = site.session_8 | sort:"episodeIndex" %}
+                    {% for page in sorted_pages %}
+                      {% if page.episodeIndex %}
+                        {% assign episode = site.data.episodes[page.episodeIndex] %}
+                        <div class="episode-item">
+                            <a href="{{ page.url }}">{{ episode.title }}</a>
+                            <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            </details>
+
+            <!-- Session 9 -->
+            <details class="session-group">
+                <summary>
+                    <span>Session 9: Hosea & Qohelet (Ecclesiastes)</span>
+                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_9 | size }} episodes)</span>
+                </summary>
+                <div class="episode-list">
+                    {% assign sorted_pages = site.session_9 | sort:"episodeIndex" %}
+                    {% for page in sorted_pages %}
+                      {% if page.episodeIndex %}
+                        {% assign episode = site.data.episodes[page.episodeIndex] %}
+                        <div class="episode-item">
+                            <a href="{{ page.url }}">{{ episode.title }}</a>
+                            <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            </details>
+
+            <!-- Session 10 -->
+            <details class="session-group">
+                <summary>
+                    <span>Session 10: Coming Soon!</span>
+                    <span class="badge" style="background: #f39c12; font-size: 0.8rem;">🚧 In Progress</span>
+                </summary>
+                <div class="episode-list">
+                    {% if site.session_10.size > 0 %}
+                      {% assign sorted_pages = site.session_10 | sort:"episodeIndex" %}
+                      {% for page in sorted_pages %}
+                        {% if page.episodeIndex %}
+                          {% assign episode = site.data.episodes[page.episodeIndex] %}
+                          <div class="episode-item">
+                            <a href="{{ page.url }}">{{ episode.title }}</a>
+                              <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                          </div>
+                        {% endif %}
+                      {% endfor %}
+                    {% else %}
+                      <div class="episode-item" style="text-align: center; padding: 2rem; color: #666;">
+                          <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">📻 Session 10 episodes coming soon!</p>
+                          <p style="font-size: 0.9rem;">Check back regularly for new episode notes as they're released.</p>
+                      </div>
+                    {% endif %}
+                </div>
+            </details>
+        </section>
+    </div>
+
+    <!-- How to Use This Site -->
+    <div class="container">
+        <section class="section" style="background: #f8f9fa;">
+            <h2>How to Navigate This Site</h2>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                <div>
+                    <h3>📖 If You're Brand New to BEMA</h3>
+                    <p>Start with <strong>Episode 0</strong> (or even <strong>Episode -1</strong>) and work your way through in order. BEMA builds concepts progressively, with later episodes referencing ideas introduced earlier. The main body of teaching is in Sessions 1-5 (Episodes -1 through 204).</p>
+                </div>
+
+                <div>
+                    <h3>🎧 If You're Already Listening</h3>
+                    <p>Use this site as a <strong>reference companion</strong> to the podcast. Search for specific topics, browse by session to find episodes about particular biblical books, or view all episodes to quickly scan for what you need.</p>
+                </div>
+
+                <div>
+                    <h3>🔍 If You're Looking for Something Specific</h3>
+                    <p><strong>Old Testament:</strong> Sessions 1-2<br>
+                    <strong>New Testament:</strong> Sessions 3-4<br>
+                    <strong>Church History:</strong> Session 5<br>
+                    <strong>Deep Dives:</strong> Sessions 6-9</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p style="margin-bottom: 1rem;"><strong>{{ site.title }}</strong></p>
+            <p style="margin-bottom: 0.5rem;">These are my personal notes from the BEMA Podcast by Marty Solomon and Brent Billings.</p>
+            <p style="font-size: 0.9rem; opacity: 0.8;">These notes reflect my understanding and are not intended to represent the beliefs of the podcast hosts.</p>
+            <p style="margin-top: 1.5rem; font-size: 0.9rem;">
+                <a href="mailto:{{ site.email }}" style="color: white;">Contact</a> |
+                <a href="https://github.com/{{ site.github_username }}" style="color: white;">GitHub</a> |
+                <a href="https://www.bemadiscipleship.com/" style="color: white;">Official BEMA Site</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
