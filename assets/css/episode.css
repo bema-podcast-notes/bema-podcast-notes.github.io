@@ -230,136 +230,9 @@
     color: #856404;
 }
 
+/* Notes Content - Uses shared .content-area typography from common.css */
 .notes-content {
-    line-height: 1.8;
-    color: #333;
-    margin-top: 2rem;
-}
-
-.notes-content h1,
-.notes-content h2,
-.notes-content h3,
-.notes-content h4 {
-    color: #2c3e50;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-}
-
-.notes-content h1 {
-    font-size: 2rem;
-    border-bottom: 2px solid #667eea;
-    padding-bottom: 0.5rem;
-}
-
-.notes-content h2 {
-    font-size: 1.6rem;
-    border-bottom: 2px solid #e0e0e0;
-    padding-bottom: 0.4rem;
-}
-
-.notes-content h3 {
-    font-size: 1.3rem;
-}
-
-.notes-content h4 {
-    font-size: 1.1rem;
-}
-
-.notes-content p {
-    margin: 1rem 0;
-}
-
-.notes-content ul,
-.notes-content ol {
-    margin: 1rem 0;
-    padding-left: 2rem;
-}
-
-.notes-content li {
-    margin: 0.5rem 0;
-}
-
-.notes-content a {
-    color: #667eea;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s;
-}
-
-.notes-content a:hover {
-    border-bottom-color: #667eea;
-}
-
-.notes-content code {
-    background: #f8f9fa;
-    padding: 0.2rem 0.4rem;
-    border-radius: 3px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.9em;
-    color: #d63384;
-}
-
-.notes-content pre {
-    background: #f8f9fa;
-    padding: 1rem;
-    border-radius: 8px;
-    overflow-x: auto;
-    border-left: 4px solid #667eea;
-}
-
-.notes-content pre code {
-    background: none;
-    padding: 0;
-    color: #333;
-}
-
-.notes-content blockquote {
-    border-left: 4px solid #667eea;
-    padding-left: 1.5rem;
-    margin: 1.5rem 0;
-    color: #555;
-    font-style: italic;
-    background: #f8f9fa;
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-}
-
-.notes-content table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.5rem 0;
-}
-
-.notes-content table th,
-.notes-content table td {
-    border: 1px solid #e0e0e0;
-    padding: 0.75rem;
-    text-align: left;
-}
-
-.notes-content table th {
-    background: #f8f9fa;
-    font-weight: 600;
-    color: #2c3e50;
-}
-
-.notes-content table tr:hover {
-    background: #f8f9fa;
-}
-
-.notes-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin: 1.5rem 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.notes-content hr {
-    border: none;
-    border-top: 2px solid #e0e0e0;
-    margin: 2rem 0;
+    margin-top: var(--spacing-lg);
 }
 
 /* Responsive */
@@ -401,18 +274,6 @@
 
     .episode-info-grid {
         grid-template-columns: 1fr;
-    }
-
-    .notes-content h1 {
-        font-size: 1.6rem;
-    }
-
-    .notes-content h2 {
-        font-size: 1.3rem;
-    }
-
-    .notes-content h3 {
-        font-size: 1.1rem;
     }
 }
 
