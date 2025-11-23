@@ -18,6 +18,72 @@ Note: The script should be executed in the same directory that contains the `_da
  1. Powershell Core
  2. Powershell-Yaml Module `Install-Module -Name powershell-yaml -Force -Repository PSGallery -Scope CurrentUser`
 
+## gen-episodes-yaml.py
+
+Python version of the PowerShell `gen-episodes-yaml.ps1` script. This is a cross-platform alternative that works on Windows, macOS, and Linux.
+
+### What it does
+
+1. Fetches the BEMA podcast RSS feed from https://feeds.fireside.fm/bema/rss
+2. Saves the raw RSS XML to `_data/bema-rss.xml`
+3. Parses episode data and converts to YAML format
+4. Saves episodes to `_data/episodes.yaml`
+5. Extracts book links to `_data/book-list.yaml`
+6. Creates episode markdown files in appropriate `_session_*` directories if they don't exist
+
+### Installation
+
+First, install the required Python dependencies:
+
+```bash
+pip3 install -r _scripts/requirements.txt
+```
+
+Or install individually:
+
+```bash
+pip3 install requests PyYAML
+```
+
+### Usage
+
+Run from the repository root:
+
+```bash
+python3 _scripts/gen-episodes-yaml.py
+```
+
+Or make it executable and run directly:
+
+```bash
+chmod +x _scripts/gen-episodes-yaml.py
+./_scripts/gen-episodes-yaml.py
+```
+
+### Output
+
+- `_data/bema-rss.xml` - Raw RSS feed
+- `_data/episodes.yaml` - Parsed episode data in YAML format
+- `_data/book-list.yaml` - Extracted book links
+- `_session_*/[episode_number].md` - Individual episode markdown files (created only if they don't exist)
+
+### Dependencies
+
+- Python 3.7+
+- requests library
+- PyYAML library
+
+### Comparison with PowerShell version
+
+The Python version (`gen-episodes-yaml.py`) is functionally equivalent to the PowerShell version (`gen-episodes-yaml.ps1`) with these benefits:
+
+- Cross-platform (works on Windows, macOS, Linux)
+- No dependency on PowerShell
+- Better error handling and logging
+- More maintainable code structure
+
+Both scripts produce the same output and can be used interchangeably.
+
 
 ## import_study_notes.py
 
