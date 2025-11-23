@@ -71,25 +71,25 @@
         <div class="episode-nav">
             <div class="episode-nav-left">
                 {%- if previousEpisodeIndex >= 0 and previousEpisode %}
-                <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="nav-btn nav-btn-prev">
+                <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary">
                     ← Previous Episode
                 </a>
                 {% else %}
-                <span class="nav-btn nav-btn-disabled">← Previous Episode</span>
+                <span class="btn btn-sm btn-disabled">← Previous Episode</span>
                 {% endif -%}
             </div>
             <div class="episode-nav-center">
-                <a href="{{ site.github_repo }}{{ page.path }}" class="nav-btn nav-btn-edit" target="_blank">
+                <a href="{{ site.github_repo }}{{ page.path }}" class="btn btn-sm btn-outline" target="_blank">
                     ✏️ Edit on GitHub
                 </a>
             </div>
             <div class="episode-nav-right">
                 {%- if nextEpisode %}
-                <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="nav-btn nav-btn-next">
+                <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary">
                     Next Episode →
                 </a>
                 {% else %}
-                <span class="nav-btn nav-btn-disabled">Next Episode →</span>
+                <span class="btn btn-sm btn-disabled">Next Episode →</span>
                 {% endif -%}
             </div>
         </div>
@@ -153,25 +153,25 @@
         <div class="episode-nav">
             <div class="episode-nav-left">
                 {%- if previousEpisodeIndex >= 0 and previousEpisode %}
-                <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="nav-btn nav-btn-prev">
+                <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary">
                     ← Previous Episode
                 </a>
                 {% else %}
-                <span class="nav-btn nav-btn-disabled">← Previous Episode</span>
+                <span class="btn btn-sm btn-disabled">← Previous Episode</span>
                 {% endif -%}
             </div>
             <div class="episode-nav-center">
-                <a href="/#episodes" class="nav-btn nav-btn-home">
+                <a href="/#episodes" class="btn btn-sm btn-primary">
                     📋 All Episodes
                 </a>
             </div>
             <div class="episode-nav-right">
                 {%- if nextEpisode %}
-                <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="nav-btn nav-btn-next">
+                <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary">
                     Next Episode →
                 </a>
                 {% else %}
-                <span class="nav-btn nav-btn-disabled">Next Episode →</span>
+                <span class="btn btn-sm btn-disabled">Next Episode →</span>
                 {% endif -%}
             </div>
         </div>

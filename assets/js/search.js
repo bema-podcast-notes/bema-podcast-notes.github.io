@@ -126,7 +126,7 @@ class BemaSearch {
       if (!episode) return '';
 
       return `
-        <div class="search-result">
+        <div class="card card-elevated search-result">
           <h3 class="search-result-title">
             <a href="${episode.url}">
               Session ${episode.session}: ${this.escapeHtml(episode.episode_title)}

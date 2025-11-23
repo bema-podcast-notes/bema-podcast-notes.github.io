@@ -461,6 +461,84 @@ body {
 }
 
 /* ============================================
+   CARD SYSTEM
+   ============================================ */
+/* Base Card */
+.card {
+    background: var(--color-bg-white);
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--color-primary);
+    transition: all var(--transition-base);
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Card Variants */
+.card-elevated {
+    padding: var(--spacing-md);
+    box-shadow: var(--shadow-md);
+}
+
+.card-elevated:hover {
+    box-shadow: var(--shadow-lg);
+}
+
+.card-bordered {
+    padding: var(--spacing-lg);
+    border: 2px solid var(--color-border-light);
+    border-left: 4px solid var(--color-primary);
+}
+
+.card-bordered:hover {
+    border-color: var(--color-primary);
+    border-left-color: var(--color-primary);
+    box-shadow: var(--shadow-primary-lg);
+}
+
+/* Card Container - Grid layout for cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+    margin: var(--spacing-lg) 0;
+}
+
+/* Card Content - Typography inside cards */
+.card h3 {
+    margin: 0 0 var(--spacing-sm) 0;
+    font-size: var(--font-size-lg);
+    color: var(--color-text-dark);
+}
+
+.card h3 a {
+    color: var(--color-text-dark);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.card h3 a:hover {
+    color: var(--color-primary);
+}
+
+.card p {
+    margin: var(--spacing-xs) 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-base);
+}
+
+.card a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: var(--font-weight-semibold);
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
    RESPONSIVE - Header & Navigation
    ============================================ */
 @media (max-width: 768px) {

@@ -93,35 +93,27 @@
 }
 
 /* Individual Search Result */
-.search-result {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 12px;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    border-left: 4px solid #667eea;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
+/* Search results use .card .card-elevated from common.css */
+/* Typography (h3, a) inherited from .card system */
 
-.search-result:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+.search-result {
+    margin-bottom: var(--spacing-md);
 }
 
 .search-result-title {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.3rem;
-    font-weight: 600;
+    margin: 0 0 var(--spacing-xs) 0;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
 }
 
 .search-result-title a {
-    color: #2c3e50;
+    color: var(--color-text-dark);
     text-decoration: none;
-    transition: color 0.2s;
+    transition: color var(--transition-fast);
 }
 
 .search-result-title a:hover {
-    color: #667eea;
+    color: var(--color-primary);
 }
 
 .search-result-subtitle {

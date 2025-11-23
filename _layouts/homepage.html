@@ -38,9 +38,9 @@
             <p class="subtitle">465+ episodes of detailed notes, insights, and connections to help you understand the Bible in its ancient Hebrew context</p>
             <div class="cta-buttons">
                 {% assign first_episode = site.session_1 | sort:"episodeIndex" | first %}
-                <a href="{{ first_episode.url }}" class="btn btn-primary">🚀 Start from Episode 1</a>
-                <a href="/search/" class="btn btn-secondary">🔍 Search Episodes</a>
-                <a href="#new" class="btn btn-secondary">❓ New to BEMA?</a>
+                <a href="{{ first_episode.url }}" class="btn btn-lg btn-light">🚀 Start from Episode 1</a>
+                <a href="/search/" class="btn btn-lg btn-secondary">🔍 Search Episodes</a>
+                <a href="#new" class="btn btn-lg btn-secondary">❓ New to BEMA?</a>
             </div>
         </div>
     </section>
@@ -95,9 +95,9 @@
                 {% endfor %}
             </ul>
 
-            <div class="cta-buttons" style="margin-top: 2rem;">
+            <div style="text-align: center; margin-top: 2rem;">
                 {% assign first_episode = site.session_1 | sort:"episodeIndex" | first %}
-                <a href="{{ first_episode.url }}" class="btn btn-primary">Begin Your Journey</a>
+                <a href="{{ first_episode.url }}" class="btn btn-lg btn-primary">Begin Your Journey</a>
             </div>
         </section>
     </div>
@@ -108,7 +108,7 @@
             <h2>Most Impactful Episodes</h2>
             <p>Start with these highly-recommended episodes that introduce key concepts and frameworks used throughout the podcast:</p>
 
-            <div class="episode-cards">
+            <div class="card-grid">
                 {% assign featured_episodes = "0,18,110,203,234,305" | split: "," %}
                 {% for ep_num in featured_episodes %}
                   {% comment %} Find the page for this episode by episodeNumber {% endcomment %}
@@ -130,7 +130,7 @@
 
                   {% if episode_page %}
                     {% assign episode = site.data.episodes[episode_page.episodeIndex] %}
-                    <div class="episode-card">
+                    <div class="card card-elevated">
                         <span class="episode-number">Episode {{ episode_page.episodeNumber }}</span>
                         <h3>{{ episode.title }}</h3>
                         <p>{{ episode.subtitle }}</p>
@@ -150,7 +150,7 @@
             <form action="/search/" method="get">
                 <div class="search-box">
                     <input type="text" name="q" class="search-input" placeholder="Try searching 'parables', 'covenant', 'sabbath'..." />
-                    <button type="submit" class="search-btn">Search</button>
+                    <button type="submit" class="btn btn-lg btn-primary">Search</button>
                 </div>
             </form>
             <p style="margin-top: 1rem; color: #666; font-size: 0.9rem;">

@@ -146,14 +146,14 @@ body {
     border-bottom: none;
 }
 
-.newcomer a {
+.newcomer li a {
     color: #2980b9;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1rem;
 }
 
-.newcomer a:hover {
+.newcomer li a:hover {
     color: #3498db;
     text-decoration: underline;
 }
@@ -163,58 +163,19 @@ body {
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
-.episode-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
-}
-
-.episode-card {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    border-left: 4px solid #667eea;
-}
-
-.episode-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0,0,0,0.15);
-}
+/* Episode cards use .card .card-elevated from common.css */
+/* Container uses .card-grid from common.css */
+/* Typography (h3, p, a) inherited from .card system */
 
 .episode-number {
     display: inline-block;
-    background: #667eea;
+    background: var(--color-primary);
     color: white;
     padding: 0.3rem 0.8rem;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
+    border-radius: var(--radius-pill);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
     margin-bottom: 0.8rem;
-}
-
-.episode-card h3 {
-    margin: 0.5rem 0;
-    color: #2c3e50;
-    font-size: 1.2rem;
-}
-
-.episode-card p {
-    color: #555;
-    margin: 0.8rem 0;
-    font-size: 0.95rem;
-}
-
-.episode-card a {
-    color: #667eea;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.episode-card a:hover {
-    text-decoration: underline;
 }
 
 /* Quick Access Grid */

@@ -54,42 +54,12 @@
 }
 
 /* Resource Cards (for misc index page) */
+/* Resource cards use .card .card-bordered from common.css */
+/* Container uses .card-grid from common.css with larger gap */
+/* Typography (h3, p, a) inherited from .card system */
+
 .resource-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin: 2rem 0;
-}
-
-.resource-card {
-    background: white;
-    border: 2px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 2rem;
-    transition: all 0.3s;
-    border-left: 4px solid #667eea;
-}
-
-.resource-card:hover {
-    border-color: #667eea;
-    transform: translateY(-4px);
-    box-shadow: 0 8px 16px rgba(102, 126, 234, 0.2);
-}
-
-.resource-card h3 {
-    margin: 0 0 1rem 0;
-    font-size: 1.4rem;
-    color: #2c3e50;
-}
-
-.resource-card h3 a {
-    color: #2c3e50;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.resource-card h3 a:hover {
-    color: #667eea;
+    gap: var(--spacing-lg);
 }
 
 .resource-card p {
