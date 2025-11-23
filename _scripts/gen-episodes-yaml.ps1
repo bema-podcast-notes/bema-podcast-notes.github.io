@@ -30,6 +30,7 @@ foreach ($episode in $feedEntries) {
 ---
 layout: episode_notes
 title: "$episodeTitle"
+episodeNumber: $episodeNumber
 episodeIndex: $episodeIndex
 permalink: /ep/$episodeNumber
 ---
