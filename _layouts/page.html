@@ -22,7 +22,7 @@
     <!-- Header -->
     <header class="header">
         <div class="header-content">
-            <a href="/" class="site-title" style="text-decoration: none; color: white;">📖 {{ site.title }}</a>
+            <a href="/" class="site-title">📖 {{ site.title }}</a>
             <nav class="nav">
                 <a href="/">Home</a>
                 <a href="/#episodes">All Episodes</a>
@@ -54,13 +54,13 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p style="margin-bottom: 1rem;"><strong>{{ site.title }}</strong></p>
-            <p style="margin-bottom: 0.5rem;">These are my personal notes from the BEMA Podcast by Marty Solomon and Brent Billings.</p>
-            <p style="font-size: 0.9rem; opacity: 0.8;">These notes reflect my understanding and are not intended to represent the beliefs of the podcast hosts.</p>
-            <p style="margin-top: 1.5rem; font-size: 0.9rem;">
-                <a href="mailto:{{ site.email }}" style="color: white;">Contact</a> |
-                <a href="https://github.com/{{ site.github_username }}" style="color: white;">GitHub</a> |
-                <a href="https://www.bemadiscipleship.com/" style="color: white;">Official BEMA Site</a>
+            <p class="footer-title"><strong>{{ site.title }}</strong></p>
+            <p class="footer-description">These are my personal notes from the BEMA Podcast by Marty Solomon and Brent Billings.</p>
+            <p class="footer-disclaimer">These notes reflect my understanding and are not intended to represent the beliefs of the podcast hosts.</p>
+            <p class="footer-links">
+                <a href="mailto:{{ site.email }}">Contact</a> |
+                <a href="https://github.com/{{ site.github_username }}">GitHub</a> |
+                <a href="https://www.bemadiscipleship.com/">Official BEMA Site</a>
             </p>
         </div>
     </footer>

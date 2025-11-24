@@ -156,6 +156,8 @@ body {
 .site-title {
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-bold);
+    text-decoration: none;
+    color: white;
 }
 
 .nav {
@@ -183,6 +185,38 @@ body {
     padding: var(--spacing-lg);
     text-align: center;
     margin-top: var(--spacing-xxl);
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-title {
+    margin-bottom: var(--spacing-sm);
+}
+
+.footer-description {
+    margin-bottom: var(--spacing-xs);
+}
+
+.footer-disclaimer {
+    font-size: var(--font-size-sm);
+    opacity: 0.8;
+}
+
+.footer-links {
+    margin-top: var(--spacing-md);
+    font-size: var(--font-size-sm);
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: opacity var(--transition-fast);
+}
+
+.footer-links a:hover {
+    opacity: 0.8;
 }
 
 /* ============================================

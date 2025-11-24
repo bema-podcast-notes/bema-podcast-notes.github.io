@@ -95,7 +95,7 @@
                 {% endfor %}
             </ul>
 
-            <div style="text-align: center; margin-top: 2rem;">
+            <div class="text-center-mt">
                 {% assign first_episode = site.session_1 | sort:"episodeIndex" | first %}
                 <a href="{{ first_episode.url }}" class="btn btn-lg btn-primary">Begin Your Journey</a>
             </div>
@@ -145,7 +145,7 @@
     <!-- Enhanced Search -->
     <div class="container">
         <div class="search-highlight" id="search">
-            <h2 style="margin-bottom: 1rem;">🔍 Find What You're Looking For</h2>
+            <h2 class="section-heading">🔍 Find What You're Looking For</h2>
             <p>Search through 465+ episodes by topic, passage, concept, or keyword</p>
             <form action="/search/" method="get">
                 <div class="search-box">
@@ -153,7 +153,7 @@
                     <button type="submit" class="btn btn-lg btn-primary">Search</button>
                 </div>
             </form>
-            <p style="margin-top: 1rem; color: #666; font-size: 0.9rem;">
+            <p class="helper-text">
                 Popular searches: Sermon on the Mount, PaRDeS, Kingdom of God, Passover, Paul's letters
             </p>
         </div>
@@ -184,13 +184,13 @@
     <div class="container">
         <section class="section-container section-container-lgsessions" id="episodes">
             <h2>All Sessions & Episodes</h2>
-            <p style="margin-bottom: 2rem; color: #666;">Click any session to expand and see all episodes. Sessions 1-5 form the core curriculum, covering the entire biblical narrative and church history.</p>
+            <p class="helper-text">Click any session to expand and see all episodes. Sessions 1-5 form the core curriculum, covering the entire biblical narrative and church history.</p>
 
             <!-- Session 1 -->
             <details class="session-group" id="session1">
                 <summary>
                     <span>Session 1: Genesis through Deuteronomy</span>
-                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_1 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_1 | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_1 | sort:"episodeIndex" %}
@@ -210,7 +210,7 @@
             <details class="session-group">
                 <summary>
                     <span>Session 2: Joshua through Malachi</span>
-                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_2 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_2 | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_2 | sort:"episodeIndex" %}
@@ -230,7 +230,7 @@
             <details class="session-group">
                 <summary>
                     <span>Session 3: The Gospels & Life of Jesus</span>
-                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_3 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_3 | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_3 | sort:"episodeIndex" %}
@@ -250,7 +250,7 @@
             <details class="session-group">
                 <summary>
                     <span>Session 4: Acts through Revelation</span>
-                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_4 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_4 | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_4 | sort:"episodeIndex" %}
@@ -270,7 +270,7 @@
             <details class="session-group">
                 <summary>
                     <span>Session 5: Church History (100 AD - Today)</span>
-                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_5 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_5 | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_5 | sort:"episodeIndex" %}
@@ -290,7 +290,7 @@
             <details class="session-group">
                 <summary>
                     <span>Session 6: Deep Dives & Guest Conversations</span>
-                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_6 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_6 | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_6 | sort:"episodeIndex" %}
@@ -310,7 +310,7 @@
             <details class="session-group">
                 <summary>
                     <span>Session 7: Sabbath & Spiritual Practices</span>
-                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_7 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_7 | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_7 | sort:"episodeIndex" %}
@@ -330,7 +330,7 @@
             <details class="session-group">
                 <summary>
                     <span>Session 8: Isaiah, Psalms & Talmudic Matthew</span>
-                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_8 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_8 | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_8 | sort:"episodeIndex" %}
@@ -350,7 +350,7 @@
             <details class="session-group">
                 <summary>
                     <span>Session 9: Hosea & Qohelet (Ecclesiastes)</span>
-                    <span style="font-size: 0.9rem; font-weight: 400; opacity: 0.9;">({{ site.session_9 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_9 | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_9 | sort:"episodeIndex" %}
@@ -370,7 +370,7 @@
             <details class="session-group">
                 <summary>
                     <span>Session 10: Coming Soon!</span>
-                    <span class="badge" style="background: #f39c12; font-size: 0.8rem;">🚧 In Progress</span>
+                    <span class="badge badge-warning">🚧 In Progress</span>
                 </summary>
                 <div class="episode-list">
                     {% if site.session_10.size > 0 %}
@@ -385,9 +385,9 @@
                         {% endif %}
                       {% endfor %}
                     {% else %}
-                      <div class="episode-item" style="text-align: center; padding: 2rem; color: #666;">
-                          <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">📻 Session 10 episodes coming soon!</p>
-                          <p style="font-size: 0.9rem;">Check back regularly for new episode notes as they're released.</p>
+                      <div class="coming-soon">
+                          <p class="coming-soon-title">📻 Session 10 episodes coming soon!</p>
+                          <p class="coming-soon-subtitle">Check back regularly for new episode notes as they're released.</p>
                       </div>
                     {% endif %}
                 </div>
@@ -397,10 +397,10 @@
 
     <!-- How to Use This Site -->
     <div class="container">
-        <section class="section-container section-container-lg" style="background: #f8f9fa;">
+        <section class="section-container section-container-lg quick-access">
             <h2>How to Navigate This Site</h2>
 
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div class="access-grid">
                 <div>
                     <h3>📖 If You're Brand New to BEMA</h3>
                     <p>Start with <strong>Episode 0</strong> (or even <strong>Episode -1</strong>) and work your way through in order. BEMA builds concepts progressively, with later episodes referencing ideas introduced earlier. The main body of teaching is in Sessions 1-5 (Episodes -1 through 204).</p>
@@ -425,13 +425,13 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p style="margin-bottom: 1rem;"><strong>{{ site.title }}</strong></p>
-            <p style="margin-bottom: 0.5rem;">These are my personal notes from the BEMA Podcast by Marty Solomon and Brent Billings.</p>
-            <p style="font-size: 0.9rem; opacity: 0.8;">These notes reflect my understanding and are not intended to represent the beliefs of the podcast hosts.</p>
-            <p style="margin-top: 1.5rem; font-size: 0.9rem;">
-                <a href="mailto:{{ site.email }}" style="color: white;">Contact</a> |
-                <a href="https://github.com/{{ site.github_username }}" style="color: white;">GitHub</a> |
-                <a href="https://www.bemadiscipleship.com/" style="color: white;">Official BEMA Site</a>
+            <p class="footer-title"><strong>{{ site.title }}</strong></p>
+            <p class="footer-description">These are my personal notes from the BEMA Podcast by Marty Solomon and Brent Billings.</p>
+            <p class="footer-disclaimer">These notes reflect my understanding and are not intended to represent the beliefs of the podcast hosts.</p>
+            <p class="footer-links">
+                <a href="mailto:{{ site.email }}">Contact</a> |
+                <a href="https://github.com/{{ site.github_username }}">GitHub</a> |
+                <a href="https://www.bemadiscipleship.com/">Official BEMA Site</a>
             </p>
         </div>
     </footer>

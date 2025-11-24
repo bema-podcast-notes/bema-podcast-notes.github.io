@@ -292,7 +292,28 @@ body {
     }
 }
 
-/* Badge */
+/* Utility Classes */
+.text-center-mt {
+    text-align: center;
+    margin-top: var(--spacing-lg);
+}
+
+.section-heading {
+    margin-bottom: var(--spacing-sm);
+}
+
+.helper-text {
+    margin-top: var(--spacing-sm);
+    color: var(--color-text-tertiary);
+    font-size: var(--font-size-sm);
+}
+
+.session-count {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-normal);
+    opacity: 0.9;
+}
+
 .badge {
     display: inline-block;
     background: #e74c3c;
@@ -302,6 +323,26 @@ body {
     font-size: 0.75rem;
     font-weight: 600;
     margin-left: 0.5rem;
+}
+
+.badge-warning {
+    background: var(--color-accent-orange);
+    font-size: 0.8rem;
+}
+
+.coming-soon {
+    text-align: center;
+    padding: var(--spacing-lg);
+    color: var(--color-text-tertiary);
+}
+
+.coming-soon-title {
+    font-size: var(--font-size-md);
+    margin-bottom: var(--spacing-xs);
+}
+
+.coming-soon-subtitle {
+    font-size: var(--font-size-sm);
 }
 
 .icon {
