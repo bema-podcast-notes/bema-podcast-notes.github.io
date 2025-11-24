@@ -55,12 +55,12 @@
                 <span class="session-badge">Session {{ episode.season }}</span>
                 <span class="episode-number-badge">Episode {{ page.episodeNumber }}</span>
             </div>
-            <h1>{{ title }}</h1>
+            <h1>S{{ episode.season }} {{ title }}</h1>
             {%- if episode %}
             <p class="episode-subtitle">{{ episode.subtitle }}</p>
             <div class="episode-meta">
-                <span>📅 {{ episode.pubDate }}</span>
                 <span>⏱️ {{ episode.duration }}</span>
+                <span>📅 {{ episode.pubDate }}</span>
             </div>
             {% endif -%}
         </div>

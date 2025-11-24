@@ -37,6 +37,7 @@
     margin-bottom: var(--spacing-sm);
     opacity: 0.95;
     font-style: italic;
+    color: white;
 }
 
 .episode-meta {
