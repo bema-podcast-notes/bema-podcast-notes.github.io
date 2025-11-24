@@ -22,12 +22,9 @@
 }
 
 /* Page Content Section */
+/* Uses .section-container from common.css */
 .page-content-section {
-    background: white;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    margin: 2rem auto;
+    /* All base styles inherited from .section-container */
 }
 
 /* Page Content - Uses shared .content-area typography from common.css */

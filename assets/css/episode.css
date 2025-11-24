@@ -78,12 +78,9 @@
 /* Uses: .btn .btn-sm .btn-primary, .btn .btn-sm .btn-outline, .btn .btn-sm .btn-disabled */
 
 /* Episode Player Section */
+/* Uses .section-container from common.css */
 .episode-player-section {
-    background: white;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    margin-bottom: 2rem;
+    margin-bottom: var(--spacing-lg);
 }
 
 .episode-player-section h2 {
@@ -159,12 +156,9 @@
 }
 
 /* Episode Notes Section */
+/* Uses .section-container from common.css */
 .episode-notes-section {
-    background: white;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    margin-bottom: 2rem;
+    margin-bottom: var(--spacing-lg);
 }
 
 .notes-header h2 {

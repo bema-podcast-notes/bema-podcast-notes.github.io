@@ -539,6 +539,39 @@ body {
 }
 
 /* ============================================
+   SECTION CONTAINER PATTERN
+   ============================================ */
+/* Base Section Container */
+.section-container {
+    background: var(--color-bg-white);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    margin: var(--spacing-lg) auto;
+}
+
+/* Section Container Variants */
+.section-container-lg {
+    padding: var(--spacing-xl) var(--spacing-lg);
+}
+
+/* Section Header Styling */
+.section-container h2 {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text-dark);
+    border-bottom: 3px solid var(--color-primary);
+    padding-bottom: var(--spacing-xs);
+    display: inline-block;
+}
+
+.section-container h3 {
+    font-size: var(--font-size-lg);
+    margin: var(--spacing-md) 0 var(--spacing-sm) 0;
+    color: var(--color-text-darker);
+}
+
+/* ============================================
    RESPONSIVE - Header & Navigation
    ============================================ */
 @media (max-width: 768px) {

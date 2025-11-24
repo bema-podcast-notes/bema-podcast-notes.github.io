@@ -103,28 +103,8 @@ body {
 }
 
 /* Section Styles */
-.section {
-    background: white;
-    margin: 2rem auto;
-    padding: 3rem 2rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-
-.section h2 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    color: #2c3e50;
-    border-bottom: 3px solid #667eea;
-    padding-bottom: 0.5rem;
-    display: inline-block;
-}
-
-.section h3 {
-    font-size: 1.4rem;
-    margin: 1.5rem 0 1rem 0;
-    color: #34495e;
-}
+/* Sections use .section-container and .section-container-lg from common.css */
+/* Section h2 and h3 typography inherited from .section-container system */
 
 /* New Here Section */
 .newcomer {
