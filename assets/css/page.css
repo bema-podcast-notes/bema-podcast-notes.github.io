@@ -89,8 +89,8 @@
     }
 
     .page-content-section {
-        padding: 1.5rem;
-        margin: 1rem auto;
+        padding: var(--spacing-md);
+        margin: var(--spacing-sm) auto;
     }
 }
 

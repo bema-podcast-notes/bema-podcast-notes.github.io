@@ -572,7 +572,20 @@ body {
 }
 
 /* ============================================
-   RESPONSIVE - Header & Navigation
+   RESPONSIVE DESIGN
+   ============================================
+   Breakpoint Strategy:
+   - Mobile: max-width 768px (--breakpoint-mobile)
+   - All @media queries use this consistent breakpoint
+   - Page-specific responsive styles in individual CSS files
+   - Common responsive patterns consolidated below
+
+   Common Patterns:
+   - Hero headings: Reduce to var(--font-size-xl) or var(--font-size-2xl)
+   - Subtitles: Reduce to var(--font-size-base) or var(--font-size-md)
+   - Grids: Collapse to single column (grid-template-columns: 1fr)
+   - Flex: Stack vertically (flex-direction: column)
+   - Sections: Reduce padding (1.5rem)
    ============================================ */
 @media (max-width: 768px) {
     .nav {
@@ -621,4 +634,38 @@ body {
     .content-area ol {
         padding-left: var(--spacing-md);
     }
+
+    /* Responsive Utilities */
+    .mobile-only {
+        display: block !important;
+    }
+
+    .desktop-only {
+        display: none !important;
+    }
+
+    .mobile-full-width {
+        width: 100% !important;
+    }
+
+    .mobile-text-center {
+        text-align: center !important;
+    }
+
+    .mobile-stack {
+        flex-direction: column !important;
+    }
+
+    .mobile-single-column {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* Desktop-only utility (hide on mobile) */
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: block;
 }

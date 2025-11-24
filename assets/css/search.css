@@ -244,19 +244,19 @@
     }
 
     .search-section {
-        margin: -1rem auto 1rem;
-        padding: 1.5rem;
+        margin: calc(-1 * var(--spacing-sm)) auto var(--spacing-sm);
+        padding: var(--spacing-md);
     }
 
     .search-result {
-        padding: 1rem;
+        padding: var(--spacing-sm);
     }
 
     .search-result-title {
-        font-size: 1.1rem;
+        font-size: var(--font-size-md);
     }
 
     .search-tips ul {
-        padding-left: 1rem;
+        padding-left: var(--spacing-sm);
     }
 }

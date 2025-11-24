@@ -200,7 +200,7 @@
 
     .episode-meta {
         flex-direction: column;
-        gap: 0.5rem;
+        gap: var(--spacing-xs);
     }
 
     .episode-nav {
@@ -222,7 +222,7 @@
 
     .episode-player-section,
     .episode-notes-section {
-        padding: 1.5rem;
+        padding: var(--spacing-md);
     }
 
     .episode-info-grid {
