@@ -88,7 +88,11 @@
     --font-weight-bold: 700;
     --font-weight-extrabold: 800;
 
-    /* Transitions */
+    /* Transitions & Animations
+       - Fast (0.2s): Quick feedback (hover states, color changes)
+       - Base (0.3s): Standard transitions (transforms, opacity)
+       - Slow (0.5s): Deliberate animations (modal open/close)
+       All transitions use ease timing function by default */
     --transition-fast: 0.2s;
     --transition-base: 0.3s;
     --transition-slow: 0.5s;

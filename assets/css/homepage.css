@@ -144,7 +144,7 @@ body {
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: all var(--transition-base);
     font-weight: 600;
     font-size: 1.1rem;
 }
@@ -164,7 +164,7 @@ body {
     border-radius: 12px;
     margin: 1.5rem 0;
     overflow: hidden;
-    transition: border-color 0.3s;
+    transition: border-color var(--transition-base);
 }
 
 .session-group:hover {
@@ -182,7 +182,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: background 0.3s;
+    transition: background var(--transition-base);
 }
 
 .session-group summary::-webkit-details-marker {
@@ -191,7 +191,7 @@ body {
 
 .session-group summary::after {
     content: "▼";
-    transition: transform 0.3s;
+    transition: transform var(--transition-base);
 }
 
 .session-group[open] summary::after {
@@ -210,7 +210,7 @@ body {
 .episode-item {
     padding: 0.8rem;
     border-bottom: 1px solid #e0e0e0;
-    transition: background 0.2s;
+    transition: background var(--transition-fast);
 }
 
 .episode-item:hover {
