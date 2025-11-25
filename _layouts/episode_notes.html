@@ -23,6 +23,19 @@
     <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/episode.css' | relative_url }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="title" content="{{ title }} - {{ site.title }}">
+    <meta name="description" content="Get detailed notes by Adam Cole for episode {{ episode.title }} ({{ episode.subtitle }}) of the BEMA Discipleship Podcast.">
+    <meta name="author" content="Notes by Adam Cole; Podcast by BEMA Discipleship">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ title }} - {{ site.title }}">
+    <meta property="og:description" content="Get detailed notes by Adam Cole for episode {{ episode.title }} ({{ episode.subtitle }}) of the BEMA Discipleship Podcast.">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }} - {{ site.title }}">
+    <meta name="twitter:description" content="Get detailed notes by Adam Cole for episode {{ episode.title }} ({{ episode.subtitle }}) of the BEMA Discipleship Podcast.">
+
     {% if site.google_analytics %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -79,8 +92,8 @@
                 {% endif -%}
             </div>
             <div class="episode-nav-center">
-                <a href="{{ site.github_repo }}{{ page.path }}" class="btn btn-sm btn-outline" target="_blank">
-                    ✏️ Edit on GitHub
+                <a href="/#episodes" class="btn btn-sm btn-primary">
+                    📋 All Episodes
                 </a>
             </div>
             <div class="episode-nav-right">
@@ -161,8 +174,8 @@
                 {% endif -%}
             </div>
             <div class="episode-nav-center">
-                <a href="/#episodes" class="btn btn-sm btn-primary">
-                    📋 All Episodes
+                <a href="{{ site.github_repo }}{{ page.path }}" class="btn btn-sm btn-outline" target="_blank">
+                    ✏️ Edit on GitHub
                 </a>
             </div>
             <div class="episode-nav-right">
