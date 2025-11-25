@@ -18,8 +18,8 @@ setup:
 	pwsh -Command Install-Module -Name powershell-yaml -Confirm
 
 buildyaml:
-	pwsh ./_scripts/gen-episodes-yaml.ps1
-	exit
+# 	pwsh ./_scripts/gen-episodes-yaml.ps1
+	bash -c "source venv/bin/activate && python3 ./_scripts/gen-episodes-yaml.py"
 
 build:
 	bundle exec jekyll build

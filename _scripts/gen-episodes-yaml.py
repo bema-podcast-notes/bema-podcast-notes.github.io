@@ -41,25 +41,25 @@ def parse_rss_feed(rss_content):
     namespaces = {
         'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
         'content': 'http://purl.org/rss/1.0/modules/content/',
-        'atom': 'http://www.w3.org/2005/Atom'
+        'atom': 'http://www.w3.org/2005/Atom',
+        'fireside': 'https://fireside.fm/modules/rss/fireside'
     }
 
     episodes = []
 
     # Find all items (episodes) in the feed
     for item in root.findall('.//item'):
+        # Create episode dict with properties in specific order
         episode = {}
 
-        # Extract basic fields
+        # Order: title, subtitle, description, pubDate, duration, season, playerURL, enclosure.url
         episode['title'] = item.findtext('title', '')
-        episode['link'] = item.findtext('link', '')
-        episode['pubDate'] = item.findtext('pubDate', '')
-        episode['description'] = item.findtext('description', '')
-
-        # Extract iTunes-specific fields
         episode['subtitle'] = item.findtext('itunes:subtitle', '', namespaces)
+        episode['description'] = item.findtext('description', '')
+        episode['pubDate'] = item.findtext('pubDate', '')
         episode['duration'] = item.findtext('itunes:duration', '', namespaces)
         episode['season'] = item.findtext('itunes:season', '', namespaces)
+        episode['playerURL'] = item.findtext('fireside:playerURL', '', namespaces)
 
         # Extract enclosure URL (audio file)
         enclosure = item.find('enclosure')
@@ -68,11 +68,8 @@ def parse_rss_feed(rss_content):
         else:
             episode['enclosure.url'] = ''
 
-        # Extract player URL (custom field or construct from link)
-        # The RSS feed might have a specific player URL field
-        # For now, we'll construct it from the episode data
-        # This might need adjustment based on actual feed structure
-        episode['playerUrl'] = episode['link'].replace('https://www.bemadiscipleship.com', 'https://www.bemadiscipleship.com/player')
+        # Keep link field at end for reference
+        episode['link'] = item.findtext('link', '')
 
         episodes.append(episode)
 
@@ -104,18 +101,33 @@ def convert_to_yaml(episodes, output_file):
 
 def extract_book_links(yaml_content, output_file):
     """
-    Extract book links from YAML content and save to separate file.
+    Extract book links from YAML content and save to separate file as YAML.
+    Pattern matches: <a href="URL"><em>Book Title</em> by Author Name</a>
+    Captures: (URL, Title, Author)
     """
     print("Extracting book links...")
 
-    book_links_regex = r'<a target=\\"_blank\\" href=\\"[-a-zA-Z0-9@:%_\+.~?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~?&//=]*)?\??([-a-zA-Z0-9@:%_\+.~?&//=]+)?\\\"><em>[A-z\s]*<\/em>\s?(&nbsp;)?(B|b)y [\(\)A-z''\.\s]*<\/a>'
+    # Simplified regex that matches book links with <em>title</em> by author pattern
+    book_links_regex = r'<a[^>]*href=\\"([^"\\]+)\\"[^>]*><em>([^<]+)</em>\s*by\s+([^<]+)</a>'
 
-    book_links = re.findall(book_links_regex, yaml_content)
+    matches = re.findall(book_links_regex, yaml_content)
 
-    if book_links:
+    if matches:
+        # Convert to list of dictionaries with consistent property order
+        book_links = []
+        for url, title, author in matches:
+            book = {
+                'title': title,
+                'author': author,
+                'url': url
+            }
+            book_links.append(book)
+
+        # Save as YAML
+        yaml_output = yaml.dump(book_links, default_flow_style=False, allow_unicode=True, sort_keys=False)
         with open(output_file, 'w', encoding='utf-8') as f:
-            for link in book_links:
-                f.write(str(link) + '\n')
+            f.write(yaml_output)
+
         print(f"Saved {len(book_links)} book links to {output_file}")
     else:
         print("No book links found")
