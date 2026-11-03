@@ -2,7 +2,7 @@
 
 .episode-hero {
     background: var(--gradient-primary);
-    color: white;
+    color: var(--color-text-on-primary);
     padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-lg);
     text-align: center;
 }
@@ -17,12 +17,12 @@
 .session-badge,
 .episode-number-badge {
     display: inline-block;
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--color-on-primary-subtle);
     padding: 0.4rem 1rem;
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid var(--color-on-primary-muted);
 }
 
 .episode-hero h1 {
@@ -37,7 +37,7 @@
     margin-bottom: var(--spacing-sm);
     opacity: 0.95;
     font-style: italic;
-    color: white;
+    color: var(--color-text-on-primary);
 }
 
 .episode-meta {
@@ -54,11 +54,11 @@
     grid-template-columns: 1fr auto 1fr;
     gap: 1rem;
     align-items: center;
-    background: white;
+    background: var(--color-bg-white);
     padding: 1.5rem;
     border-radius: 12px;
     margin: -1.5rem auto 2rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-lg);
     position: relative;
     z-index: 10;
 }
@@ -85,10 +85,10 @@
 }
 
 .episode-player-section h2 {
-    color: #2c3e50;
+    color: var(--color-text-dark);
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
-    border-bottom: 3px solid #667eea;
+    border-bottom: 3px solid var(--color-primary);
     padding-bottom: 0.5rem;
     display: inline-block;
 }
@@ -97,7 +97,7 @@
     margin: 1.5rem 0;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-md);
 }
 
 .player-container iframe {
@@ -114,46 +114,54 @@
 }
 
 .info-card {
-    background: #f8f9fa;
+    background: var(--color-bg-light);
     padding: 1.5rem;
     border-radius: 12px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid var(--color-primary);
 }
 
 .info-card h3 {
-    color: #2c3e50;
+    color: var(--color-text-dark);
     margin: 0 0 1rem 0;
     font-size: 1.2rem;
 }
 
 .info-card p {
     margin: 0.5rem 0;
-    color: #555;
+    color: var(--color-text-secondary);
     line-height: 1.6;
 }
 
 .info-card strong {
-    color: #2c3e50;
+    color: var(--color-text-dark);
 }
 
 /* Episode Description */
 .episode-description {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: var(--gradient-subtle);
     padding: 1.5rem;
     border-radius: 12px;
     margin-top: 2rem;
 }
 
 .episode-description h3 {
-    color: #2c3e50;
+    color: var(--color-text-dark);
     margin: 0 0 1rem 0;
     font-size: 1.2rem;
 }
 
 .episode-description p {
-    color: #555;
+    color: var(--color-text-secondary);
     line-height: 1.6;
     margin: 0;
+}
+
+.episode-description a {
+    color: var(--color-primary);
+}
+
+.episode-description a:hover {
+    color: var(--color-primary-dark);
 }
 
 /* Episode Notes Section */
@@ -163,17 +171,17 @@
 }
 
 .notes-header h2 {
-    color: #2c3e50;
+    color: var(--color-text-dark);
     margin-bottom: 1rem;
     font-size: 1.8rem;
-    border-bottom: 3px solid #667eea;
+    border-bottom: 3px solid var(--color-primary);
     padding-bottom: 0.5rem;
     display: inline-block;
 }
 
 .notes-disclaimer {
-    background: #fff3cd;
-    border-left: 4px solid #ffc107;
+    background: var(--color-accent-yellow-light);
+    border-left: 4px solid var(--color-accent-yellow);
     padding: 1rem;
     margin: 1.5rem 0;
     border-radius: 8px;
@@ -181,7 +189,7 @@
 }
 
 .notes-disclaimer em {
-    color: #856404;
+    color: var(--color-accent-yellow-dark);
 }
 
 /* Notes Content - Uses shared .content-area typography from common.css */
@@ -241,7 +249,7 @@
 
     .episode-hero {
         background: none;
-        color: #333;
+        color: var(--color-text-primary);
         page-break-after: avoid;
     }
 

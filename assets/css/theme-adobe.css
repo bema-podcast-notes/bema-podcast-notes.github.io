@@ -1,0 +1,41 @@
+/* Southwest Adobe: terracotta, sandstone, turquoise */
+:root {
+    --color-primary: #b5532f;
+    --color-primary-dark: #8f3e22;
+    --color-secondary: #7a3b24;
+    --color-primary-light: #f6e3d6;
+
+    --gradient-primary: linear-gradient(135deg, #c2603a 0%, #8a3a20 100%);
+    --gradient-primary-dark: linear-gradient(135deg, #a84f2c 0%, #742f19 100%);
+    --gradient-subtle: linear-gradient(135deg, #f7efe3 0%, #e6cfb3 100%);
+
+    --color-text-primary: #3b2a20;
+    --color-text-secondary: #5a4334;
+    --color-text-tertiary: #6e5644;
+    --color-text-light: #937b68;
+    --color-text-dark: #4a2a1a;
+    --color-text-darker: #3a1f12;
+
+    --color-bg-page: #f6efe4;
+    --color-bg-white: #fffaf3;
+    --color-bg-light: #f1e6d6;
+    --color-bg-gray: #e3d3bd;
+
+    --color-accent-blue: #2a8c8c;
+    --color-accent-blue-light: #dff1ee;
+    --color-accent-blue-dark: #1d6a6a;
+    --color-accent-blue-border: rgba(42, 140, 140, 0.25);
+    --color-accent-yellow: #d9a441;
+    --color-accent-yellow-light: #f8ecd0;
+    --color-accent-yellow-dark: #7a5512;
+
+    --color-border-light: #e3d3bd;
+    --color-code-bg: #f1e6d6;
+    --color-code-text: #a13d2d;
+    --color-highlight: #f8ecd0;
+    --color-footer-bg: #4a2a1a;
+    --color-badge: #c0392b;
+
+    --shadow-primary: 0 4px 8px rgba(181, 83, 47, 0.3);
+    --shadow-primary-lg: 0 8px 16px rgba(181, 83, 47, 0.4);
+}

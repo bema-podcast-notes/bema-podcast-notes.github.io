@@ -2,7 +2,7 @@
 
 .search-hero {
     background: var(--gradient-primary);
-    color: white;
+    color: var(--color-text-on-primary);
     padding: var(--spacing-xl) var(--spacing-lg);
     text-align: center;
 }
@@ -22,11 +22,11 @@
 }
 
 .search-section {
-    background: white;
+    background: var(--color-bg-white);
     margin: -2rem auto 2rem;
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: var(--shadow-lg);
     position: relative;
     z-index: 10;
 }
@@ -36,21 +36,21 @@
 }
 
 .search-tips {
-    background: #f8f9fa;
+    background: var(--color-bg-light);
     padding: 1.5rem;
     border-radius: 8px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid var(--color-primary);
 }
 
 .search-tips p {
     margin: 0 0 0.5rem 0;
-    color: #2c3e50;
+    color: var(--color-text-dark);
 }
 
 .search-tips ul {
     margin: 0.5rem 0 0 0;
     padding-left: 1.5rem;
-    color: #555;
+    color: var(--color-text-secondary);
 }
 
 .search-tips li {
@@ -59,11 +59,11 @@
 }
 
 .search-tips code {
-    background: #e8eaf6;
+    background: var(--color-primary-light);
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
     font-family: 'Courier New', monospace;
-    color: #667eea;
+    color: var(--color-primary);
     font-size: 0.9rem;
 }
 
@@ -75,21 +75,21 @@
 
 /* Search Results Header */
 .search-results-header {
-    background: white;
+    background: var(--color-bg-white);
     padding: 1rem 1.5rem;
     border-radius: 8px;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: var(--shadow-sm);
 }
 
 .search-results-header p {
     margin: 0;
-    color: #555;
+    color: var(--color-text-secondary);
     font-size: 1rem;
 }
 
 .search-results-header strong {
-    color: #667eea;
+    color: var(--color-primary);
 }
 
 /* Individual Search Result */
@@ -118,63 +118,63 @@
 
 .search-result-subtitle {
     margin: 0 0 0.8rem 0;
-    color: #666;
+    color: var(--color-text-tertiary);
     font-style: italic;
     font-size: 1rem;
 }
 
 .search-result-meta {
     margin: 0 0 0.8rem 0;
-    color: #888;
+    color: var(--color-text-light);
     font-size: 0.9rem;
 }
 
 .search-result-description {
     margin: 0 0 1rem 0;
-    color: #555;
+    color: var(--color-text-secondary);
     line-height: 1.6;
     font-size: 0.95rem;
 }
 
 .search-result-content {
     margin: 0;
-    color: #666;
+    color: var(--color-text-tertiary);
     font-size: 0.9rem;
     line-height: 1.6;
     padding-top: 0.8rem;
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid var(--color-border-light);
 }
 
 .search-result-content mark {
-    background: #fff3cd;
+    background: var(--color-accent-yellow-light);
     padding: 0.1rem 0.3rem;
     border-radius: 3px;
-    color: #856404;
+    color: var(--color-accent-yellow-dark);
     font-weight: 500;
 }
 
 /* No Results */
 .search-no-results {
-    background: white;
+    background: var(--color-bg-white);
     padding: 3rem 2rem;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: var(--shadow-md);
 }
 
 .search-no-results p:first-child {
     font-size: 1.2rem;
-    color: #2c3e50;
+    color: var(--color-text-dark);
     margin-bottom: 1.5rem;
 }
 
 .search-no-results strong {
-    color: #667eea;
+    color: var(--color-primary);
 }
 
 .search-no-results p:nth-child(2) {
     font-weight: 600;
-    color: #555;
+    color: var(--color-text-secondary);
     margin-bottom: 0.5rem;
 }
 
@@ -187,7 +187,7 @@
 }
 
 .search-no-results li {
-    color: #666;
+    color: var(--color-text-tertiary);
     padding: 0.3rem 0;
     position: relative;
     padding-left: 1.5rem;
@@ -197,17 +197,17 @@
     content: "→";
     position: absolute;
     left: 0;
-    color: #667eea;
+    color: var(--color-primary);
 }
 
 /* Search Error */
 .search-error {
-    background: #ffebee;
+    background: var(--color-accent-red-light);
     padding: 2rem;
     border-radius: 12px;
     text-align: center;
-    border: 1px solid #ef5350;
-    color: #c62828;
+    border: 1px solid var(--color-accent-red);
+    color: var(--color-accent-red-dark);
 }
 
 .search-error p {
@@ -219,7 +219,7 @@
 .search-loading {
     text-align: center;
     padding: 2rem;
-    color: #666;
+    color: var(--color-text-tertiary);
 }
 
 .search-loading:after {

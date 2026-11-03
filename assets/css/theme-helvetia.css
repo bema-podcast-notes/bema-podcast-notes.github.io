@@ -1,0 +1,42 @@
+/* Helvetia: Sanzo Wada combination 218
+   Helvetia Blue #005b8d, Grayish Lavender #b5b1d8, Plumbeous #70727c */
+:root {
+    --color-primary: #005b8d;
+    --color-primary-dark: #00466d;
+    --color-secondary: #70727c;
+    --color-primary-light: #e7e6f4;
+
+    --gradient-primary: linear-gradient(135deg, #005b8d 0%, #70727c 100%);
+    --gradient-primary-dark: linear-gradient(135deg, #00466d 0%, #5a5c66 100%);
+    --gradient-subtle: linear-gradient(135deg, #f6f5fb 0%, #dcdaee 100%);
+
+    --color-text-primary: #2e3036;
+    --color-text-secondary: #4a4c55;
+    --color-text-tertiary: #5c5e67;
+    --color-text-light: #8a8c95;
+    --color-text-dark: #10344d;
+    --color-text-darker: #0a2738;
+
+    --color-bg-page: #f4f3f9;
+    --color-bg-white: #fdfdff;
+    --color-bg-light: #eeedf6;
+    --color-bg-gray: #d9d8e6;
+
+    --color-accent-blue: #5e58a0;
+    --color-accent-blue-light: #edecf7;
+    --color-accent-blue-dark: #48437f;
+    --color-accent-blue-border: rgba(181, 177, 216, 0.6);
+    --color-accent-yellow: #b5b1d8;
+    --color-accent-yellow-light: #e9e7f5;
+    --color-accent-yellow-dark: #45407a;
+
+    --color-border-light: #dcdbe8;
+    --color-code-bg: #eeedf6;
+    --color-code-text: #005b8d;
+    --color-highlight: #e3e1f3;
+    --color-footer-bg: #2c2e35;
+    --color-badge: #005b8d;
+
+    --shadow-primary: 0 4px 8px rgba(0, 91, 141, 0.25);
+    --shadow-primary-lg: 0 8px 16px rgba(0, 91, 141, 0.35);
+}

@@ -8,10 +8,18 @@
     --color-primary: #667eea;
     --color-primary-dark: #5568d3;
     --color-secondary: #764ba2;
+    --color-primary-light: #e8eaf6;
+    /* Solid fills behind white text; defaults to primary, dark themes override */
+    --color-fill-primary: var(--color-primary);
+    --color-fill-primary-hover: var(--color-primary-dark);
+    --color-text-on-primary: #ffffff;
+    --color-on-primary-subtle: rgba(255, 255, 255, 0.2);
+    --color-on-primary-muted: rgba(255, 255, 255, 0.3);
 
     /* Gradient */
     --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     --gradient-primary-dark: linear-gradient(135deg, #5568d3 0%, #6941a0 100%);
+    --gradient-subtle: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 
     /* Text Colors */
     --color-text-primary: #333;
@@ -31,6 +39,7 @@
     --color-accent-blue: #3498db;
     --color-accent-blue-light: #e8f4f8;
     --color-accent-blue-dark: #2980b9;
+    --color-accent-blue-border: rgba(52, 152, 219, 0.2);
     --color-accent-yellow: #ffc107;
     --color-accent-yellow-light: #fff3cd;
     --color-accent-yellow-dark: #856404;
@@ -38,6 +47,7 @@
     --color-accent-red-light: #ffebee;
     --color-accent-red-dark: #c62828;
     --color-accent-orange: #f39c12;
+    --color-badge: #e74c3c;
 
     /* Border Colors */
     --color-border-light: #e0e0e0;
@@ -47,6 +57,7 @@
     --color-code-bg: #f8f9fa;
     --color-code-text: #d63384;
     --color-highlight: #fff3cd;
+    --color-footer-bg: #2c3e50;
 
     /* Spacing Scale */
     --spacing-xs: 0.5rem;
@@ -140,7 +151,7 @@ body {
    ============================================ */
 .header {
     background: var(--gradient-primary);
-    color: white;
+    color: var(--color-text-on-primary);
     padding: var(--spacing-sm) var(--spacing-lg);
     box-shadow: var(--shadow-lg);
 }
@@ -157,16 +168,18 @@ body {
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-bold);
     text-decoration: none;
-    color: white;
+    color: var(--color-text-on-primary);
 }
 
 .nav {
     display: flex;
     gap: var(--spacing-md);
+    margin-left: auto;
+    margin-right: var(--spacing-lg);
 }
 
 .nav a {
-    color: white;
+    color: var(--color-text-on-primary);
     text-decoration: none;
     font-weight: var(--font-weight-medium);
     transition: opacity var(--transition-base);
@@ -180,8 +193,8 @@ body {
    FOOTER
    ============================================ */
 .footer {
-    background: var(--color-text-dark);
-    color: white;
+    background: var(--color-footer-bg);
+    color: var(--color-text-on-primary);
     padding: var(--spacing-lg);
     text-align: center;
     margin-top: var(--spacing-xxl);
@@ -210,13 +223,46 @@ body {
 }
 
 .footer-links a {
-    color: white;
+    color: var(--color-text-on-primary);
     text-decoration: none;
     transition: opacity var(--transition-fast);
 }
 
 .footer-links a:hover {
     opacity: 0.8;
+}
+
+/* Theme switcher (header, after .nav) */
+.theme-switcher {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+    font-size: var(--font-size-sm);
+}
+
+.theme-switcher-label {
+    opacity: 0.8;
+}
+
+.theme-btn {
+    background: transparent;
+    color: var(--color-text-on-primary);
+    border: 1px solid var(--color-on-primary-muted);
+    border-radius: var(--radius-pill);
+    padding: 0.2rem 0.8rem;
+    font: inherit;
+    cursor: pointer;
+    transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+
+.theme-btn:hover {
+    background: var(--color-on-primary-subtle);
+}
+
+.theme-btn.active {
+    background: var(--color-on-primary-muted);
+    border-color: var(--color-text-on-primary);
 }
 
 /* ============================================
@@ -408,25 +454,25 @@ body {
 
 /* Button Color Variants */
 .btn-primary {
-    background: var(--color-primary);
-    color: white;
-    border-color: var(--color-primary);
+    background: var(--color-fill-primary);
+    color: var(--color-text-on-primary);
+    border-color: var(--color-fill-primary);
 }
 
 .btn-primary:hover {
-    background: var(--color-primary-dark);
-    border-color: var(--color-primary-dark);
+    background: var(--color-fill-primary-hover);
+    border-color: var(--color-fill-primary-hover);
     box-shadow: var(--shadow-primary);
 }
 
 .btn-secondary {
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    border-color: white;
+    background: var(--color-on-primary-subtle);
+    color: var(--color-text-on-primary);
+    border-color: var(--color-text-on-primary);
 }
 
 .btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: var(--color-on-primary-muted);
     box-shadow: var(--shadow-md);
 }
 
@@ -441,7 +487,7 @@ body {
 }
 
 .btn-light {
-    background: white;
+    background: var(--color-bg-white);
     color: var(--color-primary);
     border-color: transparent;
 }
@@ -467,7 +513,7 @@ body {
    ============================================ */
 .hero-section {
     background: var(--gradient-primary);
-    color: white;
+    color: var(--color-text-on-primary);
     padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-lg);
     text-align: center;
 }
@@ -629,6 +675,7 @@ body {
     .nav {
         flex-direction: column;
         gap: var(--spacing-xs);
+        margin: 0;
     }
 
     .header-content {

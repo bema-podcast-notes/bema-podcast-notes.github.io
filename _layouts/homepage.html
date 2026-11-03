@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }} - Your Complete Guide</title>
     <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}">
+    <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}"></script>
     <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
     {% if site.google_analytics %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -28,6 +29,14 @@
                 <a href="/search/">Search</a>
                 <a href="/misc/">Resources</a>
             </nav>
+            <div class="theme-switcher" role="group" aria-label="Color theme">
+                <span class="theme-switcher-label">Theme:</span>
+                <button type="button" class="theme-btn" data-theme="default">Purple</button>
+                <button type="button" class="theme-btn" data-theme="adobe">Adobe</button>
+                <button type="button" class="theme-btn" data-theme="space">Space</button>
+                <button type="button" class="theme-btn" data-theme="menswear">Menswear</button>
+                <button type="button" class="theme-btn" data-theme="helvetia">Helvetia</button>
+            </div>
         </div>
     </header>
 
