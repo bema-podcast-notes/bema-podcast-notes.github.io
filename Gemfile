@@ -32,3 +32,5 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
 gem "webrick", "~> 1.7"
+# Jekyll 4.2 breaks with logger >= 1.6 (bundled with Ruby 3.3+)
+gem "logger", "~> 1.5.3"

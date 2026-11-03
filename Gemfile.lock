@@ -43,10 +43,11 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    liquid (4.0.3)
+    liquid (4.0.4)
     listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.5.3)
     mercenary (0.4.0)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
@@ -70,6 +71,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-25
   x86_64-darwin-18
   x86_64-darwin-24
 
@@ -77,6 +79,7 @@ DEPENDENCIES
   jekyll (~> 4.2.0)
   jekyll-feed (~> 0.12)
   jekyll-sitemap (~> 1.4)
+  logger (~> 1.5.3)
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
