@@ -2,7 +2,9 @@
  * My Notes for BEMA Podcast Notes
  * Lets readers keep their own notes on each episode page.
  * Notes live only in this browser's localStorage, keyed per episode:
- *   bema-my-notes:ep-325 -> { "text": "...", "updated": "2026-11-03T16:40:00.000Z" }
+ *   bema-my-notes:ep-325 -> { "text": "...", "updated": "2026-11-03T16:40:00.000Z",
+ *                             "title": "325: Sanctuary — ...", "url": "/ep/325" }
+ * "Export all" gathers every saved note into a single Markdown file.
  */
 
 (function() {
@@ -18,6 +20,7 @@
     const status = section.querySelector('.my-notes-status');
     const storageKey = STORAGE_PREFIX + section.dataset.notesKey;
     const title = section.dataset.notesTitle || document.title;
+    const exportAllBtn = section.querySelector('[data-notes-action="export-all"]');
     let saveTimer = null;
 
     // localStorage can throw (private mode, blocked site data), so guard every access
@@ -36,10 +39,16 @@
                 localStorage.removeItem(storageKey);
                 setStatus(null);
             } else {
-                const note = { text: text, updated: new Date().toISOString() };
+                const note = {
+                    text: text,
+                    updated: new Date().toISOString(),
+                    title: title,
+                    url: window.location.pathname
+                };
                 localStorage.setItem(storageKey, JSON.stringify(note));
                 setStatus(note.updated);
             }
+            updateExportAllCount();
             return true;
         } catch (e) {
             status.textContent = '⚠️ Could not save — your browser is blocking local storage.';
@@ -70,18 +79,77 @@
         status.textContent = '✓ Saved on this device · ' + when;
     }
 
-    function download() {
-        const text = textarea.value.trim();
-        if (!text) return;
-        const body = '# My notes: ' + title + '\n\n' + text + '\n\n---\n' + window.location.href + '\n';
+    function saveFile(filename, body) {
         const blob = new Blob([body], { type: 'text/markdown' });
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
-        link.download = 'bema-' + section.dataset.notesKey.replace(/[^a-z0-9-]+/gi, '-') + '-my-notes.md';
+        link.download = filename;
         document.body.appendChild(link);
         link.click();
         link.remove();
         URL.revokeObjectURL(link.href);
+    }
+
+    function download() {
+        const text = textarea.value.trim();
+        if (!text) return;
+        const body = '# My notes: ' + title + '\n\n' + text + '\n\n---\n' + window.location.href + '\n';
+        saveFile('bema-' + section.dataset.notesKey.replace(/[^a-z0-9-]+/gi, '-') + '-my-notes.md', body);
+    }
+
+    // Every saved note in this browser, sorted by episode number (non-episode pages last)
+    function loadAllNotes() {
+        const notes = [];
+        try {
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (!key || !key.startsWith(STORAGE_PREFIX)) continue;
+                const note = JSON.parse(localStorage.getItem(key));
+                if (!note || !note.text || !note.text.trim()) continue;
+                const id = key.slice(STORAGE_PREFIX.length);
+                const match = id.match(/^ep-(-?\d+)$/);
+                notes.push({
+                    episode: match ? Number(match[1]) : Infinity,
+                    title: note.title || (match ? 'Episode ' + match[1] : id),
+                    url: note.url || (match ? '/ep/' + match[1] : id),
+                    updated: note.updated,
+                    text: note.text.trim()
+                });
+            }
+        } catch (e) {
+            // Unreadable entries are skipped; storage errors leave whatever was gathered
+        }
+        return notes.sort((a, b) => a.episode - b.episode || a.title.localeCompare(b.title));
+    }
+
+    function exportAll() {
+        const notes = loadAllNotes();
+        if (notes.length === 0) return;
+        const today = new Date();
+        const lines = [
+            '# My BEMA Podcast Notes',
+            '',
+            'Exported ' + today.toLocaleDateString(undefined, { dateStyle: 'long' }) +
+                ' · ' + notes.length + (notes.length === 1 ? ' episode' : ' episodes'),
+            ''
+        ];
+        notes.forEach(note => {
+            lines.push('## ' + note.title, '', note.text, '');
+            const edited = note.updated
+                ? 'Last edited ' + new Date(note.updated).toLocaleDateString(undefined, { dateStyle: 'medium' }) + ' · '
+                : '';
+            lines.push('_' + edited + new URL(note.url, window.location.origin).href + '_', '');
+        });
+        saveFile('bema-my-notes-' + today.toISOString().slice(0, 10) + '.md', lines.join('\n'));
+    }
+
+    function updateExportAllCount() {
+        const count = loadAllNotes().length;
+        exportAllBtn.textContent = '📚 Export all (' + count + ')';
+        exportAllBtn.disabled = count === 0;
+        exportAllBtn.title = count === 0
+            ? 'No saved notes yet'
+            : 'Download your notes from all ' + count + (count === 1 ? ' episode' : ' episodes') + ' as one Markdown file';
     }
 
     function clear() {
@@ -124,8 +192,9 @@
             }
         });
 
-        // Keep multiple open tabs of the same episode in sync
+        // Keep other open tabs in sync: the export count for any note, the text for this episode
         window.addEventListener('storage', function(e) {
+            if (e.key === null || e.key.startsWith(STORAGE_PREFIX)) updateExportAllCount();
             if (e.key !== storageKey || document.activeElement === textarea) return;
             const updated = load();
             textarea.value = updated ? updated.text : '';
@@ -134,6 +203,8 @@
 
         section.querySelector('[data-notes-action="download"]').addEventListener('click', download);
         section.querySelector('[data-notes-action="clear"]').addEventListener('click', clear);
+        exportAllBtn.addEventListener('click', exportAll);
+        updateExportAllCount();
     }
 
     init();

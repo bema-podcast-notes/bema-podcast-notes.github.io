@@ -216,7 +216,17 @@
 
 .my-notes-actions {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--spacing-xs);
+}
+
+/* Matches .btn-disabled in common.css */
+.my-notes-actions .btn:disabled {
+    background: var(--color-bg-gray);
+    color: var(--color-text-light);
+    border-color: var(--color-bg-gray);
+    cursor: not-allowed;
+    transform: none;
 }
 
 .visually-hidden {
