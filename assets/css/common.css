@@ -12,6 +12,7 @@
     /* Solid fills behind white text; defaults to primary, dark themes override */
     --color-fill-primary: var(--color-primary);
     --color-fill-primary-hover: var(--color-primary-dark);
+    --color-header-bg: var(--color-fill-primary);
     --color-text-on-primary: #ffffff;
     --color-on-primary-subtle: rgba(255, 255, 255, 0.2);
     --color-on-primary-muted: rgba(255, 255, 255, 0.3);
@@ -150,7 +151,7 @@ body {
    HEADER
    ============================================ */
 .header {
-    background: var(--gradient-primary);
+    background: var(--color-header-bg);
     color: var(--color-text-on-primary);
     padding: var(--spacing-sm) var(--spacing-lg);
     box-shadow: var(--shadow-lg);
