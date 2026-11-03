@@ -89,7 +89,7 @@
     </section>
 
     <!-- Episode Navigation -->
-    <div class="container">
+    <div class="container episode-nav-sticky">
         <div class="episode-nav">
             <div class="episode-nav-left">
                 {%- if previousEpisodeIndex >= 0 and previousEpisode %}
@@ -216,5 +216,6 @@
     </footer>
 
     <script src="{{ '/assets/js/my-notes.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/sticky-nav.js' | relative_url }}"></script>
 </body>
 </html>

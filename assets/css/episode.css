@@ -63,6 +63,27 @@
     z-index: 10;
 }
 
+/* Top nav sticks to the viewport once scrolled past; sticky-nav.js toggles .is-stuck */
+.episode-nav-sticky {
+    position: sticky;
+    top: 0;
+    z-index: var(--z-header);
+}
+
+.episode-nav-sticky .episode-nav {
+    transition: padding var(--transition-fast), border-radius var(--transition-fast);
+}
+
+.episode-nav-sticky.is-stuck .episode-nav {
+    padding: 0.6rem 1.5rem;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+}
+
+/* Keep anchored headings (e.g. #my-notes) from hiding under the sticky nav */
+html {
+    scroll-padding-top: 5rem;
+}
+
 .episode-nav-left {
     justify-self: start;
 }
