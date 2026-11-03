@@ -164,6 +164,70 @@
     color: var(--color-primary-dark);
 }
 
+/* My Notes Section (reader's own notes, stored in localStorage) */
+.my-notes {
+    margin-bottom: var(--spacing-lg);
+}
+
+.my-notes-intro {
+    color: var(--color-text-tertiary);
+    font-size: var(--font-size-sm);
+    margin: 0 0 var(--spacing-sm);
+}
+
+.my-notes-text {
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+    padding: var(--spacing-sm);
+    font: inherit;
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    background: var(--color-bg-light);
+    border: 2px solid var(--color-border-light);
+    border-radius: var(--radius-md);
+    resize: vertical;
+    transition: border-color var(--transition-fast);
+}
+
+.my-notes-text:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.my-notes-text:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.my-notes-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-sm);
+}
+
+.my-notes-status {
+    color: var(--color-text-light);
+    font-size: var(--font-size-sm);
+}
+
+.my-notes-actions {
+    display: flex;
+    gap: var(--spacing-xs);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
 /* Episode Notes Section */
 /* Uses .section-container from common.css */
 .episode-notes-section {

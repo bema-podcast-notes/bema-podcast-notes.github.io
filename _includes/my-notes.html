@@ -1,0 +1,22 @@
+<!-- My Notes: reader's own notes, saved to localStorage (see assets/js/my-notes.js) -->
+<div class="container">
+    <section class="section-container my-notes" id="my-notes"
+             data-notes-key="{% if page.episodeNumber != nil %}ep-{{ page.episodeNumber }}{% else %}{{ page.url }}{% endif %}"
+             data-notes-title="{{ include.title | escape }}">
+        <h2>✍️ My Notes</h2>
+        <p class="my-notes-intro">
+            Jot down your own thoughts on this episode. Notes save automatically and stay in this browser only —
+            they aren't uploaded anywhere, and clearing your browser's site data will erase them.
+        </p>
+        <label for="my-notes-text" class="visually-hidden">My notes for this episode</label>
+        <textarea id="my-notes-text" class="my-notes-text" rows="8"
+                  placeholder="What stood out to you? Questions, connections, things to look up…"></textarea>
+        <div class="my-notes-footer">
+            <span class="my-notes-status" aria-live="polite"></span>
+            <div class="my-notes-actions">
+                <button type="button" class="btn btn-sm btn-outline" data-notes-action="download">⬇️ Download</button>
+                <button type="button" class="btn btn-sm btn-outline" data-notes-action="clear">🗑️ Clear</button>
+            </div>
+        </div>
+    </section>
+</div>
