@@ -93,7 +93,7 @@
         <div class="episode-nav">
             <div class="episode-nav-left">
                 {%- if previousEpisodeIndex >= 0 and previousEpisode %}
-                <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary">
+                <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="prev" title="Previous episode (← or P)" aria-keyshortcuts="ArrowLeft P">
                     ← Previous Episode
                 </a>
                 {% else %}
@@ -107,7 +107,7 @@
             </div>
             <div class="episode-nav-right">
                 {%- if nextEpisode %}
-                <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary">
+                <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="next" title="Next episode (→ or N)" aria-keyshortcuts="ArrowRight N">
                     Next Episode →
                 </a>
                 {% else %}
@@ -177,7 +177,7 @@
         <div class="episode-nav">
             <div class="episode-nav-left">
                 {%- if previousEpisodeIndex >= 0 and previousEpisode %}
-                <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary">
+                <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="prev" title="Previous episode (← or P)" aria-keyshortcuts="ArrowLeft P">
                     ← Previous Episode
                 </a>
                 {% else %}
@@ -191,7 +191,7 @@
             </div>
             <div class="episode-nav-right">
                 {%- if nextEpisode %}
-                <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary">
+                <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="next" title="Next episode (→ or N)" aria-keyshortcuts="ArrowRight N">
                     Next Episode →
                 </a>
                 {% else %}
@@ -217,5 +217,6 @@
 
     <script src="{{ '/assets/js/my-notes.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/sticky-nav.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/episode-hotkeys.js' | relative_url }}"></script>
 </body>
 </html>
