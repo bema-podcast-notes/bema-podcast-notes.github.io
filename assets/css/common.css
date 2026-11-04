@@ -4,11 +4,12 @@
    CSS VARIABLES - Design Tokens
    ============================================ */
 :root {
-    /* Primary Brand Colors */
-    --color-primary: #667eea;
-    --color-primary-dark: #5568d3;
-    --color-secondary: #764ba2;
-    --color-primary-light: #e8eaf6;
+    /* Primary Brand Colors: Helvetia, from Sanzo Wada combination 218
+       (Helvetia Blue #005b8d, Grayish Lavender #b5b1d8, Plumbeous #70727c) */
+    --color-primary: #005b8d;
+    --color-primary-dark: #00466d;
+    --color-secondary: #70727c;
+    --color-primary-light: #e7e6f4;
     /* Solid fills behind white text; defaults to primary, dark themes override */
     --color-fill-primary: var(--color-primary);
     --color-fill-primary-hover: var(--color-primary-dark);
@@ -18,47 +19,47 @@
     --color-on-primary-muted: rgba(255, 255, 255, 0.3);
 
     /* Gradient */
-    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --gradient-primary-dark: linear-gradient(135deg, #5568d3 0%, #6941a0 100%);
-    --gradient-subtle: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    --gradient-primary: linear-gradient(135deg, #005b8d 0%, #70727c 100%);
+    --gradient-primary-dark: linear-gradient(135deg, #00466d 0%, #5a5c66 100%);
+    --gradient-subtle: linear-gradient(135deg, #f6f5fb 0%, #dcdaee 100%);
 
     /* Text Colors */
-    --color-text-primary: #333;
-    --color-text-secondary: #555;
-    --color-text-tertiary: #666;
-    --color-text-light: #888;
-    --color-text-dark: #2c3e50;
-    --color-text-darker: #34495e;
+    --color-text-primary: #2e3036;
+    --color-text-secondary: #4a4c55;
+    --color-text-tertiary: #5c5e67;
+    --color-text-light: #6c6e78;
+    --color-text-dark: #10344d;
+    --color-text-darker: #0a2738;
 
     /* Background Colors */
-    --color-bg-page: #f8f9fa;
-    --color-bg-white: #ffffff;
-    --color-bg-light: #f8f9fa;
-    --color-bg-gray: #e0e0e0;
+    --color-bg-page: #f4f3f9;
+    --color-bg-white: #fdfdff;
+    --color-bg-light: #eeedf6;
+    --color-bg-gray: #d9d8e6;
 
     /* Accent Colors */
-    --color-accent-blue: #3498db;
-    --color-accent-blue-light: #e8f4f8;
-    --color-accent-blue-dark: #2980b9;
-    --color-accent-blue-border: rgba(52, 152, 219, 0.2);
-    --color-accent-yellow: #ffc107;
-    --color-accent-yellow-light: #fff3cd;
-    --color-accent-yellow-dark: #856404;
+    --color-accent-blue: #5e58a0;
+    --color-accent-blue-light: #edecf7;
+    --color-accent-blue-dark: #48437f;
+    --color-accent-blue-border: rgba(181, 177, 216, 0.6);
+    --color-accent-yellow: #b5b1d8;
+    --color-accent-yellow-light: #e9e7f5;
+    --color-accent-yellow-dark: #45407a;
     --color-accent-red: #ef5350;
     --color-accent-red-light: #ffebee;
     --color-accent-red-dark: #c62828;
     --color-accent-orange: #f39c12;
-    --color-badge: #e74c3c;
+    --color-badge: #005b8d;
 
     /* Border Colors */
-    --color-border-light: #e0e0e0;
+    --color-border-light: #dcdbe8;
     --color-border-primary: var(--color-primary);
 
     /* Special Colors */
-    --color-code-bg: #f8f9fa;
-    --color-code-text: #d63384;
-    --color-highlight: #fff3cd;
-    --color-footer-bg: #2c3e50;
+    --color-code-bg: #eeedf6;
+    --color-code-text: #005b8d;
+    --color-highlight: #e3e1f3;
+    --color-footer-bg: #2c2e35;
 
     /* Spacing Scale */
     --spacing-xs: 0.5rem;
@@ -79,8 +80,8 @@
     --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
     --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.1);
     --shadow-xl: 0 8px 16px rgba(0, 0, 0, 0.15);
-    --shadow-primary: 0 4px 8px rgba(102, 126, 234, 0.3);
-    --shadow-primary-lg: 0 8px 16px rgba(102, 126, 234, 0.4);
+    --shadow-primary: 0 4px 8px rgba(0, 91, 141, 0.25);
+    --shadow-primary-lg: 0 8px 16px rgba(0, 91, 141, 0.35);
 
     /* Font Sizes */
     --font-size-xs: 0.75rem;
@@ -120,6 +121,63 @@
 
     /* Breakpoints (for reference in media queries) */
     --breakpoint-mobile: 768px;
+}
+
+/* Dark mode (Helvetia Dark). theme-switcher.js sets <html data-mode="dark">
+   from the saved choice or the OS setting before the page renders. */
+:root[data-mode="dark"] {
+    color-scheme: dark;
+
+    --color-primary: #5aa9d6;
+    --color-primary-dark: #84c1e3;
+    --color-secondary: #9a9ca6;
+    --color-primary-light: #1d3344;
+    --color-fill-primary: #005b8d;
+    --color-fill-primary-hover: #0a6ea6;
+    --color-header-bg: #00466d;
+    --color-on-primary-subtle: rgba(255, 255, 255, 0.14);
+    --color-on-primary-muted: rgba(255, 255, 255, 0.26);
+
+    --gradient-primary: linear-gradient(135deg, #00466d 0%, #3d3f48 100%);
+    --gradient-primary-dark: linear-gradient(135deg, #003a5a 0%, #34363e 100%);
+    --gradient-subtle: linear-gradient(135deg, #1b1e25 0%, #262a3a 100%);
+
+    --color-text-primary: #e3e4ea;
+    --color-text-secondary: #c3c5cf;
+    --color-text-tertiary: #a6a8b2;
+    --color-text-light: #858893;
+    --color-text-dark: #f1f2f7;
+    --color-text-darker: #ffffff;
+
+    --color-bg-page: #121419;
+    --color-bg-white: #1b1e25;
+    --color-bg-light: #22262f;
+    --color-bg-gray: #2e323c;
+
+    --color-accent-blue: #b5b1d8;
+    --color-accent-blue-light: #24233a;
+    --color-accent-blue-dark: #d3d0ec;
+    --color-accent-blue-border: rgba(181, 177, 216, 0.3);
+    --color-accent-yellow: #b5b1d8;
+    --color-accent-yellow-light: #262538;
+    --color-accent-yellow-dark: #d6d3ee;
+    --color-accent-red: #ff6b6b;
+    --color-accent-red-light: #3a1a1d;
+    --color-accent-red-dark: #ff9e9e;
+    --color-badge: #005b8d;
+
+    --color-border-light: #2f343f;
+    --color-code-bg: #15181e;
+    --color-code-text: #8cc8ea;
+    --color-highlight: #2f2d47;
+    --color-footer-bg: #0b0d11;
+
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.5);
+    --shadow-xl: 0 8px 16px rgba(0, 0, 0, 0.6);
+    --shadow-primary: 0 4px 12px rgba(90, 169, 214, 0.25);
+    --shadow-primary-lg: 0 8px 20px rgba(90, 169, 214, 0.35);
 }
 
 /* ============================================
@@ -233,7 +291,7 @@ body {
     opacity: 0.8;
 }
 
-/* Theme switcher (header, after .nav) */
+/* Light/dark toggle (header, after .nav) */
 .theme-switcher {
     display: flex;
     align-items: center;

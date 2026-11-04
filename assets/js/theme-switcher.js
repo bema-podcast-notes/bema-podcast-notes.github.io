@@ -1,137 +1,138 @@
 /**
  * Theme Switcher for BEMA Podcast Notes
- * Handles switching between five color themes:
- * - default (Purple gradient)
- * - adobe (Southwest Adobe)
- * - space (Deep Space Noir)
- * - menswear (Classic Menswear)
- * - helvetia (Sanzo Wada combination 218)
+ * The site's palette is Helvetia (Sanzo Wada combination 218), defined in
+ * common.css, with a light and a dark mode:
+ * - Mode follows the OS setting until the reader picks one with the header
+ *   toggle; the choice is then remembered in localStorage.
+ * - The mode is applied as <html data-mode="light|dark"> while <head> is
+ *   still loading, so the page never flashes the wrong colors.
+ *
+ * Alternate palettes (purple, adobe, space, menswear) are kept but hidden.
+ * They can be previewed for the current page from the console:
+ *   BEMAThemes.switchTheme('space')   BEMAThemes.switchTheme('default')
  */
 
 (function() {
     'use strict';
 
-    const THEMES = {
-        DEFAULT: 'default',
-        ADOBE: 'adobe',
-        SPACE: 'space',
-        MENSWEAR: 'menswear',
-        HELVETIA: 'helvetia'
-    };
+    const MODE_KEY = 'bema-color-mode';
+    const LEGACY_THEME_KEY = 'bema-theme-preference';
+    const HIDDEN_THEMES = ['purple', 'adobe', 'space', 'menswear'];
+    const darkQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
 
-    const THEME_LABELS = {
-        [THEMES.DEFAULT]: 'Purple',
-        [THEMES.ADOBE]: 'Adobe',
-        [THEMES.SPACE]: 'Space',
-        [THEMES.MENSWEAR]: 'Menswear',
-        [THEMES.HELVETIA]: 'Helvetia'
-    };
+    // localStorage can throw (private mode, blocked site data)
+    function getSavedMode() {
+        try {
+            const mode = localStorage.getItem(MODE_KEY);
+            return mode === 'light' || mode === 'dark' ? mode : null;
+        } catch (e) {
+            return null;
+        }
+    }
 
-    const STORAGE_KEY = 'bema-theme-preference';
+    function saveMode(mode) {
+        try {
+            localStorage.setItem(MODE_KEY, mode);
+        } catch (e) {
+            // Not persisted; the toggle still works for this page
+        }
+    }
 
-    // Get theme link element or create if it doesn't exist
-    function getThemeLinkElement() {
+    function systemMode() {
+        return darkQuery && darkQuery.matches ? 'dark' : 'light';
+    }
+
+    function currentMode() {
+        return document.documentElement.dataset.mode || 'light';
+    }
+
+    function applyMode(mode) {
+        document.documentElement.dataset.mode = mode;
+        updateToggles(mode);
+    }
+
+    // The toggle offers the *other* mode
+    function updateToggles(mode) {
+        document.querySelectorAll('.mode-toggle').forEach(btn => {
+            const isDark = mode === 'dark';
+            btn.textContent = isDark ? '☀️ Light' : '🌙 Dark';
+            btn.setAttribute('aria-pressed', String(isDark));
+            btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+            btn.title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
+        });
+    }
+
+    // Hidden alternate palettes: preview only, never saved
+    function switchTheme(theme) {
         let link = document.getElementById('theme-stylesheet');
-
+        if (!theme || theme === 'default') {
+            if (link) link.remove();
+            return;
+        }
+        if (!HIDDEN_THEMES.includes(theme)) {
+            console.warn('Unknown theme "' + theme + '". Available: default, ' + HIDDEN_THEMES.join(', '));
+            return;
+        }
         if (!link) {
             link = document.createElement('link');
             link.id = 'theme-stylesheet';
             link.rel = 'stylesheet';
-
-            // Insert after common.css
-            const commonCss = document.querySelector('link[href*="common.css"]');
-            if (commonCss && commonCss.nextSibling) {
-                commonCss.parentNode.insertBefore(link, commonCss.nextSibling);
-            } else {
-                document.head.appendChild(link);
-            }
+            // After the page stylesheets so its :root overrides win
+            document.head.appendChild(link);
         }
-
-        return link;
+        link.href = '/assets/css/theme-' + theme + '.css';
     }
 
-    // Apply theme by adding/removing stylesheet
-    function applyTheme(theme) {
-        const link = getThemeLinkElement();
-
-        if (theme === THEMES.DEFAULT) {
-            // Remove theme stylesheet for default theme
-            link.href = '';
-            link.disabled = true;
-        } else {
-            // Load theme-specific stylesheet
-            const baseUrl = link.href ? new URL(link.href).origin : window.location.origin;
-            const cssPath = `/assets/css/theme-${theme}.css`;
-            link.href = cssPath;
-            link.disabled = false;
-        }
-
-        // Store preference
-        localStorage.setItem(STORAGE_KEY, theme);
-
-        // Update UI
-        updateThemeSwitcherUI(theme);
-    }
-
-    // Update the theme switcher UI to reflect current theme
-    function updateThemeSwitcherUI(currentTheme) {
-        const buttons = document.querySelectorAll('.theme-btn');
-        buttons.forEach(btn => {
-            const btnTheme = btn.dataset.theme;
-            if (btnTheme === currentTheme) {
-                btn.classList.add('active');
-                btn.setAttribute('aria-pressed', 'true');
-            } else {
-                btn.classList.remove('active');
-                btn.setAttribute('aria-pressed', 'false');
-            }
-        });
-    }
-
-    // Get saved theme preference or default
-    function getSavedTheme() {
-        return localStorage.getItem(STORAGE_KEY) || THEMES.DEFAULT;
-    }
-
-    // Initialize theme switcher
-    function init() {
-        // Apply saved theme immediately (before page renders)
-        const savedTheme = getSavedTheme();
-        applyTheme(savedTheme);
-
-        // Set up event listeners when DOM is ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', setupEventListeners);
-        } else {
-            setupEventListeners();
-        }
-    }
-
-    // Set up click handlers for theme buttons
-    function setupEventListeners() {
-        const buttons = document.querySelectorAll('.theme-btn');
-
-        // Buttons didn't exist yet when the theme was applied in <head>
-        updateThemeSwitcherUI(getSavedTheme());
-
-        buttons.forEach(btn => {
-            btn.addEventListener('click', function(e) {
-                e.preventDefault();
-                const theme = this.dataset.theme;
-                if (theme && THEMES[theme.toUpperCase()]) {
-                    applyTheme(theme);
-                }
+    function setupToggle() {
+        updateToggles(currentMode());
+        document.querySelectorAll('.mode-toggle').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const next = currentMode() === 'dark' ? 'light' : 'dark';
+                saveMode(next);
+                applyMode(next);
             });
         });
     }
 
-    // Initialize immediately
+    function init() {
+        // Drop the old palette choice from when the alternate themes were selectable
+        try {
+            localStorage.removeItem(LEGACY_THEME_KEY);
+        } catch (e) {
+            // Ignore
+        }
+
+        applyMode(getSavedMode() || systemMode());
+
+        // Follow OS changes until the reader has picked a mode themselves
+        if (darkQuery) {
+            darkQuery.addEventListener('change', function() {
+                if (!getSavedMode()) applyMode(systemMode());
+            });
+        }
+
+        // Keep other open tabs in step with the toggle
+        window.addEventListener('storage', function(e) {
+            if (e.key === MODE_KEY || e.key === null) applyMode(getSavedMode() || systemMode());
+        });
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', setupToggle);
+        } else {
+            setupToggle();
+        }
+    }
+
     init();
 
     // Expose API for debugging
     window.BEMAThemes = {
-        switchTheme: applyTheme,
-        getCurrentTheme: getSavedTheme,
-        themes: THEMES
+        switchTheme: switchTheme,
+        setMode: function(mode) {
+            saveMode(mode);
+            applyMode(mode);
+        },
+        getMode: currentMode,
+        themes: ['default'].concat(HIDDEN_THEMES)
     };
 })();

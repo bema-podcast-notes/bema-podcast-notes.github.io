@@ -1,0 +1,35 @@
+/* Purple: the site's original palette (hidden alternate theme) */
+:root {
+    --color-primary: #667eea;
+    --color-primary-dark: #5568d3;
+    --color-secondary: #764ba2;
+    --color-primary-light: #e8eaf6;
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-primary-dark: linear-gradient(135deg, #5568d3 0%, #6941a0 100%);
+    --gradient-subtle: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    --color-text-primary: #333;
+    --color-text-secondary: #555;
+    --color-text-tertiary: #666;
+    --color-text-light: #888;
+    --color-text-dark: #2c3e50;
+    --color-text-darker: #34495e;
+    --color-bg-page: #f8f9fa;
+    --color-bg-white: #ffffff;
+    --color-bg-light: #f8f9fa;
+    --color-bg-gray: #e0e0e0;
+    --color-accent-blue: #3498db;
+    --color-accent-blue-light: #e8f4f8;
+    --color-accent-blue-dark: #2980b9;
+    --color-accent-blue-border: rgba(52, 152, 219, 0.2);
+    --color-accent-yellow: #ffc107;
+    --color-accent-yellow-light: #fff3cd;
+    --color-accent-yellow-dark: #856404;
+    --color-border-light: #e0e0e0;
+    --color-code-bg: #f8f9fa;
+    --color-code-text: #d63384;
+    --color-highlight: #fff3cd;
+    --color-footer-bg: #2c3e50;
+    --color-badge: #e74c3c;
+    --shadow-primary: 0 4px 8px rgba(102, 126, 234, 0.3);
+    --shadow-primary-lg: 0 8px 16px rgba(102, 126, 234, 0.4);
+}
