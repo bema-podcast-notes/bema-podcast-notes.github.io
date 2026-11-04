@@ -238,6 +238,135 @@ html {
     color: var(--color-primary-dark);
 }
 
+/* Previous versions of the notes: an accordion at the end of the notes,
+   with tabs between versions once previous-versions.js runs */
+.previous-versions {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--color-border-light);
+}
+
+.pv-accordion {
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-md);
+    background: var(--color-bg-light);
+}
+
+.pv-accordion > summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.85rem 1rem;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-semibold);
+    transition: background var(--transition-fast);
+}
+
+.pv-accordion > summary::-webkit-details-marker {
+    display: none;
+}
+
+.pv-accordion > summary:hover {
+    background: var(--color-primary-light);
+}
+
+.pv-accordion[open] > summary {
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+.pv-accordion > summary .icon {
+    color: var(--color-primary);
+}
+
+.pv-count {
+    padding: 0 0.5rem;
+    border-radius: var(--radius-pill);
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    font-size: var(--font-size-sm);
+}
+
+.pv-chevron {
+    margin-left: auto;
+    transition: transform var(--transition-base);
+}
+
+.pv-accordion[open] .pv-chevron {
+    transform: rotate(180deg);
+}
+
+.pv-body {
+    padding: var(--spacing-xs) 1rem var(--spacing-md);
+    background: var(--color-bg-white);
+    border-top: 1px solid var(--color-border-light);
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+}
+
+.pv-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: var(--spacing-sm) 0 0;
+}
+
+/* display:flex would otherwise override the hidden attribute */
+.pv-tabs[hidden],
+.pv-pane[hidden] {
+    display: none;
+}
+
+.pv-tab {
+    font: inherit;
+    font-size: var(--font-size-sm);
+    padding: 0.35rem 0.9rem;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--color-border-light);
+    background: var(--color-bg-light);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.pv-tab:hover {
+    color: var(--color-text-dark);
+    border-color: var(--color-primary);
+}
+
+.pv-tab.active {
+    background: var(--color-fill-primary);
+    border-color: var(--color-fill-primary);
+    color: var(--color-text-on-primary);
+}
+
+.pv-pane + .pv-pane {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-sm);
+    border-top: 2px dashed var(--color-border-light);
+}
+
+.content-area .pv-pane-label {
+    margin-top: var(--spacing-sm);
+}
+
+/* With tabs, the tab names label the versions; keep headings for screen readers */
+.pv-tabs-ready .pv-pane-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+.pv-tabs-ready .pv-pane + .pv-pane {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+
 /* My Notes Section (reader's own notes, stored in localStorage) */
 .my-notes {
     margin-bottom: var(--spacing-lg);
@@ -429,6 +558,22 @@ html {
 }
 
 @media (max-width: 480px) {
+    .pv-accordion > summary {
+        padding: 0.75rem 0.85rem;
+    }
+
+    .pv-body {
+        padding-left: 0.85rem;
+        padding-right: 0.85rem;
+    }
+
+    .pv-tab {
+        font-size: var(--font-size-xs);
+        padding: 0.35rem 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
     .my-notes-footer {
         flex-direction: column;
         align-items: stretch;
@@ -456,6 +601,15 @@ html {
    ============================================ */
 .no-flex-gap .episode-meta > * + * {
     margin-left: 2rem;
+}
+
+.no-flex-gap .pv-accordion > summary > * + * {
+    margin-left: 0.6rem;
+}
+
+.no-flex-gap .pv-tabs > * {
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
 }
 
 .no-flex-gap .my-notes-footer > * + * {

@@ -166,9 +166,65 @@ S{{ episode.season }} {{ title }}
                 </p>
             </div>
 
+            {%- comment -%}
+              Notes may hold several versions, newest first. A version starts at an
+              <h3> titled "Original Notes" or an AI study-notes heading ("... Study
+              Notes" / "BEMA Episode ..."); other <h3>s (e.g. inside handwritten
+              notes) stay with their version. The newest shows as usual; older ones
+              go in the "Previous versions" section below.
+            {%- endcomment -%}
+            {%- assign version_break = '<!--bema-version-break-->' -%}
+            {%- assign note_chunks = content | split: '<h3 id="' -%}
+            {%- if note_chunks.size > 0 -%}
+              {%- assign notes_html = note_chunks | first -%}
+            {%- else -%}
+              {%- assign notes_html = content -%}
+            {%- endif -%}
+            {%- assign version_headings = 0 -%}
+            {%- for chunk in note_chunks offset: 1 -%}
+              {%- assign chunk_heading = chunk | split: '</h3>' | first | split: '">' | last | strip -%}
+              {%- assign chunk_heading_start = chunk_heading | slice: 0, 12 -%}
+              {%- if chunk_heading == 'Original Notes' or chunk_heading contains 'Study Notes' or chunk_heading_start == 'BEMA Episode' -%}
+                {%- if version_headings > 0 -%}{%- assign notes_html = notes_html | append: version_break -%}{%- endif -%}
+                {%- assign version_headings = version_headings | plus: 1 -%}
+              {%- endif -%}
+              {%- assign notes_html = notes_html | append: '<h3 id="' | append: chunk -%}
+            {%- endfor -%}
+            {%- assign note_versions = notes_html | split: version_break -%}
+            {%- assign previous_count = note_versions.size | minus: 1 %}
+
             <div class="notes-content content-area">
-                {{ content }}
+                {{ note_versions | first }}
             </div>
+
+            {%- if previous_count > 0 %}
+            <section class="previous-versions" aria-label="Previous versions of these notes">
+                <details class="pv-accordion">
+                    <summary>{% include icon.html name="history" %}<span class="pv-title">Previous versions</span><span class="pv-count">{{ previous_count }}</span>{% include icon.html name="chevron-down" class="pv-chevron" %}</summary>
+                    <div class="pv-body">
+                        {%- if previous_count > 1 %}
+                        <div class="pv-tabs" role="group" aria-label="Choose a version" hidden>
+                            {%- for version in note_versions offset: 1 -%}
+                            {%- assign version_heading = version | split: '</h3>' | first | split: '">' | last | strip -%}
+                            {%- if version_heading == 'Original Notes' -%}{%- assign version_label = 'Original notes' -%}{%- else -%}{%- assign version_label = 'Earlier study notes' -%}{%- endif %}
+                            <button type="button" class="pv-tab" data-pane="pv-pane-{{ forloop.index }}" aria-controls="pv-pane-{{ forloop.index }}" aria-pressed="false">{{ version_label }}</button>
+                            {%- endfor %}
+                        </div>
+                        {%- endif %}
+                        {%- for version in note_versions offset: 1 -%}
+                        {%- assign version_head_tag = version | split: '</h3>' | first | append: '</h3>' -%}
+                        {%- assign version_heading = version_head_tag | split: '">' | last | remove: '</h3>' | strip -%}
+                        {%- assign version_id = version_head_tag | split: '"' | slice: 1 | first -%}
+                        {%- if version_heading == 'Original Notes' -%}{%- assign version_label = 'Original notes' -%}{%- else -%}{%- assign version_label = 'Earlier study notes' -%}{%- endif %}
+                        <div class="pv-pane content-area" id="pv-pane-{{ forloop.index }}">
+                            <h3 class="pv-pane-label" id="{{ version_id }}">{{ version_label }}</h3>
+                            {{ version | remove_first: version_head_tag }}
+                        </div>
+                        {%- endfor %}
+                    </div>
+                </details>
+            </section>
+            {%- endif %}
         </article>
     </div>
 
@@ -221,5 +277,6 @@ S{{ episode.season }} {{ title }}
     <script src="{{ '/assets/js/sticky-nav.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/episode-hotkeys.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/copy-episode.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/previous-versions.js' | relative_url }}"></script>
 </body>
 </html>
