@@ -230,6 +230,19 @@ body {
     transition: background var(--transition-base);
 }
 
+/* BEMA's name for the session, with this site's topic beneath it */
+.session-name .session-title,
+.session-name .session-topic {
+    display: block;
+}
+
+.session-name .session-topic {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-normal);
+    opacity: 0.85;
+    margin-top: 0.15rem;
+}
+
 .session-group summary::-webkit-details-marker {
     display: none;
 }
