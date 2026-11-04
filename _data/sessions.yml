@@ -1,0 +1,33 @@
+# Session names: BEMA's own wording for each session (it has no official
+# titles), plus this site's topic label. Used by the homepage session list
+# and the session overview pages.
+- number: 1
+  name: Torah
+  topic: Genesis through Deuteronomy
+- number: 2
+  name: The Prophets and the Writings
+  topic: Joshua through Malachi
+- number: 3
+  name: The Gospels
+  topic: The Gospels & Life of Jesus
+- number: 4
+  name: The First-Century Church
+  topic: Acts through Revelation
+- number: 5
+  name: Church History
+  topic: Church History (100 AD - Today)
+- number: 6
+  name: Starting a New Journey
+  topic: Deep Dives & Guest Conversations
+- number: 7
+  name: Stepping into Sabbath
+  topic: Sabbath & Spiritual Practices
+- number: 8
+  name: Returning to Ordinary Time
+  topic: Isaiah, Psalms & Talmudic Matthew
+- number: 9
+  name: Embracing New Rhythms
+  topic: Hosea & Qohelet (Ecclesiastes)
+- number: 10
+  name: A Season of Mourning
+  topic: The Four Pillars, Women in Joshua & Judges

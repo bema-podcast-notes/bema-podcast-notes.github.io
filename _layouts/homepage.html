@@ -189,7 +189,7 @@
             <!-- Session 1 -->
             <details class="session-group" id="session1">
                 <summary>
-                    <span class="session-name"><span class="session-title">Session 1: Torah</span> <span class="session-topic">Genesis through Deuteronomy</span></span>
+                    <span class="session-name"><span class="session-title">Session {{ site.data.sessions[0].number }}: {{ site.data.sessions[0].name }}</span> <span class="session-topic">{{ site.data.sessions[0].topic | escape }}</span></span>
                     <span class="session-count">({{ site.session_1 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
@@ -209,7 +209,7 @@
             <!-- Session 2 -->
             <details class="session-group">
                 <summary>
-                    <span class="session-name"><span class="session-title">Session 2: The Prophets and the Writings</span> <span class="session-topic">Joshua through Malachi</span></span>
+                    <span class="session-name"><span class="session-title">Session {{ site.data.sessions[1].number }}: {{ site.data.sessions[1].name }}</span> <span class="session-topic">{{ site.data.sessions[1].topic | escape }}</span></span>
                     <span class="session-count">({{ site.session_2 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
@@ -229,7 +229,7 @@
             <!-- Session 3 -->
             <details class="session-group">
                 <summary>
-                    <span class="session-name"><span class="session-title">Session 3: The Gospels</span> <span class="session-topic">The Gospels &amp; Life of Jesus</span></span>
+                    <span class="session-name"><span class="session-title">Session {{ site.data.sessions[2].number }}: {{ site.data.sessions[2].name }}</span> <span class="session-topic">{{ site.data.sessions[2].topic | escape }}</span></span>
                     <span class="session-count">({{ site.session_3 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
@@ -249,7 +249,7 @@
             <!-- Session 4 -->
             <details class="session-group">
                 <summary>
-                    <span class="session-name"><span class="session-title">Session 4: The First-Century Church</span> <span class="session-topic">Acts through Revelation</span></span>
+                    <span class="session-name"><span class="session-title">Session {{ site.data.sessions[3].number }}: {{ site.data.sessions[3].name }}</span> <span class="session-topic">{{ site.data.sessions[3].topic | escape }}</span></span>
                     <span class="session-count">({{ site.session_4 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
@@ -269,7 +269,7 @@
             <!-- Session 5 -->
             <details class="session-group">
                 <summary>
-                    <span class="session-name"><span class="session-title">Session 5: Church History</span> <span class="session-topic">Church History (100 AD - Today)</span></span>
+                    <span class="session-name"><span class="session-title">Session {{ site.data.sessions[4].number }}: {{ site.data.sessions[4].name }}</span> <span class="session-topic">{{ site.data.sessions[4].topic | escape }}</span></span>
                     <span class="session-count">({{ site.session_5 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
@@ -289,7 +289,7 @@
             <!-- Session 6 -->
             <details class="session-group">
                 <summary>
-                    <span class="session-name"><span class="session-title">Session 6: Starting a New Journey</span> <span class="session-topic">Deep Dives &amp; Guest Conversations</span></span>
+                    <span class="session-name"><span class="session-title">Session {{ site.data.sessions[5].number }}: {{ site.data.sessions[5].name }}</span> <span class="session-topic">{{ site.data.sessions[5].topic | escape }}</span></span>
                     <span class="session-count">({{ site.session_6 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
@@ -309,7 +309,7 @@
             <!-- Session 7 -->
             <details class="session-group">
                 <summary>
-                    <span class="session-name"><span class="session-title">Session 7: Stepping into Sabbath</span> <span class="session-topic">Sabbath &amp; Spiritual Practices</span></span>
+                    <span class="session-name"><span class="session-title">Session {{ site.data.sessions[6].number }}: {{ site.data.sessions[6].name }}</span> <span class="session-topic">{{ site.data.sessions[6].topic | escape }}</span></span>
                     <span class="session-count">({{ site.session_7 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
@@ -329,7 +329,7 @@
             <!-- Session 8 -->
             <details class="session-group">
                 <summary>
-                    <span class="session-name"><span class="session-title">Session 8: Returning to Ordinary Time</span> <span class="session-topic">Isaiah, Psalms &amp; Talmudic Matthew</span></span>
+                    <span class="session-name"><span class="session-title">Session {{ site.data.sessions[7].number }}: {{ site.data.sessions[7].name }}</span> <span class="session-topic">{{ site.data.sessions[7].topic | escape }}</span></span>
                     <span class="session-count">({{ site.session_8 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
@@ -349,7 +349,7 @@
             <!-- Session 9 -->
             <details class="session-group">
                 <summary>
-                    <span class="session-name"><span class="session-title">Session 9: Embracing New Rhythms</span> <span class="session-topic">Hosea &amp; Qohelet (Ecclesiastes)</span></span>
+                    <span class="session-name"><span class="session-title">Session {{ site.data.sessions[8].number }}: {{ site.data.sessions[8].name }}</span> <span class="session-topic">{{ site.data.sessions[8].topic | escape }}</span></span>
                     <span class="session-count">({{ site.session_9 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
@@ -369,7 +369,7 @@
             <!-- Session 10 -->
             <details class="session-group">
                 <summary>
-                    <span class="session-name"><span class="session-title">Session 10: A Season of Mourning</span> <span class="session-topic">The Four Pillars, Women in Joshua &amp; Judges</span></span>
+                    <span class="session-name"><span class="session-title">Session {{ site.data.sessions[9].number }}: {{ site.data.sessions[9].name }}</span> <span class="session-topic">{{ site.data.sessions[9].topic | escape }}</span></span>
                     <span class="badge badge-warning">{% include icon.html name="barrier-block" %} In Progress</span>
                 </summary>
                 <div class="episode-list">

@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    {%- if page.session -%}
+      {%- assign session_info = site.data.sessions | where: "number", page.session | first -%}
+    {%- endif -%}
+    {%- if session_info -%}
+      {%- capture page_heading %}Session {{ session_info.number }}: {{ session_info.name }}{% endcapture -%}
+    {%- else -%}
+      {%- assign page_heading = page.title -%}
+    {%- endif %}
+    <title>{{ page_heading }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}?v={{ site.time | date: '%s' }}">
@@ -37,8 +45,10 @@
     <!-- Page Hero Section -->
     <section class="page-hero">
         <div class="container">
-            <h1>{{ page.title }}</h1>
-            {%- if page.description %}
+            <h1>{{ page_heading }}</h1>
+            {%- if session_info %}
+            <p class="page-subtitle">{{ session_info.topic | escape }}</p>
+            {%- elsif page.description %}
             <p class="page-subtitle">{{ page.description }}</p>
             {% endif -%}
         </div>
