@@ -70,11 +70,12 @@
     <!-- Episode Hero Section -->
     <section class="episode-hero">
         <div class="container">
-            <div class="episode-meta-badge">
-                <span class="session-badge">Session {{ episode.season }}</span>
-                <span class="episode-number-badge">Episode {{ page.episodeNumber }}</span>
-            </div>
-            <h1>S{{ episode.season }} {{ title }}</h1>
+            {%- comment -%} Episode number as a display element; the title drops its "325: " prefix {%- endcomment -%}
+            {%- assign title_prefix = page.episodeNumber | append: ': ' -%}
+            {%- assign display_title = title | remove_first: title_prefix %}
+            <p class="episode-hero-number"><span class="visually-hidden">Episode </span>{{ page.episodeNumber }}</p>
+            <p class="episode-hero-session">Session {{ episode.season }}</p>
+            <h1>{{ display_title }}</h1>
             {%- if episode %}
             <p class="episode-subtitle">{{ episode.subtitle }}</p>
             <div class="episode-meta">
