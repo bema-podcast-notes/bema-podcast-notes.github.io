@@ -1,0 +1,20 @@
+{%- comment -%}
+  "Next episode" card closing the article. Besides being handy on the page,
+  it's the link Safari Reader follows to load the next episode automatically
+  (Reader takes a next link inside, or within 200px below, the article whose
+  URL increments the current one: /ep/325 -> /ep/326).
+  Uses nextEpisode from the episode_notes layout.
+{%- endcomment -%}
+{%- if nextEpisode -%}
+{%- assign up_next_url = nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' %}
+<a class="up-next" href="{{ up_next_url }}" rel="next">
+    <span class="up-next-text">
+        <span class="up-next-label">Next episode</span>
+        <span class="up-next-title">{{ nextEpisode.title }}</span>
+        {%- if nextEpisode.subtitle %}
+        <span class="up-next-subtitle">{{ nextEpisode.subtitle }}</span>
+        {%- endif %}
+    </span>
+    {% include icon.html name="arrow-right" class="up-next-arrow" %}
+</a>
+{%- endif -%}

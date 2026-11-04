@@ -174,6 +174,9 @@ S{{ episode.season }} {{ title }}
                 <p>{{ episode.description }}</p>
             </div>
             {% endif -%}
+            {%- if info_body_attr != '' %}
+            {% include up-next.html %}
+            {%- endif %}
         </div>
     </div>
     {% endif -%}
@@ -247,6 +250,9 @@ S{{ episode.season }} {{ title }}
                     </div>
                 </details>
             </section>
+            {%- endif %}
+            {%- if notes_body_attr != '' %}
+            {% include up-next.html %}
             {%- endif %}
         </article>
     </div>
