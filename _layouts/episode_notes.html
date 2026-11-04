@@ -37,16 +37,7 @@
     <meta name="twitter:title" content="{{ title }} - {{ site.title }}">
     <meta name="twitter:description" content="Get detailed notes by Adam Cole for episode {{ episode.title }} ({{ episode.subtitle }}) of the BEMA Discipleship Podcast.">
 
-    {% if site.google_analytics %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '{{ site.google_analytics }}');
-    </script>
-    {% endif %}
+    {% include google-analytics.html %}
 </head>
 <body>
     <!-- Header -->
