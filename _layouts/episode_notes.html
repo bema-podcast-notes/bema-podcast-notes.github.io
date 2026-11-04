@@ -78,7 +78,11 @@
             {%- if episode %}
             <p class="episode-subtitle">{{ episode.subtitle }}</p>
             <div class="episode-meta">
-                <span>{% include icon.html name="clock" %} {% include duration.html value=episode.duration %}</span>
+                {%- capture copy_text -%}
+S{{ episode.season }} {{ title }}
+{{ episode.subtitle }} [{% include duration.html value=episode.duration plain=true %}]
+                {%- endcapture %}
+                <span><button type="button" class="copy-episode" data-copy="{{ copy_text | strip | escape }}" aria-label="Copy episode title and length">{% include icon.html name="clock" %}</button><span class="visually-hidden copy-episode-status" aria-live="polite"></span> {% include duration.html value=episode.duration %}</span>
                 <span>{% include icon.html name="calendar" %} <time datetime="{{ episode.pubDate | date: '%Y-%m-%d' }}">{{ episode.pubDate | date: "%a, %b %-d, %Y" }}</time></span>
             </div>
             {% endif -%}
@@ -215,5 +219,6 @@
     <script src="{{ '/assets/js/my-notes.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/sticky-nav.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/episode-hotkeys.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/copy-episode.js' | relative_url }}"></script>
 </body>
 </html>
