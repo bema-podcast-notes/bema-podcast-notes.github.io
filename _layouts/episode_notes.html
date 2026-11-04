@@ -29,7 +29,7 @@
     <meta name="title" content="{{ title }} - {{ site.title }}">
     <meta name="description" content="Get detailed notes by Adam Cole for episode {{ episode.title }} ({{ episode.subtitle }}) of the BEMA Discipleship Podcast.">
     <meta name="author" content="Notes by Adam Cole; Podcast by BEMA Discipleship">
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="article">
     <meta property="og:title" content="{{ title }} - {{ site.title }}">
     <meta property="og:description" content="Get detailed notes by Adam Cole for episode {{ episode.title }} ({{ episode.subtitle }}) of the BEMA Discipleship Podcast.">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
@@ -67,6 +67,14 @@
         </div>
     </header>
 
+    {%- comment -%}
+      schema.org Article markup lets Safari Reader find the notes directly
+      (one Article container holding an articleBody). Without it Reader falls
+      back to hit-testing fixed screen points, which land on the hero and
+      player on phones, so Reader isn't offered.
+    {%- endcomment %}
+    <main itemscope itemtype="https://schema.org/Article">
+
     <!-- Episode Hero Section -->
     <section class="episode-hero">
         <div class="container">
@@ -76,6 +84,7 @@
             <p class="episode-hero-number"><span class="visually-hidden">Episode </span>{{ page.episodeNumber }}</p>
             <p class="episode-hero-session">Session {{ episode.season }}</p>
             <h1>{{ display_title }}</h1>
+            <meta itemprop="headline" content="{{ display_title | escape }}">
             {%- if episode %}
             <p class="episode-subtitle">{{ episode.subtitle }}</p>
             <div class="episode-meta">
@@ -84,7 +93,7 @@ S{{ episode.season }} {{ title }}
 {{ episode.subtitle }} [{% include duration.html value=episode.duration plain=true %}]
                 {%- endcapture %}
                 <span><button type="button" class="copy-episode" data-copy="{{ copy_text | strip | escape }}" aria-label="Copy episode title and length">{% include icon.html name="clock" %}</button><span class="visually-hidden copy-episode-status" aria-live="polite"></span> {% include duration.html value=episode.duration %}</span>
-                <span>{% include icon.html name="calendar" %} <time datetime="{{ episode.pubDate | date: '%Y-%m-%d' }}">{{ episode.pubDate | date: "%a, %b %-d, %Y" }}</time></span>
+                <span>{% include icon.html name="calendar" %} <time itemprop="datePublished" datetime="{{ episode.pubDate | date: '%Y-%m-%d' }}">{{ episode.pubDate | date: "%a, %b %-d, %Y" }}</time></span>
             </div>
             {% endif -%}
         </div>
@@ -119,10 +128,23 @@ S{{ episode.season }} {{ title }}
         </div>
     </div>
 
+    {%- comment -%}
+      Safari Reader's articleBody: the notes, or, for episodes that only have
+      the "No notes yet." placeholder, the episode info and description.
+    {%- endcomment -%}
+    {%- assign notes_plain = content | strip_html | strip -%}
+    {%- if notes_plain == '' or notes_plain == 'No notes yet.' -%}
+      {%- assign info_body_attr = ' itemprop="articleBody"' -%}
+      {%- assign notes_body_attr = '' -%}
+    {%- else -%}
+      {%- assign info_body_attr = '' -%}
+      {%- assign notes_body_attr = ' itemprop="articleBody"' -%}
+    {%- endif %}
+
     <!-- Episode Player & Info -->
     {%- if episode %}
     <div class="container">
-        <div class="section-container episode-player-section">
+        <div class="section-container episode-player-section"{{ info_body_attr }}>
             <h2>{% include icon.html name="headphones" %} Listen to This Episode</h2>
             <div class="player-container">
                 <iframe src="{{ episode.playerURL }}?theme=dark" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
@@ -158,7 +180,7 @@ S{{ episode.season }} {{ title }}
 
     <!-- Episode Notes -->
     <div class="container">
-        <article class="section-container episode-notes-section">
+        <article class="section-container episode-notes-section"{{ notes_body_attr }}>
             <div class="notes-header">
                 <h2>{% include icon.html name="notes" %} Episode Notes</h2>
                 <p class="notes-disclaimer">
@@ -198,7 +220,8 @@ S{{ episode.season }} {{ title }}
             </div>
 
             {%- if previous_count > 0 %}
-            <section class="previous-versions" aria-label="Previous versions of these notes">
+            {%- comment -%} instapaper_ignore: Safari Reader leaves older versions out, matching the collapsed default {%- endcomment %}
+            <section class="previous-versions instapaper_ignore" aria-label="Previous versions of these notes">
                 <details class="pv-accordion">
                     <summary>{% include icon.html name="history" %}<span class="pv-title">Previous versions</span><span class="pv-count">{{ previous_count }}</span>{% include icon.html name="chevron-down" class="pv-chevron" %}</summary>
                     <div class="pv-body">
@@ -258,6 +281,8 @@ S{{ episode.season }} {{ title }}
             </div>
         </div>
     </div>
+
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
