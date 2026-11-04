@@ -49,6 +49,21 @@
         return darkQuery && darkQuery.matches ? 'dark' : 'light';
     }
 
+    // Older Safari (iOS 12-13) supports the query but only the legacy addListener.
+    // Live updates are a nice-to-have, so never let them break the rest of setup.
+    function watchSystemMode(onChange) {
+        if (!darkQuery) return;
+        try {
+            if (typeof darkQuery.addEventListener === 'function') {
+                darkQuery.addEventListener('change', onChange);
+            } else if (typeof darkQuery.addListener === 'function') {
+                darkQuery.addListener(onChange);
+            }
+        } catch (e) {
+            // No live updates; the mode is still applied on each page load
+        }
+    }
+
     function resolveMode(choice) {
         return choice === 'system' ? systemMode() : choice;
     }
@@ -123,16 +138,14 @@
         apply(getChoice());
 
         // Under System, follow OS changes live
-        if (darkQuery) {
-            darkQuery.addEventListener('change', function() {
-                const choice = getChoice();
-                if (choice === 'system') {
-                    apply(choice);
-                } else {
-                    updateSwitch(choice); // refresh the "(currently …)" hint
-                }
-            });
-        }
+        watchSystemMode(function() {
+            const choice = getChoice();
+            if (choice === 'system') {
+                apply(choice);
+            } else {
+                updateSwitch(choice); // refresh the "(currently …)" hint
+            }
+        });
 
         // Keep other open tabs in step with the switch
         window.addEventListener('storage', function(e) {
