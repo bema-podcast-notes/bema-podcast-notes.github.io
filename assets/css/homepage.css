@@ -44,6 +44,14 @@ body {
     margin-right: auto;
 }
 
+/* Who writes these notes: seen by everyone, but quieter than the subtitle */
+.hero .hero-byline {
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.02em;
+    opacity: 0.85;
+    margin: -1rem auto 0;
+}
+
 .cta-buttons {
     display: flex;
     gap: 1rem;
@@ -77,6 +85,38 @@ body {
 .newcomer {
     background: var(--color-accent-blue-light);
     border-left: 4px solid var(--color-accent-blue);
+}
+
+/* The global reset zeroes paragraph margins; separate consecutive paragraphs */
+.newcomer p + p {
+    margin-top: var(--spacing-md);
+}
+
+/* "A note about me" callout: the episode-page disclaimer's accent, on a
+   white card so it stands out from the tinted New Here section */
+.about-notes {
+    background: var(--color-bg-white);
+    border-left: 4px solid var(--color-accent-yellow);
+    border-radius: 8px;
+    padding: var(--spacing-md);
+    margin: var(--spacing-lg) 0;
+}
+
+.about-notes p {
+    margin: 0;
+}
+
+.about-notes strong {
+    color: var(--color-accent-yellow-dark);
+}
+
+.about-notes a {
+    color: var(--color-primary);
+}
+
+/* Each half of the byline stays whole; a narrow screen breaks at the dot */
+.hero-byline span {
+    white-space: nowrap;
 }
 
 .newcomer ul {

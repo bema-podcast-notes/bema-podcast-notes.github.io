@@ -32,7 +32,8 @@
     <section class="hero">
         <div class="container">
             <h1>Your Complete Guide to the BEMA Podcast</h1>
-            <p class="subtitle">465+ episodes of detailed notes, insights, and connections to help you understand the Bible in its ancient Hebrew context</p>
+            <p class="subtitle">My personal notes from 465+ episodes: insights and connections to help you understand the Bible in its ancient Hebrew context</p>
+            <p class="hero-byline"><span>An independent listener's notes ·</span> <span>Not affiliated with BEMA Discipleship</span></p>
             <div class="cta-buttons">
                 {% assign first_episode = site.session_1 | sort:"episodeIndex" | first %}
                 <a href="{{ first_episode.url }}" class="btn btn-lg btn-light">{% include icon.html name="rocket" %} Start from Episode 1</a>
@@ -63,6 +64,10 @@
 
             <h3>What You'll Find Here</h3>
             <p>This site contains <strong>my personal notes</strong> from all 465+ episodes. As I've listened through the entire series, I've captured key concepts, historical context, Hebrew terms, connections between episodes, and episode summaries.</p>
+
+            <aside class="about-notes" aria-label="About these notes">
+                <p><strong>{% include icon.html name="headphones" %} A note about me:</strong> I'm Adam, a longtime listener, not a member of the BEMA teaching team or affiliated with BEMA Discipleship. These are my personal notes, shared freely in case they help you. For the podcast itself and official resources, visit <a href="https://www.bemadiscipleship.com/">bemadiscipleship.com</a>.</p>
+            </aside>
 
             <h3>Recommended Starting Points:</h3>
             <ul>
@@ -423,7 +428,7 @@
     <footer class="footer">
         <div class="container">
             <p class="footer-title"><strong>{{ site.title }}</strong></p>
-            <p class="footer-description">These are my personal notes from the BEMA Podcast by Marty Solomon and Brent Billings.</p>
+            <p class="footer-description">These are my personal, unofficial notes from the BEMA Podcast by Marty Solomon and Brent Billings. I'm a listener, not affiliated with BEMA Discipleship.</p>
             <p class="footer-disclaimer">These notes reflect my understanding and are not intended to represent the beliefs of the podcast hosts.</p>
             <p class="footer-links">
                 <a href="mailto:{{ site.email }}">Contact</a> |
