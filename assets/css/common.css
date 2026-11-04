@@ -868,6 +868,44 @@ body {
     }
 }
 
+/* ============================================
+   FLEX GAP FALLBACKS (Safari < 14.1)
+   theme-switcher.js adds html.no-flex-gap when flex `gap` is unsupported.
+   Margins mirror the gap values above, per breakpoint.
+   ============================================ */
+.no-flex-gap .nav > * + * {
+    margin-left: var(--spacing-md);
+}
+
+.no-flex-gap .theme-switcher > * {
+    margin-right: var(--spacing-xs);
+}
+
+.no-flex-gap .theme-switcher > :last-child,
+.no-flex-gap .mode-switch > * {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .no-flex-gap .header-content > * + * {
+        margin-top: var(--spacing-xs);
+    }
+
+    /* Wrapping rows: right/bottom margins, cancelled on the container */
+    .no-flex-gap .nav {
+        margin-bottom: -0.25rem;
+    }
+
+    .no-flex-gap .nav > *,
+    .no-flex-gap .nav > * + * {
+        margin: 0 var(--spacing-sm) 0.25rem 0;
+    }
+
+    .no-flex-gap .theme-switcher > * {
+        margin-right: 0.35rem;
+    }
+}
+
 /* Phones: shorten labels (e.g. "Previous Episode" -> "Previous") */
 @media (max-width: 480px) {
     .hide-mobile {

@@ -8,6 +8,9 @@
  * - The resulting mode is applied as <html data-mode="light|dark"> while
  *   <head> is still loading, so the page never flashes the wrong colors.
  *
+ * Also flags browsers without flex `gap` (Safari < 14.1) with
+ * <html class="no-flex-gap"> so CSS can fall back to margins before first paint.
+ *
  * Alternate palettes (purple, adobe, space, menswear) are kept but hidden.
  * They can be previewed for the current page from the console:
  *   BEMAThemes.switchTheme('space')   BEMAThemes.switchTheme('default')
@@ -127,7 +130,26 @@
         });
     }
 
+    // Flex gap can't be detected with @supports (grid gap makes it report true),
+    // so measure it: two empty items in a column with a 1px row gap
+    function detectFlexGap() {
+        try {
+            const box = document.createElement('div');
+            box.style.cssText = 'display:flex;flex-direction:column;row-gap:1px;position:absolute;visibility:hidden';
+            box.appendChild(document.createElement('div'));
+            box.appendChild(document.createElement('div'));
+            document.documentElement.appendChild(box);
+            const supported = box.scrollHeight === 1;
+            box.parentNode.removeChild(box);
+            if (!supported) document.documentElement.classList.add('no-flex-gap');
+        } catch (e) {
+            // Leave the modern layout in place
+        }
+    }
+
     function init() {
+        detectFlexGap();
+
         // Drop the old palette choice from when the alternate themes were selectable
         try {
             localStorage.removeItem(LEGACY_THEME_KEY);

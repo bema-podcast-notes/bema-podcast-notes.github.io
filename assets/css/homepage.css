@@ -350,6 +350,24 @@ body {
     }
 }
 
+/* ============================================
+   FLEX GAP FALLBACKS (Safari < 14.1)
+   theme-switcher.js adds html.no-flex-gap when flex `gap` is unsupported.
+   Margins mirror the gap values above, per breakpoint.
+   ============================================ */
+.no-flex-gap .cta-buttons > * + *,
+.no-flex-gap .search-box > * + * {
+    margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+    .no-flex-gap .cta-buttons > * + *,
+    .no-flex-gap .search-box > * + * {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
+
 /* Utility Classes */
 .text-center-mt {
     text-align: center;

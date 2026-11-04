@@ -412,6 +412,61 @@ html {
     }
 }
 
+/* ============================================
+   FLEX GAP FALLBACKS (Safari < 14.1)
+   theme-switcher.js adds html.no-flex-gap when flex `gap` is unsupported.
+   Margins mirror the gap values above, per breakpoint.
+   ============================================ */
+.no-flex-gap .episode-meta-badge > * + * {
+    margin-left: 0.5rem;
+}
+
+.no-flex-gap .episode-meta > * + * {
+    margin-left: 2rem;
+}
+
+.no-flex-gap .my-notes-footer > * + * {
+    margin-left: var(--spacing-sm);
+}
+
+/* Right/bottom only: Export all keeps its own left margin */
+.no-flex-gap .my-notes-actions > * {
+    margin-right: var(--spacing-xs);
+    margin-bottom: var(--spacing-xs);
+}
+
+/* No trailing margin, or the right-aligned group shifts left */
+.no-flex-gap .my-notes-actions > :last-child {
+    margin-right: 0;
+}
+
+.no-flex-gap .my-notes-actions {
+    margin-bottom: calc(-1 * var(--spacing-xs));
+}
+
+@media (max-width: 768px) {
+    .no-flex-gap .episode-meta > * + * {
+        margin-left: 0;
+        margin-top: var(--spacing-xs);
+    }
+}
+
+@media (max-width: 480px) {
+    .no-flex-gap .my-notes-footer > * + * {
+        margin-left: 0;
+        margin-top: var(--spacing-sm);
+    }
+
+    /* Actions become a grid here, and grid gap works in these browsers */
+    .no-flex-gap .my-notes-actions {
+        margin-bottom: 0;
+    }
+
+    .no-flex-gap .my-notes-actions > * {
+        margin: 0;
+    }
+}
+
 /* Print Styles */
 @media print {
     .header,
