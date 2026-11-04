@@ -307,26 +307,22 @@ html {
         gap: var(--spacing-xs);
     }
 
-    .episode-nav {
-        grid-template-columns: 1fr;
-        gap: 0.75rem;
+    .episode-player-section h2,
+    .notes-header h2,
+    .my-notes h2 {
+        font-size: var(--font-size-lg);
     }
 
-    .episode-nav-left,
-    .episode-nav-center,
-    .episode-nav-right {
-        justify-self: stretch;
+    /* Nav stays one row (it's sticky, so it must stay short); labels shorten via .hide-mobile */
+    .episode-nav,
+    .episode-nav-sticky.is-stuck .episode-nav {
+        gap: var(--spacing-xs);
+        padding: 0.6rem;
     }
 
-    .nav-btn {
-        display: block;
-        text-align: center;
-        width: 100%;
-    }
-
-    .episode-player-section,
-    .episode-notes-section {
-        padding: var(--spacing-md);
+    .episode-nav .btn-sm {
+        padding: 0.55rem 0.8rem;
+        white-space: nowrap;
     }
 
     .episode-info-grid {

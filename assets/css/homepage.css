@@ -132,7 +132,7 @@ body {
 
 .access-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
 }
@@ -288,8 +288,58 @@ body {
         flex-direction: column;
     }
 
+    .cta-buttons {
+        align-items: center;
+    }
+
+    .cta-buttons .btn {
+        white-space: normal;
+        width: 100%;
+        max-width: 22rem;
+    }
+
     .search-box {
         flex-direction: column;
+    }
+
+    /* Title on top, count (or badge) beneath it, arrow at the right */
+    .session-group summary {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        column-gap: var(--spacing-sm);
+        row-gap: 0.25rem;
+        font-size: var(--font-size-md);
+        padding: var(--spacing-sm) 1.25rem;
+    }
+
+    .session-group summary > span {
+        grid-column: 1;
+        justify-self: start;
+    }
+
+    .session-group summary > .badge {
+        margin-left: 0;
+    }
+
+    .session-group summary::after {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        align-self: center;
+    }
+
+    .episode-list {
+        padding: var(--spacing-sm);
+    }
+
+    .access-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-sm);
+        margin-top: var(--spacing-md);
+    }
+
+    .access-card {
+        padding: 1.25rem var(--spacing-sm);
+        font-size: var(--font-size-base);
     }
 }
 

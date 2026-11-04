@@ -585,7 +585,7 @@ body {
 /* Card Container - Grid layout for cards */
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: var(--spacing-md);
     margin: var(--spacing-lg) 0;
 }
@@ -673,16 +673,50 @@ body {
    - Sections: Reduce padding (1.5rem)
    ============================================ */
 @media (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        gap: var(--spacing-xs);
-        margin: 0;
+    /* Header: title, then nav links in one wrapping row, then theme buttons */
+    .header {
+        padding: var(--spacing-sm);
     }
 
     .header-content {
         flex-direction: column;
         align-items: flex-start;
-        gap: var(--spacing-sm);
+        gap: var(--spacing-xs);
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        gap: 0.25rem var(--spacing-sm);
+        margin: 0;
+    }
+
+    .theme-switcher {
+        gap: 0.35rem;
+        font-size: var(--font-size-xs);
+    }
+
+    .theme-btn {
+        padding: 0.15rem 0.6rem;
+    }
+
+    /* Layout: 16px gutters and lighter section padding so text gets the width */
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+
+    .section-container,
+    .section-container-lg {
+        padding: var(--spacing-md) 1.25rem;
+        margin: var(--spacing-sm) auto;
+    }
+
+    .section-container h2 {
+        font-size: var(--font-size-xl);
+    }
+
+    .footer {
+        padding: var(--spacing-md) var(--spacing-sm);
+        margin-top: var(--spacing-xl);
     }
 
     /* Hero responsive */
@@ -721,6 +755,18 @@ body {
         padding-left: var(--spacing-md);
     }
 
+    /* Wide tables scroll sideways inside the content instead of widening the page */
+    .content-area table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .content-area table th,
+    .content-area table td {
+        min-width: 9rem;
+    }
+
     /* Responsive Utilities */
     .mobile-only {
         display: block !important;
@@ -744,6 +790,13 @@ body {
 
     .mobile-single-column {
         grid-template-columns: 1fr !important;
+    }
+}
+
+/* Phones: shorten labels (e.g. "Previous Episode" -> "Previous") */
+@media (max-width: 480px) {
+    .hide-mobile {
+        display: none;
     }
 }
 

@@ -94,24 +94,24 @@
             <div class="episode-nav-left">
                 {%- if previousEpisodeIndex >= 0 and previousEpisode %}
                 <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="prev" title="Previous episode (← or P)" aria-keyshortcuts="ArrowLeft P">
-                    ← Previous Episode
+                    ← Previous<span class="hide-mobile"> Episode</span>
                 </a>
                 {% else %}
-                <span class="btn btn-sm btn-disabled">← Previous Episode</span>
+                <span class="btn btn-sm btn-disabled">← Previous<span class="hide-mobile"> Episode</span></span>
                 {% endif -%}
             </div>
             <div class="episode-nav-center">
                 <a href="/#episodes" class="btn btn-sm btn-primary">
-                    📋 All Episodes
+                    📋 All<span class="hide-mobile"> Episodes</span>
                 </a>
             </div>
             <div class="episode-nav-right">
                 {%- if nextEpisode %}
                 <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="next" title="Next episode (→ or N)" aria-keyshortcuts="ArrowRight N">
-                    Next Episode →
+                    Next<span class="hide-mobile"> Episode</span> →
                 </a>
                 {% else %}
-                <span class="btn btn-sm btn-disabled">Next Episode →</span>
+                <span class="btn btn-sm btn-disabled">Next<span class="hide-mobile"> Episode</span> →</span>
                 {% endif -%}
             </div>
         </div>
@@ -178,24 +178,24 @@
             <div class="episode-nav-left">
                 {%- if previousEpisodeIndex >= 0 and previousEpisode %}
                 <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="prev" title="Previous episode (← or P)" aria-keyshortcuts="ArrowLeft P">
-                    ← Previous Episode
+                    ← Previous<span class="hide-mobile"> Episode</span>
                 </a>
                 {% else %}
-                <span class="btn btn-sm btn-disabled">← Previous Episode</span>
+                <span class="btn btn-sm btn-disabled">← Previous<span class="hide-mobile"> Episode</span></span>
                 {% endif -%}
             </div>
             <div class="episode-nav-center">
                 <a href="{{ site.github_repo }}{{ page.path }}" class="btn btn-sm btn-outline" target="_blank">
-                    ✏️ Edit on GitHub
+                    ✏️ Edit<span class="hide-mobile"> on GitHub</span>
                 </a>
             </div>
             <div class="episode-nav-right">
                 {%- if nextEpisode %}
                 <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="next" title="Next episode (→ or N)" aria-keyshortcuts="ArrowRight N">
-                    Next Episode →
+                    Next<span class="hide-mobile"> Episode</span> →
                 </a>
                 {% else %}
-                <span class="btn btn-sm btn-disabled">Next Episode →</span>
+                <span class="btn btn-sm btn-disabled">Next<span class="hide-mobile"> Episode</span> →</span>
                 {% endif -%}
             </div>
         </div>
