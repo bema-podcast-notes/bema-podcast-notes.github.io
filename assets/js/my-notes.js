@@ -188,11 +188,16 @@
         track('my_notes_export_all', { note_count: notes.length });
     }
 
-    // Download and Clear only make sense once this episode has a note
+    // Download and Clear only make sense once this episode has a note. The
+    // note's text is also mirrored into a print-only block (the textarea
+    // itself prints poorly); without text the section is left off paper.
+    const printCopy = section.querySelector('.my-notes-print');
     function updateNoteButtons() {
         const empty = textarea.value.trim() === '';
         downloadBtn.disabled = empty;
         clearBtn.disabled = empty;
+        if (printCopy) printCopy.textContent = textarea.value.trim();
+        section.classList.toggle('my-notes-has-text', !empty);
     }
 
     function updateExportAllCount() {

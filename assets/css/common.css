@@ -933,3 +933,132 @@ body {
 .desktop-only {
     display: block;
 }
+
+/* ============================================
+   PRINT (all pages)
+   Paper is ~700 CSS px wide, so the max-width: 768px rules also apply when
+   printing; anything that only suits small screens is undone here or in the
+   page stylesheets.
+   ============================================ */
+.print-only {
+    display: none;
+}
+
+@page {
+    margin: 1.5cm 1.6cm;
+}
+
+@media print {
+    /* Always print light, whatever the screen mode */
+    :root,
+    :root[data-mode="dark"] {
+        color-scheme: light;
+        --color-primary: #000;
+        --color-primary-dark: #000;
+        --color-primary-light: #fff;
+        --color-text-primary: #111;
+        --color-text-secondary: #222;
+        --color-text-tertiary: #333;
+        --color-text-light: #555;
+        --color-text-dark: #000;
+        --color-text-darker: #000;
+        --color-text-on-primary: #000;
+        --color-bg-page: #fff;
+        --color-bg-white: #fff;
+        --color-bg-light: #fff;
+        --color-border-light: #bbb;
+        --color-accent-blue: #000;
+        --color-accent-blue-light: #fff;
+        --color-accent-yellow-light: #fff;
+        --color-accent-yellow-dark: #000;
+        --color-code-bg: #f2f2f2;
+        --color-code-text: #000;
+        --color-highlight: #eee;
+        --gradient-primary: none;
+        --gradient-subtle: none;
+        --shadow-sm: none;
+        --shadow-md: none;
+        --shadow-lg: none;
+        --shadow-xl: none;
+    }
+
+    html {
+        font-size: 11pt;
+    }
+
+    body {
+        background: #fff;
+        color: #111;
+        line-height: 1.45;
+    }
+
+    .header,
+    .footer,
+    .theme-switcher,
+    .no-print {
+        display: none !important;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    /* Rounded corners turn accent borders into brackets on paper */
+    *,
+    *::before,
+    *::after {
+        border-radius: 0 !important;
+    }
+
+    /* Icons are decorative; the text labels stay */
+    .icon {
+        display: none;
+    }
+
+    .container {
+        max-width: none;
+        padding: 0;
+    }
+
+    .section-container,
+    .section-container-lg {
+        padding: 0;
+        margin: 0 0 1.2em;
+        border-radius: 0;
+        box-shadow: none;
+        background: none;
+    }
+
+    a {
+        color: inherit;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        break-after: avoid;
+        page-break-after: avoid;
+        break-inside: avoid;
+    }
+
+    p, li, blockquote {
+        orphans: 3;
+        widows: 3;
+    }
+
+    tr, img, pre, blockquote {
+        break-inside: avoid;
+    }
+
+    /* Undo the small-screen table scrolling: on paper it would cut columns off */
+    .content-area table {
+        display: table;
+        max-width: none;
+        overflow: visible;
+    }
+
+    .content-area table th,
+    .content-area table td {
+        min-width: 0;
+        border-color: #999;
+    }
+}
+

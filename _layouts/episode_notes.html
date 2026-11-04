@@ -60,10 +60,10 @@
     {%- if notes_body_attr != '' -%}{%- assign notes_version_count = note_versions.size -%}{%- else -%}{%- assign notes_version_count = 0 -%}{%- endif %}
 
     <title>{{ title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}">
-    <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}"></script>
-    <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/episode.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <link rel="stylesheet" href="{{ '/assets/css/episode.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta name="title" content="{{ title }} - {{ site.title }}">
@@ -254,6 +254,10 @@ S{{ episode.season }} {{ title }}
 
     {% include my-notes.html title=title %}
 
+    <div class="container print-only">
+        <p class="print-source">From {{ site.title }} · {{ site.url }}{{ page.url }}</p>
+    </div>
+
     <!-- Bottom Navigation -->
     <div class="container">
         <div class="episode-nav">
@@ -299,10 +303,10 @@ S{{ episode.season }} {{ title }}
         </div>
     </footer>
 
-    <script src="{{ '/assets/js/my-notes.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/sticky-nav.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/episode-hotkeys.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/copy-episode.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/previous-versions.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/my-notes.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/sticky-nav.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/episode-hotkeys.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/copy-episode.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/previous-versions.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>

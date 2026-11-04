@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }} - Your Complete Guide</title>
-    <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}">
-    <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}"></script>
-    <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     {% include google-analytics.html page_type='home' %}
 </head>
 <body>

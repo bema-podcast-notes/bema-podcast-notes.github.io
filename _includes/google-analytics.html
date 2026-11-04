@@ -30,4 +30,4 @@
   gtag('config', '{{ site.google_analytics }}');
 </script>
 {%- endif %}
-<script src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/analytics.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

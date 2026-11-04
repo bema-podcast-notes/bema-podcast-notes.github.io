@@ -714,25 +714,123 @@ html {
     }
 }
 
-/* Print Styles */
+/* Print: the notes as a clean document. Header block with the episode
+   details, the notes with link addresses, and the reader's own note if they
+   wrote one ("About This Episode" instead when there are no notes yet). Navigation, the player,
+   previous versions, and the Next episode card stay on screen only. */
 @media print {
-    .header,
+    .episode-nav-sticky,
     .episode-nav,
-    .footer {
-        display: none;
+    .player-container,
+    .episode-info-grid,
+    .episode-player-section > h2,
+    .previous-versions,
+    .up-next,
+    .my-notes-intro,
+    .my-notes-text,
+    .my-notes-footer {
+        display: none !important;
     }
 
+    /* Episode header */
     .episode-hero {
         background: none;
-        color: var(--color-text-primary);
-        page-break-after: avoid;
+        color: #000;
+        text-align: left;
+        padding: 0 0 0.6em;
+        margin-bottom: 1.2em;
+        border-bottom: 2px solid #000;
+    }
+
+    .episode-hero-number {
+        font-size: 26pt;
+        opacity: 1;
+    }
+
+    .episode-hero-session {
+        opacity: 1;
+        margin: 0.2em 0 0.4em;
+    }
+
+    .episode-hero h1 {
+        font-size: 18pt;
+        margin: 0 0 0.2em;
+    }
+
+    .episode-subtitle {
+        font-size: 12pt;
+        color: #222;
+        margin: 0 0 0.4em;
+    }
+
+    .episode-meta {
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 1.5em;
+        font-size: 10pt;
+        opacity: 1;
+    }
+
+    .no-flex-gap .episode-meta > * + * {
+        margin: 0 0 0 1.5em;
+    }
+
+    /* About This Episode prints only when there are no notes to print
+       (it's the article body then); otherwise the notes start right away */
+    .episode-player-section:not([itemprop="articleBody"]) {
+        display: none !important;
     }
 
     .episode-player-section {
-        display: none;
+        margin-bottom: 1em;
     }
 
-    .notes-content {
-        page-break-inside: avoid;
+    .episode-description {
+        background: none;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    /* Notes */
+    .notes-header h2,
+    .my-notes h2 {
+        font-size: 14pt;
+        border-bottom: 1px solid #000;
+        margin-top: 0.4em;
+    }
+
+    .notes-disclaimer {
+        background: none;
+        border-left: 2px solid #000;
+        padding: 0.2em 0 0.2em 0.8em;
+        font-size: 9.5pt;
+    }
+
+    .notes-content a[href^="http"]::after,
+    .episode-description a[href^="http"]::after {
+        content: " (" attr(href) ")";
+        font-size: 8.5pt;
+        color: #444;
+        word-break: break-all;
+    }
+
+    /* The reader's own note prints as text; without one the section is omitted */
+    .my-notes:not(.my-notes-has-text) {
+        display: none !important;
+    }
+
+    .my-notes-print {
+        white-space: pre-wrap;
+        border-left: 2px solid #000;
+        padding-left: 0.8em;
+    }
+
+    .print-source {
+        margin-top: 1.5em;
+        padding-top: 0.4em;
+        border-top: 1px solid #999;
+        font-size: 8.5pt;
+        color: #444;
     }
 }
