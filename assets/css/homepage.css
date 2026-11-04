@@ -266,6 +266,7 @@ body {
 }
 
 .episode-item {
+    position: relative;
     padding: 0.8rem;
     border-bottom: 1px solid var(--color-border-light);
     transition: background var(--transition-fast);
@@ -286,8 +287,29 @@ body {
     font-weight: 500;
 }
 
-.episode-item a:hover {
+/* The episode link covers its whole row, subtitle and padding included */
+.episode-item a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 6px;
+}
+
+.episode-item:hover a {
     color: var(--color-primary);
+}
+
+/* Keyboard focus outlines the row rather than just the title */
+.episode-item a:focus-visible {
+    outline: none;
+}
+
+.episode-item a:focus-visible::after {
+    outline: 2px solid var(--color-primary);
+    outline-offset: -2px;
 }
 
 .episode-subtitle {
