@@ -31,6 +31,7 @@
     const downloadBtn = section.querySelector('[data-notes-action="download"]');
     const clearBtn = section.querySelector('[data-notes-action="clear"]');
     const exportAllBtn = section.querySelector('[data-notes-action="export-all"]');
+    const exportCount = exportAllBtn.querySelector('.export-count');
     let saveTimer = null;
 
     // localStorage can throw (private mode, blocked site data), so guard every access
@@ -61,7 +62,7 @@
             updateExportAllCount();
             return true;
         } catch (e) {
-            status.textContent = '⚠️ Could not save — your browser is blocking local storage.';
+            showStatus('alert-triangle', 'Could not save — your browser is blocking local storage.');
             return false;
         }
     }
@@ -77,13 +78,33 @@
         }
     }
 
+    // Same markup as _includes/icon.html, for text set from script
+    const SVG_NS = 'http://www.w3.org/2000/svg';
+    function icon(name) {
+        const svg = document.createElementNS(SVG_NS, 'svg');
+        svg.setAttribute('class', 'icon');
+        svg.setAttribute('aria-hidden', 'true');
+        svg.setAttribute('focusable', 'false');
+        const use = document.createElementNS(SVG_NS, 'use');
+        use.setAttribute('href', '/assets/icons.svg#' + name);
+        use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', '/assets/icons.svg#' + name);
+        svg.appendChild(use);
+        return svg;
+    }
+
+    function showStatus(iconName, text) {
+        status.textContent = '';
+        if (iconName) status.appendChild(icon(iconName));
+        status.appendChild(document.createTextNode((iconName ? ' ' : '') + text));
+    }
+
     function setStatus(updated) {
         if (!updated) {
             status.textContent = '';
             return;
         }
         const when = new Date(updated).toLocaleString(undefined, DATE_TIME);
-        status.textContent = '✓ Saved on this device · ' + when;
+        showStatus('check', 'Saved on this device · ' + when);
     }
 
     function saveFile(filename, body) {
@@ -167,7 +188,7 @@
 
     function updateExportAllCount() {
         const count = loadAllNotes().length;
-        exportAllBtn.textContent = '📚 Export all (' + count + ')';
+        exportCount.textContent = '(' + count + ')';
         exportAllBtn.disabled = count === 0;
         exportAllBtn.title = count === 0
             ? 'No saved notes yet'

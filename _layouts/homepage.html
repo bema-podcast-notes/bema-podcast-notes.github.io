@@ -22,7 +22,7 @@
     <!-- Header -->
     <header class="header">
         <div class="header-content">
-            <div class="site-title">📖 {{ site.title }}</div>
+            <div class="site-title">{% include icon.html name="book" %} {{ site.title }}</div>
             <nav class="nav">
                 <a href="#home">Home</a>
                 <a href="#episodes">All Episodes</a>
@@ -30,9 +30,9 @@
                 <a href="/misc/">Resources</a>
             </nav>
             <div class="theme-switcher mode-switch" role="group" aria-label="Color mode">
-                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">💻 System</button>
-                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false">☀️ Light</button>
-                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false">🌙 Dark</button>
+                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">{% include icon.html name="device-laptop" %} System</button>
+                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false">{% include icon.html name="sun" %} Light</button>
+                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false">{% include icon.html name="moon" %} Dark</button>
             </div>
         </div>
     </header>
@@ -44,9 +44,9 @@
             <p class="subtitle">465+ episodes of detailed notes, insights, and connections to help you understand the Bible in its ancient Hebrew context</p>
             <div class="cta-buttons">
                 {% assign first_episode = site.session_1 | sort:"episodeIndex" | first %}
-                <a href="{{ first_episode.url }}" class="btn btn-lg btn-light">🚀 Start from Episode 1</a>
-                <a href="/search/" class="btn btn-lg btn-secondary">🔍 Search Episodes</a>
-                <a href="#new" class="btn btn-lg btn-secondary">❓ New to BEMA?</a>
+                <a href="{{ first_episode.url }}" class="btn btn-lg btn-light">{% include icon.html name="rocket" %} Start from Episode 1</a>
+                <a href="/search/" class="btn btn-lg btn-secondary">{% include icon.html name="search" %} Search Episodes</a>
+                <a href="#new" class="btn btn-lg btn-secondary">{% include icon.html name="help-circle" %} New to BEMA?</a>
             </div>
         </div>
     </section>
@@ -54,9 +54,9 @@
     <!-- Updates Box -->
     <div class="container">
         <div class="updates-box">
-            <p><strong>✨ Recently added:</strong> Episodes 452-465 (Qohelet/Ecclesiastes series)</p>
-            <p><strong>📚 Total notes:</strong> 465+ episodes documented and counting</p>
-            <p><strong>🎯 Currently covering:</strong> Session 10 - New content added regularly!</p>
+            <p><strong>{% include icon.html name="sparkles" %} Recently added:</strong> Episodes 452-465 (Qohelet/Ecclesiastes series)</p>
+            <p><strong>{% include icon.html name="books" %} Total notes:</strong> 465+ episodes documented and counting</p>
+            <p><strong>{% include icon.html name="target" %} Currently covering:</strong> Session 10 - New content added regularly!</p>
         </div>
     </div>
 
@@ -140,7 +140,7 @@
                         <span class="episode-number">Episode {{ episode_page.episodeNumber }}</span>
                         <h3>{{ episode.title }}</h3>
                         <p>{{ episode.subtitle }}</p>
-                        <a href="{{ episode_page.url }}">Read notes →</a>
+                        <a href="{{ episode_page.url }}">Read notes {% include icon.html name="arrow-right" %}</a>
                     </div>
                   {% endif %}
                 {% endfor %}
@@ -151,7 +151,7 @@
     <!-- Enhanced Search -->
     <div class="container">
         <div class="search-highlight" id="search">
-            <h2 class="section-heading">🔍 Find What You're Looking For</h2>
+            <h2 class="section-heading">{% include icon.html name="search" %} Find What You're Looking For</h2>
             <p>Search through 465+ episodes by topic, passage, concept, or keyword</p>
             <form action="/search/" method="get">
                 <div class="search-box">
@@ -171,16 +171,16 @@
             <h2>Quick Access</h2>
             <div class="access-grid">
                 <a href="#episodes" class="access-card">
-                    <div>📋 Browse All Episodes</div>
+                    <div>{% include icon.html name="list" %} Browse All Episodes</div>
                 </a>
                 <a href="/session1/" class="access-card">
-                    <div>📖 Start Session 1</div>
+                    <div>{% include icon.html name="book" %} Start Session 1</div>
                 </a>
                 <a href="/misc/" class="access-card">
-                    <div>📚 Additional Resources</div>
+                    <div>{% include icon.html name="books" %} Additional Resources</div>
                 </a>
                 <a href="#latest" class="access-card">
-                    <div>✨ Latest Updates</div>
+                    <div>{% include icon.html name="sparkles" %} Latest Updates</div>
                 </a>
             </div>
         </section>
@@ -376,7 +376,7 @@
             <details class="session-group">
                 <summary>
                     <span>Session 10: Coming Soon!</span>
-                    <span class="badge badge-warning">🚧 In Progress</span>
+                    <span class="badge badge-warning">{% include icon.html name="barrier-block" %} In Progress</span>
                 </summary>
                 <div class="episode-list">
                     {% if site.session_10.size > 0 %}
@@ -392,7 +392,7 @@
                       {% endfor %}
                     {% else %}
                       <div class="coming-soon">
-                          <p class="coming-soon-title">📻 Session 10 episodes coming soon!</p>
+                          <p class="coming-soon-title">{% include icon.html name="radio" %} Session 10 episodes coming soon!</p>
                           <p class="coming-soon-subtitle">Check back regularly for new episode notes as they're released.</p>
                       </div>
                     {% endif %}
@@ -408,17 +408,17 @@
 
             <div class="access-grid navigate-grid">
                 <div>
-                    <h3>📖 If You're Brand New to BEMA</h3>
+                    <h3>{% include icon.html name="book" %} If You're Brand New to BEMA</h3>
                     <p>Start with <strong>Episode 0</strong> (or even <strong>Episode -1</strong>) and work your way through in order. BEMA builds concepts progressively, with later episodes referencing ideas introduced earlier. The main body of teaching is in Sessions 1-5 (Episodes -1 through 204).</p>
                 </div>
 
                 <div>
-                    <h3>🎧 If You're Already Listening</h3>
+                    <h3>{% include icon.html name="headphones" %} If You're Already Listening</h3>
                     <p>Use this site as a <strong>reference companion</strong> to the podcast. Search for specific topics, browse by session to find episodes about particular biblical books, or view all episodes to quickly scan for what you need.</p>
                 </div>
 
                 <div>
-                    <h3>🔍 If You're Looking for Something Specific</h3>
+                    <h3>{% include icon.html name="search" %} If You're Looking for Something Specific</h3>
                     <p><strong>Old Testament:</strong> Sessions 1-2<br>
                     <strong>New Testament:</strong> Sessions 3-4<br>
                     <strong>Church History:</strong> Session 5<br>

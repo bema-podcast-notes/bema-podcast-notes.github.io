@@ -3,7 +3,7 @@
     <section class="section-container my-notes" id="my-notes"
              data-notes-key="{% if page.episodeNumber != nil %}ep-{{ page.episodeNumber }}{% else %}{{ page.url }}{% endif %}"
              data-notes-title="{{ include.title | escape }}">
-        <h2>✍️ My Notes</h2>
+        <h2>{% include icon.html name="writing" %} My Notes</h2>
         <p class="my-notes-intro">
             Jot down your own thoughts on this episode. Notes save automatically and stay in this browser only —
             they aren't uploaded anywhere, and clearing your browser's site data will erase them.
@@ -14,9 +14,9 @@
         <div class="my-notes-footer">
             <span class="my-notes-status" aria-live="polite"></span>
             <div class="my-notes-actions">
-                <button type="button" class="btn btn-sm btn-outline" data-notes-action="download">⬇️ Download</button>
-                <button type="button" class="btn btn-sm btn-outline" data-notes-action="clear">🗑️ Clear</button>
-                <button type="button" class="btn btn-sm btn-outline" data-notes-action="export-all">📚 Export all</button>
+                <button type="button" class="btn btn-sm btn-outline" data-notes-action="download">{% include icon.html name="download" %} Download</button>
+                <button type="button" class="btn btn-sm btn-outline" data-notes-action="clear">{% include icon.html name="trash" %} Clear</button>
+                <button type="button" class="btn btn-sm btn-outline" data-notes-action="export-all">{% include icon.html name="books" %} Export all <span class="export-count"></span></button>
             </div>
         </div>
     </section>

@@ -1,0 +1,9 @@
+{%- comment -%}
+  Tabler icon from assets/icons.svg, sized to the text and colored with it.
+  Usage: {% include icon.html name="search" %}   optional: class="extra-class"
+  Decorative by default (aria-hidden); keep a visible text label next to it.
+  xlink:href is for Safari < 12.1, which ignores plain href on <use>.
+{%- endcomment -%}
+{%- assign icon_url = '/assets/icons.svg#' | append: include.name | relative_url -%}
+<svg class="icon{% if include.class %} {{ include.class }}{% endif %}" aria-hidden="true" focusable="false"><use href="{{ icon_url }}" xlink:href="{{ icon_url }}"></use></svg>
+{%- comment -%} keep on one line so it sits inline with text {%- endcomment -%}

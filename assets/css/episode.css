@@ -391,6 +391,18 @@ html {
     }
 }
 
+/* Smallest phones: the three nav buttons need tighter padding to share one row */
+@media (max-width: 360px) {
+    .episode-nav,
+    .episode-nav-sticky.is-stuck .episode-nav {
+        padding: 0.5rem;
+    }
+
+    .episode-nav .btn-sm {
+        padding: 0.5rem 0.55rem;
+    }
+}
+
 @media (max-width: 480px) {
     .my-notes-footer {
         flex-direction: column;

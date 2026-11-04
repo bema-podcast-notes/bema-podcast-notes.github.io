@@ -869,6 +869,18 @@ body {
 }
 
 /* ============================================
+   ICONS (Tabler, assets/icons.svg via _includes/icon.html)
+   Sized to the surrounding text and drawn in its color.
+   ============================================ */
+.icon {
+    display: inline-block;
+    width: 1.15em;
+    height: 1.15em;
+    vertical-align: -0.2em;
+    flex-shrink: 0;
+}
+
+/* ============================================
    FLEX GAP FALLBACKS (Safari < 14.1)
    theme-switcher.js adds html.no-flex-gap when flex `gap` is unsupported.
    Margins mirror the gap values above, per breakpoint.

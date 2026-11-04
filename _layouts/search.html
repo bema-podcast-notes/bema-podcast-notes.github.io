@@ -23,7 +23,7 @@
     <!-- Header -->
     <header class="header">
         <div class="header-content">
-            <a href="/" class="site-title">📖 {{ site.title }}</a>
+            <a href="/" class="site-title">{% include icon.html name="book" %} {{ site.title }}</a>
             <nav class="nav">
                 <a href="/">Home</a>
                 <a href="/#episodes">All Episodes</a>
@@ -31,9 +31,9 @@
                 <a href="/misc/">Resources</a>
             </nav>
             <div class="theme-switcher mode-switch" role="group" aria-label="Color mode">
-                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">💻 System</button>
-                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false">☀️ Light</button>
-                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false">🌙 Dark</button>
+                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">{% include icon.html name="device-laptop" %} System</button>
+                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false">{% include icon.html name="sun" %} Light</button>
+                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false">{% include icon.html name="moon" %} Dark</button>
             </div>
         </div>
     </header>
@@ -41,7 +41,7 @@
     <!-- Search Hero Section -->
     <section class="search-hero">
         <div class="container">
-            <h1>🔍 Search BEMA Episodes</h1>
+            <h1>{% include icon.html name="search" %} Search BEMA Episodes</h1>
             <p class="subtitle">Search through 465+ episodes by topic, passage, concept, keyword, or episode number</p>
         </div>
     </section>

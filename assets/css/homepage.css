@@ -297,6 +297,8 @@ body {
         white-space: normal;
         width: 100%;
         max-width: 22rem;
+        padding-left: var(--spacing-md);
+        padding-right: var(--spacing-md);
     }
 
     .search-box {

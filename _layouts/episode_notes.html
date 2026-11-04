@@ -52,7 +52,7 @@
     <!-- Header -->
     <header class="header">
         <div class="header-content">
-            <a href="/" class="site-title">📖 {{ site.title }}</a>
+            <a href="/" class="site-title">{% include icon.html name="book" %} {{ site.title }}</a>
             <nav class="nav">
                 <a href="/">Home</a>
                 <a href="/#episodes">All Episodes</a>
@@ -60,9 +60,9 @@
                 <a href="/misc/">Resources</a>
             </nav>
             <div class="theme-switcher mode-switch" role="group" aria-label="Color mode">
-                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">💻 System</button>
-                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false">☀️ Light</button>
-                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false">🌙 Dark</button>
+                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">{% include icon.html name="device-laptop" %} System</button>
+                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false">{% include icon.html name="sun" %} Light</button>
+                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false">{% include icon.html name="moon" %} Dark</button>
             </div>
         </div>
     </header>
@@ -78,8 +78,8 @@
             {%- if episode %}
             <p class="episode-subtitle">{{ episode.subtitle }}</p>
             <div class="episode-meta">
-                <span>⏱️ {{ episode.duration }}</span>
-                <span>📅 {{ episode.pubDate }}</span>
+                <span>{% include icon.html name="clock" %} {{ episode.duration }}</span>
+                <span>{% include icon.html name="calendar" %} {{ episode.pubDate }}</span>
             </div>
             {% endif -%}
         </div>
@@ -91,24 +91,24 @@
             <div class="episode-nav-left">
                 {%- if previousEpisodeIndex >= 0 and previousEpisode %}
                 <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="prev" title="Previous episode (← or P)" aria-keyshortcuts="ArrowLeft P">
-                    ← Previous<span class="hide-mobile"> Episode</span>
+                    {% include icon.html name="arrow-left" %} Previous<span class="hide-mobile"> Episode</span>
                 </a>
                 {% else %}
-                <span class="btn btn-sm btn-disabled">← Previous<span class="hide-mobile"> Episode</span></span>
+                <span class="btn btn-sm btn-disabled">{% include icon.html name="arrow-left" %} Previous<span class="hide-mobile"> Episode</span></span>
                 {% endif -%}
             </div>
             <div class="episode-nav-center">
                 <a href="/#episodes" class="btn btn-sm btn-primary">
-                    📋 All<span class="hide-mobile"> Episodes</span>
+                    {% include icon.html name="list" %} All<span class="hide-mobile"> Episodes</span>
                 </a>
             </div>
             <div class="episode-nav-right">
                 {%- if nextEpisode %}
                 <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="next" title="Next episode (→ or N)" aria-keyshortcuts="ArrowRight N">
-                    Next<span class="hide-mobile"> Episode</span> →
+                    Next<span class="hide-mobile"> Episode</span> {% include icon.html name="arrow-right" %}
                 </a>
                 {% else %}
-                <span class="btn btn-sm btn-disabled">Next<span class="hide-mobile"> Episode</span> →</span>
+                <span class="btn btn-sm btn-disabled">Next<span class="hide-mobile"> Episode</span> {% include icon.html name="arrow-right" %}</span>
                 {% endif -%}
             </div>
         </div>
@@ -118,7 +118,7 @@
     {%- if episode %}
     <div class="container">
         <div class="section-container episode-player-section">
-            <h2>🎧 Listen to This Episode</h2>
+            <h2>{% include icon.html name="headphones" %} Listen to This Episode</h2>
             <div class="player-container">
                 <iframe src="{{ episode.playerURL }}?theme=dark" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
             </div>
@@ -136,7 +136,7 @@
                     <h3>Listen on BEMA</h3>
                     <p>Visit the official BEMA website to listen to this episode and explore more resources.</p>
                     <a href="{{ episode.link }}" target="_blank" class="btn btn-primary">
-                        Open on BEMA →
+                        Open on BEMA {% include icon.html name="arrow-right" %}
                     </a>
                 </div>
             </div>
@@ -155,7 +155,7 @@
     <div class="container">
         <article class="section-container episode-notes-section">
             <div class="notes-header">
-                <h2>📝 Episode Notes</h2>
+                <h2>{% include icon.html name="notes" %} Episode Notes</h2>
                 <p class="notes-disclaimer">
                     <em>Note: The following notes are handwritten by me, Adam, and I reserve the right to be wrong. These reflect my personal understanding and interpretation.</em>
                 </p>
@@ -175,24 +175,24 @@
             <div class="episode-nav-left">
                 {%- if previousEpisodeIndex >= 0 and previousEpisode %}
                 <a href="{{ previousEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="prev" title="Previous episode (← or P)" aria-keyshortcuts="ArrowLeft P">
-                    ← Previous<span class="hide-mobile"> Episode</span>
+                    {% include icon.html name="arrow-left" %} Previous<span class="hide-mobile"> Episode</span>
                 </a>
                 {% else %}
-                <span class="btn btn-sm btn-disabled">← Previous<span class="hide-mobile"> Episode</span></span>
+                <span class="btn btn-sm btn-disabled">{% include icon.html name="arrow-left" %} Previous<span class="hide-mobile"> Episode</span></span>
                 {% endif -%}
             </div>
             <div class="episode-nav-center">
                 <a href="{{ site.github_repo }}{{ page.path }}" class="btn btn-sm btn-outline" target="_blank">
-                    ✏️ Edit<span class="hide-mobile"> on GitHub</span>
+                    {% include icon.html name="pencil" %} Edit<span class="hide-mobile"> on GitHub</span>
                 </a>
             </div>
             <div class="episode-nav-right">
                 {%- if nextEpisode %}
                 <a href="{{ nextEpisode.link | replace: 'https://www.bemadiscipleship.com', '/ep' }}" class="btn btn-sm btn-primary" rel="next" title="Next episode (→ or N)" aria-keyshortcuts="ArrowRight N">
-                    Next<span class="hide-mobile"> Episode</span> →
+                    Next<span class="hide-mobile"> Episode</span> {% include icon.html name="arrow-right" %}
                 </a>
                 {% else %}
-                <span class="btn btn-sm btn-disabled">Next<span class="hide-mobile"> Episode</span> →</span>
+                <span class="btn btn-sm btn-disabled">Next<span class="hide-mobile"> Episode</span> {% include icon.html name="arrow-right" %}</span>
                 {% endif -%}
             </div>
         </div>
