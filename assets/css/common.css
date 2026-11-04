@@ -659,6 +659,7 @@ body {
 /* Card Container - Grid layout for cards */
 .card-grid {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* browsers without min() */
     grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: var(--spacing-md);
     margin: var(--spacing-lg) 0;

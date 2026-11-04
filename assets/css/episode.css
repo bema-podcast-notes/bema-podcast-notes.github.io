@@ -65,6 +65,7 @@
 
 /* Top nav sticks to the viewport once scrolled past; sticky-nav.js toggles .is-stuck */
 .episode-nav-sticky {
+    position: -webkit-sticky; /* Safari < 13 */
     position: sticky;
     top: 0;
     z-index: var(--z-header);

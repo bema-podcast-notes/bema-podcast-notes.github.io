@@ -12,6 +12,14 @@
 
     const STORAGE_PREFIX = 'bema-my-notes:';
     const SAVE_DELAY_MS = 500;
+    // Explicit fields rather than dateStyle/timeStyle, which older browsers
+    // (Safari < 14.1, Chrome < 76) ignore. e.g. "Nov 3, 2026, 6:20 PM"
+    const DATE_TIME = { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' };
+    const DATE_MEDIUM = { year: 'numeric', month: 'short', day: 'numeric' };
+    const DATE_LONG = { year: 'numeric', month: 'long', day: 'numeric' };
+    // Keep download URLs alive long enough for browsers that open them in a tab
+    // instead of downloading (iOS < 13 ignores the download attribute)
+    const REVOKE_DELAY_MS = 60000;
 
     const section = document.querySelector('.my-notes');
     if (!section) return;
@@ -74,22 +82,20 @@
             status.textContent = '';
             return;
         }
-        const when = new Date(updated).toLocaleString(undefined, {
-            dateStyle: 'medium',
-            timeStyle: 'short'
-        });
+        const when = new Date(updated).toLocaleString(undefined, DATE_TIME);
         status.textContent = '✓ Saved on this device · ' + when;
     }
 
     function saveFile(filename, body) {
         const blob = new Blob([body], { type: 'text/markdown' });
+        const url = URL.createObjectURL(blob);
         const link = document.createElement('a');
-        link.href = URL.createObjectURL(blob);
+        link.href = url;
         link.download = filename;
         document.body.appendChild(link);
         link.click();
         link.remove();
-        URL.revokeObjectURL(link.href);
+        setTimeout(function() { URL.revokeObjectURL(url); }, REVOKE_DELAY_MS);
     }
 
     function download() {
@@ -102,12 +108,19 @@
     // Every saved note in this browser, sorted by episode number (non-episode pages last)
     function loadAllNotes() {
         const notes = [];
+        let count = 0;
         try {
-            for (let i = 0; i < localStorage.length; i++) {
+            count = localStorage.length;
+        } catch (e) {
+            return notes;
+        }
+        for (let i = 0; i < count; i++) {
+            // Per entry, so one unreadable note doesn't drop the rest
+            try {
                 const key = localStorage.key(i);
-                if (!key || !key.startsWith(STORAGE_PREFIX)) continue;
+                if (!key || key.indexOf(STORAGE_PREFIX) !== 0) continue;
                 const note = JSON.parse(localStorage.getItem(key));
-                if (!note || !note.text || !note.text.trim()) continue;
+                if (!note || typeof note.text !== 'string' || !note.text.trim()) continue;
                 const id = key.slice(STORAGE_PREFIX.length);
                 const match = id.match(/^ep-(-?\d+)$/);
                 notes.push({
@@ -117,9 +130,9 @@
                     updated: note.updated,
                     text: note.text.trim()
                 });
+            } catch (e) {
+                // Skip this entry
             }
-        } catch (e) {
-            // Unreadable entries are skipped; storage errors leave whatever was gathered
         }
         return notes.sort((a, b) => a.episode - b.episode || a.title.localeCompare(b.title));
     }
@@ -131,14 +144,14 @@
         const lines = [
             '# My BEMA Podcast Notes',
             '',
-            'Exported ' + today.toLocaleDateString(undefined, { dateStyle: 'long' }) +
+            'Exported ' + today.toLocaleDateString(undefined, DATE_LONG) +
                 ' · ' + notes.length + (notes.length === 1 ? ' episode' : ' episodes'),
             ''
         ];
         notes.forEach(note => {
             lines.push('## ' + note.title, '', note.text, '');
             const edited = note.updated
-                ? 'Last edited ' + new Date(note.updated).toLocaleDateString(undefined, { dateStyle: 'medium' }) + ' · '
+                ? 'Last edited ' + new Date(note.updated).toLocaleDateString(undefined, DATE_MEDIUM) + ' · '
                 : '';
             lines.push('_' + edited + new URL(note.url, window.location.origin).href + '_', '');
         });
