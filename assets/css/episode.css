@@ -119,11 +119,42 @@ html {
     border-radius: 12px;
     overflow: hidden;
     box-shadow: var(--shadow-md);
+    container: player / inline-size;
 }
 
 .player-container iframe {
     display: block;
     max-width: 100%;
+    height: 200px;
+}
+
+/* The Fireside embed shrinks its player as it narrows but its page has a white
+   background, so a 200px iframe shows a white band under a short player.
+   Match the iframe to the player's height at each width (measured from the
+   v2 player; where it scales with width, stay ~2px short so any mismatch
+   clips the player's black edge rather than showing white). */
+@container player (max-width: 679px) {
+    .player-container iframe { height: 130px; }
+}
+
+@container player (max-width: 619px) {
+    .player-container iframe { height: calc(20cqw - 2px); }
+}
+
+@container player (max-width: 539px) {
+    .player-container iframe { height: 107px; }
+}
+
+@container player (max-width: 479px) {
+    .player-container iframe { height: calc(20cqw - 2px); }
+}
+
+@container player (max-width: 409px) {
+    .player-container iframe { height: 80px; }
+}
+
+@container player (max-width: 299px) {
+    .player-container iframe { height: 92px; }
 }
 
 /* Episode Info Grid */
