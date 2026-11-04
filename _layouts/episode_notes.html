@@ -78,7 +78,7 @@
             {%- if episode %}
             <p class="episode-subtitle">{{ episode.subtitle }}</p>
             <div class="episode-meta">
-                <span>{% include icon.html name="clock" %} {{ episode.duration }}</span>
+                <span>{% include icon.html name="clock" %} {% include duration.html value=episode.duration %}</span>
                 <span>{% include icon.html name="calendar" %} <time datetime="{{ episode.pubDate | date: '%Y-%m-%d' }}">{{ episode.pubDate | date: "%a, %b %-d, %Y" }}</time></span>
             </div>
             {% endif -%}
@@ -128,7 +128,7 @@
                     <h3>Episode Details</h3>
                     <p><strong>Episode Number:</strong> {{ page.episodeNumber }}</p>
                     <p><strong>Session:</strong> {{ episode.season }}</p>
-                    <p><strong>Duration:</strong> {{ episode.duration }}</p>
+                    <p><strong>Duration:</strong> {% include duration.html value=episode.duration %}</p>
                     <p><strong>Published:</strong> <time datetime="{{ episode.pubDate | date: '%Y-%m-%d' }}">{{ episode.pubDate | date: "%a, %b %-d, %Y" }}</time></p>
                 </div>
 

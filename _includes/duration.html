@@ -1,0 +1,30 @@
+{%- comment -%}
+  Readable episode length from the feed's "H:MM:SS" or "M:SS" duration,
+  rounded to the nearest minute: "1 hr 8 min", "43 min".
+  Usage: {% include duration.html value=episode.duration %}
+         Renders <time datetime="PT1H7M32S">…</time>; pass plain=true for text only.
+{%- endcomment -%}
+{%- assign duration_parts = include.value | split: ':' -%}
+{%- if duration_parts.size == 3 -%}
+  {%- assign duration_h = duration_parts[0] | plus: 0 -%}
+  {%- assign duration_m = duration_parts[1] | plus: 0 -%}
+  {%- assign duration_s = duration_parts[2] | plus: 0 -%}
+{%- else -%}
+  {%- assign duration_h = 0 -%}
+  {%- assign duration_m = duration_parts[0] | plus: 0 -%}
+  {%- assign duration_s = duration_parts[1] | plus: 0 -%}
+{%- endif -%}
+{%- assign duration_total = duration_h | times: 60 | plus: duration_m -%}
+{%- if duration_s >= 30 -%}{%- assign duration_total = duration_total | plus: 1 -%}{%- endif -%}
+{%- if duration_total < 1 -%}{%- assign duration_total = 1 -%}{%- endif -%}
+{%- assign duration_hours = duration_total | divided_by: 60 -%}
+{%- assign duration_mins = duration_total | modulo: 60 -%}
+{%- capture duration_text -%}
+  {%- if duration_hours > 0 -%}{{ duration_hours }} hr{% if duration_mins > 0 %} {{ duration_mins }} min{% endif %}
+  {%- else -%}{{ duration_mins }} min{%- endif -%}
+{%- endcapture -%}
+{%- if include.plain -%}
+{{ duration_text }}
+{%- else -%}
+<time datetime="PT{% if duration_h > 0 %}{{ duration_h }}H{% endif %}{{ duration_m }}M{{ duration_s }}S">{{ duration_text }}</time>
+{%- endif -%}

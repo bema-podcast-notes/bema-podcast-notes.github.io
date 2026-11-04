@@ -14,7 +14,7 @@ layout: null
     "episode_title": {%- if episode -%}{{ episode.title | jsonify }}{%- else -%}{{ post.title | jsonify }}{%- endif -%},
     "subtitle": {%- if episode -%}{{ episode.subtitle | jsonify }}{%- else -%}""{%- endif -%},
     "description": {%- if episode -%}{{ episode.description | strip_html | strip_newlines | jsonify }}{%- else -%}""{%- endif -%},
-    "duration": {%- if episode -%}{{ episode.duration | jsonify }}{%- else -%}""{%- endif -%}
+    "duration": {%- if episode and episode.duration -%}{%- capture readable_duration -%}{% include duration.html value=episode.duration plain=true %}{%- endcapture -%}{{ readable_duration | strip | jsonify }}{%- else -%}""{%- endif -%}
   }{%- unless forloop.last -%},{%- endunless -%}
 {%- endfor -%}
 ]
