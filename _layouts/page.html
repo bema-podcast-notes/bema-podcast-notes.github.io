@@ -46,11 +46,20 @@
 
     <!-- Page Content -->
     <div class="container">
+        {%- if page.session %}
+        {% include session-nav.html %}
+        {%- endif %}
         <article class="section-container page-content-section">
+            {%- if page.summary %}
+            <p class="session-summary">{{ page.summary }}</p>
+            {%- endif %}
             <div class="page-content content-area">
                 {{ content }}
             </div>
         </article>
+        {%- if page.session %}
+        {% include session-nav.html %}
+        {%- endif %}
     </div>
 
     <!-- Footer -->
@@ -67,5 +76,8 @@
         </div>
     </footer>
 
+    {%- if page.session %}
+    <script src="{{ '/assets/js/episode-hotkeys.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    {%- endif %}
 </body>
 </html>

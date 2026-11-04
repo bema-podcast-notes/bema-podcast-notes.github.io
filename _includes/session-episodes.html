@@ -1,0 +1,16 @@
+{%- comment -%}
+  Episode list for a session overview page: title link and subtitle, in
+  episode order. Pass the collection: include.episodes=site.session_N
+{%- endcomment -%}
+{%- assign session_episodes = include.episodes | where: "layout", "episode_notes" | sort: "episodeIndex" -%}
+<ul class="session-episodes">
+    {%- for doc in session_episodes %}
+    {%- assign episode = site.data.episodes[doc.episodeIndex] %}
+    <li>
+        <a href="{{ doc.url }}">{{ doc.title }}</a>
+        {%- if episode.subtitle and episode.subtitle != "" %}
+        <span class="session-episode-subtitle">{{ episode.subtitle }}</span>
+        {%- endif %}
+    </li>
+    {%- endfor %}
+</ul>
