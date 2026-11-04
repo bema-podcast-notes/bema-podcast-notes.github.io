@@ -558,6 +558,17 @@ html {
     color: var(--color-accent-yellow-dark);
 }
 
+/* Pointer to My Notes, under the disclaimer: quieter than the notes themselves */
+.notes-own {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin: -0.75rem 0 1.5rem;
+}
+
+.notes-own a {
+    color: var(--color-primary);
+}
+
 /* Notes Content - Uses shared .content-area typography from common.css */
 .notes-content {
     margin-top: var(--spacing-lg);
@@ -726,6 +737,7 @@ html {
     .episode-player-section > h2,
     .previous-versions,
     .up-next,
+    .notes-own,
     .my-notes-intro,
     .my-notes-text,
     .my-notes-footer {

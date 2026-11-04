@@ -209,6 +209,10 @@ S{{ episode.season }} {{ title }}
                 <p class="notes-disclaimer">
                     <em>Note: These are my personal notes. I'm Adam, a listener (not part of the BEMA teaching team), and I reserve the right to be wrong. They reflect my own understanding and interpretation.</em>
                 </p>
+                {%- comment -%} A div, not a p: Safari Reader never drops a p, even with instapaper_ignore {%- endcomment %}
+                <div class="notes-own instapaper_ignore">
+                    {% include icon.html name="pencil" %} Want to keep your own notes? <a href="#my-notes">Jot them down below</a>. They're saved in your browser. Or print <a href="https://bemadiscipleship.s3.us-east-2.amazonaws.com/thecompanion/notes.pdf" target="_blank" rel="noopener">BEMA's note-taking sheet</a>.
+                </div>
             </div>
 
 
