@@ -128,13 +128,13 @@ class BemaSearch {
       return `
         <div class="card card-elevated search-result">
           <h3 class="search-result-title">
-            <a href="${episode.url}">
-              Session ${episode.session}: ${this.escapeHtml(episode.episode_title)}
+            <a href="${this.escapeHtml(episode.url)}">
+              Session ${this.escapeHtml(episode.session)}: ${this.escapeHtml(episode.episode_title)}
             </a>
           </h3>
           ${episode.subtitle ? `<p class="search-result-subtitle">${this.escapeHtml(episode.subtitle)}</p>` : ''}
           ${episode.duration ? `<p class="search-result-meta">Duration: ${this.escapeHtml(episode.duration)}</p>` : ''}
-          ${episode.description ? `<p class="search-result-description">${this.truncateText(this.escapeHtml(episode.description), 200)}</p>` : ''}
+          ${episode.description ? `<p class="search-result-description">${this.escapeHtml(this.truncateText(episode.description, 200))}</p>` : ''}
           <p class="search-result-content">${this.getSearchSnippet(episode.content, query)}</p>
         </div>
       `;
@@ -148,9 +148,10 @@ class BemaSearch {
     `;
   }
 
+  // Returns HTML: the snippet is escaped and matches are wrapped in <mark>
   getSearchSnippet(content, query, maxLength = 300) {
-    const cleanContent = content.replace(/\s+/g, ' ').trim();
-    const queryWords = query.toLowerCase().split(/\s+/);
+    const cleanContent = (content || '').replace(/\s+/g, ' ').trim();
+    const queryWords = query.toLowerCase().split(/\s+/).filter(word => word.length > 0);
     
     // Find the first occurrence of any query word
     let bestIndex = -1;
@@ -165,7 +166,7 @@ class BemaSearch {
     });
 
     if (bestIndex === -1) {
-      return this.truncateText(cleanContent, maxLength);
+      return this.escapeHtml(this.truncateText(cleanContent, maxLength));
     }
 
     // Create snippet around the found word
@@ -177,13 +178,18 @@ class BemaSearch {
     if (start > 0) snippet = '...' + snippet;
     if (end < cleanContent.length) snippet = snippet + '...';
 
-    // Highlight search terms
-    queryWords.forEach(word => {
-      const regex = new RegExp(`(${this.escapeRegex(word)})`, 'gi');
-      snippet = snippet.replace(regex, '<mark>$1</mark>');
-    });
+    return this.highlight(snippet, queryWords);
+  }
 
-    return snippet;
+  // Split the raw text on the query words, escape every piece, and wrap the
+  // matches. Escaping first and highlighting after would let a word like
+  // "amp" match inside an entity such as &amp; and break the markup.
+  highlight(text, words) {
+    if (words.length === 0) return this.escapeHtml(text);
+    const pattern = new RegExp(`(${words.map(word => this.escapeRegex(word)).join('|')})`, 'gi');
+    return text.split(pattern).map((part, i) =>
+      i % 2 === 1 ? `<mark>${this.escapeHtml(part)}</mark>` : this.escapeHtml(part)
+    ).join('');
   }
 
   truncateText(text, maxLength) {
@@ -191,10 +197,15 @@ class BemaSearch {
     return text.substring(0, maxLength) + '...';
   }
 
+  // Safe for element content and quoted attributes (textContent/innerHTML
+  // round-tripping leaves quotes unescaped, which breaks href="...")
   escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
+    return String(text == null ? '' : text)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
   escapeRegex(string) {
