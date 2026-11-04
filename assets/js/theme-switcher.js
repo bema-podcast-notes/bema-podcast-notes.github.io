@@ -2,10 +2,11 @@
  * Theme Switcher for BEMA Podcast Notes
  * The site's palette is Helvetia (Sanzo Wada combination 218), defined in
  * common.css, with a light and a dark mode:
- * - Mode follows the OS setting until the reader picks one with the header
- *   toggle; the choice is then remembered in localStorage.
- * - The mode is applied as <html data-mode="light|dark"> while <head> is
- *   still loading, so the page never flashes the wrong colors.
+ * - The header switch offers System / Light / Dark. System (the default)
+ *   follows the OS setting, including live changes; Light or Dark is
+ *   remembered in localStorage.
+ * - The resulting mode is applied as <html data-mode="light|dark"> while
+ *   <head> is still loading, so the page never flashes the wrong colors.
  *
  * Alternate palettes (purple, adobe, space, menswear) are kept but hidden.
  * They can be previewed for the current page from the console:
@@ -17,24 +18,30 @@
 
     const MODE_KEY = 'bema-color-mode';
     const LEGACY_THEME_KEY = 'bema-theme-preference';
+    const CHOICES = ['system', 'light', 'dark'];
     const HIDDEN_THEMES = ['purple', 'adobe', 'space', 'menswear'];
     const darkQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
 
-    // localStorage can throw (private mode, blocked site data)
-    function getSavedMode() {
+    // The reader's pick: 'light', 'dark', or 'system' when nothing is saved.
+    // localStorage can throw (private mode, blocked site data).
+    function getChoice() {
         try {
-            const mode = localStorage.getItem(MODE_KEY);
-            return mode === 'light' || mode === 'dark' ? mode : null;
+            const saved = localStorage.getItem(MODE_KEY);
+            return saved === 'light' || saved === 'dark' ? saved : 'system';
         } catch (e) {
-            return null;
+            return 'system';
         }
     }
 
-    function saveMode(mode) {
+    function saveChoice(choice) {
         try {
-            localStorage.setItem(MODE_KEY, mode);
+            if (choice === 'system') {
+                localStorage.removeItem(MODE_KEY);
+            } else {
+                localStorage.setItem(MODE_KEY, choice);
+            }
         } catch (e) {
-            // Not persisted; the toggle still works for this page
+            // Not persisted; the switch still works for this page
         }
     }
 
@@ -42,23 +49,27 @@
         return darkQuery && darkQuery.matches ? 'dark' : 'light';
     }
 
+    function resolveMode(choice) {
+        return choice === 'system' ? systemMode() : choice;
+    }
+
     function currentMode() {
         return document.documentElement.dataset.mode || 'light';
     }
 
-    function applyMode(mode) {
-        document.documentElement.dataset.mode = mode;
-        updateToggles(mode);
+    function apply(choice) {
+        document.documentElement.dataset.mode = resolveMode(choice);
+        updateSwitch(choice);
     }
 
-    // The toggle offers the *other* mode
-    function updateToggles(mode) {
-        document.querySelectorAll('.mode-toggle').forEach(btn => {
-            const isDark = mode === 'dark';
-            btn.textContent = isDark ? '☀️ Light' : '🌙 Dark';
-            btn.setAttribute('aria-pressed', String(isDark));
-            btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
-            btn.title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
+    function updateSwitch(choice) {
+        document.querySelectorAll('[data-mode-choice]').forEach(btn => {
+            const selected = btn.dataset.modeChoice === choice;
+            btn.classList.toggle('active', selected);
+            btn.setAttribute('aria-pressed', String(selected));
+            if (btn.dataset.modeChoice === 'system') {
+                btn.title = 'Match your device setting (currently ' + systemMode() + ')';
+            }
         });
     }
 
@@ -83,13 +94,20 @@
         link.href = '/assets/css/theme-' + theme + '.css';
     }
 
-    function setupToggle() {
-        updateToggles(currentMode());
-        document.querySelectorAll('.mode-toggle').forEach(btn => {
+    function setMode(choice) {
+        if (!CHOICES.includes(choice)) {
+            console.warn('Unknown mode "' + choice + '". Available: ' + CHOICES.join(', '));
+            return;
+        }
+        saveChoice(choice);
+        apply(choice);
+    }
+
+    function setupSwitch() {
+        updateSwitch(getChoice());
+        document.querySelectorAll('[data-mode-choice]').forEach(btn => {
             btn.addEventListener('click', function() {
-                const next = currentMode() === 'dark' ? 'light' : 'dark';
-                saveMode(next);
-                applyMode(next);
+                setMode(this.dataset.modeChoice);
             });
         });
     }
@@ -102,24 +120,29 @@
             // Ignore
         }
 
-        applyMode(getSavedMode() || systemMode());
+        apply(getChoice());
 
-        // Follow OS changes until the reader has picked a mode themselves
+        // Under System, follow OS changes live
         if (darkQuery) {
             darkQuery.addEventListener('change', function() {
-                if (!getSavedMode()) applyMode(systemMode());
+                const choice = getChoice();
+                if (choice === 'system') {
+                    apply(choice);
+                } else {
+                    updateSwitch(choice); // refresh the "(currently …)" hint
+                }
             });
         }
 
-        // Keep other open tabs in step with the toggle
+        // Keep other open tabs in step with the switch
         window.addEventListener('storage', function(e) {
-            if (e.key === MODE_KEY || e.key === null) applyMode(getSavedMode() || systemMode());
+            if (e.key === MODE_KEY || e.key === null) apply(getChoice());
         });
 
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', setupToggle);
+            document.addEventListener('DOMContentLoaded', setupSwitch);
         } else {
-            setupToggle();
+            setupSwitch();
         }
     }
 
@@ -128,11 +151,9 @@
     // Expose API for debugging
     window.BEMAThemes = {
         switchTheme: switchTheme,
-        setMode: function(mode) {
-            saveMode(mode);
-            applyMode(mode);
-        },
+        setMode: setMode,
         getMode: currentMode,
+        getChoice: getChoice,
         themes: ['default'].concat(HIDDEN_THEMES)
     };
 })();

@@ -324,6 +324,22 @@ body {
     border-color: var(--color-text-on-primary);
 }
 
+/* System / Light / Dark as one segmented pill */
+.mode-switch {
+    gap: 0;
+    padding: 2px;
+    border: 1px solid var(--color-on-primary-muted);
+    border-radius: var(--radius-pill);
+}
+
+.mode-switch .theme-btn {
+    border-color: transparent;
+}
+
+.mode-switch .theme-btn.active {
+    border-color: transparent;
+}
+
 /* ============================================
    CONTENT AREA - Shared Typography
    ============================================ */
