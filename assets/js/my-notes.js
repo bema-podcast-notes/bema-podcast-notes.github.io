@@ -20,6 +20,8 @@
     const status = section.querySelector('.my-notes-status');
     const storageKey = STORAGE_PREFIX + section.dataset.notesKey;
     const title = section.dataset.notesTitle || document.title;
+    const downloadBtn = section.querySelector('[data-notes-action="download"]');
+    const clearBtn = section.querySelector('[data-notes-action="clear"]');
     const exportAllBtn = section.querySelector('[data-notes-action="export-all"]');
     let saveTimer = null;
 
@@ -143,6 +145,13 @@
         saveFile('bema-my-notes-' + today.toISOString().slice(0, 10) + '.md', lines.join('\n'));
     }
 
+    // Download and Clear only make sense once this episode has a note
+    function updateNoteButtons() {
+        const empty = textarea.value.trim() === '';
+        downloadBtn.disabled = empty;
+        clearBtn.disabled = empty;
+    }
+
     function updateExportAllCount() {
         const count = loadAllNotes().length;
         exportAllBtn.textContent = '📚 Export all (' + count + ')';
@@ -159,6 +168,7 @@
         saveTimer = null;
         textarea.value = '';
         save('');
+        updateNoteButtons();
     }
 
     function init() {
@@ -176,6 +186,7 @@
         }
 
         textarea.addEventListener('input', function() {
+            updateNoteButtons();
             clearTimeout(saveTimer);
             status.textContent = 'Saving…';
             saveTimer = setTimeout(function() {
@@ -199,11 +210,13 @@
             const updated = load();
             textarea.value = updated ? updated.text : '';
             setStatus(updated && updated.updated);
+            updateNoteButtons();
         });
 
-        section.querySelector('[data-notes-action="download"]').addEventListener('click', download);
-        section.querySelector('[data-notes-action="clear"]').addEventListener('click', clear);
+        downloadBtn.addEventListener('click', download);
+        clearBtn.addEventListener('click', clear);
         exportAllBtn.addEventListener('click', exportAll);
+        updateNoteButtons();
         updateExportAllCount();
     }
 

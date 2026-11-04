@@ -238,7 +238,37 @@ html {
 .my-notes-actions {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: var(--spacing-xs);
+}
+
+/* Lighter than the page's main buttons: these are secondary tools */
+.my-notes-actions .btn {
+    padding: 0.4rem 0.9rem;
+    border-width: 1px;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+}
+
+.my-notes-actions .btn:hover {
+    transform: none;
+}
+
+/* Clear is destructive: muted until hovered, then red */
+.my-notes-actions [data-notes-action="clear"] {
+    color: var(--color-text-tertiary);
+    border-color: var(--color-border-light);
+}
+
+.my-notes-actions [data-notes-action="clear"]:hover {
+    background: var(--color-accent-red-light);
+    color: var(--color-accent-red-dark);
+    border-color: var(--color-accent-red);
+}
+
+/* Export all covers every episode, so set it apart from the this-note actions */
+.my-notes-actions [data-notes-action="export-all"] {
+    margin-left: var(--spacing-sm);
 }
 
 /* Matches .btn-disabled in common.css */
@@ -247,7 +277,6 @@ html {
     color: var(--color-text-light);
     border-color: var(--color-bg-gray);
     cursor: not-allowed;
-    transform: none;
 }
 
 .visually-hidden {
@@ -327,6 +356,27 @@ html {
 
     .episode-info-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .my-notes-footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .my-notes-actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .my-notes-actions .btn {
+        padding: 0.55rem 0.5rem;
+    }
+
+    .my-notes-actions [data-notes-action="export-all"] {
+        grid-column: 1 / -1;
+        margin-left: 0;
     }
 }
 
