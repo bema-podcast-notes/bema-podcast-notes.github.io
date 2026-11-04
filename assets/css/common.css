@@ -346,6 +346,9 @@ body {
 .content-area {
     line-height: 1.8;
     color: var(--color-text-primary);
+    /* Long unbroken strings (URLs, file paths) wrap instead of widening the page on phones */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /* Headings */
