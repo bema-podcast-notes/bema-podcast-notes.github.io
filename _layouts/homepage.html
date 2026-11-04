@@ -35,8 +35,7 @@
             <p class="subtitle">My personal notes from 465+ episodes: insights and connections to help you understand the Bible in its ancient Hebrew context</p>
             <p class="hero-byline"><span>An independent listener's notes ·</span> <span>Not affiliated with BEMA Discipleship</span></p>
             <div class="cta-buttons">
-                {% assign first_episode = site.session_1 | sort:"episodeIndex" | first %}
-                <a href="{{ first_episode.url }}" class="btn btn-lg btn-light">{% include icon.html name="rocket" %} Start from Episode 1</a>
+                <a href="{{ '/ep/-1' | relative_url }}" class="btn btn-lg btn-light">{% include icon.html name="rocket" %} Start from Episode -1</a>
                 <a href="/search/" class="btn btn-lg btn-secondary">{% include icon.html name="search" %} Search Episodes</a>
                 <a href="#new" class="btn btn-lg btn-secondary">{% include icon.html name="help-circle" %} New to BEMA?</a>
             </div>
@@ -98,8 +97,7 @@
             </ul>
 
             <div class="text-center-mt">
-                {% assign first_episode = site.session_1 | sort:"episodeIndex" | first %}
-                <a href="{{ first_episode.url }}" class="btn btn-lg btn-primary">Begin Your Journey</a>
+                <a href="{{ '/ep/-1' | relative_url }}" class="btn btn-lg btn-primary">Begin Your Journey</a>
             </div>
         </section>
     </div>
@@ -192,7 +190,7 @@
             <details class="session-group" id="session1">
                 <summary>
                     <span class="session-name"><span class="session-title">Session 1: Torah</span> <span class="session-topic">Genesis through Deuteronomy</span></span>
-                    <span class="session-count">({{ site.session_1 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_1 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_1 | sort:"episodeIndex" %}
@@ -212,7 +210,7 @@
             <details class="session-group">
                 <summary>
                     <span class="session-name"><span class="session-title">Session 2: The Prophets and the Writings</span> <span class="session-topic">Joshua through Malachi</span></span>
-                    <span class="session-count">({{ site.session_2 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_2 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_2 | sort:"episodeIndex" %}
@@ -232,7 +230,7 @@
             <details class="session-group">
                 <summary>
                     <span class="session-name"><span class="session-title">Session 3: The Gospels</span> <span class="session-topic">The Gospels &amp; Life of Jesus</span></span>
-                    <span class="session-count">({{ site.session_3 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_3 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_3 | sort:"episodeIndex" %}
@@ -252,7 +250,7 @@
             <details class="session-group">
                 <summary>
                     <span class="session-name"><span class="session-title">Session 4: The First-Century Church</span> <span class="session-topic">Acts through Revelation</span></span>
-                    <span class="session-count">({{ site.session_4 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_4 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_4 | sort:"episodeIndex" %}
@@ -272,7 +270,7 @@
             <details class="session-group">
                 <summary>
                     <span class="session-name"><span class="session-title">Session 5: Church History</span> <span class="session-topic">Church History (100 AD - Today)</span></span>
-                    <span class="session-count">({{ site.session_5 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_5 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_5 | sort:"episodeIndex" %}
@@ -292,7 +290,7 @@
             <details class="session-group">
                 <summary>
                     <span class="session-name"><span class="session-title">Session 6: Starting a New Journey</span> <span class="session-topic">Deep Dives &amp; Guest Conversations</span></span>
-                    <span class="session-count">({{ site.session_6 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_6 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_6 | sort:"episodeIndex" %}
@@ -312,7 +310,7 @@
             <details class="session-group">
                 <summary>
                     <span class="session-name"><span class="session-title">Session 7: Stepping into Sabbath</span> <span class="session-topic">Sabbath &amp; Spiritual Practices</span></span>
-                    <span class="session-count">({{ site.session_7 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_7 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_7 | sort:"episodeIndex" %}
@@ -332,7 +330,7 @@
             <details class="session-group">
                 <summary>
                     <span class="session-name"><span class="session-title">Session 8: Returning to Ordinary Time</span> <span class="session-topic">Isaiah, Psalms &amp; Talmudic Matthew</span></span>
-                    <span class="session-count">({{ site.session_8 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_8 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_8 | sort:"episodeIndex" %}
@@ -352,7 +350,7 @@
             <details class="session-group">
                 <summary>
                     <span class="session-name"><span class="session-title">Session 9: Embracing New Rhythms</span> <span class="session-topic">Hosea &amp; Qohelet (Ecclesiastes)</span></span>
-                    <span class="session-count">({{ site.session_9 | size }} episodes)</span>
+                    <span class="session-count">({{ site.session_9 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% assign sorted_pages = site.session_9 | sort:"episodeIndex" %}
