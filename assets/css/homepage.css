@@ -221,8 +221,11 @@ body {
     font-size: 1.3rem;
     font-weight: 700;
     list-style: none;
-    display: flex;
-    justify-content: space-between;
+    /* Title | count | arrow: the title takes the slack, so every count lines
+       up at the right instead of floating mid-row by title length */
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    column-gap: var(--spacing-md);
     align-items: center;
     transition: background var(--transition-base);
 }
