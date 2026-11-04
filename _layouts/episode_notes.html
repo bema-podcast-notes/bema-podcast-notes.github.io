@@ -79,7 +79,7 @@
             <p class="episode-subtitle">{{ episode.subtitle }}</p>
             <div class="episode-meta">
                 <span>{% include icon.html name="clock" %} {{ episode.duration }}</span>
-                <span>{% include icon.html name="calendar" %} {{ episode.pubDate }}</span>
+                <span>{% include icon.html name="calendar" %} <time datetime="{{ episode.pubDate | date: '%Y-%m-%d' }}">{{ episode.pubDate | date: "%a, %b %-d, %Y" }}</time></span>
             </div>
             {% endif -%}
         </div>
@@ -129,7 +129,7 @@
                     <p><strong>Episode Number:</strong> {{ page.episodeNumber }}</p>
                     <p><strong>Session:</strong> {{ episode.season }}</p>
                     <p><strong>Duration:</strong> {{ episode.duration }}</p>
-                    <p><strong>Published:</strong> {{ episode.pubDate }}</p>
+                    <p><strong>Published:</strong> <time datetime="{{ episode.pubDate | date: '%Y-%m-%d' }}">{{ episode.pubDate | date: "%a, %b %-d, %Y" }}</time></p>
                 </div>
 
                 <div class="info-card">
