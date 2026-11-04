@@ -17,6 +17,11 @@
     const tabs = tabBar ? Array.prototype.slice.call(tabBar.querySelectorAll('.pv-tab')) : [];
     const panes = Array.prototype.slice.call(section.querySelectorAll('.pv-pane'));
 
+    // Analytics (assets/js/analytics.js); a no-op if it isn't loaded
+    function track(name, params) {
+        if (window.BEMAAnalytics) window.BEMAAnalytics.track(name, params);
+    }
+
     function select(paneId) {
         tabs.forEach(function(tab) {
             const selected = tab.getAttribute('data-pane') === paneId;
@@ -35,6 +40,7 @@
         tabs.forEach(function(tab) {
             tab.addEventListener('click', function() {
                 select(tab.getAttribute('data-pane'));
+                track('version_tab', { notes_version: /original/i.test(tab.textContent) ? 'original' : 'earlier' });
             });
         });
     }
@@ -55,6 +61,14 @@
         if (pane && tabs.length > 1) select(pane.id);
         target.scrollIntoView();
     }
+
+    let reportedOpen = false;
+    details.addEventListener('toggle', function() {
+        if (details.open && !reportedOpen) {
+            reportedOpen = true;
+            track('previous_versions_open');
+        }
+    });
 
     revealTarget();
     window.addEventListener('hashchange', revealTarget);

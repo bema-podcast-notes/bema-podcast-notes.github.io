@@ -19,6 +19,46 @@
     {% assign title = "Unknown" %}
     {% endif -%}
 
+    {%- comment -%}
+      Safari Reader's articleBody: the notes, or, for episodes that only have
+      the "No notes yet." placeholder, the episode info and description.
+    {%- endcomment -%}
+    {%- assign notes_plain = content | strip_html | strip -%}
+    {%- if notes_plain == '' or notes_plain == 'No notes yet.' -%}
+      {%- assign info_body_attr = ' itemprop="articleBody"' -%}
+      {%- assign notes_body_attr = '' -%}
+    {%- else -%}
+      {%- assign info_body_attr = '' -%}
+      {%- assign notes_body_attr = ' itemprop="articleBody"' -%}
+    {%- endif -%}
+    {%- comment -%}
+      Notes may hold several versions, newest first. A version starts at an
+      <h3> titled "Original Notes" or an AI study-notes heading ("... Study
+      Notes" / "BEMA Episode ..."); other <h3>s (e.g. inside handwritten
+      notes) stay with their version. The newest shows as usual; older ones
+      go in the "Previous versions" section below.
+    {%- endcomment -%}
+    {%- assign version_break = '<!--bema-version-break-->' -%}
+    {%- assign note_chunks = content | split: '<h3 id="' -%}
+    {%- if note_chunks.size > 0 -%}
+      {%- assign notes_html = note_chunks | first -%}
+    {%- else -%}
+      {%- assign notes_html = content -%}
+    {%- endif -%}
+    {%- assign version_headings = 0 -%}
+    {%- for chunk in note_chunks offset: 1 -%}
+      {%- assign chunk_heading = chunk | split: '</h3>' | first | split: '">' | last | strip -%}
+      {%- assign chunk_heading_start = chunk_heading | slice: 0, 12 -%}
+      {%- if chunk_heading == 'Original Notes' or chunk_heading contains 'Study Notes' or chunk_heading_start == 'BEMA Episode' -%}
+        {%- if version_headings > 0 -%}{%- assign notes_html = notes_html | append: version_break -%}{%- endif -%}
+        {%- assign version_headings = version_headings | plus: 1 -%}
+      {%- endif -%}
+      {%- assign notes_html = notes_html | append: '<h3 id="' | append: chunk -%}
+    {%- endfor -%}
+    {%- assign note_versions = notes_html | split: version_break -%}
+    {%- assign previous_count = note_versions.size | minus: 1 -%}
+    {%- if notes_body_attr != '' -%}{%- assign notes_version_count = note_versions.size -%}{%- else -%}{%- assign notes_version_count = 0 -%}{%- endif %}
+
     <title>{{ title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}">
     <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}"></script>
@@ -37,7 +77,8 @@
     <meta name="twitter:title" content="{{ title }} - {{ site.title }}">
     <meta name="twitter:description" content="Get detailed notes by Adam Cole for episode {{ episode.title }} ({{ episode.subtitle }}) of the BEMA Discipleship Podcast.">
 
-    {% include google-analytics.html %}
+    {%- if notes_body_attr != '' -%}{%- assign has_notes = 'true' -%}{%- else -%}{%- assign has_notes = 'false' -%}{%- endif %}
+    {% include google-analytics.html page_type='episode' session=episode.season has_notes=has_notes notes_versions=notes_version_count %}
 </head>
 <body>
     <!-- Header -->
@@ -119,18 +160,6 @@ S{{ episode.season }} {{ title }}
         </div>
     </div>
 
-    {%- comment -%}
-      Safari Reader's articleBody: the notes, or, for episodes that only have
-      the "No notes yet." placeholder, the episode info and description.
-    {%- endcomment -%}
-    {%- assign notes_plain = content | strip_html | strip -%}
-    {%- if notes_plain == '' or notes_plain == 'No notes yet.' -%}
-      {%- assign info_body_attr = ' itemprop="articleBody"' -%}
-      {%- assign notes_body_attr = '' -%}
-    {%- else -%}
-      {%- assign info_body_attr = '' -%}
-      {%- assign notes_body_attr = ' itemprop="articleBody"' -%}
-    {%- endif %}
 
     <!-- Episode Player & Info -->
     {%- if episode %}
@@ -182,32 +211,7 @@ S{{ episode.season }} {{ title }}
                 </p>
             </div>
 
-            {%- comment -%}
-              Notes may hold several versions, newest first. A version starts at an
-              <h3> titled "Original Notes" or an AI study-notes heading ("... Study
-              Notes" / "BEMA Episode ..."); other <h3>s (e.g. inside handwritten
-              notes) stay with their version. The newest shows as usual; older ones
-              go in the "Previous versions" section below.
-            {%- endcomment -%}
-            {%- assign version_break = '<!--bema-version-break-->' -%}
-            {%- assign note_chunks = content | split: '<h3 id="' -%}
-            {%- if note_chunks.size > 0 -%}
-              {%- assign notes_html = note_chunks | first -%}
-            {%- else -%}
-              {%- assign notes_html = content -%}
-            {%- endif -%}
-            {%- assign version_headings = 0 -%}
-            {%- for chunk in note_chunks offset: 1 -%}
-              {%- assign chunk_heading = chunk | split: '</h3>' | first | split: '">' | last | strip -%}
-              {%- assign chunk_heading_start = chunk_heading | slice: 0, 12 -%}
-              {%- if chunk_heading == 'Original Notes' or chunk_heading contains 'Study Notes' or chunk_heading_start == 'BEMA Episode' -%}
-                {%- if version_headings > 0 -%}{%- assign notes_html = notes_html | append: version_break -%}{%- endif -%}
-                {%- assign version_headings = version_headings | plus: 1 -%}
-              {%- endif -%}
-              {%- assign notes_html = notes_html | append: '<h3 id="' | append: chunk -%}
-            {%- endfor -%}
-            {%- assign note_versions = notes_html | split: version_break -%}
-            {%- assign previous_count = note_versions.size | minus: 1 %}
+
 
             <div class="notes-content content-area">
                 {{ note_versions | first }}

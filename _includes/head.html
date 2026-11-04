@@ -5,5 +5,6 @@
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
-  {%- include google-analytics.html -%}
+  {%- if page.url contains '404' -%}{%- assign ga_page_type = '404' -%}{%- else -%}{%- assign ga_page_type = 'page' -%}{%- endif -%}
+  {%- include google-analytics.html page_type=ga_page_type -%}
 </head>

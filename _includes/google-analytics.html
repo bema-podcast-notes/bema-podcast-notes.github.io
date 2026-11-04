@@ -2,14 +2,32 @@
   Google Analytics (GA4). Only in production builds (GitHub Pages sets
   JEKYLL_ENV=production), so local `jekyll serve` visits aren't counted.
   Used by every layout; Minima's layouts reach it through head.html.
+
+  Page details sent with every hit (event-scoped custom dimensions in GA4):
+    page_type       episode | home | search | session | resources | resource | page | 404
+    session         e.g. 6                 (episode pages)
+    has_notes       true | false           (episode pages)
+    notes_versions  0-3; 0 when there are no notes (episode pages)
+  The episode itself comes from GA's built-in Page path (/ep/325), so it
+  isn't repeated here. User property: color_mode (system | light | dark).
+  Events and their parameters: assets/js/analytics.js
 {%- endcomment -%}
 {%- if jekyll.environment == 'production' and site.google_analytics -%}
+{%- capture ga_page_params -%}
+{"page_type": {{ include.page_type | default: 'page' | jsonify }}
+{%- if include.session -%}, "session": {{ include.session | append: '' | jsonify }}{%- endif -%}
+{%- if include.has_notes -%}, "has_notes": {{ include.has_notes | jsonify }}{%- endif -%}
+{%- if include.notes_versions != nil -%}, "notes_versions": {{ include.notes_versions | jsonify }}{%- endif -%}}
+{%- endcapture %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('set', {{ ga_page_params }});
+  if (window.BEMAThemes) gtag('set', 'user_properties', { color_mode: window.BEMAThemes.getChoice() });
   gtag('config', '{{ site.google_analytics }}');
 </script>
-{%- endif -%}
+{%- endif %}
+<script src="{{ '/assets/js/analytics.js' | relative_url }}"></script>

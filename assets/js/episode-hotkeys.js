@@ -69,6 +69,7 @@
         if (!link) return;
 
         e.preventDefault();
+        if (window.BEMAAnalytics) window.BEMAAnalytics.track('episode_nav', { nav_direction: direction, nav_method: 'hotkey' });
         window.location.href = link.href;
     });
 })();

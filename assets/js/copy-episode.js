@@ -58,6 +58,7 @@
     }
 
     function showResult(copied) {
+        if (window.BEMAAnalytics) window.BEMAAnalytics.track('copy_episode_info', { copy_success: copied });
         clearTimeout(resetTimer);
         setIcon(originalIcon.replace(/#.*$/, copied ? '#check' : '#alert-triangle'));
         if (status) status.textContent = copied ? 'Episode info copied' : 'Could not copy episode info';

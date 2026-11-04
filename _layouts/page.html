@@ -8,7 +8,12 @@
     <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}"></script>
     <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/page.css' | relative_url }}">
-    {% include google-analytics.html %}
+    {%- assign url_start = page.url | slice: 0, 8 -%}
+    {%- if url_start == '/session' -%}{%- assign ga_page_type = 'session' -%}
+    {%- elsif page.url == '/misc/' -%}{%- assign ga_page_type = 'resources' -%}
+    {%- elsif page.url contains '/misc/' -%}{%- assign ga_page_type = 'resource' -%}
+    {%- else -%}{%- assign ga_page_type = 'page' -%}{%- endif %}
+    {% include google-analytics.html page_type=ga_page_type %}
 </head>
 <body>
     <!-- Header -->

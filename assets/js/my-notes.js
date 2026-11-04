@@ -44,6 +44,11 @@
         }
     }
 
+    // Analytics (assets/js/analytics.js); a no-op if it isn't loaded
+    function track(name, params) {
+        if (window.BEMAAnalytics) window.BEMAAnalytics.track(name, params);
+    }
+
     function save(text) {
         try {
             if (text.trim() === '') {
@@ -56,8 +61,10 @@
                     title: title,
                     url: window.location.pathname
                 };
+                const isNew = !localStorage.getItem(storageKey);
                 localStorage.setItem(storageKey, JSON.stringify(note));
                 setStatus(note.updated);
+                if (isNew) track('my_notes_saved');
             }
             updateExportAllCount();
             return true;
@@ -124,6 +131,7 @@
         if (!text) return;
         const body = '# My notes: ' + title + '\n\n' + text + '\n\n---\n' + window.location.href + '\n';
         saveFile('bema-' + section.dataset.notesKey.replace(/[^a-z0-9-]+/gi, '-') + '-my-notes.md', body);
+        track('my_notes_download');
     }
 
     // Every saved note in this browser, sorted by episode number (non-episode pages last)
@@ -177,6 +185,7 @@
             lines.push('_' + edited + new URL(note.url, window.location.origin).href + '_', '');
         });
         saveFile('bema-my-notes-' + today.toISOString().slice(0, 10) + '.md', lines.join('\n'));
+        track('my_notes_export_all', { note_count: notes.length });
     }
 
     // Download and Clear only make sense once this episode has a note

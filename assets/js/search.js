@@ -92,6 +92,7 @@ class BemaSearch {
     try {
       const results = this.lunrIndex.search(query);
       this.displayResults(results, query);
+      this.trackSearch(query, results.length);
       
       // Update URL without page reload
       const newUrl = new URL(window.location);
@@ -190,6 +191,25 @@ class BemaSearch {
     return text.split(pattern).map((part, i) =>
       i % 2 === 1 ? `<mark>${this.escapeHtml(part)}</mark>` : this.escapeHtml(part)
     ).join('');
+  }
+
+  // GA4 "search" event, sent once typing pauses so each keystroke isn't counted
+  trackSearch(query, resultCount) {
+    clearTimeout(this.trackTimeout);
+    this.trackTimeout = setTimeout(() => {
+      if (query === this.lastTrackedQuery || !window.BEMAAnalytics) return;
+      this.lastTrackedQuery = query;
+      window.BEMAAnalytics.track('search', { search_term: this.analyticsSafeTerm(query), search_results: resultCount });
+    }, 1500);
+  }
+
+  // GA forbids personal data: mask emails and long digit runs (phone numbers),
+  // and keep within GA's 100-character parameter value limit
+  analyticsSafeTerm(query) {
+    return query
+      .replace(/[^\s@]+@[^\s@]+\.[^\s@]+/g, '[email]')
+      .replace(/\+?\d[\d\s().-]{6,}\d/g, '[number]')
+      .slice(0, 100);
   }
 
   truncateText(text, maxLength) {

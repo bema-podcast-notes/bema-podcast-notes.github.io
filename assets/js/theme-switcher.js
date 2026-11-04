@@ -125,7 +125,12 @@
         updateSwitch(getChoice());
         document.querySelectorAll('[data-mode-choice]').forEach(btn => {
             btn.addEventListener('click', function() {
-                setMode(this.dataset.modeChoice);
+                const choice = this.dataset.modeChoice;
+                setMode(choice);
+                if (window.BEMAAnalytics) {
+                    window.BEMAAnalytics.track('color_mode', { mode_choice: choice, mode_applied: currentMode() });
+                    window.BEMAAnalytics.setUserProperties({ color_mode: choice });
+                }
             });
         });
     }
