@@ -207,6 +207,29 @@ body {
     margin-top: 2rem;
 }
 
+/* How to Navigate: three equal columns, or one stack on narrower screens
+   (auto-fit left a lone third item under two). Each column spans two rows
+   of a shared subgrid so the headings and paragraphs line up across. */
+.navigate-grid {
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 900px) {
+    .navigate-grid {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0;
+    }
+
+    @supports (grid-template-rows: subgrid) {
+        .navigate-grid > div {
+            display: grid;
+            grid-row: span 2;
+            grid-template-rows: subgrid;
+            row-gap: 0;
+        }
+    }
+}
+
 .access-card {
     background: var(--color-fill-primary);
     color: var(--color-text-on-primary);
