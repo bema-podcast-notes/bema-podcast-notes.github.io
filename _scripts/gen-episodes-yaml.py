@@ -77,6 +77,48 @@ def parse_rss_feed(rss_content):
     return episodes
 
 
+def merge_with_existing(feed_episodes, existing_file):
+    """
+    Keep each episode at the position it already has in episodes.yaml.
+
+    Every episode page stores its position as `episodeIndex`, so the list must
+    never reorder. The feed can: BEMA occasionally inserts an item in the
+    middle (e.g. a back-dated "Special Announcement"), which would shift every
+    later episode and point hundreds of pages at the wrong data.
+
+    So: existing episodes keep their slots (refreshed with the feed's current
+    details, matched by link); new episodes are appended in feed order; new
+    feed items whose title doesn't start with an episode number are reported
+    and left out, since they aren't episodes and shouldn't get pages.
+    """
+    if not existing_file.exists():
+        return feed_episodes
+
+    with open(existing_file, encoding='utf-8') as f:
+        existing = yaml.safe_load(f) or []
+
+    by_link = {e['link']: e for e in feed_episodes}
+    merged = [by_link.get(e['link'], e) for e in existing]
+    gone = [e['title'] for e in existing if e['link'] not in by_link]
+
+    known = {e['link'] for e in existing}
+    skipped = []
+    for episode in feed_episodes:
+        if episode['link'] in known:
+            continue
+        if re.match(r'^-?\d+[a-z]?:', episode['title']):
+            merged.append(episode)
+        else:
+            skipped.append(episode['title'])
+
+    print(f"Kept {len(existing)} existing episodes in place, appended {len(merged) - len(existing)} new")
+    for title in skipped:
+        print(f"  Skipped (not a numbered episode): {title}")
+    for title in gone:
+        print(f"  No longer in the feed (kept as is): {title}")
+    return merged
+
+
 def convert_to_yaml(episodes, output_file):
     """
     Convert episodes list to YAML and save to file.
@@ -188,7 +230,7 @@ def create_episode_files(episodes, data_dir):
                     season = '7'
                 elif episode_num_int <= 410:
                     season = '8'
-                elif episode_num_int <= 465:
+                elif episode_num_int <= 495:
                     season = '9'
                 else:
                     season = '10'
@@ -247,6 +289,9 @@ def main():
 
         # Parse RSS feed
         episodes = parse_rss_feed(rss_content)
+
+        # Keep existing episodes where they are (pages store their index)
+        episodes = merge_with_existing(episodes, episodes_yaml_file)
 
         # Convert to YAML and save
         yaml_content = convert_to_yaml(episodes, episodes_yaml_file)

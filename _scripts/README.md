@@ -27,7 +27,11 @@ Python version of the PowerShell `gen-episodes-yaml.ps1` script. This is a cross
 1. Fetches the BEMA podcast RSS feed from https://feeds.fireside.fm/bema/rss
 2. Saves the raw RSS XML to `_data/bema-rss.xml`
 3. Parses episode data and converts to YAML format
-4. Saves episodes to `_data/episodes.yaml`
+4. Saves episodes to `_data/episodes.yaml`, keeping every existing episode at
+   the position it already has (pages store that position as `episodeIndex`).
+   New episodes are appended; new feed items that aren't numbered episodes,
+   such as a back-dated announcement BEMA inserted mid-feed, are reported and
+   skipped rather than shifting every later episode
 5. Extracts book links to `_data/book-list.yaml`
 6. Creates episode markdown files in appropriate `_session_*` directories if they don't exist
 
