@@ -107,8 +107,8 @@
     <!-- Featured Episodes -->
     <div class="container">
         <section class="section-container section-container-lgfeatured">
-            <h2>Most Impactful Episodes</h2>
-            <p>Start with these highly-recommended episodes that introduce key concepts and frameworks used throughout the podcast:</p>
+            <h2>A BEMA Sampler</h2>
+            <p class="featured-intro">Think of these as a stone skipped across the whole podcast: a handful of episodes from different sessions that give a taste of where the journey goes. They're a preview, not a shortcut. When you're ready to dive in, start at the very beginning with <a href="{{ '/ep/-1' | relative_url }}">Episode -1</a> and listen in order, the way the BEMA team recommends, since each session builds on the one before it.</p>
 
             <div class="card-grid">
                 {% assign featured_episodes = "0,18,110,190,203,305" | split: "," %}
@@ -133,7 +133,7 @@
                   {% if episode_page %}
                     {% assign episode = site.data.episodes[episode_page.episodeIndex] %}
                     <div class="card card-elevated">
-                        <span class="episode-number">Episode {{ episode_page.episodeNumber }}</span>
+                        <span class="episode-number">Episode {{ episode_page.episodeNumber }} · Session {{ episode.season }}</span>
                         <h3>{{ episode.title }}</h3>
                         <p>{{ episode.subtitle }}</p>
                         <a href="{{ episode_page.url }}">Read notes {% include icon.html name="arrow-right" %}</a>

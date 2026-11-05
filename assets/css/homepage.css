@@ -150,6 +150,10 @@ body {
     background: var(--gradient-subtle);
 }
 
+.featured-intro a {
+    color: var(--color-primary);
+}
+
 /* Episode cards use .card .card-elevated from common.css */
 /* Container uses .card-grid from common.css */
 /* Typography (h3, p, a) inherited from .card system */
