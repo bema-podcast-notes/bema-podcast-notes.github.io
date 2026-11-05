@@ -132,11 +132,11 @@
 
                   {% if episode_page %}
                     {% assign episode = site.data.episodes[episode_page.episodeIndex] %}
-                    <div class="card card-elevated">
+                    <div class="card card-elevated sampler-card">
                         <span class="episode-number">Episode {{ episode_page.episodeNumber }} · Session {{ episode.season }}</span>
                         <h3>{{ episode.title }}</h3>
                         <p>{{ episode.subtitle }}</p>
-                        <a href="{{ episode_page.url }}">Read notes {% include icon.html name="arrow-right" %}</a>
+                        <a href="{{ episode_page.url }}">Read notes<span class="visually-hidden"> for {{ episode.title }}</span> {% include icon.html name="arrow-right" %}</a>
                     </div>
                   {% endif %}
                 {% endfor %}

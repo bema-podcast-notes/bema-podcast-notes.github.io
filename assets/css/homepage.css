@@ -154,6 +154,31 @@ body {
     color: var(--color-primary);
 }
 
+/* Sampler cards: the "Read notes" link covers the whole card */
+.sampler-card {
+    position: relative;
+}
+
+.sampler-card a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--radius-lg);
+}
+
+/* Keyboard focus outlines the card rather than just the link */
+.sampler-card a:focus-visible {
+    outline: none;
+}
+
+.sampler-card a:focus-visible::after {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
 /* Episode cards use .card .card-elevated from common.css */
 /* Container uses .card-grid from common.css */
 /* Typography (h3, p, a) inherited from .card system */
