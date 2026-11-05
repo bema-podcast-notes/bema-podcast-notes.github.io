@@ -319,8 +319,9 @@ body {
     background: var(--color-on-primary-subtle);
 }
 
+/* A darker fill keeps white text at AA contrast (a lighter one fell to 3.7:1) */
 .theme-btn.active {
-    background: var(--color-on-primary-muted);
+    background: rgba(0, 0, 0, 0.32);
     border-color: var(--color-text-on-primary);
 }
 
@@ -410,6 +411,22 @@ body {
     border-bottom-color: var(--color-primary);
 }
 
+/* Links inside paragraphs and list items need more than color to stand
+   out from the text around them (WCAG 1.4.1) */
+.content-area p a,
+.content-area li a,
+.content-area h2 a,
+.content-area h3 a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+}
+
+/* Lists that are all links (session episode rows) don't need it */
+.content-area .session-episodes a {
+    text-decoration: none;
+}
+
 /* Code */
 .content-area code {
     background: var(--color-code-bg);
@@ -447,6 +464,11 @@ body {
 }
 
 /* Tables */
+.table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
 .content-area table {
     width: 100%;
     border-collapse: collapse;
@@ -576,7 +598,7 @@ body {
 
 .btn-disabled {
     background: var(--color-bg-gray);
-    color: var(--color-text-light);
+    color: var(--color-text-tertiary);
     border-color: var(--color-bg-gray);
     cursor: not-allowed;
     pointer-events: none;
@@ -669,18 +691,23 @@ body {
 }
 
 /* Card Content - Typography inside cards */
+.card h2,
 .card h3 {
     margin: 0 0 var(--spacing-sm) 0;
     font-size: var(--font-size-lg);
     color: var(--color-text-dark);
+    border-bottom: 0;
+    padding-bottom: 0;
 }
 
+.card h2 a,
 .card h3 a {
     color: var(--color-text-dark);
     text-decoration: none;
     transition: color var(--transition-fast);
 }
 
+.card h2 a:hover,
 .card h3 a:hover {
     color: var(--color-primary);
 }
@@ -833,8 +860,10 @@ body {
         padding-left: var(--spacing-md);
     }
 
-    /* Wide tables scroll sideways inside the content instead of widening the page */
-    .content-area table {
+    /* Wide tables scroll sideways inside the content instead of widening the
+       page. scroll-regions.js wraps each table in .table-scroll (keeping the
+       table a real table for screen readers); without JS the table scrolls itself. */
+    .content-area table:not(.is-wrapped) {
         display: block;
         max-width: 100%;
         overflow-x: auto;
@@ -935,6 +964,72 @@ body {
 
 .desktop-only {
     display: block;
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+/* "Skip to main content": first thing a keyboard or screen reader user
+   reaches; hidden until focused */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: var(--spacing-sm);
+    z-index: 1000;
+    padding: 0.6rem 1rem;
+    background: var(--color-bg-white);
+    color: var(--color-primary);
+    font-weight: var(--font-weight-semibold);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+}
+
+.skip-link:focus {
+    top: var(--spacing-sm);
+}
+
+/* The skip target takes focus without showing an outline around the page */
+main:focus {
+    outline: none;
+}
+
+/* A visible focus ring for every keyboard-focusable control */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* On the blue header and hero, a white ring shows up */
+.header a:focus-visible,
+.header button:focus-visible,
+.hero a:focus-visible,
+.page-hero a:focus-visible,
+.episode-hero a:focus-visible,
+.episode-hero button:focus-visible {
+    outline-color: var(--color-text-on-primary);
+}
+
+/* Respect the system "reduce motion" setting */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    .card:hover,
+    .btn:hover {
+        transform: none !important;
+    }
 }
 
 /* ============================================
@@ -1052,6 +1147,10 @@ body {
     }
 
     /* Undo the small-screen table scrolling: on paper it would cut columns off */
+    .table-scroll {
+        overflow: visible;
+    }
+
     .content-area table {
         display: table;
         max-width: none;

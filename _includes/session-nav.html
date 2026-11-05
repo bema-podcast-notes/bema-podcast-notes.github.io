@@ -9,14 +9,14 @@
 {%- assign next_url = '/session' | append: next_number | append: '/' -%}
 {%- assign prev_page = site.documents | where: "url", prev_url | first -%}
 {%- assign next_page = site.documents | where: "url", next_url | first -%}
-<nav class="session-nav" aria-label="Sessions">
+<nav class="session-nav" aria-label="Sessions{% if include.position == 'bottom' %}, bottom{% endif %}">
     <div class="session-nav-left">
         {%- if prev_page %}
         <a href="{{ prev_url | relative_url }}" class="btn btn-sm btn-primary" rel="prev" title="Session {{ prev_number }} (← or P)" aria-keyshortcuts="ArrowLeft P">
             {% include icon.html name="arrow-left" %} Previous<span class="hide-mobile"> Session</span>
         </a>
         {% else %}
-        <span class="btn btn-sm btn-disabled">{% include icon.html name="arrow-left" %} Previous<span class="hide-mobile"> Session</span></span>
+        <span class="btn btn-sm btn-disabled" role="link" aria-disabled="true">{% include icon.html name="arrow-left" %} Previous<span class="hide-mobile"> Session</span></span>
         {% endif -%}
     </div>
     <div class="session-nav-center">
@@ -30,7 +30,7 @@
             Next<span class="hide-mobile"> Session</span> {% include icon.html name="arrow-right" %}
         </a>
         {% else %}
-        <span class="btn btn-sm btn-disabled">Next<span class="hide-mobile"> Session</span> {% include icon.html name="arrow-right" %}</span>
+        <span class="btn btn-sm btn-disabled" role="link" aria-disabled="true">Next<span class="hide-mobile"> Session</span> {% include icon.html name="arrow-right" %}</span>
         {% endif -%}
     </div>
 </nav>

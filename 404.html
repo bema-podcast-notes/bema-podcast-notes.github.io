@@ -1,30 +1,13 @@
 ---
 permalink: /404.html
-layout: default
+layout: page
+title: Page Not Found
+description: The page you're looking for isn't here. It may have moved, or the link may be mistyped.
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-  /* Minima footer: let the long email address wrap on narrow phones */
-  .u-email {
-    overflow-wrap: anywhere;
-    word-break: break-all;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<p>Try one of these instead:</p>
+<ul>
+    <li><a href="{{ '/' | relative_url }}">Home</a>: all sessions and episodes</li>
+    <li><a href="{{ '/search/' | relative_url }}">Search</a> the episode notes</li>
+    <li><a href="{{ '/ep/-1' | relative_url }}">Episode -1</a>, the very beginning</li>
+</ul>

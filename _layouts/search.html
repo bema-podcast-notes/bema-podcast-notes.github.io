@@ -11,11 +11,12 @@
     {% include google-analytics.html page_type='search' %}
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <!-- Header -->
     <header class="header">
         <div class="header-content">
             <a href="/" class="site-title">{% include icon.html name="book" %} {{ site.title }}</a>
-            <nav class="nav">
+            <nav class="nav" aria-label="Main">
                 <a href="/">Home</a>
                 <a href="/#episodes">All Episodes</a>
                 <a href="/search/">Search</a>
@@ -29,6 +30,8 @@
         </div>
     </header>
 
+    <main id="main" tabindex="-1">
+
     <!-- Search Hero Section -->
     <section class="search-hero">
         <div class="container">
@@ -40,10 +43,11 @@
     <!-- Search Form -->
     <div class="container">
         <div class="search-section">
-            <form id="search-form" class="search-form">
+            <form id="search-form" class="search-form" role="search">
                 <div class="search-box">
+                    <label for="search-input" class="visually-hidden">Search episode notes</label>
                     <input
-                        type="text"
+                        type="search"
                         id="search-input"
                         name="q"
                         placeholder="Try searching 'parables', 'covenant', 'sabbath'..."
@@ -67,8 +71,10 @@
 
     <!-- Search Results -->
     <div class="container">
+        <p id="search-status" class="visually-hidden" role="status" aria-live="polite"></p>
         <div id="search-results" class="search-results"></div>
     </div>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">

@@ -7,6 +7,7 @@ class BemaSearch {
     this.searchInput = document.getElementById('search-input');
     this.searchResults = document.getElementById('search-results');
     this.searchForm = document.getElementById('search-form');
+    this.searchStatus = document.getElementById('search-status');
     this.init();
   }
 
@@ -173,8 +174,18 @@ class BemaSearch {
     return this.decoder.value.replace(/\u00A0/g, ' ');
   }
 
+  // Screen readers hear the result count once typing pauses, not on every keystroke
+  announce(message) {
+    if (!this.searchStatus) return;
+    clearTimeout(this.announceTimeout);
+    this.announceTimeout = setTimeout(() => { this.searchStatus.textContent = message; }, 700);
+  }
+
   displayResults(results, query) {
     if (!this.searchResults) return;
+    this.announce(results.length === 0
+      ? `No results for ${query}`
+      : `${results.length} result${results.length === 1 ? '' : 's'} for ${query}`);
 
     if (results.length === 0) {
       this.searchResults.innerHTML = `
@@ -197,11 +208,11 @@ class BemaSearch {
 
       return `
         <div class="card card-elevated search-result">
-          <h3 class="search-result-title">
+          <h2 class="search-result-title">
             <a href="${this.escapeHtml(episode.url)}">
               Session ${this.escapeHtml(episode.session)}: ${this.escapeHtml(episode.episode_title)}
             </a>
-          </h3>
+          </h2>
           ${episode.subtitle ? `<p class="search-result-subtitle">${this.escapeHtml(episode.subtitle)}</p>` : ''}
           ${episode.duration ? `<p class="search-result-meta">Duration: ${this.escapeHtml(episode.duration)}</p>` : ''}
           ${episode.description ? `<p class="search-result-description">${this.escapeHtml(this.truncateText(episode.description, 200))}</p>` : ''}
@@ -327,6 +338,7 @@ class BemaSearch {
     if (this.searchResults) {
       this.searchResults.innerHTML = '';
     }
+    this.announce('');
     
     // Clear URL parameter
     const newUrl = new URL(window.location);

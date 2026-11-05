@@ -10,11 +10,12 @@
     {% include google-analytics.html page_type='home' %}
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <!-- Header -->
     <header class="header">
         <div class="header-content">
             <div class="site-title">{% include icon.html name="book" %} {{ site.title }}</div>
-            <nav class="nav">
+            <nav class="nav" aria-label="Main">
                 <a href="#home">Home</a>
                 <a href="#episodes">All Episodes</a>
                 <a href="/search/">Search</a>
@@ -27,6 +28,8 @@
             </div>
         </div>
     </header>
+
+    <main id="main" tabindex="-1">
 
     <!-- Hero Section -->
     <section class="hero">
@@ -423,6 +426,7 @@
             </div>
         </section>
     </div>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">

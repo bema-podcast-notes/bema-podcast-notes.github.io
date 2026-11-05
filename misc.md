@@ -10,7 +10,7 @@ Below are curated resources to help deepen your understanding of the Bible in it
 <div class="card-grid resource-cards">
 {% for page in site.misc_pages %}
   <div class="card card-bordered">
-    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+    <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
     <p>{{ page.description }}</p>
     <a href="{{ page.url }}" class="resource-link">Read more {% include icon.html name="arrow-right" %}</a>
   </div>

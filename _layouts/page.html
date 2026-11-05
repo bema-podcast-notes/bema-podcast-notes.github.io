@@ -18,17 +18,19 @@
     <link rel="stylesheet" href="{{ '/assets/css/page.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     {%- assign url_start = page.url | slice: 0, 8 -%}
     {%- if url_start == '/session' -%}{%- assign ga_page_type = 'session' -%}
+    {%- elsif page.url == '/404.html' -%}{%- assign ga_page_type = '404' -%}
     {%- elsif page.url == '/misc/' -%}{%- assign ga_page_type = 'resources' -%}
     {%- elsif page.url contains '/misc/' -%}{%- assign ga_page_type = 'resource' -%}
     {%- else -%}{%- assign ga_page_type = 'page' -%}{%- endif %}
     {% include google-analytics.html page_type=ga_page_type %}
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <!-- Header -->
     <header class="header">
         <div class="header-content">
             <a href="/" class="site-title">{% include icon.html name="book" %} {{ site.title }}</a>
-            <nav class="nav">
+            <nav class="nav" aria-label="Main">
                 <a href="/">Home</a>
                 <a href="/#episodes">All Episodes</a>
                 <a href="/search/">Search</a>
@@ -41,6 +43,8 @@
             </div>
         </div>
     </header>
+
+    <main id="main" tabindex="-1">
 
     <!-- Page Hero Section -->
     <section class="page-hero">
@@ -68,9 +72,10 @@
             </div>
         </article>
         {%- if page.session %}
-        {% include session-nav.html %}
+        {% include session-nav.html position='bottom' %}
         {%- endif %}
     </div>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -89,5 +94,6 @@
     {%- if page.session %}
     <script src="{{ '/assets/js/episode-hotkeys.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     {%- endif %}
+    <script src="{{ '/assets/js/scroll-regions.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>
