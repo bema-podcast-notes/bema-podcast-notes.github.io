@@ -73,6 +73,13 @@ body {
     max-width: 1200px;
 }
 
+.updates-box a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+}
+
 .updates-box p {
     margin: 0.5rem 0;
 }

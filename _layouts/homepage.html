@@ -31,11 +31,34 @@
 
     <main id="main" tabindex="-1">
 
+    {%- comment -%}
+      Counts for the hero, updates box and intro, computed so they stay true:
+      every episode has a page, but only some have notes yet (the rest hold
+      the "No notes yet." placeholder). Latest notes = furthest episode in
+      podcast order that has them.
+    {%- endcomment -%}
+    {%- assign all_episode_pages = site.documents | where: "layout", "episode_notes" -%}
+    {%- assign episode_total = all_episode_pages | size -%}
+    {%- assign notes_count = 0 -%}
+    {%- assign latest_notes = nil -%}
+    {%- for doc in all_episode_pages -%}
+      {%- assign doc_plain = doc.content | strip_html | strip -%}
+      {%- if doc_plain != '' and doc_plain != 'No notes yet.' -%}
+        {%- assign notes_count = notes_count | plus: 1 -%}
+        {%- if latest_notes == nil or doc.episodeIndex > latest_notes.episodeIndex -%}
+          {%- assign latest_notes = doc -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign latest_notes_episode = site.data.episodes[latest_notes.episodeIndex] -%}
+    {%- assign newest_page = all_episode_pages | sort: "episodeIndex" | last -%}
+    {%- assign newest_episode = site.data.episodes[newest_page.episodeIndex] %}
+
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <h1>Your Complete Guide to the BEMA Podcast</h1>
-            <p class="subtitle">My personal notes from 465+ episodes: insights and connections to help you understand the Bible in its ancient Hebrew context</p>
+            <p class="subtitle">My personal notes on the BEMA Podcast, {{ notes_count }} episodes and counting: insights and connections to help you understand the Bible in its ancient Hebrew context</p>
             <p class="hero-byline"><span>An independent listener's notes ·</span> <span>Not affiliated with BEMA Discipleship</span></p>
             <div class="cta-buttons">
                 <a href="{{ '/ep/-1' | relative_url }}" class="btn btn-lg btn-light">{% include icon.html name="rocket" %} Start from Episode -1</a>
@@ -48,9 +71,9 @@
     <!-- Updates Box -->
     <div class="container">
         <div class="updates-box">
-            <p><strong>{% include icon.html name="sparkles" %} Recently added:</strong> Episodes 452-465 (Qohelet/Ecclesiastes series)</p>
-            <p><strong>{% include icon.html name="books" %} Total notes:</strong> 465+ episodes documented and counting</p>
-            <p><strong>{% include icon.html name="target" %} Currently covering:</strong> Session 10 - New content added regularly!</p>
+            <p><strong>{% include icon.html name="sparkles" %} Latest notes:</strong> <a href="{{ latest_notes.url }}">{{ latest_notes_episode.title }}</a> (Session {{ latest_notes_episode.season }})</p>
+            <p><strong>{% include icon.html name="books" %} Notes so far:</strong> {{ notes_count }} of {{ episode_total }} episodes, with more added as I listen</p>
+            <p><strong>{% include icon.html name="target" %} Newest episode:</strong> <a href="{{ newest_page.url }}">{{ newest_episode.title }}</a>. Every episode has a page with its player and description, even before it has notes.</p>
         </div>
     </div>
 
@@ -65,7 +88,7 @@
             <p>The name "BEMA" comes from the Hebrew word meaning "platform" or "raised place"—historically, it's where the Torah was read in the synagogue. The podcast lives up to this name by carefully examining biblical texts, exploring what they meant to their original audiences, and discovering how that understanding transforms our reading today.</p>
 
             <h3>What You'll Find Here</h3>
-            <p>This site contains <strong>my personal notes</strong> from all 465+ episodes. As I've listened through the entire series, I've captured key concepts, historical context, Hebrew terms, connections between episodes, and episode summaries.</p>
+            <p>This site contains <strong>my personal notes</strong> on {{ notes_count }} of the {{ episode_total }} episodes so far, with more added as I listen. In them I've captured key concepts, historical context, Hebrew terms, connections between episodes, and episode summaries.</p>
 
             <p>Want to keep your own notes too? Every episode page has a <strong>My Notes</strong> space at the bottom. Your notes save in your browser as you type, and you can download them for one episode or export them all as a single file.</p>
 
@@ -151,7 +174,7 @@
     <div class="container">
         <div class="search-highlight" id="search">
             <h2 class="section-heading">{% include icon.html name="search" %} Find What You're Looking For</h2>
-            <p>Search through 465+ episodes by topic, passage, concept, or keyword</p>
+            <p>Search all {{ episode_total }} episodes by topic, passage, concept, or keyword</p>
             <form action="/search/" method="get">
                 <div class="search-box">
                     <input type="text" name="q" class="search-input" placeholder="Try searching 'parables', 'covenant', 'sabbath'..." />
@@ -375,7 +398,7 @@
             <details class="session-group">
                 <summary>
                     <span class="session-name"><span class="session-title">Session {{ site.data.sessions[9].number }}: {{ site.data.sessions[9].name }}</span> <span class="session-topic">{{ site.data.sessions[9].topic | escape }}</span></span>
-                    <span class="badge badge-warning">{% include icon.html name="barrier-block" %} In Progress</span>
+                    <span class="session-count">({{ site.session_10 | where: "layout", "episode_notes" | size }} episodes)</span>
                 </summary>
                 <div class="episode-list">
                     {% if site.session_10.size > 0 %}
