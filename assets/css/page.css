@@ -323,3 +323,42 @@ ul.session-episodes {
 [data-import-color-row][hidden] {
     display: none;
 }
+
+/* ===== Settings: tips switch and feature list ===== */
+.tips-switch {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    cursor: pointer;
+}
+
+.tips-switch input {
+    flex: none;
+    width: 1.15rem;
+    height: 1.15rem;
+    margin-top: 0.2rem;
+    accent-color: var(--color-primary);
+}
+
+.tips-switch-desc {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.feature-list {
+    margin: var(--spacing-sm) 0 0;
+}
+
+.feature-list > div {
+    padding: 0.75rem 0;
+    border-top: 1px solid var(--color-border-light);
+}
+
+.feature-list dt {
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-semibold);
+}
+
+.feature-list dd {
+    margin: 0.2rem 0 0;
+}

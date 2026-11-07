@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Settings
-description: "Your data on this site: back it up, move it, or restore it"
+description: "Your data, tips, and everything this site can do"
 permalink: /settings/
 ---
 
@@ -46,5 +46,31 @@ Everything you save on this site, such as your own notes on episodes, the episod
   </div>
   <p class="site-data-status" data-import-status role="status" aria-live="polite"></p>
 </div>
+
+## Tips & features {#tips}
+
+<div class="site-data tips-settings" data-tips-settings>
+  <label class="tips-switch">
+    <input type="checkbox" role="switch" data-tips-toggle checked>
+    <span><strong>Show tips</strong><br><span class="tips-switch-desc">Small hints that appear once, right when they're useful, and short tips in empty spaces like a blank notes box.</span></span>
+  </label>
+  <p><button type="button" class="btn btn-outline btn-sm" data-tips-reset>Show hints again</button></p>
+  <p class="site-data-status" data-tips-status role="status" aria-live="polite"></p>
+</div>
+
+Everything the site can do, in one place:
+
+<dl class="feature-list">
+  <div><dt>Quick open</dt><dd>Press <kbd data-tip-key>⌘K</kbd> on any page (or use Search in the header) and type an episode number like <code>201</code>, a session like <code>s3</code>, a page name, or words from a title. The last result always searches the full notes.</dd></div>
+  <div><dt>Keyboard shortcuts</dt><dd><kbd>←</kbd> <kbd>→</kbd> (or <kbd>P</kbd> <kbd>N</kbd>) move between episodes, and between sessions on session pages. Press <kbd>?</kbd> to see them all.</dd></div>
+  <div><dt>Exact phrases</dt><dd>On the <a href="/search/">search page</a>, put words in "quotes" to find that exact phrase.</dd></div>
+  <div><dt>My Notes</dt><dd>Every episode page has a box at the bottom for your own notes. They save as you type. Download one episode's notes, or Export all of them as one file.</dd></div>
+  <div><dt>Mark as listened</dt><dd>Use the Mark as listened button under the player. Listened episodes get a ✓ in the episode lists, and session headers on the home page count them. Press + when you listen again.</dd></div>
+  <div><dt>Copy episode info</dt><dd>On an episode page, the clock icon next to the length copies the episode's session, title, subtitle and length.</dd></div>
+  <div><dt>Previous versions</dt><dd>Some episodes' notes have been rewritten. The earlier versions are kept under Previous versions at the end of the notes.</dd></div>
+  <div><dt>Printing</dt><dd>Episode pages print cleanly: the notes, with link addresses, and your own note if you wrote one.</dd></div>
+  <div><dt>Color mode</dt><dd>System, Light or Dark, from the switch in the header (in the menu on phones).</dd></div>
+  <div><dt>Your data</dt><dd>Export everything to a file, and import it in another browser, from <a href="#your-data">Your data</a> above.</dd></div>
+</dl>
 
 <script src="{{ '/assets/js/site-data.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

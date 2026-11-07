@@ -583,6 +583,7 @@ html.header-measure .theme-switcher > * {
    out from the text around them (WCAG 1.4.1) */
 .content-area p a,
 .content-area li a,
+.content-area dd a,
 .content-area h2 a,
 .content-area h3 a {
     text-decoration: underline;
@@ -1728,4 +1729,155 @@ html.quick-open-active {
     width: 1em;
     height: 1em;
     vertical-align: -0.1em;
+}
+
+/* ===== Tips (assets/js/tips.js) ===== */
+/* Tip lines: quiet one-liners in empty spots; Settings can turn them off */
+.tip-line {
+    margin: 0.5rem 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.tip-line::before {
+    content: "💡 ";
+}
+
+.tip-line[hidden],
+html.tips-off .tip-line {
+    display: none;
+}
+
+.tip-line kbd,
+.feature-list kbd,
+.tip-hint kbd {
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0 0.35em;
+    border: 1px solid var(--color-border-light);
+    border-bottom-width: 2px;
+    border-radius: var(--radius-sm);
+    background: var(--color-bg-light);
+    color: var(--color-text-dark);
+    font: inherit;
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/* Hint bubble: fixed next to its control, with an arrow pointing at it */
+.tip-hint {
+    --tip-bg: #10344d;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    max-width: min(340px, calc(100vw - 24px));
+    padding: 0.65rem 0.5rem 0.65rem 0.85rem;
+    border-radius: var(--radius-md);
+    background: var(--tip-bg);
+    color: #fff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    font-size: var(--font-size-sm);
+    line-height: 1.45;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Dark mode: a lighter navy than the page, outlined, still white text */
+:root[data-mode="dark"] .tip-hint {
+    --tip-bg: #2f4f68;
+    outline: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.tip-hint.is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+.tip-hint::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: calc(var(--tip-arrow-x, 50%) - 6px);
+    border: 6px solid transparent;
+    border-top: 0;
+    border-bottom-color: var(--tip-bg);
+}
+
+.tip-hint.tip-hint-above::before {
+    top: auto;
+    bottom: -6px;
+    border: 6px solid transparent;
+    border-bottom: 0;
+    border-top-color: var(--tip-bg);
+}
+
+.tip-hint-label {
+    flex: none;
+    padding: 0.05rem 0.4rem;
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.18);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.tip-hint a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.tip-hint kbd {
+    border-color: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+
+.tip-hint-close {
+    flex: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: -0.3rem 0 0;
+    padding: 0;
+    border: 0;
+    border-radius: var(--radius-sm);
+    background: transparent;
+    color: inherit;
+    font-size: 1.2rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.tip-hint-close:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tip-hint {
+        transition: none;
+        transform: none;
+    }
+}
+
+@media print {
+    .tip-line,
+    .tip-hint {
+        display: none !important;
+    }
+}
+
+/* My Notes: the tip shows only while the box is empty */
+.my-notes.my-notes-has-text .my-notes-tip {
+    display: none;
+}
+
+/* Quick open: empty-state tip above the results */
+.quick-open-tip {
+    margin: 0;
+    padding: 0.6rem 1rem 0.2rem;
 }

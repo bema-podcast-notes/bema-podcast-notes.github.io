@@ -161,6 +161,14 @@
         if (window.matchMedia && window.matchMedia('(max-width: 768px)').matches) {
             document.documentElement.classList.add('header-compact');
         }
+        // Tips turned off in Settings (tips.js): hide tip lines before first paint
+        try {
+            if ((JSON.parse(localStorage.getItem('bema-tips') || '{}') || {}).off === true) {
+                document.documentElement.classList.add('tips-off');
+            }
+        } catch (e) {
+            // Show tips
+        }
         detectFlexGap();
 
         // Drop the old palette choice from when the alternate themes were selectable

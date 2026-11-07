@@ -4,8 +4,9 @@
  *   BEMAAnalytics.track(name, params)        send an event
  *   BEMAAnalytics.setUserProperties(props)   e.g. { color_mode: 'dark' }
  *
- * Without gtag (local builds) calls are no-ops. Every call is also kept in
- * BEMAAnalytics.events, and logged to the console when
+ * Without gtag (local builds) calls are no-ops. Every event is also
+ * dispatched on document as 'bema:track' ({ name, params }) for tips.js.
+ * Every call is also kept in BEMAAnalytics.events, and logged to the console when
  * localStorage['bema-analytics-debug'] is '1', for checking locally.
  * Never send note text or anything personal. Parameter names are specific
  * (nav_method, not method) so they can't collide with GA's own parameters,
@@ -59,6 +60,13 @@
         params = params || {};
         record(name, params);
         if (typeof window.gtag === 'function') window.gtag('event', name, params);
+        // Also announced on the page, so features like tips.js can react to
+        // what the reader just did without each script calling them
+        try {
+            document.dispatchEvent(new CustomEvent('bema:track', { detail: { name: name, params: params } }));
+        } catch (e) {
+            // Old browsers without CustomEvent: nothing listens there anyway
+        }
     }
 
     function setUserProperties(props) {

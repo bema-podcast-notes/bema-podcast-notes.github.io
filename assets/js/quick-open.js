@@ -30,7 +30,7 @@
     const MAX_RESULTS = 8;
     const IS_MAC = /Mac|iPhone|iPad|iPod/.test(navigator.platform || navigator.userAgent);
 
-    let dialog, input, list, status;
+    let dialog, input, list, status, tip;
     let index = null;
     let loading = null;
     let results = [];
@@ -189,6 +189,8 @@
 
     function render() {
         list.innerHTML = '';
+        // Empty-state tip (hidden when tips are off, via html.tips-off)
+        if (tip) tip.hidden = !!input.value.trim();
         results.forEach(function(item, i) { list.appendChild(renderItem(item, i)); });
         setActive(results.length ? 0 : -1);
         announce(results.length === 0 ? 'No matches' :
@@ -239,6 +241,8 @@
         field.appendChild(input);
         field.appendChild(el('kbd', 'quick-open-esc', 'esc'));
 
+        tip = el('p', 'tip-line quick-open-tip', 'Try an episode number like 201 or -1, a session like s3, a page like settings, or words from a title.');
+
         list = el('ul', 'quick-open-list');
         list.id = 'quick-open-list';
         list.setAttribute('role', 'listbox');
@@ -253,6 +257,7 @@
             '<span><kbd>' + (IS_MAC ? '⌘' : 'Ctrl') + '</kbd><kbd>↵</kbd> new tab</span><span><kbd>esc</kbd> close</span>';
 
         form.appendChild(field);
+        form.appendChild(tip);
         form.appendChild(list);
         form.appendChild(status);
         form.appendChild(help);
