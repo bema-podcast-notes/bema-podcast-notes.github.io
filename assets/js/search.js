@@ -8,6 +8,7 @@ class BemaSearch {
     this.searchResults = document.getElementById('search-results');
     this.searchForm = document.getElementById('search-form');
     this.searchStatus = document.getElementById('search-status');
+    this.focusInput();
     this.init();
   }
 
@@ -19,6 +20,29 @@ class BemaSearch {
       this.handleURLParams();
     } catch (error) {
       console.error('Error initializing search:', error);
+    }
+  }
+
+  // Put the cursor in the search box on load, before the index finishes
+  // loading, so people can start typing at once (handleURLParams runs
+  // whatever they typed meanwhile). A ?q= query is shown right away with the
+  // cursor after it. On touch screens with a ?q= query, leave focus alone so
+  // the on-screen keyboard doesn't cover the results.
+  focusInput() {
+    if (!this.searchInput) return;
+    const query = new URLSearchParams(window.location.search).get('q');
+    if (query) this.searchInput.value = query;
+    if (query && window.matchMedia && window.matchMedia('(hover: none)').matches) return;
+    try {
+      this.searchInput.focus({ preventScroll: true });
+    } catch (e) {
+      this.searchInput.focus();
+    }
+    const end = this.searchInput.value.length;
+    try {
+      this.searchInput.setSelectionRange(end, end);
+    } catch (e) {
+      // type="search" doesn't support selection ranges in some older browsers
     }
   }
 
@@ -83,10 +107,11 @@ class BemaSearch {
   handleURLParams() {
     const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get('q');
-    if (query && this.searchInput) {
-      this.searchInput.value = query;
-      this.performSearch();
-    }
+    if (!this.searchInput) return;
+    // Search what's in the box: the ?q= query, or what the reader typed (or
+    // edited the query to) while the index was loading
+    if (query && !this.searchInput.value.trim()) this.searchInput.value = query;
+    if (this.searchInput.value.trim()) this.performSearch();
   }
 
   performSearch() {
