@@ -168,7 +168,8 @@
             text.appendChild(el('span', 'quick-open-title', item.t));
             if (item.s) text.appendChild(el('span', 'quick-open-sub', item.s));
             main.appendChild(text);
-            meta.textContent = 'Session ' + item.se + (item.x ? ' · no notes yet' : '');
+            const heard = window.BEMAListened && window.BEMAListened.get('ep-' + item.n);
+            meta.textContent = (heard ? '✓ Listened · ' : '') + 'Session ' + item.se + (item.x ? ' · no notes yet' : '');
         } else if (item.type === 'search') {
             const text = el('span', 'quick-open-text');
             text.appendChild(el('span', 'quick-open-title', 'Search the notes for “' + item.q + '”'));

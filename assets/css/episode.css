@@ -235,6 +235,100 @@ html {
     text-align: center;
 }
 
+.episode-details-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1.25rem;
+}
+
+/* Listened tracking (assets/js/listened.js) */
+.listened {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.listened[hidden],
+.listened-counter[hidden] {
+    display: none;
+}
+
+.listened-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.35rem 0.8rem;
+    border: 1px solid var(--color-primary);
+    border-radius: var(--radius-pill);
+    background: transparent;
+    color: var(--color-primary);
+    font: inherit;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.listened-toggle .icon {
+    margin: 0;
+    opacity: 0.35;
+}
+
+.listened-toggle:hover {
+    background: var(--color-bg-light);
+}
+
+.listened-toggle[aria-pressed="true"] {
+    background: var(--color-fill-primary);
+    border-color: var(--color-fill-primary);
+    color: var(--color-text-on-primary);
+}
+
+.listened-toggle[aria-pressed="true"] .icon {
+    opacity: 1;
+}
+
+.listened-counter {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-pill);
+}
+
+.listened-step {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: transparent;
+    color: var(--color-primary);
+    font: inherit;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.listened-step:hover:not(:disabled) {
+    background: var(--color-bg-light);
+}
+
+.listened-step:disabled {
+    color: var(--color-text-light);
+    opacity: 0.5;
+    cursor: default;
+}
+
+.listened-times {
+    min-width: 2.2em;
+    color: var(--color-text-dark);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    text-align: center;
+}
+
 .episode-official-link {
     font-size: var(--font-size-sm);
     font-weight: 600;
@@ -804,6 +898,7 @@ html {
     .episode-nav,
     .player-container,
     .episode-details-line,
+    .listened,
     .episode-player-section > h2,
     .previous-versions,
     .up-next,

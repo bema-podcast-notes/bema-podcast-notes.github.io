@@ -171,9 +171,20 @@ S{{ episode.season }} {{ title }}
                     <li>{% include duration.html value=episode.duration %}</li>
                     <li><time datetime="{{ episode.pubDate | date: '%Y-%m-%d' }}">{{ episode.pubDate | date: "%a, %b %-d, %Y" }}</time></li>
                 </ul>
-                <a href="{{ episode.link }}" target="_blank" rel="noopener" class="episode-official-link">
-                    Open on BEMA{% include icon.html name="external-link" %}<span class="visually-hidden"> (official episode page, opens in a new tab)</span>
-                </a>
+                <div class="episode-details-actions">
+                    {%- comment -%} Listened tracking (assets/js/listened.js); hidden until JS shows it {%- endcomment %}
+                    <div class="listened" data-listened="ep-{{ page.episodeNumber }}" hidden>
+                        <button type="button" class="listened-toggle" data-listened-toggle aria-pressed="false">{% include icon.html name="check" %}<span data-listened-label>Mark as listened</span></button>
+                        <span class="listened-counter" data-listened-counter hidden>
+                            <button type="button" class="listened-step" data-listened-step="-1" aria-label="One fewer listen">−</button>
+                            <span class="listened-times" data-listened-times role="status">1×</span>
+                            <button type="button" class="listened-step" data-listened-step="1" aria-label="Listened again">+</button>
+                        </span>
+                    </div>
+                    <a href="{{ episode.link }}" target="_blank" rel="noopener" class="episode-official-link">
+                        Open on BEMA{% include icon.html name="external-link" %}<span class="visually-hidden"> (official episode page, opens in a new tab)</span>
+                    </a>
+                </div>
             </div>
 
             {%- if episode.description %}

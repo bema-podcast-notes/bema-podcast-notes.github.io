@@ -7,13 +7,14 @@ permalink: /settings/
 
 ## Your data
 
-Everything you save on this site, such as your own notes on episodes and your color mode, is stored only in this browser. It isn't sent to a server, and it isn't shared between your devices or browsers. Clearing this browser's data for the site erases it.
+Everything you save on this site, such as your own notes on episodes, the episodes you've marked as listened, and your color mode, is stored only in this browser. It isn't sent to a server, and it isn't shared between your devices or browsers. Clearing this browser's data for the site erases it.
 
 <div class="site-data" data-site-data>
   <h3>Export</h3>
   <p>Download everything this site has saved in this browser as one JSON file, as a backup or to keep a copy of your notes.</p>
   <dl class="site-data-summary">
     <div><dt>My notes</dt><dd data-site-data-notes>…</dd></div>
+    <div><dt>Listened</dt><dd data-site-data-listened>…</dd></div>
     <div><dt>Color mode</dt><dd data-site-data-mode>…</dd></div>
   </dl>
   <p>
@@ -33,9 +34,9 @@ Everything you save on this site, such as your own notes on episodes and your co
   <div class="site-import-review" data-import-review hidden>
     <p data-import-summary></p>
     <fieldset class="site-import-modes" data-import-modes>
-      <legend>Notes already in this browser</legend>
-      <label><input type="radio" name="import-mode" value="merge" checked> <span><strong>Merge</strong>: add the file's notes; where an episode has notes in both, keep whichever was edited more recently</span></label>
-      <label><input type="radio" name="import-mode" value="replace"> <span><strong>Replace</strong>: delete every note in this browser, then add the file's notes. Export first if you might want them back.</span></label>
+      <legend>Notes and listened history already in this browser</legend>
+      <label><input type="radio" name="import-mode" value="merge" checked> <span><strong>Merge</strong>: add the file's data; where an episode has notes in both, keep whichever was edited more recently, and keep the higher listen count</span></label>
+      <label><input type="radio" name="import-mode" value="replace"> <span><strong>Replace</strong>: delete this browser's notes and listened history, then add the file's. Export first if you might want them back.</span></label>
     </fieldset>
     <label class="site-import-color" data-import-color-row><input type="checkbox" data-import-color checked> <span>Also set the color mode to <strong data-import-color-name></strong></span></label>
     <p class="site-import-actions">

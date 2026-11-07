@@ -6,11 +6,15 @@
  *   colorMode   'system' | 'light' | 'dark'      theme-switcher.js  bema-color-mode
  *   notes       { "ep-325": { title, url, updated, text } }
  *                                                my-notes.js        bema-my-notes:*
+ *   listened    { "ep-325": { count, first, last } }
+ *                                                listened.js        bema-listened
  * Not included: the analytics debug flag (a developer setting).
  *
  * Export format (versioned so an import can read older files):
  *   { "app": "BEMA Podcast Notes", "format": 1, "exported": ISO date,
- *     "site": origin, "data": { "colorMode": ..., "notes": { ... } } }
+ *     "site": origin, "data": { "colorMode": ..., "notes": { ... },
+ *     "listened": { ... } } }   (listened was added later in format 1; files
+ *     without it import fine)
  *
  * BEMASiteData.collect() returns that object; the Settings page's
  * [data-site-data] block shows a summary and the Export button.
@@ -18,8 +22,10 @@
  * Import ([data-site-import] block): read a file, validate it, show what it
  * holds and how it overlaps this browser's notes, then apply on request:
  *   merge    keep notes from both; for an episode in both, the one with the
- *            later "updated" wins (a note without a date counts as oldest)
- *   replace  delete this browser's notes first, then write the file's
+ *            later "updated" wins (a note without a date counts as oldest).
+ *            Listened: higher count, earliest first, latest last.
+ *   replace  delete this browser's notes and listened history first, then
+ *            write the file's
  *   plus, optionally, the file's color mode (via BEMAThemes.setMode).
  * Nothing is written until Import is pressed.
  *
@@ -32,6 +38,7 @@
     const FORMAT = 1;
     const NOTES_PREFIX = 'bema-my-notes:';
     const MODE_KEY = 'bema-color-mode';
+    const LISTENED_KEY = 'bema-listened';
     const REVOKE_DELAY_MS = 60000;
 
     // localStorage can throw (private mode, blocked site data)
@@ -63,16 +70,44 @@
                 // Skip this entry
             }
         }
-        // Episode order: ep--1, ep-0, ep-1 … then anything else
+        return inEpisodeOrder(notes);
+    }
+
+    // Episode order: ep--1, ep-0, ep-1 … then anything else
+    function inEpisodeOrder(map) {
         const sorted = {};
-        Object.keys(notes).sort(function(a, b) {
+        Object.keys(map).sort(function(a, b) {
             const na = a.match(/^ep-(-?\d+)$/), nb = b.match(/^ep-(-?\d+)$/);
             if (na && nb) return Number(na[1]) - Number(nb[1]);
             if (na) return -1;
             if (nb) return 1;
             return a.localeCompare(b);
-        }).forEach(function(k) { sorted[k] = notes[k]; });
+        }).forEach(function(k) { sorted[k] = map[k]; });
         return sorted;
+    }
+
+    function cleanListened(map) {
+        const out = {};
+        if (!map || typeof map !== 'object') return out;
+        Object.keys(map).forEach(function(key) {
+            const e = map[key];
+            const count = e && Math.floor(Number(e.count));
+            if (!/^[a-z0-9][a-z0-9-]{0,63}$/i.test(key) || !(count >= 1)) return;
+            out[key] = {
+                count: Math.min(count, 9999),
+                first: typeof e.first === 'string' && !isNaN(Date.parse(e.first)) ? e.first : null,
+                last: typeof e.last === 'string' && !isNaN(Date.parse(e.last)) ? e.last : null
+            };
+        });
+        return out;
+    }
+
+    function readListened(store) {
+        try {
+            return inEpisodeOrder(cleanListened(JSON.parse((store && store.getItem(LISTENED_KEY)) || '{}')));
+        } catch (e) {
+            return {};
+        }
     }
 
     function readColorMode(store) {
@@ -93,7 +128,8 @@
             site: window.location.origin,
             data: {
                 colorMode: readColorMode(store),
-                notes: readNotes(store)
+                notes: readNotes(store),
+                listened: readListened(store)
             }
         };
     }
@@ -161,6 +197,7 @@
         const mode = payload.data.colorMode;
         return {
             payload: {
+                listened: cleanListened(payload.data.listened),
                 exported: typeof payload.exported === 'string' && !isNaN(Date.parse(payload.exported)) ? payload.exported : null,
                 notes: notes,
                 colorMode: mode === 'system' || mode === 'light' || mode === 'dark' ? mode : null,
@@ -186,6 +223,38 @@
             else result.newerHere++;
         });
         return result;
+    }
+
+    function earlier(a, b) {
+        if (!a) return b;
+        if (!b) return a;
+        return Date.parse(a) <= Date.parse(b) ? a : b;
+    }
+
+    function later(a, b) {
+        if (!a) return b;
+        if (!b) return a;
+        return Date.parse(a) >= Date.parse(b) ? a : b;
+    }
+
+    // Write the file's listened history. Returns how many episodes changed.
+    function applyListened(incoming, mode) {
+        const store = storage();
+        const here = mode === 'replace' ? {} : readListened(store);
+        let changed = 0;
+        Object.keys(incoming).forEach(function(key) {
+            const a = here[key], b = incoming[key];
+            const merged = a ? {
+                count: Math.max(a.count, b.count),
+                first: earlier(a.first, b.first),
+                last: later(a.last, b.last)
+            } : b;
+            if (!a || JSON.stringify(a) !== JSON.stringify(merged)) changed++;
+            here[key] = merged;
+        });
+        if (Object.keys(here).length) store.setItem(LISTENED_KEY, JSON.stringify(inEpisodeOrder(here)));
+        else store.removeItem(LISTENED_KEY);
+        return changed;
     }
 
     // Write the file's notes. Returns counts, or throws if storage fails.
@@ -231,6 +300,7 @@
     const importPanel = document.querySelector('[data-site-import]');
     const notesOut = panel.querySelector('[data-site-data-notes]');
     const modeOut = panel.querySelector('[data-site-data-mode]');
+    const listenedOut = panel.querySelector('[data-site-data-listened]');
     const button = panel.querySelector('[data-site-data-export]');
     const status = panel.querySelector('[data-site-data-status]');
     const MODE_NAMES = { system: 'System (matches your device)', light: 'Light', dark: 'Dark' };
@@ -247,13 +317,20 @@
         const count = Object.keys(data.notes).length;
         notesOut.textContent = count === 0 ? 'None yet' : count + (count === 1 ? ' episode' : ' episodes');
         modeOut.textContent = MODE_NAMES[data.colorMode];
+        if (listenedOut) {
+            const heard = Object.keys(data.listened).length;
+            listenedOut.textContent = heard === 0 ? 'None yet' : heard + (heard === 1 ? ' episode' : ' episodes');
+        }
     }
 
     button.addEventListener('click', function() {
         const payload = exportData();
         const count = Object.keys(payload.data.notes).length;
+        const heard = Object.keys(payload.data.listened).length;
         status.textContent = 'Downloaded bema-podcast-notes-data-' + payload.exported.slice(0, 10) + '.json (' +
-            (count === 0 ? 'no notes' : count + (count === 1 ? ' episode’s notes' : ' episodes’ notes')) + ', plus your color mode).';
+            (count === 0 ? 'no notes' : count + (count === 1 ? ' episode’s notes' : ' episodes’ notes')) + ', ' +
+            (heard === 0 ? 'no listened episodes' : heard + (heard === 1 ? ' listened episode' : ' listened episodes')) +
+            ', and your color mode).';
     });
 
     function plural(n, one, many) {
@@ -314,9 +391,14 @@
                 const when = pending.exported
                     ? ' exported ' + new Date(pending.exported).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
                     : '';
-                let text = '“' + file.name + '”' + when + ' has notes for ' + plural(c.total, 'episode', 'episodes');
-                if (pending.colorMode) text += ' and the color mode ' + MODE_NAMES[pending.colorMode].replace(/ \(.*\)/, '');
-                text += '.';
+                const heardCount = Object.keys(pending.listened).length;
+                const heardHere = Object.keys(readListened(storage())).length;
+                const holds = [];
+                if (c.total || (!heardCount && !pending.colorMode)) holds.push('notes for ' + plural(c.total, 'episode', 'episodes'));
+                if (heardCount) holds.push('listened history for ' + plural(heardCount, 'episode', 'episodes'));
+                if (pending.colorMode) holds.push('the color mode ' + MODE_NAMES[pending.colorMode].replace(/ \(.*\)/, ''));
+                let text = '“' + file.name + '”' + when + ' has ' +
+                    (holds.length > 1 ? holds.slice(0, -1).join(', ') + ' and ' + holds[holds.length - 1] : holds[0]) + '.';
                 if (c.total && c.existingCount) {
                     const parts = [];
                     if (c.added) parts.push(c.added + ' ' + (c.added === 1 ? 'is' : 'are') + ' new here');
@@ -328,13 +410,13 @@
                 if (pending.skipped) text += ' ' + plural(pending.skipped, 'entry', 'entries') + ' in the file couldn’t be read and will be skipped.';
                 summary.textContent = text;
                 // Merge vs replace only matters when there's something to replace
-                modes.hidden = c.existingCount === 0;
+                modes.hidden = c.existingCount === 0 && heardHere === 0;
                 colorRow.hidden = !pending.colorMode;
                 if (pending.colorMode) colorName.textContent = MODE_NAMES[pending.colorMode];
                 colorBox.checked = true;
                 importStatus.textContent = '';
                 review.hidden = false;
-                applyBtn.disabled = c.total === 0 && !pending.colorMode;
+                applyBtn.disabled = c.total === 0 && heardCount === 0 && !pending.colorMode;
                 applyBtn.focus();
             };
             reader.onerror = function() {
@@ -348,10 +430,12 @@
             if (!pending) return;
             const checked = importPanel.querySelector('input[name="import-mode"]:checked');
             const mode = modes.hidden ? 'merge' : (checked ? checked.value : 'merge');
-            if (mode === 'replace' && !window.confirm('Delete every note in this browser and replace them with the file’s notes? This can’t be undone.')) return;
+            if (mode === 'replace' && !window.confirm('Delete every note and all listened history in this browser, and replace them with the file’s? This can’t be undone.')) return;
             let counts;
+            let heardChanged = 0;
             try {
                 counts = applyImport(pending.notes, mode);
+                heardChanged = applyListened(pending.listened, mode);
             } catch (e) {
                 importStatus.textContent = 'The import stopped partway: this browser ran out of storage space or refused to save. Some notes may not have been imported.';
                 refresh();
@@ -359,10 +443,11 @@
             }
             const parts = [];
             if (counts.removed) parts.push('removed ' + plural(counts.removed, 'episode’s', 'episodes’') + ' notes');
-            parts.push('imported notes for ' + plural(counts.written, 'episode', 'episodes'));
+            if (Object.keys(pending.notes).length || !Object.keys(pending.listened).length) parts.push('imported notes for ' + plural(counts.written, 'episode', 'episodes'));
             if (counts.kept) parts.push('kept your newer or identical notes for ' + plural(counts.kept, 'episode', 'episodes'));
+            if (Object.keys(pending.listened).length) parts.push('updated listened history for ' + plural(heardChanged, 'episode', 'episodes'));
             let done = parts.join(', ');
-            done = done.charAt(0).toUpperCase() + done.slice(1) + '.';
+            done = done ? done.charAt(0).toUpperCase() + done.slice(1) + '.' : 'Done.';
             if (pending.colorMode && colorBox.checked && window.BEMAThemes) {
                 window.BEMAThemes.setMode(pending.colorMode);
                 done += ' Color mode set to ' + MODE_NAMES[pending.colorMode] + '.';

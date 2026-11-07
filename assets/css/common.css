@@ -1715,3 +1715,17 @@ html.quick-open-active {
         gap: 0.2rem;
     }
 }
+
+/* ✓ after listened episodes in lists (assets/js/listened.js) */
+.listened-mark {
+    display: inline-block;
+    margin-left: 0.35rem;
+    color: var(--color-primary);
+}
+
+.listened-mark .icon {
+    margin: 0;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.1em;
+}
