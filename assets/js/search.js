@@ -1,5 +1,32 @@
 ---
 ---
+/**
+ * Full-text search for the search page (lunr).
+ *
+ * Getting the index ready, fastest first:
+ *   1. Saved: the built index and docs from an earlier visit, kept in
+ *      IndexedDB and tagged with this build's time (SEARCH_VERSION), so
+ *      they're reused until the site is next deployed. Loading takes tens
+ *      of milliseconds instead of downloading ~1.5 MB and indexing.
+ *   2. Worker: search-worker.js downloads and indexes off the main thread,
+ *      so typing and scrolling never freeze; the result is then saved.
+ *   3. Main thread: the original path, if workers or IndexedDB aren't
+ *      available (very old browsers, some private windows).
+ */
+const SEARCH_VERSION = '{{ site.time | date: "%s" }}';
+const SEARCH_DATA_URL = '{{ "/search-data.json" | relative_url }}';
+const SEARCH_WORKER_URL = '{{ "/assets/js/search-worker.js" | relative_url }}?v={{ site.time | date: "%s" }}';
+const SEARCH_DB = 'bema-search';
+// Field boosts: shared by the worker and the main-thread fallback
+const SEARCH_FIELDS = [
+  ['title', 10],
+  ['episode_title', 8],
+  ['subtitle', 5],
+  ['content', 1],
+  ['description', 3],
+  ['session', 2]
+];
+
 class BemaSearch {
   constructor() {
     this.searchData = [];
@@ -14,12 +41,111 @@ class BemaSearch {
 
   async init() {
     try {
-      await this.loadSearchData();
-      this.createLunrIndex();
+      await this.prepareIndex();
       this.bindEvents();
       this.handleURLParams();
     } catch (error) {
       console.error('Error initializing search:', error);
+    }
+  }
+
+  async prepareIndex() {
+    const saved = await this.readSavedIndex();
+    if (saved) {
+      try {
+        this.searchData = saved.docs;
+        this.lunrIndex = lunr.Index.load(saved.index);
+        this.indexSource = 'saved';
+        return;
+      } catch (e) {
+        // Fall through and rebuild
+      }
+    }
+    const built = await this.buildInWorker();
+    if (built) {
+      this.searchData = built.docs;
+      this.lunrIndex = lunr.Index.load(built.index);
+      this.indexSource = 'worker';
+      this.saveIndex(built.docs, built.index);
+      return;
+    }
+    await this.loadSearchData();
+    this.createLunrIndex();
+    this.indexSource = 'main';
+    this.saveIndex(this.searchData, this.lunrIndex.toJSON());
+  }
+
+  // Resolves to { docs, index } or null if a worker can't be used
+  buildInWorker() {
+    if (typeof Worker !== 'function') return Promise.resolve(null);
+    return new Promise(resolve => {
+      let worker;
+      try {
+        worker = new Worker(SEARCH_WORKER_URL);
+      } catch (e) {
+        resolve(null);
+        return;
+      }
+      const done = result => {
+        worker.terminate();
+        resolve(result);
+      };
+      worker.onmessage = event => done(event.data && event.data.ok ? event.data : null);
+      worker.onerror = () => done(null);
+      worker.postMessage({ url: SEARCH_DATA_URL, fields: SEARCH_FIELDS });
+    });
+  }
+
+  // ---- Saved index (IndexedDB) ----------------------------------------
+  // One record, 'current': { version, docs, index }. A different version
+  // (a newer deploy) is ignored and overwritten. Any failure (blocked
+  // storage, quota) just means building it fresh.
+
+  openSearchDb() {
+    return new Promise((resolve, reject) => {
+      if (!window.indexedDB) { reject(new Error('no IndexedDB')); return; }
+      const request = indexedDB.open(SEARCH_DB, 1);
+      request.onupgradeneeded = () => request.result.createObjectStore('index');
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error);
+      request.onblocked = () => reject(new Error('blocked'));
+    });
+  }
+
+  async readSavedIndex() {
+    try {
+      const db = await this.openSearchDb();
+      const record = await new Promise((resolve, reject) => {
+        const request = db.transaction('index', 'readonly').objectStore('index').get('current');
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+      db.close();
+      return record && record.version === SEARCH_VERSION && record.docs && record.index ? record : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  async saveIndex(docs, index) {
+    try {
+      const db = await this.openSearchDb();
+      await new Promise((resolve, reject) => {
+        const tx = db.transaction('index', 'readwrite');
+        // Plain copies: phrase search later adds a cached phraseText to each doc
+        tx.objectStore('index').put({
+          version: SEARCH_VERSION,
+          saved: new Date().toISOString(),
+          docs: docs.map(doc => { const copy = Object.assign({}, doc); delete copy.phraseText; return copy; }),
+          index: index
+        }, 'current');
+        tx.oncomplete = resolve;
+        tx.onerror = () => reject(tx.error);
+        tx.onabort = () => reject(tx.error);
+      });
+      db.close();
+    } catch (e) {
+      // Not saved; next visit builds it again
     }
   }
 
@@ -48,7 +174,7 @@ class BemaSearch {
 
   async loadSearchData() {
     try {
-      const response = await fetch('{{ "/search-data.json" | relative_url }}');
+      const response = await fetch(SEARCH_DATA_URL);
       this.searchData = await response.json();
       // strip_html leaves entities such as &amp; in the text; decode them so
       // they display correctly and phrases like "Marty & Brent" can match
@@ -64,20 +190,10 @@ class BemaSearch {
 
   createLunrIndex() {
     const searchData = this.searchData;
-    
     this.lunrIndex = lunr(function () {
       this.ref('id');
-      this.field('title', { boost: 10 });
-      this.field('episode_title', { boost: 8 });
-      this.field('subtitle', { boost: 5 });
-      this.field('content', { boost: 1 });
-      this.field('description', { boost: 3 });
-      this.field('session', { boost: 2 });
-
-      // Add documents to index
-      searchData.forEach((doc) => {
-        this.add(doc);
-      }, this);
+      SEARCH_FIELDS.forEach(([name, boost]) => this.field(name, { boost }));
+      searchData.forEach(doc => this.add(doc));
     });
   }
 
