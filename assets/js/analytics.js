@@ -24,12 +24,13 @@
  *   search                  search_term (built in), search_results (metric)
  *   quick_open_select       quick_open_type (episode|session|page|search|action)
  *   shortcuts_open          shortcuts_method (key|footer|quick_open)
+ *   data_export             note_count (metric)
  *
  * Handled here: episode_nav for prev/next buttons and the Next episode card,
  * and notes_progress (25/50/75/100% of an episode's notes read). Feature
  * scripts send their own events: my-notes.js, copy-episode.js,
  * previous-versions.js, theme-switcher.js, episode-hotkeys.js, search.js,
- * quick-open.js, shortcuts.js.
+ * quick-open.js, shortcuts.js, site-data.js.
  */
 
 (function() {

@@ -23,6 +23,7 @@ sitemap: false
   {"t": "Additional Resources", "u": {{ '/misc/' | relative_url | jsonify }}, "k": "resources misc extras"},
   {"t": "New to BEMA?", "u": {{ '/#new' | relative_url | jsonify }}, "k": "new start beginning newcomer help"},
   {"t": "Latest Updates", "u": {{ '/#latest' | relative_url | jsonify }}, "k": "latest updates recent newest"},
+  {"t": "Settings", "u": {{ '/settings/' | relative_url | jsonify }}, "k": "settings preferences data export backup download json"},
   {"t": "Keyboard Shortcuts", "a": "shortcuts", "k": "keyboard shortcuts keys hotkeys help"}
   {%- for doc in resource_pages -%}
   ,{"t": {{ doc.title | jsonify }}, "u": {{ doc.url | relative_url | jsonify }}, "k": "resources"}

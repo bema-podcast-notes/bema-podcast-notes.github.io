@@ -224,3 +224,45 @@ ul.session-episodes {
     color: var(--color-text-tertiary);
     line-height: 1.5;
 }
+
+/* ===== Settings page: your data (assets/js/site-data.js) ===== */
+.site-data {
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-md);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-light);
+}
+
+.site-data h3 {
+    margin-top: 0;
+}
+
+.site-data-summary {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.35rem 1.5rem;
+    margin: var(--spacing-sm) 0;
+}
+
+.site-data-summary > div {
+    display: contents;
+}
+
+.site-data-summary dt {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-dark);
+}
+
+.site-data-summary dd {
+    margin: 0;
+}
+
+.site-data-status:empty {
+    display: none;
+}
+
+.site-data-status {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
