@@ -1,0 +1,15 @@
+{%- comment -%} Site footer, shared by every layout; also loads the keyboard shortcuts panel. {%- endcomment -%}
+<footer class="footer">
+    <div class="container">
+        <p class="footer-title"><strong>{{ site.title }}</strong></p>
+        <p class="footer-description">These are my personal, unofficial notes from the BEMA Podcast by Marty Solomon and Brent Billings. I'm a listener, not affiliated with BEMA Discipleship.</p>
+        <p class="footer-disclaimer">These notes reflect my understanding and are not intended to represent the beliefs of the podcast hosts.</p>
+        <p class="footer-links">
+            <a href="mailto:{{ site.email }}">Contact</a> |
+            <a href="https://github.com/{{ site.github_username }}">GitHub</a> |
+            <a href="https://www.bemadiscipleship.com/">Official BEMA Site</a><span class="footer-shortcuts" hidden> |
+            <button type="button" class="link-button" data-shortcuts-open aria-keyshortcuts="?" aria-haspopup="dialog">Keyboard shortcuts</button></span>
+        </p>
+    </div>
+</footer>
+<script src="{{ '/assets/js/shortcuts.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

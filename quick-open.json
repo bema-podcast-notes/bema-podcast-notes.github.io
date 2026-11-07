@@ -8,7 +8,8 @@ sitemap: false
   site pages, session overviews, and every episode's number, title and
   subtitle. No note text (that's search-data.json, ~5 MB); for words in the
   notes, quick open hands off to /search/.
-    pages:    t title, u url, k extra keywords to match
+    pages:    t title, u url, k extra keywords to match; a = an action
+              instead of a url ("shortcuts" opens the shortcuts panel)
     episodes: n number, t title without the "201: " prefix, s subtitle,
               se session, u url, x 1 when the episode has no notes yet
 {%- endcomment -%}
@@ -21,7 +22,8 @@ sitemap: false
   {"t": "Search the Notes", "u": {{ '/search/' | relative_url | jsonify }}, "k": "search find"},
   {"t": "Additional Resources", "u": {{ '/misc/' | relative_url | jsonify }}, "k": "resources misc extras"},
   {"t": "New to BEMA?", "u": {{ '/#new' | relative_url | jsonify }}, "k": "new start beginning newcomer help"},
-  {"t": "Latest Updates", "u": {{ '/#latest' | relative_url | jsonify }}, "k": "latest updates recent newest"}
+  {"t": "Latest Updates", "u": {{ '/#latest' | relative_url | jsonify }}, "k": "latest updates recent newest"},
+  {"t": "Keyboard Shortcuts", "a": "shortcuts", "k": "keyboard shortcuts keys hotkeys help"}
   {%- for doc in resource_pages -%}
   ,{"t": {{ doc.title | jsonify }}, "u": {{ doc.url | relative_url | jsonify }}, "k": "resources"}
   {%- endfor -%}

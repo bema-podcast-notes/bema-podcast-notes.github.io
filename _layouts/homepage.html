@@ -437,18 +437,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p class="footer-title"><strong>{{ site.title }}</strong></p>
-            <p class="footer-description">These are my personal, unofficial notes from the BEMA Podcast by Marty Solomon and Brent Billings. I'm a listener, not affiliated with BEMA Discipleship.</p>
-            <p class="footer-disclaimer">These notes reflect my understanding and are not intended to represent the beliefs of the podcast hosts.</p>
-            <p class="footer-links">
-                <a href="mailto:{{ site.email }}">Contact</a> |
-                <a href="https://github.com/{{ site.github_username }}">GitHub</a> |
-                <a href="https://www.bemadiscipleship.com/">Official BEMA Site</a>
-            </p>
-        </div>
-    </footer>
+    {% include site-footer.html %}
 
     <script src="{{ '/assets/js/quick-open.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>

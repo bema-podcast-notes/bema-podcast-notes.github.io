@@ -19,7 +19,7 @@
  * without <dialog> (Safari < 15.4) go straight to the search page instead.
  *
  * Analytics: quick_open_select with quick_open_type
- * (episode|session|page|search).
+ * (episode|session|page|search|action).
  */
 (function() {
     'use strict';
@@ -54,7 +54,7 @@
 
     function prepare(data) {
         data.pages.forEach(function(p) {
-            p.type = p.se ? 'session' : 'page';
+            p.type = p.a ? 'action' : p.se ? 'session' : 'page';
             p.title = normalize(p.t);
             p.extra = normalize(p.k);
         });
@@ -178,7 +178,7 @@
             const text = el('span', 'quick-open-text');
             text.appendChild(el('span', 'quick-open-title', item.t));
             main.appendChild(text);
-            meta.textContent = item.type === 'session' ? 'Session overview' : 'Page';
+            meta.textContent = item.type === 'session' ? 'Session overview' : item.type === 'action' ? 'Help' : 'Page';
         }
 
         li.appendChild(main);
@@ -331,8 +331,14 @@
             if (!input.value.trim()) return;
             item = { type: 'search', q: input.value.trim() };
         }
-        const url = urlFor(item);
         if (window.BEMAAnalytics) window.BEMAAnalytics.track('quick_open_select', { quick_open_type: item.type });
+        if (item.type === 'action') {
+            returnFocus = null;
+            close();
+            if (item.a === 'shortcuts' && window.BEMAShortcuts) window.BEMAShortcuts.open('quick_open');
+            return;
+        }
+        const url = urlFor(item);
         if (newTab) {
             window.open(url, '_blank', 'noopener');
             return;
