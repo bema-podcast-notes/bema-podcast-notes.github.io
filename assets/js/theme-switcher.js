@@ -156,6 +156,11 @@
         // Lets CSS collapse the phone menu before first paint (site-menu.js
         // runs later); without JS the nav simply stays visible
         document.documentElement.classList.add('js');
+        // Start phones in the compact (menu button) header so they never
+        // flash the full one; site-menu.js then fine-tunes it by measuring
+        if (window.matchMedia && window.matchMedia('(max-width: 768px)').matches) {
+            document.documentElement.classList.add('header-compact');
+        }
         detectFlexGap();
 
         // Drop the old palette choice from when the alternate themes were selectable

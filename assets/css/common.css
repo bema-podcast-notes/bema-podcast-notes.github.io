@@ -399,6 +399,117 @@ body {
 }
 
 /* ============================================
+   COMPACT HEADER (menu button)
+   html.header-compact: theme-switcher.js sets it in <head> at <=768px (so
+   phones never flash the full header), and site-menu.js keeps it in sync,
+   turning it on whenever the one-line header would no longer fit, at any
+   width. The title and menu button share one row; the menu (nav links, then
+   the color mode switch) opens below them when .menu-open is set.
+   ============================================ */
+html.header-compact .header {
+    padding: 0.6rem var(--spacing-sm);
+}
+
+html.header-compact .header-content {
+    flex-wrap: wrap;
+    gap: 0 var(--spacing-xs);
+}
+
+html.header-compact .menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-right: -0.4rem;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: var(--radius-md);
+    background: transparent;
+    color: var(--color-text-on-primary);
+    cursor: pointer;
+}
+
+html.header-compact .menu-toggle[hidden] {
+    display: none;
+}
+
+html.header-compact .menu-toggle:hover,
+html.header-compact .menu-open .menu-toggle {
+    background: var(--color-on-primary-subtle);
+}
+
+.menu-toggle .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.menu-toggle-close,
+.menu-open .menu-toggle-open {
+    display: none;
+}
+
+.menu-open .menu-toggle-close {
+    display: inline;
+}
+
+html.header-compact .header-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 100%;
+    padding: 0.25rem 0 0.5rem;
+}
+
+html.header-compact .header-content:not(.menu-open) .header-menu {
+    display: none;
+}
+
+html.header-compact .nav {
+    flex-direction: column;
+    align-self: stretch;
+    gap: 0;
+    margin: 0 0 0.75rem;
+}
+
+html.header-compact .nav a {
+    padding: 0.7rem 0.25rem;
+    border-top: 1px solid var(--color-on-primary-subtle);
+    font-size: var(--font-size-md);
+}
+
+html.header-compact .theme-switcher {
+    gap: 0.35rem;
+    font-size: var(--font-size-sm);
+}
+
+/* Roomier taps now that the switch lives in the menu */
+html.header-compact .theme-btn {
+    padding: 0.4rem 0.85rem;
+}
+
+html.header-compact .theme-btn[aria-pressed="false"] {
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
+}
+
+/* site-menu.js measures the one-line header with this on for an instant:
+   nothing may wrap or shrink, so overflow means it doesn't fit */
+html.header-measure .header-content,
+html.header-measure .theme-switcher {
+    flex-wrap: nowrap;
+}
+
+html.header-measure .header-content > *,
+html.header-measure .nav > *,
+html.header-measure .theme-switcher > * {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+/* ============================================
    CONTENT AREA - Shared Typography
    ============================================ */
 .content-area {
@@ -835,59 +946,17 @@ body {
    - Sections: Reduce padding (1.5rem)
    ============================================ */
 @media (max-width: 768px) {
-    /* Header: title and menu button on one row; the menu (nav links, then the
-       color mode switch) opens below them. site-menu.js toggles .menu-open;
-       without JS (no html.js) the menu just stays open. */
+    /* Header without JS: nav links stack under the title, then the color
+       mode switch (with JS, the compact header below takes over) */
     .header {
         padding: 0.6rem var(--spacing-sm);
     }
 
-    .header-content {
+    html:not(.js) .header-content {
         flex-wrap: wrap;
-        gap: 0 var(--spacing-xs);
     }
 
-    .menu-toggle {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 2.75rem;
-        height: 2.75rem;
-        margin-right: -0.4rem;
-        padding: 0;
-        border: 1px solid transparent;
-        border-radius: var(--radius-md);
-        background: transparent;
-        color: var(--color-text-on-primary);
-        cursor: pointer;
-    }
-
-    .menu-toggle[hidden] {
-        display: none;
-    }
-
-    .menu-toggle:hover,
-    .menu-open .menu-toggle {
-        background: var(--color-on-primary-subtle);
-    }
-
-    .menu-toggle .icon {
-        width: 1.5rem;
-        height: 1.5rem;
-        margin: 0;
-        vertical-align: middle;
-    }
-
-    .menu-toggle-close,
-    .menu-open .menu-toggle-open {
-        display: none;
-    }
-
-    .menu-open .menu-toggle-close {
-        display: inline;
-    }
-
-    .header-menu {
+    html:not(.js) .header-menu {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -895,31 +964,14 @@ body {
         padding: 0.25rem 0 0.5rem;
     }
 
-    html.js .header-content:not(.menu-open) .header-menu {
-        display: none;
-    }
-
-    .nav {
+    html:not(.js) .nav {
         flex-direction: column;
-        align-self: stretch;
         gap: 0;
         margin: 0 0 0.75rem;
     }
 
-    .nav a {
-        padding: 0.7rem 0.25rem;
-        border-top: 1px solid var(--color-on-primary-subtle);
-        font-size: var(--font-size-md);
-    }
-
-    .theme-switcher {
-        gap: 0.35rem;
-        font-size: var(--font-size-sm);
-    }
-
-    /* Roomier taps now that the switch lives in the menu */
-    .theme-btn {
-        padding: 0.4rem 0.85rem;
+    html:not(.js) .nav a {
+        padding: 0.5rem 0;
     }
 
     /* Layout: 16px gutters and lighter section padding so text gets the width */
@@ -1039,6 +1091,11 @@ body {
     margin-left: var(--spacing-md);
 }
 
+/* Compact header: the nav is a column spaced with padding */
+.no-flex-gap.header-compact .nav > * + * {
+    margin-left: 0;
+}
+
 .no-flex-gap .theme-switcher > * {
     margin-right: var(--spacing-xs);
 }
@@ -1049,7 +1106,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    /* The phone menu's nav is a column spaced with padding, so no gap needed */
     .no-flex-gap .nav > * + * {
         margin-left: 0;
     }
