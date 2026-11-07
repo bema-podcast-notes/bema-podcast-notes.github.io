@@ -30,9 +30,10 @@
                 <a href="/misc/">Resources</a>
             </nav>
             <div class="theme-switcher mode-switch" role="group" aria-label="Color mode">
-                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">{% include icon.html name="device-laptop" %} System</button>
-                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false">{% include icon.html name="sun" %} Light</button>
-                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false">{% include icon.html name="moon" %} Dark</button>
+                {%- comment -%} Only the selected option shows its label; the others are icons with the label kept for screen readers {%- endcomment %}
+                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">{% include icon.html name="device-laptop" %}<span class="theme-btn-label">System</span></button>
+                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false" title="Light">{% include icon.html name="sun" %}<span class="theme-btn-label">Light</span></button>
+                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false" title="Dark">{% include icon.html name="moon" %}<span class="theme-btn-label">Dark</span></button>
             </div>
         </div>
     </div>

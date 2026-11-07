@@ -365,6 +365,39 @@ body {
     border-color: transparent;
 }
 
+/* Only the selected option shows its label; the others shrink to an icon.
+   The hidden labels stay in the accessibility tree (visually hidden, not
+   display:none), so screen readers still hear System / Light / Dark.
+   Keyed on aria-pressed so the System label shows even before JS runs. */
+.theme-btn {
+    display: inline-flex;
+    align-items: center;
+}
+
+.theme-btn .icon {
+    margin-right: 0; /* homepage.css gives every icon a right margin */
+}
+
+.theme-btn[aria-pressed="true"] .theme-btn-label {
+    margin-left: 0.4rem;
+}
+
+.theme-btn[aria-pressed="false"] {
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+}
+
+.theme-btn[aria-pressed="false"] .theme-btn-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
 /* ============================================
    CONTENT AREA - Shared Typography
    ============================================ */
