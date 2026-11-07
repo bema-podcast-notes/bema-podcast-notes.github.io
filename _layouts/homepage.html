@@ -68,13 +68,13 @@
         </div>
     </section>
 
-    <!-- Updates Box -->
+    <!-- Updates Box (target of the Quick Access "Latest Updates" card) -->
     <div class="container">
-        <div class="updates-box">
+        <section class="updates-box" id="latest" tabindex="-1" aria-label="Latest updates">
             <p><strong>{% include icon.html name="sparkles" %} Latest notes:</strong> <a href="{{ latest_notes.url }}">{{ latest_notes_episode.title }}</a> (Session {{ latest_notes_episode.season }})</p>
             <p><strong>{% include icon.html name="books" %} Notes so far:</strong> {{ notes_count }} of {{ episode_total }} episodes, with more added as I listen</p>
             <p><strong>{% include icon.html name="target" %} Newest episode:</strong> <a href="{{ newest_page.url }}">{{ newest_episode.title }}</a>. Every episode has a page with its player and description, even before it has notes.</p>
-        </div>
+        </section>
     </div>
 
     <!-- New Here Section -->

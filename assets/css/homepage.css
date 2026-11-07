@@ -71,6 +71,11 @@ body {
     margin: 2rem auto;
     border-radius: 8px;
     max-width: 1200px;
+    scroll-margin-top: 1rem;
+}
+
+.updates-box:focus {
+    outline: none;
 }
 
 .updates-box a {
