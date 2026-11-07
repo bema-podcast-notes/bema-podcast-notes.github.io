@@ -32,9 +32,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('set', {{ ga_page_params }});
   if (window.BEMAThemes) gtag('set', 'user_properties', { color_mode: window.BEMAThemes.getChoice() });
-  gtag('config', '{{ site.google_analytics }}');
+  // Page details go in config, not gtag('set', {...}): gtag.js drops custom
+  // keys from 'set', while config parameters ride on page_view and every
+  // later event for this tag (notes_progress, episode_nav, ...).
+  gtag('config', '{{ site.google_analytics }}', {{ ga_page_params }});
 </script>
 {%- endif %}
 <script src="{{ '/assets/js/analytics.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
