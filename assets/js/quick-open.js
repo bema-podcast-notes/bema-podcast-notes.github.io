@@ -134,8 +134,9 @@
         });
 
         const top = found.slice(0, MAX_RESULTS).map(function(f) { return f.item; });
-        // Full-text search of the notes, unless it was a plain number lookup that hit
-        if (!(num && top.length)) top.push({ type: 'search', q: query });
+        // Always offer a full-text search of the notes last, even when a number
+        // matched an episode ("60" may also appear in the notes as a verse or year)
+        top.push({ type: 'search', q: query });
         return top;
     }
 
