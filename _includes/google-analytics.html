@@ -8,16 +8,21 @@
     session         e.g. 6                 (episode pages)
     has_notes       true | false           (episode pages)
     notes_versions  0-3; 0 when there are no notes (episode pages)
+    site_version    short git commit SHA of the deployed build, e.g. 0469141
+                    (site.github.build_revision, from GitHub Pages'
+                    jekyll-github-metadata; omitted when unavailable)
   The episode itself comes from GA's built-in Page path (/ep/325), so it
   isn't repeated here. User property: color_mode (system | light | dark).
   Events and their parameters: assets/js/analytics.js
 {%- endcomment -%}
 {%- if jekyll.environment == 'production' and site.google_analytics -%}
+{%- assign site_version = site.github.build_revision | slice: 0, 7 -%}
 {%- capture ga_page_params -%}
 {"page_type": {{ include.page_type | default: 'page' | jsonify }}
 {%- if include.session -%}, "session": {{ include.session | append: '' | jsonify }}{%- endif -%}
 {%- if include.has_notes -%}, "has_notes": {{ include.has_notes | jsonify }}{%- endif -%}
-{%- if include.notes_versions != nil -%}, "notes_versions": {{ include.notes_versions | jsonify }}{%- endif -%}}
+{%- if include.notes_versions != nil -%}, "notes_versions": {{ include.notes_versions | jsonify }}{%- endif -%}
+{%- if site_version != '' and site_version != nil -%}, "site_version": {{ site_version | jsonify }}{%- endif -%}}
 {%- endcapture %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
