@@ -8,7 +8,7 @@
  * - The resulting mode is applied as <html data-mode="light|dark"> while
  *   <head> is still loading, so the page never flashes the wrong colors.
  *
- * Also flags browsers without flex `gap` (Safari < 14.1) with
+ * Also sets <html class="js"> (for the phone menu, see site-menu.js) and flags browsers without flex `gap` (Safari < 14.1) with
  * <html class="no-flex-gap"> so CSS can fall back to margins before first paint.
  *
  * Alternate palettes (purple, adobe, space, menswear) are kept but hidden.
@@ -153,6 +153,9 @@
     }
 
     function init() {
+        // Lets CSS collapse the phone menu before first paint (site-menu.js
+        // runs later); without JS the nav simply stays visible
+        document.documentElement.classList.add('js');
         detectFlexGap();
 
         // Drop the old palette choice from when the alternate themes were selectable

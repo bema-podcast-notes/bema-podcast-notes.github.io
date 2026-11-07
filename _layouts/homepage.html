@@ -12,22 +12,7 @@
 <body>
     <a class="skip-link" href="#main">Skip to main content</a>
     <!-- Header -->
-    <header class="header">
-        <div class="header-content">
-            <div class="site-title">{% include icon.html name="book" %} {{ site.title }}</div>
-            <nav class="nav" aria-label="Main">
-                <a href="#home">Home</a>
-                <a href="#episodes">All Episodes</a>
-                <a href="/search/" data-quick-open title="Search (⌘K or Ctrl+K)" aria-keyshortcuts="Meta+K Control+K">Search<kbd class="kbd-on-primary hide-mobile" data-quick-open-key aria-hidden="true">⌘K</kbd></a>
-                <a href="/misc/">Resources</a>
-            </nav>
-            <div class="theme-switcher mode-switch" role="group" aria-label="Color mode">
-                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">{% include icon.html name="device-laptop" %} System</button>
-                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false">{% include icon.html name="sun" %} Light</button>
-                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false">{% include icon.html name="moon" %} Dark</button>
-            </div>
-        </div>
-    </header>
+    {% include site-header.html homepage=true %}
 
     <main id="main" tabindex="-1">
 

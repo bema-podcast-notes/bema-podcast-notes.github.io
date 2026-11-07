@@ -1,0 +1,40 @@
+{%- comment -%}
+  Site header, shared by every layout.
+    include.homepage     true on the homepage: in-page Home / All Episodes
+                         links, and the title isn't a link to the page itself
+    include.search_page  true on /search/: the Search link goes to the page
+                         rather than opening quick open
+  On phones and tablets (≤768px) the nav and color mode switch collapse
+  behind a menu button (site-menu.js). html.js is set in <head> by
+  theme-switcher.js, so without JavaScript the links simply stay visible.
+{%- endcomment -%}
+<header class="header">
+    <div class="header-content">
+        {%- if include.homepage %}
+        <div class="site-title">{% include icon.html name="book" %} {{ site.title }}</div>
+        {%- else %}
+        <a href="/" class="site-title">{% include icon.html name="book" %} {{ site.title }}</a>
+        {%- endif %}
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-menu" hidden>
+            <span class="menu-toggle-open">{% include icon.html name="menu-2" %}</span><span class="menu-toggle-close">{% include icon.html name="x" %}</span><span class="visually-hidden">Menu</span>
+        </button>
+        <div class="header-menu" id="site-menu">
+            <nav class="nav" aria-label="Main">
+                <a href="{% if include.homepage %}#home{% else %}/{% endif %}">Home</a>
+                <a href="{% if include.homepage %}#episodes{% else %}/#episodes{% endif %}">All Episodes</a>
+                {%- if include.search_page %}
+                <a href="/search/" aria-current="page">Search</a>
+                {%- else %}
+                <a href="/search/" data-quick-open title="Search (⌘K or Ctrl+K)" aria-keyshortcuts="Meta+K Control+K">Search<kbd class="kbd-on-primary hide-mobile" data-quick-open-key aria-hidden="true">⌘K</kbd></a>
+                {%- endif %}
+                <a href="/misc/">Resources</a>
+            </nav>
+            <div class="theme-switcher mode-switch" role="group" aria-label="Color mode">
+                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">{% include icon.html name="device-laptop" %} System</button>
+                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false">{% include icon.html name="sun" %} Light</button>
+                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false">{% include icon.html name="moon" %} Dark</button>
+            </div>
+        </div>
+    </div>
+</header>
+<script src="{{ '/assets/js/site-menu.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

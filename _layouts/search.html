@@ -13,22 +13,7 @@
 <body>
     <a class="skip-link" href="#main">Skip to main content</a>
     <!-- Header -->
-    <header class="header">
-        <div class="header-content">
-            <a href="/" class="site-title">{% include icon.html name="book" %} {{ site.title }}</a>
-            <nav class="nav" aria-label="Main">
-                <a href="/">Home</a>
-                <a href="/#episodes">All Episodes</a>
-                <a href="/search/">Search</a>
-                <a href="/misc/">Resources</a>
-            </nav>
-            <div class="theme-switcher mode-switch" role="group" aria-label="Color mode">
-                <button type="button" class="theme-btn" data-mode-choice="system" aria-pressed="true" title="Match your device setting">{% include icon.html name="device-laptop" %} System</button>
-                <button type="button" class="theme-btn" data-mode-choice="light" aria-pressed="false">{% include icon.html name="sun" %} Light</button>
-                <button type="button" class="theme-btn" data-mode-choice="dark" aria-pressed="false">{% include icon.html name="moon" %} Dark</button>
-            </div>
-        </div>
-    </header>
+    {% include site-header.html search_page=true %}
 
     <main id="main" tabindex="-1">
 

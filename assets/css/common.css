@@ -230,6 +230,16 @@ body {
     color: var(--color-text-on-primary);
 }
 
+/* Wraps the nav and color mode switch so they can collapse behind the menu
+   button on phones; on desktop it drops out of the layout entirely */
+.header-menu {
+    display: contents;
+}
+
+.menu-toggle {
+    display: none;
+}
+
 .nav {
     display: flex;
     gap: var(--spacing-md);
@@ -792,30 +802,91 @@ body {
    - Sections: Reduce padding (1.5rem)
    ============================================ */
 @media (max-width: 768px) {
-    /* Header: title, then nav links in one wrapping row, then theme buttons */
+    /* Header: title and menu button on one row; the menu (nav links, then the
+       color mode switch) opens below them. site-menu.js toggles .menu-open;
+       without JS (no html.js) the menu just stays open. */
     .header {
-        padding: var(--spacing-sm);
+        padding: 0.6rem var(--spacing-sm);
     }
 
     .header-content {
+        flex-wrap: wrap;
+        gap: 0 var(--spacing-xs);
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-right: -0.4rem;
+        padding: 0;
+        border: 1px solid transparent;
+        border-radius: var(--radius-md);
+        background: transparent;
+        color: var(--color-text-on-primary);
+        cursor: pointer;
+    }
+
+    .menu-toggle[hidden] {
+        display: none;
+    }
+
+    .menu-toggle:hover,
+    .menu-open .menu-toggle {
+        background: var(--color-on-primary-subtle);
+    }
+
+    .menu-toggle .icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    .menu-toggle-close,
+    .menu-open .menu-toggle-open {
+        display: none;
+    }
+
+    .menu-open .menu-toggle-close {
+        display: inline;
+    }
+
+    .header-menu {
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: var(--spacing-xs);
+        flex-basis: 100%;
+        padding: 0.25rem 0 0.5rem;
+    }
+
+    html.js .header-content:not(.menu-open) .header-menu {
+        display: none;
     }
 
     .nav {
-        flex-wrap: wrap;
-        gap: 0.25rem var(--spacing-sm);
-        margin: 0;
+        flex-direction: column;
+        align-self: stretch;
+        gap: 0;
+        margin: 0 0 0.75rem;
+    }
+
+    .nav a {
+        padding: 0.7rem 0.25rem;
+        border-top: 1px solid var(--color-on-primary-subtle);
+        font-size: var(--font-size-md);
     }
 
     .theme-switcher {
         gap: 0.35rem;
-        font-size: var(--font-size-xs);
+        font-size: var(--font-size-sm);
     }
 
+    /* Roomier taps now that the switch lives in the menu */
     .theme-btn {
-        padding: 0.15rem 0.6rem;
+        padding: 0.4rem 0.85rem;
     }
 
     /* Layout: 16px gutters and lighter section padding so text gets the width */
@@ -945,18 +1016,9 @@ body {
 }
 
 @media (max-width: 768px) {
-    .no-flex-gap .header-content > * + * {
-        margin-top: var(--spacing-xs);
-    }
-
-    /* Wrapping rows: right/bottom margins, cancelled on the container */
-    .no-flex-gap .nav {
-        margin-bottom: -0.25rem;
-    }
-
-    .no-flex-gap .nav > *,
+    /* The phone menu's nav is a column spaced with padding, so no gap needed */
     .no-flex-gap .nav > * + * {
-        margin: 0 var(--spacing-sm) 0.25rem 0;
+        margin-left: 0;
     }
 
     .no-flex-gap .theme-switcher > * {
