@@ -112,6 +112,26 @@ html {
 
 .episode-nav-center {
     justify-self: center;
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Search button (opens quick open): phones and tablets only. On desktop the
+   header's Search link and ⌘K / Ctrl+K do the same job. */
+.nav-search {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-search .icon {
+    margin-right: 0; /* homepage.css gives every icon a right margin */
+}
+
+@media (max-width: 768px) {
+    .episode-nav .nav-search {
+        display: inline-flex;
+    }
 }
 
 .episode-nav-right {
@@ -544,15 +564,6 @@ html {
     cursor: not-allowed;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    white-space: nowrap;
-}
-
 /* Episode Notes Section */
 /* Uses .section-container from common.css */
 .episode-notes-section {
@@ -636,15 +647,54 @@ html {
 
 }
 
-/* Smallest phones: the three nav buttons need tighter padding to share one row */
-@media (max-width: 360px) {
+/* Phones: smaller nav buttons so the sticky bar takes less of the screen */
+@media (max-width: 480px) {
     .episode-nav,
     .episode-nav-sticky.is-stuck .episode-nav {
-        padding: 0.5rem;
+        padding: 0.45rem 0.5rem;
+    }
+
+    .episode-nav-center {
+        gap: 0.35rem;
     }
 
     .episode-nav .btn-sm {
-        padding: 0.5rem 0.55rem;
+        padding: 0.4rem 0.6rem;
+        font-size: 0.8rem;
+        border-width: 1px;
+    }
+
+    /* Icon-only here, so give it a comfortable tap width */
+    .episode-nav .nav-search {
+        min-width: 2.75rem;
+    }
+}
+
+/* Smallest phones: the four nav buttons need tighter padding to share one row */
+@media (max-width: 360px) {
+    .episode-nav,
+    .episode-nav-sticky.is-stuck .episode-nav {
+        gap: 0.3rem;
+        padding: 0.4rem 0.3rem;
+    }
+
+    .episode-nav-center {
+        gap: 0.3rem;
+    }
+
+    /* Narrower side margins than the page's, so all four buttons fit */
+    .episode-nav-sticky {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .episode-nav .btn-sm {
+        padding: 0.35rem 0.4rem;
+        font-size: 0.75rem;
+    }
+
+    .episode-nav .nav-search {
+        min-width: 2.25rem;
     }
 }
 

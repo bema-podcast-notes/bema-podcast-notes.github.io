@@ -1,0 +1,40 @@
+---
+layout: null
+permalink: /quick-open.json
+sitemap: false
+---
+{%- comment -%}
+  Small index for the ⌘K / Ctrl+K quick-open box (assets/js/quick-open.js):
+  site pages, session overviews, and every episode's number, title and
+  subtitle. No note text (that's search-data.json, ~5 MB); for words in the
+  notes, quick open hands off to /search/.
+    pages:    t title, u url, k extra keywords to match
+    episodes: n number, t title without the "201: " prefix, s subtitle,
+              se session, u url, x 1 when the episode has no notes yet
+{%- endcomment -%}
+{%- assign episode_pages = site.documents | where: "layout", "episode_notes" | sort: "episodeIndex" -%}
+{%- assign resource_pages = site.misc_pages | sort: "title" -%}
+{
+"pages": [
+  {"t": "Home", "u": {{ '/' | relative_url | jsonify }}, "k": "start main front index"},
+  {"t": "All Sessions & Episodes", "u": {{ '/#episodes' | relative_url | jsonify }}, "k": "episodes sessions list browse all"},
+  {"t": "Search the Notes", "u": {{ '/search/' | relative_url | jsonify }}, "k": "search find"},
+  {"t": "Additional Resources", "u": {{ '/misc/' | relative_url | jsonify }}, "k": "resources misc extras"},
+  {"t": "New to BEMA?", "u": {{ '/#new' | relative_url | jsonify }}, "k": "new start beginning newcomer help"},
+  {"t": "Latest Updates", "u": {{ '/#latest' | relative_url | jsonify }}, "k": "latest updates recent newest"}
+  {%- for doc in resource_pages -%}
+  ,{"t": {{ doc.title | jsonify }}, "u": {{ doc.url | relative_url | jsonify }}, "k": "resources"}
+  {%- endfor -%}
+  {%- for s in site.data.sessions -%}
+  ,{"t": {{ 'Session ' | append: s.number | append: ': ' | append: s.name | jsonify }}, "u": {{ '/session' | append: s.number | append: '/' | relative_url | jsonify }}, "k": {{ 's' | append: s.number | append: ' season ' | append: s.number | append: ' ' | append: s.topic | jsonify }}, "se": {{ s.number }}}
+  {%- endfor %}
+],
+"episodes": [
+  {%- for doc in episode_pages -%}
+  {%- assign episode = site.data.episodes[doc.episodeIndex] -%}
+  {%- assign prefix = doc.episodeNumber | append: ': ' -%}
+  {%- unless forloop.first -%},{%- endunless %}
+  {"n": {{ doc.episodeNumber | append: '' | jsonify }}, "t": {{ doc.title | remove_first: prefix | jsonify }}, "s": {{ episode.subtitle | default: '' | jsonify }}, "se": {{ episode.season | default: '' | append: '' | jsonify }}, "u": {{ doc.url | relative_url | jsonify }}{% if doc.content contains 'No notes yet.' %}, "x": 1{% endif %}}
+  {%- endfor %}
+]
+}

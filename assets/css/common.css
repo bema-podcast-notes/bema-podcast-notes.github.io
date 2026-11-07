@@ -248,6 +248,20 @@ body {
     opacity: 0.8;
 }
 
+/* Keyboard shortcut hint on the blue header, e.g. Search ⌘K */
+.kbd-on-primary {
+    margin-left: 0.4rem;
+    padding: 0.05em 0.4em;
+    border: 1px solid var(--color-on-primary-muted);
+    border-radius: var(--radius-sm);
+    background: var(--color-on-primary-subtle);
+    color: inherit;
+    font: inherit;
+    font-size: var(--font-size-xs);
+    line-height: 1.4;
+    vertical-align: 0.1em;
+}
+
 /* ============================================
    FOOTER
    ============================================ */
@@ -1164,3 +1178,210 @@ textarea:focus-visible,
     }
 }
 
+
+/* Text for screen readers only (used on every layout) */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+/* ===== Quick open (⌘K / Ctrl+K), built by assets/js/quick-open.js ===== */
+.quick-open {
+    width: min(640px, calc(100vw - 2rem));
+    max-height: min(560px, calc(100vh - 6rem));
+    margin: 10vh auto auto;
+    padding: 0;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-white);
+    color: var(--color-text-primary);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.quick-open[open] {
+    display: flex;
+}
+
+.quick-open::backdrop {
+    background: rgba(10, 20, 30, 0.45);
+}
+
+html.quick-open-active {
+    overflow: hidden;
+}
+
+.quick-open-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 0;
+}
+
+.quick-open-field {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.9rem 1rem;
+    border-bottom: 1px solid var(--color-border-light);
+    color: var(--color-text-light);
+}
+
+/* The whole field row shows focus (the input's own outline would box it in) */
+.quick-open-field:focus-within {
+    box-shadow: inset 0 -2px 0 var(--color-primary);
+}
+
+.quick-open .quick-open-input:focus,
+.quick-open .quick-open-input:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+.quick-open-field .icon {
+    flex: none;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.quick-open-input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    background: transparent;
+    color: var(--color-text-primary);
+    font: inherit;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.quick-open-input::placeholder {
+    color: var(--color-text-light);
+}
+
+.quick-open kbd {
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.1em 0.4em;
+    border: 1px solid var(--color-border-light);
+    border-bottom-width: 2px;
+    border-radius: var(--radius-sm);
+    background: var(--color-bg-light);
+    color: var(--color-text-secondary);
+    font: inherit;
+    font-size: var(--font-size-xs);
+    line-height: 1.4;
+    text-align: center;
+}
+
+.quick-open-list {
+    flex: 1;
+    min-height: 0;
+    margin: 0;
+    padding: 0.4rem;
+    overflow-y: auto;
+    list-style: none;
+}
+
+.quick-open-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.6rem 0.75rem;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+}
+
+.quick-open-item[aria-selected="true"] {
+    background: var(--color-primary-light);
+    box-shadow: inset 3px 0 0 var(--color-primary);
+}
+
+.quick-open-main {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    min-width: 0;
+}
+
+.quick-open-number {
+    flex: none;
+    min-width: 2.5rem;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+}
+
+.quick-open-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.quick-open-title {
+    color: var(--color-text-dark);
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.quick-open-sub {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.quick-open-meta {
+    flex: none;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-xs);
+    white-space: nowrap;
+}
+
+.quick-open-empty {
+    padding: 1rem 0.75rem;
+    color: var(--color-text-light);
+}
+
+.quick-open-help {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
+    margin: 0;
+    padding: 0.6rem 1rem;
+    border-top: 1px solid var(--color-border-light);
+    background: var(--color-bg-light);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-xs);
+}
+
+.quick-open-help kbd {
+    margin-right: 0.2rem;
+}
+
+@media (max-width: 600px) {
+    .quick-open {
+        margin-top: 1rem;
+        max-height: calc(100vh - 2rem);
+    }
+
+    .quick-open-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.2rem;
+    }
+
+    /* No hardware keyboard hints on phones */
+    .quick-open-help,
+    .quick-open .quick-open-esc {
+        display: none;
+    }
+}

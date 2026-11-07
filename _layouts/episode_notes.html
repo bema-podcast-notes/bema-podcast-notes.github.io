@@ -89,7 +89,7 @@
             <nav class="nav" aria-label="Main">
                 <a href="/">Home</a>
                 <a href="/#episodes">All Episodes</a>
-                <a href="/search/">Search</a>
+                <a href="/search/" data-quick-open title="Search (⌘K or Ctrl+K)" aria-keyshortcuts="Meta+K Control+K">Search<kbd class="kbd-on-primary hide-mobile" data-quick-open-key aria-hidden="true">⌘K</kbd></a>
                 <a href="/misc/">Resources</a>
             </nav>
             <div class="theme-switcher mode-switch" role="group" aria-label="Color mode">
@@ -147,6 +147,10 @@ S{{ episode.season }} {{ title }}
             <div class="episode-nav-center">
                 <a href="/#episodes" class="btn btn-sm btn-primary">
                     {% include icon.html name="list" %} All<span class="hide-mobile"> Episodes</span>
+                </a>
+                {%- comment -%} Phones and tablets only (desktop uses the header's Search or ⌘K): opens quick open; a plain link to /search/ without JS {%- endcomment %}
+                <a href="/search/" class="btn btn-sm btn-primary nav-search" data-quick-open title="Search (⌘K or Ctrl+K)" aria-keyshortcuts="Meta+K Control+K">
+                    {% include icon.html name="search" %}<span class="visually-hidden">Search</span>
                 </a>
             </div>
             <div class="episode-nav-right">
@@ -312,5 +316,6 @@ S{{ episode.season }} {{ title }}
     <script src="{{ '/assets/js/copy-episode.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/previous-versions.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/scroll-regions.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/quick-open.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>
