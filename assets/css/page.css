@@ -266,3 +266,60 @@ ul.session-episodes {
     color: var(--color-text-secondary);
     font-size: var(--font-size-sm);
 }
+
+.site-data + .site-data {
+    margin-top: var(--spacing-md);
+}
+
+.site-import-review {
+    margin-top: var(--spacing-sm);
+    padding-top: var(--spacing-sm);
+    border-top: 1px solid var(--color-border-light);
+}
+
+.site-import-modes {
+    margin: var(--spacing-sm) 0;
+    padding: 0;
+    border: 0;
+}
+
+.site-import-modes legend {
+    margin-bottom: 0.4rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-dark);
+}
+
+.site-import-modes label,
+.site-import-color {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin: 0.4rem 0;
+    cursor: pointer;
+}
+
+.site-import-modes input,
+.site-import-color input {
+    flex: none;
+    width: 1.05rem;
+    height: 1.05rem;
+    accent-color: var(--color-primary);
+    transform: translateY(0.15rem);
+}
+
+.site-import-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: var(--spacing-sm);
+}
+
+.site-data .btn .icon,
+.site-import-actions .btn .icon {
+    margin-right: 0.4rem;
+}
+
+[data-import-modes][hidden],
+[data-import-color-row][hidden] {
+    display: none;
+}

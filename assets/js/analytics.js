@@ -25,6 +25,7 @@
  *   quick_open_select       quick_open_type (episode|session|page|search|action)
  *   shortcuts_open          shortcuts_method (key|footer|quick_open)
  *   data_export             note_count (metric)
+ *   data_import             note_count (metric), import_mode (merge|replace)
  *
  * Handled here: episode_nav for prev/next buttons and the Next episode card,
  * and notes_progress (25/50/75/100% of an episode's notes read). Feature
