@@ -179,35 +179,57 @@ html {
     .player-container iframe { height: 92px; }
 }
 
-/* Episode Info Grid */
-.episode-info-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
+/* Episode details line: facts + link to the official page, under the player */
+.episode-details-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1.5rem;
+    margin: 1.5rem 0;
+    padding: 0.75rem 0;
+    border-top: 1px solid var(--color-border-light);
+    border-bottom: 1px solid var(--color-border-light);
 }
 
-.info-card {
-    background: var(--color-bg-light);
-    padding: 1.5rem;
-    border-radius: 12px;
-    border-left: 4px solid var(--color-primary);
-}
-
-.info-card h3 {
-    color: var(--color-text-dark);
-    margin: 0 0 1rem 0;
-    font-size: 1.2rem;
-}
-
-.info-card p {
-    margin: 0.5rem 0;
+/* Every item gets a leading "·"; the list is pulled left by one separator
+   width and that strip is clipped, so a separator starting a line (first
+   item, or after a wrap on phones) is hidden. */
+.episode-facts {
+    --fact-gap: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0;
+    margin: 0 0 0 calc(-1 * var(--fact-gap));
+    padding: 0;
+    list-style: none;
+    clip-path: inset(0 0 0 var(--fact-gap));
     color: var(--color-text-secondary);
-    line-height: 1.6;
+    font-size: var(--font-size-sm);
 }
 
-.info-card strong {
-    color: var(--color-text-dark);
+.episode-facts li::before {
+    content: "·";
+    display: inline-block;
+    width: var(--fact-gap);
+    text-align: center;
+}
+
+.episode-official-link {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    white-space: nowrap;
+}
+
+.episode-official-link:hover {
+    text-decoration-thickness: 2px;
+}
+
+.episode-official-link .icon {
+    margin-left: 0.3rem;
 }
 
 /* Episode Description */
@@ -612,9 +634,6 @@ html {
         white-space: nowrap;
     }
 
-    .episode-info-grid {
-        grid-template-columns: 1fr;
-    }
 }
 
 /* Smallest phones: the three nav buttons need tighter padding to share one row */
@@ -734,7 +753,7 @@ html {
     .episode-nav-sticky,
     .episode-nav,
     .player-container,
-    .episode-info-grid,
+    .episode-details-line,
     .episode-player-section > h2,
     .previous-versions,
     .up-next,

@@ -171,22 +171,20 @@ S{{ episode.season }} {{ title }}
                 <iframe src="{{ episode.playerURL }}?theme=dark" title="Podcast player: {{ display_title | escape }}" width="100%" height="200" frameborder="0" scrolling="no"></iframe>
             </div>
 
-            <div class="episode-info-grid">
-                <div class="info-card">
-                    <h3>Episode Details</h3>
-                    <p><strong>Episode Number:</strong> {{ page.episodeNumber }}</p>
-                    <p><strong>Session:</strong> {{ episode.season }}</p>
-                    <p><strong>Duration:</strong> {% include duration.html value=episode.duration %}</p>
-                    <p><strong>Published:</strong> <time datetime="{{ episode.pubDate | date: '%Y-%m-%d' }}">{{ episode.pubDate | date: "%a, %b %-d, %Y" }}</time></p>
-                </div>
-
-                <div class="info-card">
-                    <h3>Listen on BEMA</h3>
-                    <p>Visit the official BEMA website to listen to this episode and explore more resources.</p>
-                    <a href="{{ episode.link }}" target="_blank" class="btn btn-primary">
-                        Open on BEMA {% include icon.html name="arrow-right" %}
-                    </a>
-                </div>
+            {%- comment -%}
+              One slim line instead of two cards: the facts (also in the hero, so kept
+              quiet) plus the link to the official episode page.
+            {%- endcomment %}
+            <div class="episode-details-line">
+                <ul class="episode-facts" aria-label="Episode details">
+                    <li>Episode {{ page.episodeNumber }}</li>
+                    <li>Session {{ episode.season }}</li>
+                    <li>{% include duration.html value=episode.duration %}</li>
+                    <li><time datetime="{{ episode.pubDate | date: '%Y-%m-%d' }}">{{ episode.pubDate | date: "%a, %b %-d, %Y" }}</time></li>
+                </ul>
+                <a href="{{ episode.link }}" target="_blank" rel="noopener" class="episode-official-link">
+                    Open on BEMA{% include icon.html name="external-link" %}<span class="visually-hidden"> (official episode page, opens in a new tab)</span>
+                </a>
             </div>
 
             {%- if episode.description %}
