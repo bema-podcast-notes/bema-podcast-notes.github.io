@@ -678,3 +678,106 @@ body {
 .icon {
     margin-right: 0.5rem;
 }
+
+/* ---- All Episodes filter (assets/js/episode-filter.js) ---- */
+.episode-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    margin: var(--spacing-sm) 0;
+}
+
+.episode-filter[hidden] {
+    display: none;
+}
+
+.episode-filter-label {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+}
+
+.episode-filter-options {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    padding: 0.2rem;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-pill);
+    background: var(--color-bg-light);
+}
+
+.episode-filter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    min-height: 2.25rem;
+    padding: 0.3rem 0.9rem;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: transparent;
+    color: var(--color-text-secondary);
+    font: inherit;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+}
+
+.episode-filter-btn .icon {
+    width: 1em;
+    height: 1em;
+    margin: 0;
+}
+
+.episode-filter-btn:hover {
+    background: var(--color-bg-white);
+    color: var(--color-text-dark);
+}
+
+.episode-filter-btn[aria-pressed="true"] {
+    background: var(--color-fill-primary);
+    color: var(--color-text-on-primary);
+}
+
+.episode-filter-btn:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.episode-filter-status {
+    flex-basis: 100%;
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.episode-filter-status:empty {
+    display: none;
+}
+
+#episodes[data-filter="notes"] .episode-item.no-notes,
+#episodes[data-filter="guides"] .episode-item:not(.has-guide),
+#episodes[data-filter="notes"] .session-group.filter-empty,
+#episodes[data-filter="guides"] .session-group.filter-empty {
+    display: none;
+}
+
+/* Phones: one row, buttons share the width, no icons */
+@media (max-width: 520px) {
+    .episode-filter-options {
+        flex: 1 1 auto;
+        flex-wrap: nowrap;
+    }
+
+    .episode-filter-btn {
+        flex: 1 1 auto;
+        justify-content: center;
+        padding: 0.3rem 0.6rem;
+        white-space: nowrap;
+    }
+
+    .episode-filter-btn .icon {
+        display: none;
+    }
+}

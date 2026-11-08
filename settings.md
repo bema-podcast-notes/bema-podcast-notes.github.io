@@ -65,6 +65,7 @@ Everything the site can do, in one place:
   <div><dt>Keyboard shortcuts</dt><dd><kbd>←</kbd> <kbd>→</kbd> (or <kbd>P</kbd> <kbd>N</kbd>) move between episodes, and between sessions on session pages. Press <kbd>?</kbd> to see them all.</dd></div>
   <div><dt>Exact phrases</dt><dd>On the <a href="/search/">search page</a>, put words in "quotes" to find that exact phrase.</dd></div>
   <div><dt>My Notes</dt><dd>Every episode page and discussion guide has a box at the bottom for your own notes. They save as you type. Download one page's notes, or Export all of them as one file.</dd></div>
+  <div><dt>Episode list filter</dt><dd>On the home page, All Sessions &amp; Episodes can show just the episodes with notes, or with discussion guides. Each episode is labeled Notes or Guide, and session headers count them.</dd></div>
   <div><dt>Mark as listened</dt><dd>Use the Mark as listened button under the player. Listened episodes get a ✓ in the episode lists, and session headers on the home page count them. Press + when you listen again.</dd></div>
   <div><dt>Copy episode info</dt><dd>On an episode page, the clock icon next to the length copies the episode's session, title, subtitle and length.</dd></div>
   <div><dt>Previous versions</dt><dd>Some episodes' notes have been rewritten. The earlier versions are kept under Previous versions at the end of the notes.</dd></div>

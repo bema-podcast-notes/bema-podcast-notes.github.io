@@ -11,6 +11,8 @@
   count; it finds rows by ".episode-item > a", so the label links sit in
   .episode-badges, not directly in the row.
   The header count reads "(129 episodes · 31 with notes · 7 guides)".
+  Row classes has-notes / no-notes / has-guide drive the list filter
+  (assets/js/episode-filter.js).
 {%- endcomment -%}
 {%- assign s_index = include.n | minus: 1 -%}
 {%- assign s = site.data.sessions[s_index] -%}
@@ -28,7 +30,7 @@
   {%- assign ep_marker = ',' | append: doc.episodeNumber | append: ',' -%}
   {%- assign guide = nil -%}
   {%- if s_guide_eps contains ep_marker -%}{%- assign guide = site.guides | where: "episode", doc.episodeNumber | first -%}{%- assign s_guides = s_guides | plus: 1 -%}{%- endif %}
-                    <div class="episode-item {% if has_notes %}has-notes{% else %}no-notes{% endif %}">
+                    <div class="episode-item {% if has_notes %}has-notes{% else %}no-notes{% endif %}{% if guide %} has-guide{% endif %}">
                         <a href="{{ doc.url }}">{{ episode.title }}{% unless has_notes %}<span class="visually-hidden"> (no notes yet)</span>{% endunless %}</a>
                         <span class="episode-subtitle">— {{ episode.subtitle }}</span>
                         {%- if has_notes or guide %}
@@ -45,7 +47,7 @@
   {%- endif -%}
 {%- endfor -%}
 {%- endcapture %}
-            <details class="session-group" id="session{{ include.n }}">
+            <details class="session-group" id="session{{ include.n }}" data-session-name="Session {{ s.number }}">
                 <summary>
                     <span class="session-name"><span class="session-title">Session {{ s.number }}: {{ s.name }}</span> <span class="session-topic">{{ s.topic | escape }}</span></span>
                     <span class="session-count">({{ s_docs | size }} episodes{% if s_with_notes > 0 %} · {{ s_with_notes }} with notes{% endif %}{% if s_guides > 0 %} · {{ s_guides }} {% if s_guides == 1 %}guide{% else %}guides{% endif %}{% endif %})</span>

@@ -198,6 +198,16 @@
         <section class="section-container section-container-lgsessions" id="episodes">
             <h2>All Sessions & Episodes</h2>
             <p class="helper-text">Click any session to expand and see all episodes. Sessions 1-5 form the core curriculum, covering the entire biblical narrative and church history.</p>
+            {%- comment -%} Filter (assets/js/episode-filter.js); hidden without JS {%- endcomment %}
+            <div class="episode-filter" data-episode-filter hidden>
+                <span class="episode-filter-label" id="episode-filter-label">Show</span>
+                <div class="episode-filter-options" role="group" aria-labelledby="episode-filter-label">
+                    <button type="button" class="episode-filter-btn" data-filter="all" aria-pressed="true">All</button>
+                    <button type="button" class="episode-filter-btn" data-filter="notes" aria-pressed="false">{% include icon.html name="notes" %}With notes</button>
+                    <button type="button" class="episode-filter-btn" data-filter="guides" aria-pressed="false">{% include icon.html name="messages" %}With guides</button>
+                </div>
+                <p class="episode-filter-status" data-episode-filter-status role="status" aria-live="polite"></p>
+            </div>
             <p class="episode-legend"><span class="episode-badge episode-badge-notes">{% include icon.html name="notes" %}Notes</span> has my notes <span class="episode-legend-sep" aria-hidden="true">·</span> <span class="episode-badge episode-badge-guide-key">{% include icon.html name="messages" %}Guide</span> has a discussion guide <span class="episode-legend-sep" aria-hidden="true">·</span> lighter titles don't have notes yet</p>
 
             {%- comment -%} One block per session: _includes/session-list.html (rows show Notes / Guide labels) {%- endcomment %}
@@ -239,5 +249,6 @@
     {% include site-footer.html %}
 
     <script src="{{ '/assets/js/quick-open.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/episode-filter.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>
