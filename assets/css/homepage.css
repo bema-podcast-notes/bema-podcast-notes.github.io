@@ -383,6 +383,114 @@ body {
     margin-left: 1rem;
 }
 
+/* ---- What each episode has (_includes/session-list.html) ----
+   Notes label for episodes with notes, a Guide link to the discussion
+   guide; episodes without notes have a lighter title and no Notes label
+   (plus hidden "(no notes yet)" text), so it isn't color alone. */
+.episode-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 1rem;
+    row-gap: 0.3rem;
+}
+
+.episode-item .episode-subtitle {
+    flex: 1 1 14rem;
+    min-width: 0;
+    margin-left: 0;
+}
+
+.episode-item.no-notes > a {
+    color: var(--color-text-secondary);
+    font-weight: var(--font-weight-normal);
+}
+
+.episode-badges {
+    display: inline-flex;
+    flex: none;
+    gap: 0.35rem;
+    margin-left: auto;
+}
+
+.episode-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.1rem 0.55rem;
+    border: 1px solid transparent;
+    border-radius: var(--radius-pill);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+    line-height: 1.6;
+    white-space: nowrap;
+}
+
+.episode-badge .icon {
+    width: 0.95em;
+    height: 0.95em;
+    margin: 0;
+}
+
+.episode-badge-notes {
+    background: var(--color-bg-white);
+    border-color: var(--color-border-light);
+    color: var(--color-accent-blue-dark);
+}
+
+/* Just a label: clicks fall through to the row's episode link */
+.episode-item .episode-badge-notes {
+    pointer-events: none;
+}
+
+/* A real link of its own, above the row's whole-row episode link */
+.episode-item .episode-badge-guide,
+.episode-badge-guide-key {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: var(--color-bg-white);
+}
+
+.episode-item .episode-badge-guide {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    font-weight: var(--font-weight-semibold);
+}
+
+.episode-item .episode-badge-guide:hover,
+.episode-item:hover .episode-badge-guide:hover {
+    background: var(--color-primary);
+    color: var(--color-text-on-primary);
+}
+
+.episode-item .episode-badge-guide:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+:root[data-mode="dark"] .episode-badge-notes {
+    color: var(--color-accent-blue);
+}
+
+:root[data-mode="dark"] .episode-item .episode-badge-guide:hover {
+    color: #0d1117;
+}
+
+.episode-legend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem 0.5rem;
+    margin: 0 0 var(--spacing-md);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.episode-legend-sep {
+    color: var(--color-text-light);
+}
+
 /* Search Box */
 .search-highlight {
     background: var(--color-bg-white);

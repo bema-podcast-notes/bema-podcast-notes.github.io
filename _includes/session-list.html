@@ -1,0 +1,63 @@
+{%- comment -%}
+  One session in the homepage's All Sessions & Episodes list.
+  Usage: {% include session-list.html n=6 %}   (session number, 1-10)
+
+  Each episode row shows what the site has for it:
+    Notes  label when the episode has notes (not just the "No notes yet."
+           placeholder); rows without notes are lighter and screen readers
+           hear "(no notes yet)"
+    Guide  link to its discussion guide (_guides/), when there is one
+  listened.js adds the ✓ for listened episodes and "· n listened" to the
+  count; it finds rows by ".episode-item > a", so the label links sit in
+  .episode-badges, not directly in the row.
+  The header count reads "(129 episodes · 31 with notes · 7 guides)".
+{%- endcomment -%}
+{%- assign s_index = include.n | minus: 1 -%}
+{%- assign s = site.data.sessions[s_index] -%}
+{%- assign s_label = 'session_' | append: include.n -%}
+{%- assign s_docs = site[s_label] | where: "layout", "episode_notes" | sort: "episodeIndex" -%}
+{%- assign s_guide_eps = site.guides | map: "episode" | join: "," | prepend: "," | append: "," -%}
+{%- assign s_with_notes = 0 -%}
+{%- assign s_guides = 0 -%}
+{%- capture s_rows -%}
+{%- for doc in s_docs -%}
+  {%- if doc.episodeIndex -%}
+  {%- assign episode = site.data.episodes[doc.episodeIndex] -%}
+  {%- assign doc_plain = doc.content | strip_html | strip -%}
+  {%- if doc_plain != '' and doc_plain != 'No notes yet.' -%}{%- assign has_notes = true -%}{%- assign s_with_notes = s_with_notes | plus: 1 -%}{%- else -%}{%- assign has_notes = false -%}{%- endif -%}
+  {%- assign ep_marker = ',' | append: doc.episodeNumber | append: ',' -%}
+  {%- assign guide = nil -%}
+  {%- if s_guide_eps contains ep_marker -%}{%- assign guide = site.guides | where: "episode", doc.episodeNumber | first -%}{%- assign s_guides = s_guides | plus: 1 -%}{%- endif %}
+                    <div class="episode-item {% if has_notes %}has-notes{% else %}no-notes{% endif %}">
+                        <a href="{{ doc.url }}">{{ episode.title }}{% unless has_notes %}<span class="visually-hidden"> (no notes yet)</span>{% endunless %}</a>
+                        <span class="episode-subtitle">— {{ episode.subtitle }}</span>
+                        {%- if has_notes or guide %}
+                        <span class="episode-badges">
+                            {%- if has_notes %}
+                            <span class="episode-badge episode-badge-notes">{% include icon.html name="notes" %}<span class="visually-hidden">Has </span>Notes</span>
+                            {%- endif %}
+                            {%- if guide %}
+                            <a class="episode-badge episode-badge-guide" href="{{ guide.url | relative_url }}">{% include icon.html name="messages" %}Guide<span class="visually-hidden"> (discussion guide for episode {{ doc.episodeNumber }})</span></a>
+                            {%- endif %}
+                        </span>
+                        {%- endif %}
+                    </div>
+  {%- endif -%}
+{%- endfor -%}
+{%- endcapture %}
+            <details class="session-group" id="session{{ include.n }}">
+                <summary>
+                    <span class="session-name"><span class="session-title">Session {{ s.number }}: {{ s.name }}</span> <span class="session-topic">{{ s.topic | escape }}</span></span>
+                    <span class="session-count">({{ s_docs | size }} episodes{% if s_with_notes > 0 %} · {{ s_with_notes }} with notes{% endif %}{% if s_guides > 0 %} · {{ s_guides }} {% if s_guides == 1 %}guide{% else %}guides{% endif %}{% endif %})</span>
+                </summary>
+                <div class="episode-list">
+                    {%- if s_docs.size > 0 %}
+{{ s_rows }}
+                    {%- else %}
+                    <div class="coming-soon">
+                        <p class="coming-soon-title">{% include icon.html name="radio" %} Session {{ s.number }} episodes coming soon!</p>
+                        <p class="coming-soon-subtitle">Check back regularly for new episode notes as they're released.</p>
+                    </div>
+                    {%- endif %}
+                </div>
+            </details>
