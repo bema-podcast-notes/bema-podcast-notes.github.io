@@ -24,7 +24,13 @@
     'use strict';
 
     const KEY = 'bema-listened';
-    const ICON = '/assets/icons.svg#check';
+    // The icon sprite's URL as the page's own icons use it (versioned by
+    // _includes/icon.html), so script-made icons share that cached copy
+    const SPRITE = (function() {
+        const use = document.querySelector('use[href*="icons.svg"]');
+        return use ? use.getAttribute('href').split('#')[0] : '/assets/icons.svg';
+    })();
+    const ICON = SPRITE + '#check';
 
     function store() {
         try {

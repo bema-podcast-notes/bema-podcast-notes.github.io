@@ -3,7 +3,11 @@
   Usage: {% include icon.html name="search" %}   optional: class="extra-class"
   Decorative by default (aria-hidden); keep a visible text label next to it.
   xlink:href is for Safari < 12.1, which ignores plain href on <use>.
+  The sprite URL carries the build time (?v=), like the CSS and JS, so a
+  browser's cached copy can't hide icons added since; scripts that draw
+  icons reuse this URL from the page (see spriteUrl in assets/js/*).
 {%- endcomment -%}
-{%- assign icon_url = '/assets/icons.svg#' | append: include.name | relative_url -%}
+{%- assign icon_version = site.time | date: '%s' -%}
+{%- assign icon_url = '/assets/icons.svg?v=' | append: icon_version | append: '#' | append: include.name | relative_url -%}
 <svg class="icon{% if include.class %} {{ include.class }}{% endif %}" aria-hidden="true" focusable="false"><use href="{{ icon_url }}" xlink:href="{{ icon_url }}"></use></svg>
 {%- comment -%} keep on one line so it sits inline with text {%- endcomment -%}

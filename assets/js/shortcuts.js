@@ -67,6 +67,13 @@
 
     const KEY_NAMES = { '←': 'Left arrow', '→': 'Right arrow', '↑': 'Up arrow', '↓': 'Down arrow', '⌘': 'Command', '?': 'Question mark' };
 
+    // The icon sprite's URL as the page's own icons use it (versioned by
+    // _includes/icon.html), so script-made icons share that cached copy
+    const SPRITE = (function() {
+        const use = document.querySelector('use[href*="icons.svg"]');
+        return use ? use.getAttribute('href').split('#')[0] : '/assets/icons.svg';
+    })();
+
     let dialog = null;
     let returnFocus = null;
 
@@ -100,7 +107,7 @@
         h2.id = 'shortcuts-title';
         const close = el('button', 'shortcuts-close');
         close.type = 'button';
-        close.innerHTML = '<svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#x" xlink:href="/assets/icons.svg#x"></use></svg><span class="visually-hidden">Close</span>';
+        close.innerHTML = '<svg class="icon" aria-hidden="true" focusable="false"><use href="' + SPRITE + '#x" xlink:href="' + SPRITE + '#x"></use></svg><span class="visually-hidden">Close</span>';
         close.addEventListener('click', function() { dialog.close(); });
         head.appendChild(h2);
         head.appendChild(close);

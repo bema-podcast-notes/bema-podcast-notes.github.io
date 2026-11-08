@@ -87,14 +87,21 @@
 
     // Same markup as _includes/icon.html, for text set from script
     const SVG_NS = 'http://www.w3.org/2000/svg';
+    // The icon sprite's URL as the page's own icons use it (versioned by
+    // _includes/icon.html), so script-made icons share that cached copy
+    const SPRITE = (function() {
+        const use = document.querySelector('use[href*="icons.svg"]');
+        return use ? use.getAttribute('href').split('#')[0] : '/assets/icons.svg';
+    })();
+
     function icon(name) {
         const svg = document.createElementNS(SVG_NS, 'svg');
         svg.setAttribute('class', 'icon');
         svg.setAttribute('aria-hidden', 'true');
         svg.setAttribute('focusable', 'false');
         const use = document.createElementNS(SVG_NS, 'use');
-        use.setAttribute('href', '/assets/icons.svg#' + name);
-        use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', '/assets/icons.svg#' + name);
+        use.setAttribute('href', SPRITE + '#' + name);
+        use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', SPRITE + '#' + name);
         svg.appendChild(use);
         return svg;
     }

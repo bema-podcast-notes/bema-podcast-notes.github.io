@@ -27,6 +27,12 @@
     const BASE = ''; // the site is served from the domain root
     const INDEX_URL = BASE + '/quick-open.json';
     const SEARCH_URL = BASE + '/search/';
+    // The icon sprite's URL as the page's own icons use it (versioned by
+    // _includes/icon.html), so script-made icons share that cached copy
+    const SPRITE = (function() {
+        const use = document.querySelector('use[href*="icons.svg"]');
+        return use ? use.getAttribute('href').split('#')[0] : BASE + '/assets/icons.svg';
+    })();
     const MAX_RESULTS = 8;
     const IS_MAC = /Mac|iPhone|iPad|iPod/.test(navigator.platform || navigator.userAgent);
 
@@ -224,8 +230,8 @@
 
         const form = el('div', 'quick-open-box');
         const field = el('div', 'quick-open-field');
-        field.innerHTML = '<svg class="icon" aria-hidden="true" focusable="false"><use href="' + BASE +
-            '/assets/icons.svg#search" xlink:href="' + BASE + '/assets/icons.svg#search"></use></svg>';
+        field.innerHTML = '<svg class="icon" aria-hidden="true" focusable="false"><use href="' + SPRITE +
+            '#search" xlink:href="' + SPRITE + '#search"></use></svg>';
 
         input = el('input', 'quick-open-input');
         input.type = 'text';
