@@ -1,0 +1,20 @@
+{%- comment -%}
+  On an episode page: a card linking to its discussion guide (/guides/N),
+  when one exists in _guides/. Shows nothing otherwise.
+{%- endcomment -%}
+{%- assign guide = site.guides | where: "episode", page.episodeNumber | first -%}
+{%- if guide -%}
+{%- assign guide_series = site.data.series[guide.series] -%}
+{%- assign question_count = guide.content | split: 'class="guide-q' | size | minus: 1 %}
+<div class="container">
+    <aside class="guide-card" aria-labelledby="guide-card-title">
+        <div class="guide-card-icon">{% include icon.html name="messages" %}</div>
+        <div class="guide-card-body">
+            <h2 class="guide-card-title" id="guide-card-title">Discussion Guide</h2>
+            <p class="guide-card-meta">{% if guide_series %}{{ guide_series.name }} · {% endif %}Week {{ guide.week }} of {{ guide.weeks }} · {{ guide.theme }}</p>
+            <p class="guide-card-facts">{{ guide.minutes }}-minute group session{% if question_count > 0 %} · {{ question_count }} questions{% endif %}</p>
+        </div>
+        <a class="btn btn-primary guide-card-link" href="{{ guide.url | relative_url }}">Open the guide{% include icon.html name="arrow-right" %}</a>
+    </aside>
+</div>
+{%- endif -%}

@@ -1,0 +1,31 @@
+{%- comment -%}
+  The series at a glance on a discussion guide (_layouts/discussion_guide.html),
+  from _data/series/<page.series>.yml. The guide's own week is highlighted;
+  other weeks link to their guide, or to the episode when there's no guide.
+  Placed by _scripts/import_discussion_guides.py where the guide's series
+  table was.
+{%- endcomment -%}
+{%- assign series = site.data.series[page.series] -%}
+{%- if series %}
+<div class="guide-series table-wrapper">
+<table>
+    <caption class="visually-hidden">The {{ series.name }} series, week by week</caption>
+    <thead>
+        <tr><th scope="col">Week</th><th scope="col">Episode</th><th scope="col">Day</th><th scope="col">Focus</th></tr>
+    </thead>
+    <tbody>
+        {%- for w in series.weeks -%}
+        {%- assign w_guide = site.guides | where: "episode", w.episode | first -%}
+        {%- assign w_url = '/ep/' | append: w.episode -%}
+        {%- if w_guide -%}{%- assign w_url = w_guide.url -%}{%- endif %}
+        <tr{% if w.week == page.week %} class="is-current" aria-current="page"{% endif %}>
+            <td>{{ w.week }}</td>
+            <td>{% if w.week == page.week %}{{ w.episode }}{% else %}<a href="{{ w_url | relative_url }}">{{ w.episode }}</a>{% unless w_guide %} <span class="guide-series-noguide">(episode)</span>{% endunless %}{% endif %}</td>
+            <td>{{ w.day }}</td>
+            <td>{{ w.focus }}{% if w.theme %} <span class="guide-series-theme">· {{ w.theme }}</span>{% endif %}</td>
+        </tr>
+        {%- endfor %}
+    </tbody>
+</table>
+</div>
+{%- endif -%}

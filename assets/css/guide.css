@@ -1,0 +1,573 @@
+/* ============================================
+   DISCUSSION GUIDES (_layouts/discussion_guide.html) and the guide card
+   on episode pages (_includes/guide-card.html).
+   Loaded after episode.css; reuses the episode hero, nav and content-area
+   typography. Dark mode via :root[data-mode="dark"], like common.css.
+   ============================================ */
+:root {
+    --guide-accent: var(--color-primary);
+    --guide-q-bg: var(--color-bg-white);
+    --guide-q-border: var(--color-border-light);
+    --guide-homework-bg: #f6f1e4;
+    --guide-homework-border: #c9a85a;
+    --guide-homework-text: #5a4618;
+    --guide-plan-bar: #b9d3e4;
+}
+
+:root[data-mode="dark"] {
+    --guide-homework-bg: #2b271c;
+    --guide-homework-border: #8d763d;
+    --guide-homework-text: #e6d6ad;
+    --guide-plan-bar: #2c4a60;
+}
+
+/* ---- Hero ---------------------------------------------------------- */
+.guide-hero-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0 0 var(--spacing-sm);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-pill);
+    background: var(--color-on-primary-subtle);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 0.02em;
+}
+
+.guide-hero-kicker .icon {
+    margin: 0;
+}
+
+.guide-hero .episode-meta {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ---- Card on the episode page -------------------------------------- */
+.guide-card {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin: 0 0 var(--spacing-lg);
+    padding: var(--spacing-md) var(--spacing-lg);
+    border: 1px solid var(--color-border-light);
+    border-left: 4px solid var(--guide-accent);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-white);
+    box-shadow: var(--shadow-sm);
+}
+
+.guide-card-icon {
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    background: var(--color-accent-blue-light);
+    color: var(--guide-accent);
+}
+
+.guide-card-icon .icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: 0;
+}
+
+.guide-card-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.guide-card-title {
+    margin: 0;
+    font-size: var(--font-size-md);
+    color: var(--color-text-dark);
+}
+
+.guide-card-meta,
+.guide-card-facts {
+    margin: 0.15rem 0 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+.guide-card-link {
+    flex: none;
+    gap: 0.4rem;
+}
+
+.guide-card-link .icon {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .guide-card {
+        flex-wrap: wrap;
+        padding: var(--spacing-md);
+    }
+
+    .guide-card-link {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* ---- Toolbar + session plan ---------------------------------------- */
+.guide-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.guide-toolbar-note {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.guide-toolbar-note a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.guide-toolbar-actions {
+    display: flex;
+    gap: var(--spacing-xs);
+}
+
+.guide-toolbar-actions .btn {
+    gap: 0.35rem;
+}
+
+.guide-toolbar-actions .icon {
+    margin: 0;
+}
+
+.guide-plan {
+    margin: 0 0 var(--spacing-lg);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-light);
+}
+
+.guide-plan h2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0 0 var(--spacing-sm);
+    font-size: var(--font-size-md);
+    color: var(--color-text-dark);
+}
+
+.guide-plan-total {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-secondary);
+}
+
+.guide-plan-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: part;
+}
+
+/* Each part: label + minutes, over a bar sized to its share of the session */
+.guide-plan-list li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+    margin: 0 0 0.35rem;
+    padding: 0.35rem 0.6rem;
+    border-radius: var(--radius-md);
+    background: linear-gradient(to right, var(--guide-plan-bar) var(--part, 0%), var(--color-bg-white) var(--part, 0%));
+    counter-increment: part;
+    font-size: var(--font-size-sm);
+}
+
+.guide-plan-list li:last-child {
+    margin-bottom: 0;
+}
+
+.guide-plan-list a,
+.guide-plan-list span:first-child {
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-medium);
+}
+
+.guide-plan-list a {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.2em;
+}
+
+.guide-plan-list a:hover {
+    text-decoration-color: currentColor;
+}
+
+.guide-plan-min {
+    flex: none;
+    color: var(--color-text-secondary);
+    font-variant-numeric: tabular-nums;
+}
+
+/* ---- Guide content -------------------------------------------------- */
+.guide-content > h3 {
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--color-border-light);
+    scroll-margin-top: 5rem;
+}
+
+.guide-content > h3:first-child {
+    padding-top: 0;
+    border-top: 0;
+}
+
+.guide-content h4 {
+    scroll-margin-top: 5rem;
+}
+
+.guide-time {
+    display: inline-block;
+    margin-left: 0.5rem;
+    vertical-align: 0.2em;
+    padding: 0.1rem 0.55rem;
+    border-radius: var(--radius-pill);
+    background: var(--color-accent-blue-light);
+    color: var(--color-accent-blue-dark);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+}
+
+:root[data-mode="dark"] .guide-time {
+    color: var(--color-accent-blue);
+}
+
+/* Scripture: reference label, then the quote */
+.content-area .guide-ref {
+    margin: var(--spacing-md) 0 0.25rem;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 0.02em;
+}
+
+.content-area .guide-ref em {
+    font-style: normal;
+}
+
+.content-area .guide-ref + .guide-scripture {
+    margin-top: 0;
+}
+
+/* Summary quotes (closing): a pull quote, not scripture */
+.content-area .guide-summary {
+    background: none;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-left: 3px solid var(--color-border-light);
+    color: var(--color-text-primary);
+    font-size: var(--font-size-md);
+    line-height: 1.7;
+}
+
+
+.content-area .guide-note {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+/* Question cards */
+.guide-q,
+.guide-homework {
+    margin: var(--spacing-md) 0;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: 1px solid var(--guide-q-border);
+    border-left: 4px solid var(--guide-accent);
+    border-radius: var(--radius-md);
+    background: var(--guide-q-bg);
+}
+
+.guide-q > :first-child,
+.guide-homework > :first-child {
+    margin-top: 0;
+}
+
+.guide-q > :last-child,
+.guide-homework > :last-child {
+    margin-bottom: 0;
+}
+
+.guide-q strong:first-child {
+    color: var(--guide-accent);
+}
+
+.guide-q-optional {
+    border-style: dashed;
+    border-left-style: solid;
+    border-left-color: var(--color-border-light);
+    background: transparent;
+}
+
+.guide-q-optional strong:first-child {
+    color: var(--color-text-secondary);
+}
+
+.guide-tag {
+    display: inline-block;
+    margin-right: 0.25rem;
+    padding: 0 0.45rem;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-pill);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+    line-height: 1.6;
+    vertical-align: 0.1em;
+}
+
+.guide-q-opening,
+.guide-q-closing {
+    background: var(--color-accent-blue-light);
+    border-color: var(--color-accent-blue-border);
+    border-left-color: var(--color-accent-blue);
+}
+
+.guide-q-opening strong:first-child,
+.guide-q-closing strong:first-child {
+    color: var(--color-accent-blue-dark);
+}
+
+:root[data-mode="dark"] .guide-q-opening strong:first-child,
+:root[data-mode="dark"] .guide-q-closing strong:first-child {
+    color: var(--color-accent-blue);
+}
+
+.guide-homework {
+    background: var(--guide-homework-bg);
+    border-color: var(--guide-homework-border);
+    color: var(--guide-homework-text);
+}
+
+.guide-homework strong:first-child {
+    color: inherit;
+}
+
+/* Series table: this week stands out */
+.guide-series table {
+    font-size: var(--font-size-sm);
+}
+
+.content-area .guide-series th,
+.content-area .guide-series td {
+    padding: 0.5rem 0.65rem;
+    min-width: 0;
+}
+
+.content-area .guide-series tr.is-current,
+.content-area .guide-series tr.is-current:hover {
+    background: var(--color-accent-blue-light);
+    font-weight: var(--font-weight-semibold);
+}
+
+/* Links in the table sit beside plain text, so they need an underline */
+.content-area .guide-series a {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.guide-series-theme,
+.guide-series-noguide {
+    color: var(--color-text-secondary);
+    font-weight: var(--font-weight-normal);
+}
+
+/* Footnotes (kramdown) */
+.guide-content .footnotes {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+.guide-content .footnotes ol {
+    padding-left: var(--spacing-md);
+}
+
+.guide-content .footnotes li {
+    margin: 0.35rem 0;
+}
+
+.guide-content .footnotes p {
+    margin: 0;
+    display: inline;
+}
+
+.guide-content sup a,
+.guide-content .reversefootnote {
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+.guide-credit {
+    margin: var(--spacing-lg) 0 0;
+    padding-top: var(--spacing-sm);
+    border-top: 1px solid var(--color-border-light);
+    color: var(--color-text-light);
+    font-size: var(--font-size-xs);
+}
+
+.guide-credit a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+/* ---- Print: just the guide ------------------------------------------ */
+@media print {
+    .guide-toolbar,
+    .guide-card,
+    .guide-credit a .visually-hidden {
+        display: none !important;
+    }
+
+    .guide-hero-kicker {
+        padding: 0;
+        background: none;
+        font-size: 10pt;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+    }
+
+    .guide-hero .episode-meta {
+        justify-content: flex-start;
+    }
+
+    .guide-plan {
+        padding: 0;
+        background: none;
+        break-inside: avoid;
+    }
+
+    .guide-plan-list li {
+        background: none;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0;
+        padding: 0.15rem 0;
+    }
+
+    .guide-q,
+    .guide-homework {
+        break-inside: avoid;
+        background: none;
+        border: 1px solid #999;
+        border-left: 3px solid #000;
+    }
+
+    .guide-q-optional {
+        border-style: dashed;
+    }
+
+    .guide-time {
+        background: none;
+        border: 1px solid #999;
+        color: #000;
+    }
+
+    /* Room to write under each question */
+    .guide-q::after {
+        content: "";
+        display: block;
+        height: 3.5em;
+    }
+
+    .guide-q-optional::after {
+        height: 2em;
+    }
+
+    .content-area .guide-series tr.is-current {
+        background: none;
+        font-weight: 700;
+    }
+
+    .guide-content .footnotes {
+        break-before: auto;
+        font-size: 8.5pt;
+    }
+}
+
+/* Phones: the series table becomes a stacked list (four columns don't fit) */
+@media screen and (max-width: 600px) {
+    .content-area .guide-series table,
+    .content-area .guide-series tbody,
+    .content-area .guide-series tr,
+    .content-area .guide-series td {
+        display: block;
+        width: auto;
+        overflow: visible;
+    }
+
+    .content-area .guide-series thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+    }
+
+    .content-area .guide-series tr {
+        padding: 0.55rem 0.75rem;
+        border-bottom: 1px solid var(--color-border-light);
+    }
+
+    .content-area .guide-series tr:last-child {
+        border-bottom: 0;
+    }
+
+    .content-area .guide-series table {
+        border: 1px solid var(--color-border-light);
+        border-radius: var(--radius-md);
+        overflow: hidden;
+    }
+
+    .content-area .guide-series td {
+        border: 0;
+        padding: 0;
+        min-width: 0;
+    }
+
+    .content-area .guide-series td:nth-child(1),
+    .content-area .guide-series td:nth-child(2) {
+        display: inline;
+        font-weight: var(--font-weight-semibold);
+    }
+
+    .content-area .guide-series td:nth-child(1)::before {
+        content: "Week ";
+    }
+
+    .content-area .guide-series td:nth-child(2)::before {
+        content: " · ";
+    }
+
+    .content-area .guide-series td:nth-child(3) {
+        margin-top: 0.1rem;
+    }
+
+    .content-area .guide-summary {
+        padding: 0.25rem 0 0.25rem var(--spacing-sm);
+        font-size: var(--font-size-base);
+    }
+
+    .guide-q,
+    .guide-homework {
+        padding: var(--spacing-sm);
+    }
+}

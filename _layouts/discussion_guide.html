@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%- comment -%}
+      A discussion guide for one episode (/guides/N), from _guides/N.md
+      (made by _scripts/import_discussion_guides.py). Episode facts come
+      from _data/episodes.yaml; the series table from _data/series/.
+      Previous/Next go week to week through the series' guides, using the
+      same nav markup as episode pages so ← → / P N work here too.
+    {%- endcomment -%}
+    {%- assign episode = site.data.episodes[page.episodeIndex] -%}
+    {%- assign series = site.data.series[page.series] -%}
+    {%- assign title_prefix = page.episode | append: ': ' -%}
+    {%- assign display_title = episode.title | remove_first: title_prefix -%}
+    {%- assign episode_url = '/ep/' | append: page.episode -%}
+    {%- assign series_guides = site.guides | where: "series", page.series | sort: "week" -%}
+    {%- assign prev_guide = nil -%}{%- assign next_guide = nil -%}
+    {%- for g in series_guides -%}
+      {%- if g.week < page.week -%}{%- assign prev_guide = g -%}{%- endif -%}
+      {%- if g.week > page.week and next_guide == nil -%}{%- assign next_guide = g -%}{%- endif -%}
+    {%- endfor -%}
+    {%- assign page_title = 'Discussion Guide: ' | append: episode.title -%}
+    {%- assign page_description = 'A ' | append: page.minutes | append: '-minute group discussion guide for BEMA episode ' | append: episode.title | append: ' (' | append: page.theme | append: ').' %}
+
+    <title>{{ page_title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <link rel="stylesheet" href="{{ '/assets/css/episode.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <link rel="stylesheet" href="{{ '/assets/css/guide.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <meta name="description" content="{{ page_description | escape }}">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ page_title | escape }} - {{ site.title }}">
+    <meta property="og:description" content="{{ page_description | escape }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    {% include google-analytics.html page_type='guide' session=episode.season %}
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    {% include site-header.html %}
+
+    <main id="main" tabindex="-1">
+
+    <section class="episode-hero guide-hero">
+        <div class="container">
+            <p class="guide-hero-kicker">{% include icon.html name="messages" %} Discussion Guide{% if series %} · {{ series.name }}{% endif %} · Week {{ page.week }} of {{ page.weeks }}</p>
+            <p class="episode-hero-number"><span class="visually-hidden">Episode </span>{{ page.episode }}</p>
+            <h1>{{ display_title }}</h1>
+            <p class="episode-subtitle">{{ page.theme }}</p>
+            <div class="episode-meta">
+                <span>{% include icon.html name="clock" %} {{ page.minutes }}-minute session</span>
+                {%- if page.texts != '' %}
+                <span>{% include icon.html name="book" %} {{ page.texts }}</span>
+                {%- endif %}
+            </div>
+        </div>
+    </section>
+
+    <div class="container episode-nav-sticky">
+        <nav class="episode-nav" aria-label="Guides in this series">
+            <div class="episode-nav-left">
+                {%- if prev_guide %}
+                <a href="{{ prev_guide.url | relative_url }}" class="btn btn-sm btn-primary" rel="prev" title="Week {{ prev_guide.week }} guide (← or P)" aria-keyshortcuts="ArrowLeft P">
+                    {% include icon.html name="arrow-left" %} Week {{ prev_guide.week }}
+                </a>
+                {% else %}
+                <span class="btn btn-sm btn-disabled" role="link" aria-disabled="true">{% include icon.html name="arrow-left" %} Previous</span>
+                {% endif -%}
+            </div>
+            <div class="episode-nav-center">
+                <a href="{{ episode_url | relative_url }}" class="btn btn-sm btn-primary">
+                    {% include icon.html name="notes" %}<span class="hide-mobile"> Episode {{ page.episode }}</span> Notes
+                </a>
+                <a href="/search/" class="btn btn-sm btn-primary nav-search" data-quick-open title="Search (⌘K or Ctrl+K)" aria-keyshortcuts="Meta+K Control+K">
+                    {% include icon.html name="search" %}<span class="visually-hidden">Search</span>
+                </a>
+            </div>
+            <div class="episode-nav-right">
+                {%- if next_guide %}
+                <a href="{{ next_guide.url | relative_url }}" class="btn btn-sm btn-primary" rel="next" title="Week {{ next_guide.week }} guide (→ or N)" aria-keyshortcuts="ArrowRight N">
+                    Week {{ next_guide.week }} {% include icon.html name="arrow-right" %}
+                </a>
+                {% else %}
+                <span class="btn btn-sm btn-disabled" role="link" aria-disabled="true">Next {% include icon.html name="arrow-right" %}</span>
+                {% endif -%}
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <article class="section-container guide-section">
+            <div class="guide-toolbar instapaper_ignore">
+                <p class="guide-toolbar-note">For group discussion. Listen to <a href="{{ episode_url | relative_url }}">episode {{ page.episode }}</a> first.</p>
+                <div class="guide-toolbar-actions">
+                    <button type="button" class="btn btn-sm btn-outline" data-guide-print hidden>{% include icon.html name="printer" %} Print</button>
+                    <button type="button" class="btn btn-sm btn-outline" data-guide-share hidden>{% include icon.html name="link" %} <span data-guide-share-label>Share</span></button>
+                    <span class="visually-hidden" data-guide-status role="status"></span>
+                </div>
+            </div>
+
+            {%- if page.flow and page.flow.size > 0 %}
+            <section class="guide-plan" aria-labelledby="guide-plan-title">
+                <h2 id="guide-plan-title">Session plan <span class="guide-plan-total">{{ page.minutes }} min</span></h2>
+                <ol class="guide-plan-list">
+                    {%- for part in page.flow %}
+                    {%- assign share = part.minutes | times: 100.0 | divided_by: page.minutes %}
+                    <li style="--part: {{ share | round: 2 }}%">
+                        {%- capture part_label %}{{ part.label | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endcapture %}
+                        {%- if part.id %}<a href="#{{ part.id }}">{{ part_label }}</a>{% else %}<span>{{ part_label }}</span>{% endif %}
+                        <span class="guide-plan-min">{{ part.minutes }} min</span>
+                    </li>
+                    {%- endfor %}
+                </ol>
+            </section>
+            {%- endif %}
+
+            <div class="guide-content content-area">
+                {%- comment -%} kramdown's footnote roles: doc-noteref isn't allowed on <sup>, doc-endnote is deprecated {%- endcomment %}
+                {{ content | replace: ' role="doc-noteref"', '' | replace: ' role="doc-endnote"', '' }}
+            </div>
+
+            <p class="guide-credit">This discussion guide was developed using these notes and is aligned with the content and approach of the <a href="https://www.bemadiscipleship.com" target="_blank" rel="noopener">BEMA Discipleship Podcast<span class="visually-hidden"> (opens in a new tab)</span></a> by Marty Solomon and Brent Billings.</p>
+        </article>
+    </div>
+
+    <div class="container print-only">
+        <p class="print-source">From {{ site.title }} · {{ site.url }}{{ page.url }}</p>
+    </div>
+
+    <div class="container">
+        <nav class="episode-nav" aria-label="Guides in this series, bottom">
+            <div class="episode-nav-left">
+                {%- if prev_guide %}
+                <a href="{{ prev_guide.url | relative_url }}" class="btn btn-sm btn-primary" rel="prev">{% include icon.html name="arrow-left" %} Week {{ prev_guide.week }}</a>
+                {% else %}
+                <span class="btn btn-sm btn-disabled" role="link" aria-disabled="true">{% include icon.html name="arrow-left" %} Previous</span>
+                {% endif -%}
+            </div>
+            <div class="episode-nav-center">
+                <a href="{{ site.github_repo }}{{ page.path }}" class="btn btn-sm btn-outline" target="_blank">
+                    {% include icon.html name="pencil" %} Edit<span class="hide-mobile"> on GitHub</span>
+                </a>
+            </div>
+            <div class="episode-nav-right">
+                {%- if next_guide %}
+                <a href="{{ next_guide.url | relative_url }}" class="btn btn-sm btn-primary" rel="next">Week {{ next_guide.week }} {% include icon.html name="arrow-right" %}</a>
+                {% else %}
+                <span class="btn btn-sm btn-disabled" role="link" aria-disabled="true">Next {% include icon.html name="arrow-right" %}</span>
+                {% endif -%}
+            </div>
+        </nav>
+    </div>
+
+    </main>
+
+    {% include site-footer.html %}
+
+    <script src="{{ '/assets/js/sticky-nav.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/episode-hotkeys.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/scroll-regions.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/quick-open.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/guide.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+</body>
+</html>

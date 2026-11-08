@@ -9,7 +9,8 @@ sitemap: false
   subtitle. No note text (that's search-data.json, ~5 MB); for words in the
   notes, quick open hands off to /search/.
     pages:    t title, u url, k extra keywords to match; a = an action
-              instead of a url ("shortcuts" opens the shortcuts panel)
+              instead of a url ("shortcuts" opens the shortcuts panel);
+              includes the discussion guides (_guides/)
     episodes: n number, t title without the "201: " prefix, s subtitle,
               se session, u url, x 1 when the episode has no notes yet
 {%- endcomment -%}
@@ -28,6 +29,12 @@ sitemap: false
   {"t": "Keyboard Shortcuts", "a": "shortcuts", "k": "keyboard shortcuts keys hotkeys help"}
   {%- for doc in resource_pages -%}
   ,{"t": {{ doc.title | jsonify }}, "u": {{ doc.url | relative_url | jsonify }}, "k": "resources"}
+  {%- endfor -%}
+  {%- assign guide_pages = site.guides | sort: "episode" -%}
+  {%- for g in guide_pages -%}
+  {%- assign g_episode = site.data.episodes[g.episodeIndex] -%}
+  {%- assign g_prefix = g.episode | append: ': ' -%}
+  ,{"t": {{ 'Discussion Guide: ' | append: g.episode | append: ' ' | append: g_episode.title | remove_first: g_prefix | jsonify }}, "u": {{ g.url | relative_url | jsonify }}, "k": {{ 'guide discussion group questions week ' | append: g.week | append: ' ' | append: g.series | append: ' ' | append: g.episode | jsonify }}}
   {%- endfor -%}
   {%- for s in site.data.sessions -%}
   ,{"t": {{ 'Session ' | append: s.number | append: ': ' | append: s.name | jsonify }}, "u": {{ '/session' | append: s.number | append: '/' | relative_url | jsonify }}, "k": {{ 's' | append: s.number | append: ' season ' | append: s.number | append: ' ' | append: s.topic | jsonify }}, "se": {{ s.number }}}

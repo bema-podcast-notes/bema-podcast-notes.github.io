@@ -69,6 +69,10 @@ collections:
   misc_pages:
     permalink: /misc/:path/
     output: true
+  # Discussion guides: _guides/325.md -> /guides/325 (permalink set in
+  # each file by _scripts/import_discussion_guides.py)
+  guides:
+    output: true
   # sitemap:
   #   permalink: /sitemapv2.xml
   #   output: true

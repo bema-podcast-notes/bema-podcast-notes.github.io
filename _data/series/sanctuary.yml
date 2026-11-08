@@ -1,0 +1,40 @@
+# The Sanctuary series (Josh Bossé): one day of creation and one section of
+# the tabernacle per week. Drawn by _includes/guide-series.html on each
+# discussion guide; the guide's own week is highlighted.
+name: Sanctuary
+weeks:
+  - week: 1
+    episode: 325
+    day: "Day 1 — Light & Darkness"
+    focus: "Ark, Table & Menorah"
+    theme: "Testimonies, bread, lamp"
+  - week: 2
+    episode: 326
+    day: "Day 2 — Separation of Waters"
+    focus: "Curtains & Coverings"
+    theme: "The door"
+  - week: 3
+    episode: 327
+    day: "Day 3 — Land & Vegetation"
+    focus: "Altar & Courtyard"
+    theme: "Community"
+  - week: 4
+    episode: 328
+    day: "Day 4 — Luminaries"
+    focus: "Priestly Garments"
+    theme: "Orientation"
+  - week: 5
+    episode: 329
+    day: "Day 5 — Birds & Sea Creatures"
+    focus: "Ordination & Offerings"
+    theme: "Presence"
+  - week: 6
+    episode: 330
+    day: "Day 6 — Humanity"
+    focus: "Incense, Oil & Basin"
+    theme: "Image & likeness"
+  - week: 7
+    episode: 331
+    day: "Day 7 — Sabbath"
+    focus: "Sabbath Commands"
+    theme: "Rest"
