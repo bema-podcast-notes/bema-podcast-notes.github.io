@@ -404,7 +404,8 @@ body {
    phones never flash the full header), and site-menu.js keeps it in sync,
    turning it on whenever the one-line header would no longer fit, at any
    width. The title and menu button share one row; the menu (nav links, then
-   the color mode switch) opens below them when .menu-open is set.
+   the color mode switch) opens below them, right-aligned, when .menu-open
+   is set.
    ============================================ */
 html.header-compact .header {
     padding: 0.6rem var(--spacing-sm);
@@ -455,10 +456,11 @@ html.header-compact .menu-open .menu-toggle {
     display: inline;
 }
 
+/* Menu items line up on the right, under the menu button */
 html.header-compact .header-menu {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-basis: 100%;
     padding: 0.25rem 0 0.5rem;
 }
@@ -476,6 +478,7 @@ html.header-compact .nav {
 
 html.header-compact .nav a {
     padding: 0.7rem 0.25rem;
+    text-align: right;
     border-top: 1px solid var(--color-on-primary-subtle);
     font-size: var(--font-size-md);
 }
