@@ -75,3 +75,19 @@ Everything the site can do, in one place:
 </dl>
 
 <script src="{{ '/assets/js/site-data.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+
+## About this site {#about}
+
+{%- comment -%}
+  The version is the deployed git commit, from GitHub Pages
+  (site.github.build_revision, the same value Google Analytics gets as
+  site_version). Local builds don't have it and say so.
+{%- endcomment -%}
+{%- assign site_version = site.github.build_revision | slice: 0, 7 -%}
+{%- assign repo_url = site.github_repo | split: '/blob/' | first %}
+
+<dl class="site-data-summary site-version">
+  <div><dt>Version</dt><dd>{% if site_version != '' %}<a href="{{ repo_url }}/commit/{{ site.github.build_revision }}"><code>{{ site_version }}</code><span class="visually-hidden"> (view this version's changes on GitHub)</span></a>{% else %}Local build{% endif %}</dd></div>
+  <div><dt>Updated</dt><dd><time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: "%B %-d, %Y" }}</time></dd></div>
+  <div><dt>Source</dt><dd><a href="{{ repo_url }}">GitHub repository</a></dd></div>
+</dl>
