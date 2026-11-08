@@ -7,7 +7,7 @@ permalink: /settings/
 
 ## Your data
 
-Everything you save on this site, such as your own notes on episodes, the episodes you've marked as listened, and your color mode, is stored only in this browser. It isn't sent to a server, and it isn't shared between your devices or browsers. Clearing this browser's data for the site erases it.
+Everything you save on this site, such as your own notes on episodes and discussion guides, the episodes you've marked as listened, and your color mode, is stored only in this browser. It isn't sent to a server, and it isn't shared between your devices or browsers. Clearing this browser's data for the site erases it.
 
 <div class="site-data" data-site-data>
   <h3>Export</h3>
@@ -35,7 +35,7 @@ Everything you save on this site, such as your own notes on episodes, the episod
     <p data-import-summary></p>
     <fieldset class="site-import-modes" data-import-modes>
       <legend>Notes and listened history already in this browser</legend>
-      <label><input type="radio" name="import-mode" value="merge" checked> <span><strong>Merge</strong>: add the file's data; where an episode has notes in both, keep whichever was edited more recently, and keep the higher listen count</span></label>
+      <label><input type="radio" name="import-mode" value="merge" checked> <span><strong>Merge</strong>: add the file's data; where a page has notes in both, keep whichever was edited more recently, and keep the higher listen count</span></label>
       <label><input type="radio" name="import-mode" value="replace"> <span><strong>Replace</strong>: delete this browser's notes and listened history, then add the file's. Export first if you might want them back.</span></label>
     </fieldset>
     <label class="site-import-color" data-import-color-row><input type="checkbox" data-import-color checked> <span>Also set the color mode to <strong data-import-color-name></strong></span></label>
@@ -64,7 +64,7 @@ Everything the site can do, in one place:
   <div><dt>Quick open</dt><dd>Press <kbd data-tip-key>⌘K</kbd> on any page (or use Search in the header) and type an episode number like <code>201</code>, a session like <code>s3</code>, a page name, or words from a title. The last result always searches the full notes.</dd></div>
   <div><dt>Keyboard shortcuts</dt><dd><kbd>←</kbd> <kbd>→</kbd> (or <kbd>P</kbd> <kbd>N</kbd>) move between episodes, and between sessions on session pages. Press <kbd>?</kbd> to see them all.</dd></div>
   <div><dt>Exact phrases</dt><dd>On the <a href="/search/">search page</a>, put words in "quotes" to find that exact phrase.</dd></div>
-  <div><dt>My Notes</dt><dd>Every episode page has a box at the bottom for your own notes. They save as you type. Download one episode's notes, or Export all of them as one file.</dd></div>
+  <div><dt>My Notes</dt><dd>Every episode page and discussion guide has a box at the bottom for your own notes. They save as you type. Download one page's notes, or Export all of them as one file.</dd></div>
   <div><dt>Mark as listened</dt><dd>Use the Mark as listened button under the player. Listened episodes get a ✓ in the episode lists, and session headers on the home page count them. Press + when you listen again.</dd></div>
   <div><dt>Copy episode info</dt><dd>On an episode page, the clock icon next to the length copies the episode's session, title, subtitle and length.</dd></div>
   <div><dt>Previous versions</dt><dd>Some episodes' notes have been rewritten. The earlier versions are kept under Previous versions at the end of the notes.</dd></div>

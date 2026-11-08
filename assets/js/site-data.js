@@ -4,8 +4,9 @@
  *
  * What's included (keep in step with the scripts that store it):
  *   colorMode   'system' | 'light' | 'dark'      theme-switcher.js  bema-color-mode
- *   notes       { "ep-325": { title, url, updated, text } }
- *                                                my-notes.js        bema-my-notes:*
+ *   notes       { "ep-325": { title, url, updated, text },
+ *                 "guide-325": { ... } }         my-notes.js        bema-my-notes:*
+ *               (ep-N = episode page, guide-N = its discussion guide)
  *   listened    { "ep-325": { count, first, last } }
  *                                                listened.js        bema-listened
  * Not included: the analytics debug flag (a developer setting).
@@ -21,7 +22,7 @@
  *
  * Import ([data-site-import] block): read a file, validate it, show what it
  * holds and how it overlaps this browser's notes, then apply on request:
- *   merge    keep notes from both; for an episode in both, the one with the
+ *   merge    keep notes from both; for a page in both, the one with the
  *            later "updated" wins (a note without a date counts as oldest).
  *            Listened: higher count, earliest first, latest last.
  *   replace  delete this browser's notes and listened history first, then
@@ -73,17 +74,37 @@
         return inEpisodeOrder(notes);
     }
 
-    // Episode order: ep--1, ep-0, ep-1 … then anything else
+    // ep-325 is an episode page, guide-325 its discussion guide
+    const KEY_PARTS = /^(ep|guide)-(-?\d+)$/;
+
+    // Episode order: ep--1, ep-0, ep-1 …, each guide right after its
+    // episode (ep-325, guide-325, ep-326), then anything else
     function inEpisodeOrder(map) {
         const sorted = {};
         Object.keys(map).sort(function(a, b) {
-            const na = a.match(/^ep-(-?\d+)$/), nb = b.match(/^ep-(-?\d+)$/);
-            if (na && nb) return Number(na[1]) - Number(nb[1]);
+            const na = a.match(KEY_PARTS), nb = b.match(KEY_PARTS);
+            if (na && nb) return Number(na[2]) - Number(nb[2]) || (na[1] === 'guide') - (nb[1] === 'guide');
             if (na) return -1;
             if (nb) return 1;
             return a.localeCompare(b);
         }).forEach(function(k) { sorted[k] = map[k]; });
         return sorted;
+    }
+
+    // "3 episodes and 1 guide" for a list of note keys
+    function describeNotes(keys) {
+        let episodes = 0, guides = 0, other = 0;
+        keys.forEach(function(k) {
+            const m = k.match(KEY_PARTS);
+            if (!m) other++;
+            else if (m[1] === 'guide') guides++;
+            else episodes++;
+        });
+        const parts = [];
+        if (episodes) parts.push(episodes + (episodes === 1 ? ' episode' : ' episodes'));
+        if (guides) parts.push(guides + (guides === 1 ? ' guide' : ' guides'));
+        if (other) parts.push(other + (other === 1 ? ' other page' : ' other pages'));
+        return parts.length > 1 ? parts.slice(0, -1).join(', ') + ' and ' + parts[parts.length - 1] : (parts[0] || '0 episodes');
     }
 
     function cleanListened(map) {
@@ -213,7 +234,7 @@
     // How the file's notes line up with this browser's
     function compare(incoming) {
         const existing = readNotes(storage());
-        const result = { total: 0, added: 0, newerInFile: 0, newerHere: 0, same: 0, existingCount: Object.keys(existing).length };
+        const result = { total: 0, added: 0, newerInFile: 0, newerHere: 0, same: 0, existingCount: Object.keys(existing).length, existingKeys: Object.keys(existing) };
         Object.keys(incoming).forEach(function(key) {
             result.total++;
             const here = existing[key];
@@ -262,7 +283,7 @@
         const store = storage();
         if (!store) throw new Error('storage unavailable');
         const existing = readNotes(store);
-        const counts = { written: 0, kept: 0, removed: 0 };
+        const counts = { written: 0, kept: 0, removed: 0, writtenKeys: [], keptKeys: [], removedKeys: [] };
         if (mode === 'replace') {
             const doomed = [];
             for (let i = 0; i < store.length; i++) {
@@ -270,13 +291,15 @@
                 if (key && key.indexOf(NOTES_PREFIX) === 0) doomed.push(key);
             }
             doomed.forEach(function(key) { store.removeItem(key); });
-            counts.removed = Object.keys(existing).length;
+            counts.removedKeys = Object.keys(existing);
+            counts.removed = counts.removedKeys.length;
         }
         Object.keys(incoming).forEach(function(key) {
             const note = incoming[key];
             const here = mode === 'replace' ? null : existing[key];
             if (here && (here.text === note.text || time(here) >= time(note))) {
                 counts.kept++;
+                counts.keptKeys.push(key);
                 return;
             }
             // Same shape my-notes.js saves
@@ -287,6 +310,7 @@
                 url: note.url
             }));
             counts.written++;
+            counts.writtenKeys.push(key);
         });
         return counts;
     }
@@ -315,7 +339,7 @@
         }
         const data = collect().data;
         const count = Object.keys(data.notes).length;
-        notesOut.textContent = count === 0 ? 'None yet' : count + (count === 1 ? ' episode' : ' episodes');
+        notesOut.textContent = count === 0 ? 'None yet' : describeNotes(Object.keys(data.notes));
         modeOut.textContent = MODE_NAMES[data.colorMode];
         if (listenedOut) {
             const heard = Object.keys(data.listened).length;
@@ -328,7 +352,7 @@
         const count = Object.keys(payload.data.notes).length;
         const heard = Object.keys(payload.data.listened).length;
         status.textContent = 'Downloaded bema-podcast-notes-data-' + payload.exported.slice(0, 10) + '.json (' +
-            (count === 0 ? 'no notes' : count + (count === 1 ? ' episode’s notes' : ' episodes’ notes')) + ', ' +
+            (count === 0 ? 'no notes' : 'notes for ' + describeNotes(Object.keys(payload.data.notes))) + ', ' +
             (heard === 0 ? 'no listened episodes' : heard + (heard === 1 ? ' listened episode' : ' listened episodes')) +
             ', and your color mode).';
     });
@@ -394,7 +418,7 @@
                 const heardCount = Object.keys(pending.listened).length;
                 const heardHere = Object.keys(readListened(storage())).length;
                 const holds = [];
-                if (c.total || (!heardCount && !pending.colorMode)) holds.push('notes for ' + plural(c.total, 'episode', 'episodes'));
+                if (c.total || (!heardCount && !pending.colorMode)) holds.push('notes for ' + describeNotes(Object.keys(pending.notes)));
                 if (heardCount) holds.push('listened history for ' + plural(heardCount, 'episode', 'episodes'));
                 if (pending.colorMode) holds.push('the color mode ' + MODE_NAMES[pending.colorMode].replace(/ \(.*\)/, ''));
                 let text = '“' + file.name + '”' + when + ' has ' +
@@ -405,7 +429,7 @@
                     if (c.same) parts.push(c.same + (c.same === 1 ? ' matches' : ' match') + ' what’s here');
                     if (c.newerInFile) parts.push(c.newerInFile + ' ' + (c.newerInFile === 1 ? 'is' : 'are') + ' newer in the file');
                     if (c.newerHere) parts.push(c.newerHere + ' ' + (c.newerHere === 1 ? 'is' : 'are') + ' newer here');
-                    text += ' Of those, ' + parts.join(', ') + '. This browser has ' + plural(c.existingCount, 'episode', 'episodes') + ' with notes now.';
+                    text += ' Of those, ' + parts.join(', ') + '. This browser has notes for ' + describeNotes(c.existingKeys) + ' now.';
                 }
                 if (pending.skipped) text += ' ' + plural(pending.skipped, 'entry', 'entries') + ' in the file couldn’t be read and will be skipped.';
                 summary.textContent = text;
@@ -442,9 +466,9 @@
                 return;
             }
             const parts = [];
-            if (counts.removed) parts.push('removed ' + plural(counts.removed, 'episode’s', 'episodes’') + ' notes');
-            if (Object.keys(pending.notes).length || !Object.keys(pending.listened).length) parts.push('imported notes for ' + plural(counts.written, 'episode', 'episodes'));
-            if (counts.kept) parts.push('kept your newer or identical notes for ' + plural(counts.kept, 'episode', 'episodes'));
+            if (counts.removed) parts.push('removed notes for ' + describeNotes(counts.removedKeys));
+            if (Object.keys(pending.notes).length || !Object.keys(pending.listened).length) parts.push('imported notes for ' + describeNotes(counts.writtenKeys));
+            if (counts.kept) parts.push('kept your newer or identical notes for ' + describeNotes(counts.keptKeys));
             if (Object.keys(pending.listened).length) parts.push('updated listened history for ' + plural(heardChanged, 'episode', 'episodes'));
             let done = parts.join(', ');
             done = done ? done.charAt(0).toUpperCase() + done.slice(1) + '.' : 'Done.';

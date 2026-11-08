@@ -1,17 +1,22 @@
-<!-- My Notes: reader's own notes, saved to localStorage (see assets/js/my-notes.js) -->
+<!-- My Notes: reader's own notes, saved to localStorage (see assets/js/my-notes.js)
+     Options: title (required), key (default ep-N on episode pages, else the URL),
+     subject ("this episode"), intro and placeholder text. -->
+{%- assign notes_subject = include.subject | default: 'this episode' -%}
+{%- if include.key -%}{%- assign notes_key = include.key -%}{%- elsif page.episodeNumber != nil -%}{%- assign notes_key = 'ep-' | append: page.episodeNumber -%}{%- else -%}{%- assign notes_key = page.url -%}{%- endif %}
 <div class="container">
     <section class="section-container my-notes" id="my-notes"
-             data-notes-key="{% if page.episodeNumber != nil %}ep-{{ page.episodeNumber }}{% else %}{{ page.url }}{% endif %}"
-             data-notes-title="{{ include.title | escape }}">
+             data-notes-key="{{ notes_key }}"
+             data-notes-title="{{ include.title | escape }}"
+             data-notes-subject="{{ notes_subject }}">
         <h2>{% include icon.html name="writing" %} My Notes</h2>
         <p class="my-notes-intro">
-            Jot down your own thoughts on this episode. Notes save automatically and stay in this browser only —
+            {{ include.intro | default: 'Jot down your own thoughts on this episode.' }} Notes save automatically and stay in this browser only —
             they aren't uploaded anywhere, and clearing your browser's site data will erase them.
         </p>
-        <label for="my-notes-text" class="visually-hidden">My notes for this episode</label>
+        <label for="my-notes-text" class="visually-hidden">My notes for {{ notes_subject }}</label>
         <div class="my-notes-print print-only"></div>
         <textarea id="my-notes-text" class="my-notes-text" rows="8"
-                  placeholder="What stood out to you? Questions, connections, things to look up…"></textarea>
+                  placeholder="{{ include.placeholder | default: 'What stood out to you? Questions, connections, things to look up…' }}"></textarea>
         <p class="tip-line my-notes-tip">Tip: back up your notes, or move them to another browser, from <a href="/settings/">Settings</a>.</p>
         <div class="my-notes-footer">
             <span class="my-notes-status" aria-live="polite"></span>

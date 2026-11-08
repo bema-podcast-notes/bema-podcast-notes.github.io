@@ -1,10 +1,12 @@
 /**
  * My Notes for BEMA Podcast Notes
- * Lets readers keep their own notes on each episode page.
- * Notes live only in this browser's localStorage, keyed per episode:
+ * Lets readers keep their own notes on each episode page and discussion guide.
+ * Notes live only in this browser's localStorage, keyed per page:
  *   bema-my-notes:ep-325 -> { "text": "...", "updated": "2026-11-03T16:40:00.000Z",
  *                             "title": "325: Sanctuary — ...", "url": "/ep/325" }
- * "Export all" gathers every saved note into a single Markdown file.
+ *   bema-my-notes:guide-325   (the discussion guide at /guides/325)
+ * "Export all" gathers every saved note into a single Markdown file, in
+ * episode order with each guide after its episode.
  */
 
 (function() {
@@ -28,6 +30,7 @@
     const status = section.querySelector('.my-notes-status');
     const storageKey = STORAGE_PREFIX + section.dataset.notesKey;
     const title = section.dataset.notesTitle || document.title;
+    const subject = section.dataset.notesSubject || 'this episode';
     const downloadBtn = section.querySelector('[data-notes-action="download"]');
     const clearBtn = section.querySelector('[data-notes-action="clear"]');
     const exportAllBtn = section.querySelector('[data-notes-action="export-all"]');
@@ -141,7 +144,27 @@
         track('my_notes_download');
     }
 
-    // Every saved note in this browser, sorted by episode number (non-episode pages last)
+    // "ep-325" -> episode 325; "guide-325" -> its guide, sorted right after it
+    const KEY_PARTS = /^(ep|guide)-(-?\d+)$/;
+
+    // "3 episodes and 1 guide" for a list of note keys
+    function describeNotes(ids) {
+        let episodes = 0, guides = 0, other = 0;
+        ids.forEach(id => {
+            const m = id.match(KEY_PARTS);
+            if (!m) other++;
+            else if (m[1] === 'guide') guides++;
+            else episodes++;
+        });
+        const parts = [];
+        if (episodes) parts.push(episodes + (episodes === 1 ? ' episode' : ' episodes'));
+        if (guides) parts.push(guides + (guides === 1 ? ' guide' : ' guides'));
+        if (other) parts.push(other + (other === 1 ? ' other page' : ' other pages'));
+        return parts.length > 1 ? parts.slice(0, -1).join(', ') + ' and ' + parts[parts.length - 1] : (parts[0] || '0 episodes');
+    }
+
+    // Every saved note in this browser, in episode order with each guide after
+    // its episode (other pages last)
     function loadAllNotes() {
         const notes = [];
         let count = 0;
@@ -158,11 +181,14 @@
                 const note = JSON.parse(localStorage.getItem(key));
                 if (!note || typeof note.text !== 'string' || !note.text.trim()) continue;
                 const id = key.slice(STORAGE_PREFIX.length);
-                const match = id.match(/^ep-(-?\d+)$/);
+                const match = id.match(KEY_PARTS);
+                const isGuide = !!match && match[1] === 'guide';
                 notes.push({
-                    episode: match ? Number(match[1]) : Infinity,
-                    title: note.title || (match ? 'Episode ' + match[1] : id),
-                    url: note.url || (match ? '/ep/' + match[1] : id),
+                    id: id,
+                    episode: match ? Number(match[2]) : Infinity,
+                    kind: isGuide ? 1 : 0,
+                    title: note.title || (match ? (isGuide ? 'Discussion Guide ' : 'Episode ') + match[2] : id),
+                    url: note.url || (match ? (isGuide ? '/guides/' : '/ep/') + match[2] : id),
                     updated: note.updated,
                     text: note.text.trim()
                 });
@@ -170,7 +196,7 @@
                 // Skip this entry
             }
         }
-        return notes.sort((a, b) => a.episode - b.episode || a.title.localeCompare(b.title));
+        return notes.sort((a, b) => a.episode - b.episode || a.kind - b.kind || a.title.localeCompare(b.title));
     }
 
     function exportAll() {
@@ -181,7 +207,7 @@
             '# My BEMA Podcast Notes',
             '',
             'Exported ' + today.toLocaleDateString(undefined, DATE_LONG) +
-                ' · ' + notes.length + (notes.length === 1 ? ' episode' : ' episodes'),
+                ' · ' + describeNotes(notes.map(n => n.id)),
             ''
         ];
         notes.forEach(note => {
@@ -195,7 +221,7 @@
         track('my_notes_export_all', { note_count: notes.length });
     }
 
-    // Download and Clear only make sense once this episode has a note. The
+    // Download and Clear only make sense once this page has a note. The
     // note's text is also mirrored into a print-only block (the textarea
     // itself prints poorly); without text the section is left off paper.
     const printCopy = section.querySelector('.my-notes-print');
@@ -208,17 +234,18 @@
     }
 
     function updateExportAllCount() {
-        const count = loadAllNotes().length;
+        const all = loadAllNotes();
+        const count = all.length;
         exportCount.textContent = '(' + count + ')';
         exportAllBtn.disabled = count === 0;
         exportAllBtn.title = count === 0
             ? 'No saved notes yet'
-            : 'Download your notes from all ' + count + (count === 1 ? ' episode' : ' episodes') + ' as one Markdown file';
+            : 'Download your notes from ' + describeNotes(all.map(n => n.id)) + ' as one Markdown file';
     }
 
     function clear() {
         if (!textarea.value.trim()) return;
-        if (!window.confirm('Delete your notes for this episode? This cannot be undone.')) return;
+        if (!window.confirm('Delete your notes for ' + subject + '? This cannot be undone.')) return;
         clearTimeout(saveTimer);
         saveTimer = null;
         textarea.value = '';
@@ -258,7 +285,7 @@
             }
         });
 
-        // Keep other open tabs in sync: the export count for any note, the text for this episode
+        // Keep other open tabs in sync: the export count for any note, the text for this page
         window.addEventListener('storage', function(e) {
             if (e.key === null || e.key.startsWith(STORAGE_PREFIX)) updateExportAllCount();
             if (e.key !== storageKey || document.activeElement === textarea) return;

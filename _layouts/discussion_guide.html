@@ -126,6 +126,10 @@
         </article>
     </div>
 
+    {%- comment -%} The reader's own notes for this guide (assets/js/my-notes.js), key guide-N {%- endcomment %}
+    {%- assign guide_notes_key = 'guide-' | append: page.episode %}
+    {% include my-notes.html title=page_title key=guide_notes_key subject="this discussion guide" intro="Jot down your answers and thoughts as you prepare or discuss." placeholder="Your answers, what the group said, things to bring next week…" %}
+
     <div class="container print-only">
         <p class="print-source">From {{ site.title }} · {{ site.url }}{{ page.url }}</p>
     </div>
@@ -158,6 +162,7 @@
 
     {% include site-footer.html %}
 
+    <script src="{{ '/assets/js/my-notes.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/sticky-nav.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/episode-hotkeys.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/scroll-regions.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
