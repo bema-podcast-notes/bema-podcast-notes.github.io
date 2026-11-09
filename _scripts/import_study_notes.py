@@ -49,19 +49,21 @@ def adjust_markdown_headings(content):
 
 
 def add_detail_line_breaks(content):
-    """End the opening **Episode:** / **Hosts:** / **Focus:** lines with two
-    spaces so they render on separate lines, as they read in the markdown."""
+    """End **Label:** lines (the opening **Episode:** / **Hosts:** / **Focus:**
+    block, and any later run of them) with two spaces when the next line is
+    another **Label:** line, so they render on separate lines as they read in
+    the markdown. Lines inside ``` fences are left alone."""
     lines = content.split('\n')
-    start = next((i for i, l in enumerate(lines) if DETAIL.match(l)), None)
-    if start is None:
-        return content
-    end = start
-    while end + 1 < len(lines) and DETAIL.match(lines[end + 1]):
-        end += 1
-    for i in range(start, end):
+    in_fence = False
+    for i, line in enumerate(lines[:-1]):
+        if line.lstrip().startswith('```'):
+            in_fence = not in_fence
+            continue
+        if in_fence or not (DETAIL.match(line) and DETAIL.match(lines[i + 1])):
+            continue
         # Leave lines that already break (backslash or two trailing spaces)
-        if not (lines[i].endswith('\\') or lines[i].endswith('  ')):
-            lines[i] = lines[i].rstrip() + '  '
+        if not (line.endswith('\\') or line.endswith('  ')):
+            lines[i] = line.rstrip() + '  '
     return '\n'.join(lines)
 
 def find_session_file(episode_number):
