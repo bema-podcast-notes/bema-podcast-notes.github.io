@@ -14,8 +14,11 @@
     app_version     same SHA, to try filling GA's built-in App version
                     dimension (documented for app streams, not web)
   The episode itself comes from GA's built-in Page path (/ep/325), so it
-  isn't repeated here. User property: color_mode (system | light | dark).
-  Events and their parameters: assets/js/analytics.js
+  isn't repeated here. User properties: color_mode (system | light | dark),
+  visit_bucket (1 | 2 | 3-5 | 6-10 | 11-25 | 26+; visits counted in this
+  browser, set with reader_visit).
+  Events and their parameters: assets/js/analytics.js (including reader_visit,
+  notes_section_view, notes_feedback and notes_feedback_reason)
 {%- endcomment -%}
 {%- if jekyll.environment == 'production' and site.google_analytics -%}
 {%- assign site_version = site.github.build_revision | slice: 0, 7 -%}

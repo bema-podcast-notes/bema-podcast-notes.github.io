@@ -563,6 +563,126 @@ html {
     transform: translateX(3px);
 }
 
+/* "Were these notes helpful?" (notes-feedback.js), end of notes and guides */
+.notes-feedback {
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--color-bg-light);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-md);
+    display: grid;
+    gap: var(--spacing-xs);
+}
+
+/* display: flex/grid below would otherwise override the hidden attribute */
+.notes-feedback[hidden],
+.notes-feedback [hidden] {
+    display: none !important;
+}
+
+.notes-feedback-ask {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-xs) var(--spacing-sm);
+}
+
+.notes-feedback .notes-feedback-title {
+    margin: 0;
+    font-size: var(--font-size-md);
+    color: var(--color-text-primary);
+}
+
+.notes-feedback-choices,
+.notes-feedback-chips,
+.notes-feedback-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.notes-feedback .btn-sm {
+    padding: 0.4rem 0.9rem;
+    border-width: 1px;
+    font-weight: var(--font-weight-medium);
+}
+
+.notes-feedback .btn:hover {
+    transform: none;
+}
+
+.notes-feedback-choice[aria-pressed="true"] {
+    background: var(--color-fill-primary);
+    border-color: var(--color-fill-primary);
+    color: var(--color-text-on-primary);
+}
+
+.notes-feedback-prompt {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.notes-feedback-chip {
+    font: inherit;
+    font-size: var(--font-size-sm);
+    padding: 0.3rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-border-light);
+    background: var(--color-bg-white);
+    color: var(--color-text-primary);
+    cursor: pointer;
+}
+
+.notes-feedback-chip:hover {
+    border-color: var(--color-primary);
+}
+
+.notes-feedback-chip[aria-pressed="true"] {
+    background: var(--color-primary-light);
+    border-color: var(--color-primary);
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-medium);
+}
+
+.notes-feedback-chip[aria-pressed="true"]::before {
+    content: "✓ ";
+}
+
+.notes-feedback-skip,
+.notes-feedback-change {
+    font: inherit;
+    font-size: var(--font-size-sm);
+    background: none;
+    border: 0;
+    padding: 0.4rem 0.4rem;
+    color: var(--color-primary);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.notes-feedback-done p {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.notes-feedback-done .icon {
+    color: var(--color-primary);
+}
+
+.notes-feedback button:focus-visible,
+.notes-feedback-chip:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
 /* My Notes Section (reader's own notes, stored in localStorage) */
 .my-notes {
     margin-bottom: var(--spacing-lg);
@@ -894,6 +1014,10 @@ html {
    wrote one ("About This Episode" instead when there are no notes yet). Navigation, the player,
    previous versions, and the Next episode card stay on screen only. */
 @media print {
+    .notes-feedback {
+        display: none !important;
+    }
+
     .episode-nav-sticky,
     .episode-nav,
     .player-container,

@@ -7,7 +7,7 @@ permalink: /settings/
 
 ## Your data
 
-Everything you save on this site, such as your own notes on episodes and discussion guides, the episodes you've marked as listened, and your color mode, is stored only in this browser. It isn't sent to a server, and it isn't shared between your devices or browsers. Clearing this browser's data for the site erases it.
+Everything you save on this site, such as your own notes on episodes and discussion guides, the episodes you've marked as listened, your answers to "Were these notes helpful?", a count of your visits, and your color mode, is stored only in this browser. It isn't sent to a server, and it isn't shared between your devices or browsers. Clearing this browser's data for the site erases it.
 
 <div class="site-data" data-site-data>
   <h3>Export</h3>
@@ -68,6 +68,7 @@ Everything the site can do, in one place:
   <div><dt>Episode list filter</dt><dd>On the home page, All Sessions &amp; Episodes can show just the episodes with notes, or with discussion guides. Each episode is labeled Notes or Guide, and session headers count them.</dd></div>
   <div><dt>Mark as listened</dt><dd>Use the Mark as listened button under the player. Listened episodes get a ✓ in the episode lists, and session headers on the home page count them. Press + when you listen again.</dd></div>
   <div><dt>Copy episode info</dt><dd>On an episode page, the clock icon next to the length copies the episode's session, title, subtitle and length.</dd></div>
+  <div><dt>Were these notes helpful?</dt><dd>At the end of each episode's notes and each discussion guide, answer Yes or No and pick what helped or what's missing. It helps decide what to improve. Only the answer is sent, never any text.</dd></div>
   <div><dt>Previous versions</dt><dd>Some episodes' notes have been rewritten. The earlier versions are kept under Previous versions at the end of the notes.</dd></div>
   <div><dt>Printing</dt><dd>Episode pages print cleanly: the notes, with link addresses, and your own note if you wrote one.</dd></div>
   <div><dt>Color mode</dt><dd>System, Light or Dark, from the switch in the header (in the menu on phones).</dd></div>

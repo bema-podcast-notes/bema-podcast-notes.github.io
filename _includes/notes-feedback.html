@@ -1,0 +1,29 @@
+{%- comment -%}
+  "Were these notes helpful?" at the end of an episode's notes or a guide
+  (assets/js/notes-feedback.js). Yes / No, then optional reasons from a fixed
+  list; no free text. Sends notes_feedback and notes_feedback_reason. The
+  answer is remembered in this browser (bema-feedback:<path>).
+  Options: subject ("these notes" or "this guide"). Hidden without JS.
+{%- endcomment -%}
+{%- assign fb_subject = include.subject | default: 'these notes' -%}
+<section class="notes-feedback instapaper_ignore" data-notes-feedback data-subject="{{ fb_subject }}" aria-labelledby="notes-feedback-title" hidden>
+    <div class="notes-feedback-ask" data-fb-ask>
+        <h3 class="notes-feedback-title" id="notes-feedback-title">{% if fb_subject == 'this guide' %}Was this guide helpful?{% else %}Were these notes helpful?{% endif %}</h3>
+        <div class="notes-feedback-choices" role="group" aria-labelledby="notes-feedback-title">
+            <button type="button" class="btn btn-sm btn-outline notes-feedback-choice" data-fb-value="yes" aria-pressed="false">{% include icon.html name="thumb-up" %} Yes</button>
+            <button type="button" class="btn btn-sm btn-outline notes-feedback-choice" data-fb-value="no" aria-pressed="false">{% include icon.html name="thumb-down" %} No</button>
+        </div>
+    </div>
+    <div class="notes-feedback-reasons" data-fb-reasons hidden>
+        <p class="notes-feedback-prompt" id="notes-feedback-prompt" data-fb-prompt></p>
+        <div class="notes-feedback-chips" role="group" aria-labelledby="notes-feedback-prompt" data-fb-chips></div>
+        <div class="notes-feedback-actions">
+            <button type="button" class="btn btn-sm btn-primary" data-fb-send>Send</button>
+            <button type="button" class="btn btn-sm btn-link notes-feedback-skip" data-fb-skip>Skip</button>
+        </div>
+    </div>
+    <div class="notes-feedback-done" data-fb-done hidden>
+        <p>{% include icon.html name="check" %} <span data-fb-thanks>Thanks for the feedback.</span> <button type="button" class="notes-feedback-change" data-fb-change>Change answer</button></p>
+    </div>
+    <p class="visually-hidden" role="status" data-fb-status></p>
+</section>

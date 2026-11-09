@@ -122,6 +122,8 @@
                 {{ content | replace: ' role="doc-noteref"', '' | replace: ' role="doc-endnote"', '' }}
             </div>
 
+            {% include notes-feedback.html subject="this guide" %}
+
             <p class="guide-credit">This discussion guide was developed using these notes and is aligned with the content and approach of the <a href="https://www.bemadiscipleship.com" target="_blank" rel="noopener">BEMA Discipleship Podcast<span class="visually-hidden"> (opens in a new tab)</span></a> by Marty Solomon and Brent Billings.</p>
         </article>
     </div>
@@ -168,5 +170,6 @@
     <script src="{{ '/assets/js/scroll-regions.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/quick-open.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/guide.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/notes-feedback.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>

@@ -257,7 +257,10 @@ S{{ episode.season }} {{ title }}
             </section>
             {%- endif %}
             {%- if notes_body_attr != '' %}
+            {%- comment -%} Up next stays right after the notes: Safari Reader only follows a next link
+              within about 200px of the article text, so the feedback widget goes below it {%- endcomment %}
             {% include up-next.html %}
+            {% include notes-feedback.html %}
             {%- endif %}
         </article>
     </div>
@@ -307,6 +310,7 @@ S{{ episode.season }} {{ title }}
     <script src="{{ '/assets/js/episode-hotkeys.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/copy-episode.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/previous-versions.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/notes-feedback.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/scroll-regions.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     <script src="{{ '/assets/js/quick-open.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
