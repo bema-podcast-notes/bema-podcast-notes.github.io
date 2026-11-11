@@ -109,3 +109,4 @@ exclude:
   - Makefile
   - _scripts/
   - _study-notes/
+  - CSS_REFACTORING_ANALYSIS.md

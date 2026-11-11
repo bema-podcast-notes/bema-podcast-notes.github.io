@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: page
 title: Settings
 description: "Your data, tips, and everything this site can do"
