@@ -2,6 +2,7 @@
 layout: page
 title: Study Techniques
 description: Various techniques for studying the Bible.
+last_modified_at: 2023-11-07T18:18:45-06:00
 ---
 
 Table of Contents

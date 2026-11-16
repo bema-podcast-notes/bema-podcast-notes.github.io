@@ -3,6 +3,7 @@ layout: page
 title: Additional Resources
 description: Study guides, Jewish prayers, teaching methods, and other resources to enhance your BEMA journey
 permalink: /misc/
+last_modified_at: 2026-11-04T18:57:22-06:00
 ---
 
 Below are curated resources to help deepen your understanding of the Bible in its ancient Hebrew context. These guides cover Jewish prayers and liturgy, rabbinical teaching methods, and effective study techniques for engaging with the BEMA podcast.

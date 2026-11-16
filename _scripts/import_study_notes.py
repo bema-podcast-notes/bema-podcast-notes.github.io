@@ -9,6 +9,7 @@ to the opening episode details lines.
 import os
 import re
 import glob
+from datetime import datetime
 from pathlib import Path
 
 HEADING = re.compile(r'^(#{1,6})(\s+\S.*)$')
@@ -66,6 +67,18 @@ def add_detail_line_breaks(content):
             lines[i] = line.rstrip() + '  '
     return '\n'.join(lines)
 
+def stamp_last_modified(content):
+    """Set last_modified_at in the front matter to now, so the sitemap's
+    <lastmod> for this page reflects the import (see set_last_modified.py)."""
+    if not content.startswith('---\n'):
+        return content
+    end = content.index('\n---', 3)
+    front, rest = content[:end], content[end:]
+    line = 'last_modified_at: ' + datetime.now().astimezone().isoformat(timespec='seconds')
+    field = re.compile(r'^last_modified_at:.*$', re.M)
+    front = field.sub(line, front, count=1) if field.search(front) else front + '\n' + line
+    return front + rest
+
 def find_session_file(episode_number):
     """Find the corresponding session file for an episode number"""
     # Search all _session_* directories for the episode file
@@ -119,6 +132,7 @@ def process_study_notes_file(study_notes_path):
     
     # Replace "No notes yet." with the adjusted study content
     updated_content = session_content.replace("No notes yet.", adjusted_study_content.strip())
+    updated_content = stamp_last_modified(updated_content)
     
     # Write back to session file
     try:

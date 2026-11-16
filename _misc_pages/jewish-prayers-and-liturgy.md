@@ -3,6 +3,7 @@ layout: page
 title: Jewish Prayers and Liturgy
 description: Jewish prayers and Liturgy with relevance to the Jewish People and the Bible.
 output: true
+last_modified_at: 2023-11-07T18:18:45-06:00
 ---
 Here are some Jewish Prayers and Liturgy that has shown relevance in my study of the Bible and specifically in my study of the teachings of Jesus.  
 

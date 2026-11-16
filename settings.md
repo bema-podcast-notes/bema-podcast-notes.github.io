@@ -4,6 +4,7 @@ layout: page
 title: Settings
 description: "Your data, tips, and everything this site can do"
 permalink: /settings/
+last_modified_at: 2026-11-11T14:31:46-06:00
 ---
 
 ## Your data

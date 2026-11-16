@@ -4,6 +4,7 @@ title: Sitemap
 sitemap: false
 output: false
 hidefrompages: true
+last_modified_at: 2025-11-08T21:51:50-06:00
 ---
 <ul>
 {%- assign my_page = site.pages | where: "path", path | where_exp:'doc','doc.sitemap != false' | first -%}
