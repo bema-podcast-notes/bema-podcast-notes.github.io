@@ -99,7 +99,7 @@ def convert(path, available):
     hr = next(i for i, b in enumerate(blocks) if kind(b) == 'hr')
     header, body = blocks[:hr], blocks[hr + 1:]
     head_text = '\n'.join(header)
-    m = re.search(r'^## BEMA Episode (\d+) — (.+)$', head_text, re.M)
+    m = re.search(r'^## BEMA Episode (-?\d+) — (.+)$', head_text, re.M)
     episode, full_title = int(m.group(1)), m.group(2).strip()
     series_name = full_title.split(':')[0].strip()
     m = re.search(r'^### Week (\d+) of (\d+) \| (.+)$', head_text, re.M)
@@ -168,9 +168,9 @@ def convert(path, available):
         if in_refs:
             if k == 'footnotes':
                 fn = b
-                fn = re.sub(r'Ep\. (\d+) notes\.\s*\[bema-podcast-notes\.github\.io/ep/\1\]\([^)]*\)\.?',
+                fn = re.sub(r'Ep\. (-?\d+) notes\.\s*\[bema-podcast-notes\.github\.io/ep/\1\]\([^)]*\)\.?',
                             lambda mm: f'[Ep. {mm.group(1)} notes](/ep/{mm.group(1)}).', fn)
-                fn = re.sub(r'(?<!\[)Ep\. (\d+) notes\.', lambda mm: f'[Ep. {mm.group(1)} notes](/ep/{mm.group(1)}).', fn)
+                fn = re.sub(r'(?<!\[)Ep\. (-?\d+) notes\.', lambda mm: f'[Ep. {mm.group(1)} notes](/ep/{mm.group(1)}).', fn)
                 fn = fn.replace(SITE_URL, '')
                 out.append(fn)
             # anything after the footnotes is the attribution line: drop it
@@ -230,7 +230,7 @@ def convert(path, available):
             continue
 
         if k == 'para':
-            mm = re.match(r'^\*\*Ep\. (\d+) — (.+?)\*\*(.*)$', b, re.S)
+            mm = re.match(r'^\*\*Ep\. (-?\d+) — (.+?)\*\*(.*)$', b, re.S)
             if mm:
                 n = int(mm.group(1))
                 href = f'/guides/{n}' if n in available else f'/ep/{n}'
@@ -278,8 +278,8 @@ def main():
     if not paths:
         sys.exit(__doc__)
     # Episodes that will have a guide (for "Looking Ahead" links)
-    available = {int(m.group(1)) for p in paths if (m := re.search(r'Ep(\d+)', Path(p).name))}
-    available |= {int(f.stem) for f in GUIDES.glob('*.md') if f.stem.isdigit()}
+    available = {int(m.group(1)) for p in paths if (m := re.search(r'Ep(-?\d+)', Path(p).name))}
+    available |= {int(f.stem) for f in GUIDES.glob('*.md') if re.fullmatch(r'-?\d+', f.stem)}
     for p in paths:
         dest, minutes, parts = convert(p, available)
         print(f'✓ {Path(p).name} → {dest.relative_to(SITE)} ({parts} parts, {minutes} min)')

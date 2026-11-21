@@ -1,0 +1,138 @@
+# Session 1 (Torah), one episode per week from -1 to 32. Episodes 0 and 21b
+# have no notes yet, so they have no week. Drawn by _includes/guide-series.html
+# on each discussion guide; the guide's own week is highlighted.
+name: Session 1
+day_label: Section
+weeks:
+  - week: 1
+    episode: -1
+    day: "Introduction"
+    focus: "What Is BEMA?"
+  - week: 2
+    episode: 1
+    day: "Genesis 1–11"
+    focus: "Trust the Story"
+  - week: 3
+    episode: 2
+    day: "Genesis 1–11"
+    focus: "Knowing When to Say “Enough”"
+  - week: 4
+    episode: 3
+    day: "Genesis 1–11"
+    focus: "Master the Beast"
+  - week: 5
+    episode: 4
+    day: "Genesis 1–11"
+    focus: "His Bow in the Clouds"
+  - week: 6
+    episode: 5
+    day: "Genesis 1–11"
+    focus: "A Misplaced Curse"
+  - week: 7
+    episode: 6
+    day: "Genesis 1–11"
+    focus: "A Tale of a Tower"
+  - week: 8
+    episode: 7
+    day: "Genesis 1–11"
+    focus: "The Preface"
+  - week: 9
+    episode: 8
+    day: "Genesis 11–50"
+    focus: "Buried in a Genealogy"
+  - week: 10
+    episode: 9
+    day: "Genesis 11–50"
+    focus: "Letting Go"
+  - week: 11
+    episode: 10
+    day: "Genesis 11–50"
+    focus: "Walking the Blood Path"
+  - week: 12
+    episode: 11
+    day: "Genesis 11–50"
+    focus: "Here I Am"
+  - week: 13
+    episode: 12
+    day: "Genesis 11–50"
+    focus: "A Mission Realized"
+  - week: 14
+    episode: 13
+    day: "Genesis 11–50"
+    focus: "Grappling with God, Part 1"
+  - week: 15
+    episode: 14
+    day: "Genesis 11–50"
+    focus: "Grappling with God, Part 2"
+  - week: 16
+    episode: 15
+    day: "Genesis 11–50"
+    focus: "Into the Pit"
+  - week: 17
+    episode: 16
+    day: "Genesis 11–50"
+    focus: "Out of the Pit"
+  - week: 18
+    episode: 17
+    day: "Exodus"
+    focus: "A God Who Hears the Cry"
+  - week: 19
+    episode: 18
+    day: "Exodus"
+    focus: "A Tale of Two Kingdoms"
+  - week: 20
+    episode: 19
+    day: "Exodus"
+    focus: "A Strengthened Heart"
+  - week: 21
+    episode: 20
+    day: "Exodus"
+    focus: "With All Your Heart"
+  - week: 22
+    episode: 21
+    day: "Exodus"
+    focus: "With All Your Soul & “Very”"
+  - week: 23
+    episode: 22
+    day: "Exodus"
+    focus: "Under the Chuppah"
+  - week: 24
+    episode: 23
+    day: "Exodus"
+    focus: "Falling on Joyful Faces"
+  - week: 25
+    episode: 24
+    day: "Exodus"
+    focus: "Creating a Space"
+  - week: 26
+    episode: 25
+    day: "Leviticus"
+    focus: "A Kingdom of What?"
+  - week: 27
+    episode: 26
+    day: "Images of the Desert"
+    focus: "Shepherd"
+  - week: 28
+    episode: 27
+    day: "Images of the Desert"
+    focus: "Rotem and Acacia"
+  - week: 29
+    episode: 28
+    day: "Images of the Desert"
+    focus: "Ar'ar and Tamarisk"
+  - week: 30
+    episode: 29
+    day: "Images of the Desert"
+    focus: "Wadi and En Gedi"
+  - week: 31
+    episode: 30
+    day: "Numbers"
+    focus: "Lead with Your Voice"
+  - week: 32
+    episode: 31
+    day: "Deuteronomy"
+    focus: "Remember Where You Came From"
+  - week: 33
+    episode: 32
+    day: "Capstone"
+    focus: "Session 1 Capstone"
