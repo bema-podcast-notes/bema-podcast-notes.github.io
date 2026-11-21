@@ -1,0 +1,272 @@
+# Session 6 (Starting a New Journey), one episode per week. Only episodes
+# with notes have a week: 62 episodes in 205-333 have no notes yet. Weeks
+# 60-66 are the Sanctuary series, which has its own guides (series: sanctuary).
+# Drawn by _includes/guide-series.html on each discussion guide; the guide's
+# own week is highlighted.
+name: Session 6
+day_label: Series
+weeks:
+  - week: 1
+    episode: 205
+    day: "Introduction"
+    focus: "Session 6 Intro"
+  - week: 2
+    episode: 206
+    day: "Guest Conversation"
+    focus: "The Nature of Truth (Reed Dent)"
+  - week: 3
+    episode: 207
+    day: "Guest Conversation"
+    focus: "The Sacred Overlap (J. R. Briggs)"
+  - week: 4
+    episode: 208
+    day: "Midrash"
+    focus: "Iscah, Sarai, and Birth Orders"
+  - week: 5
+    episode: 209
+    day: "Midrash"
+    focus: "Noah’s Backstory and the Nephilim"
+  - week: 6
+    episode: 210
+    day: "Midrash"
+    focus: "The Man in the Fur Coat"
+  - week: 7
+    episode: 211
+    day: "Gospel of John"
+    focus: "Blue Jeans Theology"
+  - week: 8
+    episode: 212
+    day: "Character Study"
+    focus: "Jacob, Part 1"
+  - week: 9
+    episode: 213
+    day: "Character Study"
+    focus: "Jacob, Part 2"
+  - week: 10
+    episode: 214
+    day: "Character Study"
+    focus: "Joseph, Part 1"
+  - week: 11
+    episode: 215
+    day: "Character Study"
+    focus: "Joseph, Part 2"
+  - week: 12
+    episode: 216
+    day: "Guest Conversation"
+    focus: "Can We Talk? (Porshe Chiles)"
+  - week: 13
+    episode: 217
+    day: "Midrash"
+    focus: "Isaac’s Bad Eyes"
+  - week: 14
+    episode: 218
+    day: "Midrash"
+    focus: "Death at Dinner"
+  - week: 15
+    episode: 219
+    day: "Guest Conversation"
+    focus: "Loving the Adventure (Becky Solomon)"
+  - week: 16
+    episode: 220
+    day: "The Chosen"
+    focus: "The Chosen S1E1 — “I Have Called You by Name”"
+  - week: 17
+    episode: 221
+    day: "The Chosen"
+    focus: "The Chosen S1E2 — “Shabbat”"
+  - week: 18
+    episode: 222
+    day: "The Chosen"
+    focus: "The Chosen S1E3 — “Jesus Loves the Little Children”"
+  - week: 19
+    episode: 223
+    day: "The Chosen"
+    focus: "The Chosen S1E4 — “The Rock on Which It Is Built”"
+  - week: 20
+    episode: 224
+    day: "The Chosen"
+    focus: "The Chosen S1E5 — “The Wedding Gift”"
+  - week: 21
+    episode: 225
+    day: "The Chosen"
+    focus: "The Chosen S1E6 — “Indescribable Compassion”"
+  - week: 22
+    episode: 226
+    day: "The Chosen"
+    focus: "The Chosen S1E7 — “Invitations”"
+  - week: 23
+    episode: 227
+    day: "The Chosen"
+    focus: "The Chosen S1E8 — “I Am He”"
+  - week: 24
+    episode: 228
+    day: "Guest Conversation"
+    focus: "Manna Program, Part 1 (Dallas Jenkins)"
+  - week: 25
+    episode: 229
+    day: "Guest Conversation"
+    focus: "Manna Program, Part 2 (Dallas Jenkins)"
+  - week: 26
+    episode: 230
+    day: "Guest Conversation"
+    focus: "Unfettered (Mandy Smith)"
+  - week: 27
+    episode: 231
+    day: "Introducing the Team"
+    focus: "Deconstruction w/ Reed Dent"
+  - week: 28
+    episode: 232
+    day: "Introducing the Team"
+    focus: "Jephthah’s Daughter w/ Elle Grover Fricks"
+  - week: 29
+    episode: 233
+    day: "Introducing the Team"
+    focus: "Striking the Rock w/ Josh Bossé"
+  - week: 30
+    episode: 234
+    day: "Guest Conversation"
+    focus: "The Jewish Roots of Christianity (Jen Rosner)"
+  - week: 31
+    episode: 235
+    day: "Jewish Roots"
+    focus: "Tanakh and Religion"
+  - week: 32
+    episode: 236
+    day: "Jewish Roots"
+    focus: "Paul, Jewish Law, and Atonement in Hebrews"
+  - week: 33
+    episode: 237
+    day: "Jewish Roots"
+    focus: "Ways Parted for a Dark History"
+  - week: 34
+    episode: 238
+    day: "Jewish Roots"
+    focus: "What Difference Does It Make?"
+  - week: 35
+    episode: 239
+    day: "Co-host Study"
+    focus: "Abraham Considers a Catechism w/ Reed Dent"
+  - week: 36
+    episode: 240
+    day: "Co-host Study"
+    focus: "Sin and the Archaeology of Joshua w/ Elle Grover Fricks"
+  - week: 37
+    episode: 241
+    day: "Guest Conversation"
+    focus: "Don’t Exasperate Your Kids (Becky Solomon)"
+  - week: 38
+    episode: 242
+    day: "Spiritual Abuse"
+    focus: "Commodities and Variables"
+  - week: 39
+    episode: 243
+    day: "Spiritual Abuse"
+    focus: "The Place We Find Ourselves"
+  - week: 40
+    episode: 244
+    day: "Spiritual Abuse"
+    focus: "The Rise and Fall of Mars Hill"
+  - week: 41
+    episode: 245
+    day: "Spiritual Abuse"
+    focus: "Liturgy for Repentance and Healing"
+  - week: 42
+    episode: 246
+    day: "Guest Conversation"
+    focus: "A Look into Our Window (Eugenia Ortega)"
+  - week: 43
+    episode: 247
+    day: "Co-host Study"
+    focus: "Sleepless in Susa w/ Josh Bossé"
+  - week: 44
+    episode: 248
+    day: "Co-host Study"
+    focus: "Joy and Lot’s Untitled Wife w/ Elle Grover Fricks"
+  - week: 45
+    episode: 249
+    day: "Guest Conversation"
+    focus: "Escaping the Beast (Michael Burns)"
+  - week: 46
+    episode: 250
+    day: "The Chosen"
+    focus: "The Chosen S1E0 — “The Shepherd”"
+  - week: 47
+    episode: 251
+    day: "Gospel of John"
+    focus: "A Griever’s Guide to Life"
+  - week: 48
+    episode: 252
+    day: "Gospel of John"
+    focus: "What’s in a Logos?"
+  - week: 49
+    episode: 254
+    day: "Gospel of John"
+    focus: "A Wedding and Some Housekeeping"
+  - week: 50
+    episode: 255
+    day: "Gospel of John"
+    focus: "Water, Spirit, Darkness, Light"
+  - week: 51
+    episode: 256
+    day: "Gospel of John"
+    focus: "The One from Above"
+  - week: 52
+    episode: 301
+    day: "Gospel of John"
+    focus: "On Doubting and Locked Doors"
+  - week: 53
+    episode: 302
+    day: "Gospel of John"
+    focus: "Do You Even Like Me?"
+  - week: 54
+    episode: 303
+    day: "Gospel of John"
+    focus: "The History and Style of the Gospel of John"
+  - week: 55
+    episode: 312
+    day: "Parables"
+    focus: "Dissecting a Swallow"
+  - week: 56
+    episode: 313
+    day: "Parables"
+    focus: "The Good Samaritan"
+  - week: 57
+    episode: 314
+    day: "Parables"
+    focus: "The Barn Builder"
+  - week: 58
+    episode: 315
+    day: "Parables"
+    focus: "The Lost Son"
+  - week: 59
+    episode: 316
+    day: "Parables"
+    focus: "The Unforgiving Servant"
+  - week: 60
+    episode: 325
+    day: "Sanctuary"
+    focus: "Waking Up in the Mishkan"
+  - week: 61
+    episode: 326
+    day: "Sanctuary"
+    focus: "Entering the Mishkan"
+  - week: 62
+    episode: 327
+    day: "Sanctuary"
+    focus: "Feasting at the Mishkan"
+  - week: 63
+    episode: 328
+    day: "Sanctuary"
+    focus: "Listening by the Mishkan"
+  - week: 64
+    episode: 329
+    day: "Sanctuary"
+    focus: "Moving the Mishkan"
+  - week: 65
+    episode: 330
+    day: "Sanctuary"
+    focus: "Traversing the Mishkan"
+  - week: 66
+    episode: 331
+    day: "Sanctuary"
+    focus: "Resting with the Mishkan"
