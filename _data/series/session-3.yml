@@ -1,0 +1,250 @@
+# Session 3 (The Gospels), one episode per week from 73 to 133. Drawn by
+# _includes/guide-series.html on each discussion guide; the guide's own week
+# is highlighted.
+name: Session 3
+day_label: Section
+weeks:
+  - week: 1
+    episode: 73
+    day: "Introduction"
+    focus: "Session 3 Intro"
+  - week: 2
+    episode: 74
+    day: "Silent Years"
+    focus: "Synagogue"
+  - week: 3
+    episode: 75
+    day: "Silent Years"
+    focus: "Welcome to Hellenism"
+  - week: 4
+    episode: 76
+    day: "Silent Years"
+    focus: "Sadducees"
+  - week: 5
+    episode: 77
+    day: "Silent Years"
+    focus: "Herodians"
+  - week: 6
+    episode: 78
+    day: "Silent Years"
+    focus: "Essenes"
+  - week: 7
+    episode: 79
+    day: "Silent Years"
+    focus: "Zealots"
+  - week: 8
+    episode: 80
+    day: "Silent Years"
+    focus: "Pharisees"
+  - week: 9
+    episode: 81
+    day: "Silent Years"
+    focus: "Association"
+  - week: 10
+    episode: 82
+    day: "Reading the Gospels"
+    focus: "The Text — When, Where, Who, and Why"
+  - week: 11
+    episode: 83
+    day: "Reading the Gospels"
+    focus: "Gospel Narrative"
+  - week: 12
+    episode: 84
+    day: "The Four Gospels"
+    focus: "Matthew — Mumzer"
+  - week: 13
+    episode: 85
+    day: "The Four Gospels"
+    focus: "Mark — Roman Gospel"
+  - week: 14
+    episode: 86
+    day: "The Four Gospels"
+    focus: "Luke — Ordered"
+  - week: 15
+    episode: 87
+    day: "The Four Gospels"
+    focus: "John — Grafted"
+  - week: 16
+    episode: 88
+    day: "Matthew 1–4"
+    focus: "Setting the Stage"
+  - week: 17
+    episode: 89
+    day: "Matthew 1–4"
+    focus: "Written in the Stars"
+  - week: 18
+    episode: 90
+    day: "Matthew 1–4"
+    focus: "A Gospel of Two Kingdoms"
+  - week: 19
+    episode: 91
+    day: "Matthew 1–4"
+    focus: "Tavilah T'Shuvah"
+  - week: 20
+    episode: 92
+    day: "Matthew 1–4"
+    focus: "How to Bring Order Out of Chaos"
+  - week: 21
+    episode: 93
+    day: "Sermon on the Mount"
+    focus: "Blessed"
+  - week: 22
+    episode: 94
+    day: "Sermon on the Mount"
+    focus: "Hope of the World"
+  - week: 23
+    episode: 95
+    day: "Sermon on the Mount"
+    focus: "Abolish or Fulfill"
+  - week: 24
+    episode: 96
+    day: "Sermon on the Mount"
+    focus: "But I Say Unto You"
+  - week: 25
+    episode: 97
+    day: "Sermon on the Mount"
+    focus: "Done in Secret"
+  - week: 26
+    episode: 98
+    day: "Sermon on the Mount"
+    focus: "A Good Eye"
+  - week: 27
+    episode: 99
+    day: "Sermon on the Mount"
+    focus: "Fruit of Fools"
+  - week: 28
+    episode: 100
+    day: "Matthew 8–12"
+    focus: "Healing at Great Cost"
+  - week: 29
+    episode: 101
+    day: "Matthew 8–12"
+    focus: "The Other Side"
+  - week: 30
+    episode: 102
+    day: "Matthew 8–12"
+    focus: "Son of Man"
+  - week: 31
+    episode: 103
+    day: "Matthew 8–12"
+    focus: "Healing in His Wings"
+  - week: 32
+    episode: 104
+    day: "Matthew 8–12"
+    focus: "Innocent as Doves"
+  - week: 33
+    episode: 105
+    day: "Matthew 8–12"
+    focus: "An Explosive Kingdom"
+  - week: 34
+    episode: 106
+    day: "Matthew 8–12"
+    focus: "Jury Duty in Sodom"
+  - week: 35
+    episode: 107
+    day: "Matthew 8–12"
+    focus: "Donkeys and Rabbis"
+  - week: 36
+    episode: 108
+    day: "Matthew 8–12"
+    focus: "The Fruit of Beelzebul"
+  - week: 37
+    episode: 109
+    day: "Parables (Matthew 13)"
+    focus: "Which Soil?"
+  - week: 38
+    episode: 110
+    day: "Parables (Matthew 13)"
+    focus: "Jewish Hermeneutics"
+  - week: 39
+    episode: 111
+    day: "Parables (Matthew 13)"
+    focus: "A Farmer and a Woman"
+  - week: 40
+    episode: 112
+    day: "Parables (Matthew 13)"
+    focus: "Explanations That Don’t Explain"
+  - week: 41
+    episode: 113
+    day: "Parables (Matthew 13)"
+    focus: "Treasures and Pearls"
+  - week: 42
+    episode: 114
+    day: "Parables (Matthew 13)"
+    focus: "Fish in a Net"
+  - week: 43
+    episode: 115
+    day: "Matthew 14–25"
+    focus: "5 Loaves, 2 Fish, and 1 Big Lesson"
+  - week: 44
+    episode: 116
+    day: "Matthew 14–25"
+    focus: "She Giggled"
+  - week: 45
+    episode: 117
+    day: "Matthew 14–25"
+    focus: "Jesus Resorts to Name Calling"
+  - week: 46
+    episode: 118
+    day: "Matthew 14–25"
+    focus: "Eyes That Cannot See"
+  - week: 47
+    episode: 119
+    day: "Matthew 14–25"
+    focus: "The Gates of Hell"
+  - week: 48
+    episode: 120
+    day: "Matthew 14–25"
+    focus: "Truth and Light"
+  - week: 49
+    episode: 121
+    day: "Matthew 14–25"
+    focus: "The Key to Your Own Prison"
+  - week: 50
+    episode: 122
+    day: "Matthew 14–25"
+    focus: "A Naked Thing"
+  - week: 51
+    episode: 123
+    day: "Matthew 14–25"
+    focus: "The Heat of the Day"
+  - week: 52
+    episode: 124
+    day: "Matthew 14–25"
+    focus: "Statement of Triumph"
+  - week: 53
+    episode: 125
+    day: "Matthew 14–25"
+    focus: "Are You Talking to Me?"
+  - week: 54
+    episode: 126
+    day: "Matthew 14–25"
+    focus: "Trapped by a Question"
+  - week: 55
+    episode: 127
+    day: "Matthew 14–25"
+    focus: "Six or Seven?"
+  - week: 56
+    episode: 128
+    day: "Matthew 14–25"
+    focus: "Faithful and Wise Steward"
+  - week: 57
+    episode: 129
+    day: "Matthew 26–28"
+    focus: "The Final Week"
+  - week: 58
+    episode: 130
+    day: "Matthew 26–28"
+    focus: "The Plot to Kill Jesus"
+  - week: 59
+    episode: 131
+    day: "Matthew 26–28"
+    focus: "Betrayal"
+  - week: 60
+    episode: 132
+    day: "Matthew 26–28"
+    focus: "Go"
+  - week: 61
+    episode: 133
+    day: "Capstone"
+    focus: "Session 3 Capstone"
