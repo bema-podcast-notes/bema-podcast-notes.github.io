@@ -1,0 +1,61 @@
+# Session 5 (Church History), one episode per week from 191 to 204. Drawn by _includes/guide-series.html on
+# each discussion guide; the guide's own week is highlighted.
+name: Session 5
+day_label: Section
+weeks:
+  - week: 1
+    episode: 191
+    day: "Introduction"
+    focus: "Session 5 Intro"
+  - week: 2
+    episode: 192
+    day: "Method"
+    focus: "Telling a Story"
+  - week: 3
+    episode: 193
+    day: "Church History"
+    focus: "AD 100–300"
+  - week: 4
+    episode: 194
+    day: "Church History"
+    focus: "AD 300–500"
+  - week: 5
+    episode: 195
+    day: "Church History"
+    focus: "AD 500–700"
+  - week: 6
+    episode: 196
+    day: "Church History"
+    focus: "AD 700–1000"
+  - week: 7
+    episode: 197
+    day: "Church History"
+    focus: "AD 1000–1300"
+  - week: 8
+    episode: 198
+    day: "Church History"
+    focus: "AD 1300–1550"
+  - week: 9
+    episode: 199
+    day: "Church History"
+    focus: "AD 1550–1650"
+  - week: 10
+    episode: 200
+    day: "Church History"
+    focus: "AD 1650–1800"
+  - week: 11
+    episode: 201
+    day: "Church History"
+    focus: "AD 1800–1925"
+  - week: 12
+    episode: 202
+    day: "Church History"
+    focus: "AD 1925 to Today"
+  - week: 13
+    episode: 203
+    day: "Today"
+    focus: "You Are Here"
+  - week: 14
+    episode: 204
+    day: "Capstone"
+    focus: "Session 5 Capstone"

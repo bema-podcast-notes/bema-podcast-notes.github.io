@@ -1,0 +1,233 @@
+# Session 4 (The First-Century Church), one episode per week from 134 to 190. Drawn by _includes/guide-series.html on
+# each discussion guide; the guide's own week is highlighted.
+name: Session 4
+day_label: Book
+weeks:
+  - week: 1
+    episode: 134
+    day: "Introduction"
+    focus: "Session 4 Intro"
+  - week: 2
+    episode: 135
+    day: "Acts"
+    focus: "Uncut Corners"
+  - week: 3
+    episode: 136
+    day: "Acts"
+    focus: "Each One"
+  - week: 4
+    episode: 137
+    day: "Acts"
+    focus: "A Dry Tree"
+  - week: 5
+    episode: 138
+    day: "Acts"
+    focus: "Unclean Sheets"
+  - week: 6
+    episode: 139
+    day: "Acts"
+    focus: "Theosabes"
+  - week: 7
+    episode: 140
+    day: "Acts"
+    focus: "Not to Burden You"
+  - week: 8
+    episode: 141
+    day: "Acts"
+    focus: "Mathetes or Talmidim?"
+  - week: 9
+    episode: 142
+    day: "Acts"
+    focus: "Calling of a Prophet"
+  - week: 10
+    episode: 143
+    day: "Acts"
+    focus: "The Epilogue"
+  - week: 11
+    episode: 144
+    day: "Galatians"
+    focus: "Paul’s Gospel"
+  - week: 12
+    episode: 145
+    day: "Galatians"
+    focus: "Right Hand of Fellowship"
+  - week: 13
+    episode: 146
+    day: "Galatians"
+    focus: "The Curse"
+  - week: 14
+    episode: 147
+    day: "Galatians"
+    focus: "Two Women, Two Covenants"
+  - week: 15
+    episode: 148
+    day: "Galatians"
+    focus: "Set Free to Be Free"
+  - week: 16
+    episode: 149
+    day: "Romans"
+    focus: "Blended Family"
+  - week: 17
+    episode: 150
+    day: "Romans"
+    focus: "Righteousness from God"
+  - week: 18
+    episode: 151
+    day: "Romans"
+    focus: "Buried Alive"
+  - week: 19
+    episode: 152
+    day: "Romans"
+    focus: "The Struggle"
+  - week: 20
+    episode: 153
+    day: "Romans"
+    focus: "The Potter"
+  - week: 21
+    episode: 154
+    day: "Romans"
+    focus: "Therefore"
+  - week: 22
+    episode: 155
+    day: "Romans"
+    focus: "God’s Mission, Paul’s Mission"
+  - week: 23
+    episode: 156
+    day: "1 Corinthians"
+    focus: "Broken Body"
+  - week: 24
+    episode: 157
+    day: "2 Corinthians"
+    focus: "Apostleship"
+  - week: 25
+    episode: 158
+    day: "Ephesians"
+    focus: "Family Membership"
+  - week: 26
+    episode: 159
+    day: "Philippians"
+    focus: "Joy"
+  - week: 27
+    episode: 160
+    day: "Colossians"
+    focus: "Gnostic Heresy"
+  - week: 28
+    episode: 161
+    day: "1 Thessalonians"
+    focus: "Parousia"
+  - week: 29
+    episode: 162
+    day: "2 Thessalonians"
+    focus: "Man of Lawlessness"
+  - week: 30
+    episode: 163
+    day: "Pastoral Epistles"
+    focus: "Timid Timothy & Tough Titus"
+  - week: 31
+    episode: 164
+    day: "Philemon"
+    focus: "Faith Works"
+  - week: 32
+    episode: 165
+    day: "Hebrews"
+    focus: "Running a Better Race"
+  - week: 33
+    episode: 166
+    day: "Hebrews"
+    focus: "Atonement 101"
+  - week: 34
+    episode: 167
+    day: "James"
+    focus: "Mitzvoth"
+  - week: 35
+    episode: 168
+    day: "1 Peter"
+    focus: "Living Stones and a Spiritual House"
+  - week: 36
+    episode: 169
+    day: "2 Peter"
+    focus: "The Other Side of a Conversation"
+  - week: 37
+    episode: 170
+    day: "1 John"
+    focus: "Love and Truth"
+  - week: 38
+    episode: 171
+    day: "2 John"
+    focus: "The “Woman”"
+  - week: 39
+    episode: 172
+    day: "3 John"
+    focus: "Diotrephes"
+  - week: 40
+    episode: 173
+    day: "Jude"
+    focus: "False Teachers"
+  - week: 41
+    episode: 174
+    day: "Revelation"
+    focus: "A Book for Its Time"
+  - week: 42
+    episode: 175
+    day: "Revelation"
+    focus: "Ephesus and Their First Love"
+  - week: 43
+    episode: 176
+    day: "Revelation"
+    focus: "Smyrna and Their Crown"
+  - week: 44
+    episode: 177
+    day: "Revelation"
+    focus: "Pergamum and Satan’s Throne"
+  - week: 45
+    episode: 178
+    day: "Revelation"
+    focus: "Thyatira and Her Jezebel"
+  - week: 46
+    episode: 179
+    day: "Revelation"
+    focus: "Waking Up in Sardis"
+  - week: 47
+    episode: 180
+    day: "Revelation"
+    focus: "Philadelphia and Their New Name"
+  - week: 48
+    episode: 181
+    day: "Revelation"
+    focus: "Lukewarm Laodicea"
+  - week: 49
+    episode: 182
+    day: "Revelation"
+    focus: "The Throne Room"
+  - week: 50
+    episode: 183
+    day: "Revelation"
+    focus: "Seals from Scripture"
+  - week: 51
+    episode: 184
+    day: "Revelation"
+    focus: "Let the Games Begin"
+  - week: 52
+    episode: 185
+    day: "Revelation"
+    focus: "Bittersweet Prophecy"
+  - week: 53
+    episode: 186
+    day: "Revelation"
+    focus: "Mother and Dragons"
+  - week: 54
+    episode: 187
+    day: "Revelation"
+    focus: "The Blessed and Faithful Fallen"
+  - week: 55
+    episode: 188
+    day: "Revelation"
+    focus: "The Fall of Greatness"
+  - week: 56
+    episode: 189
+    day: "Revelation"
+    focus: "The End Is a New Beginning"
+  - week: 57
+    episode: 190
+    day: "Capstone"
+    focus: "Session 4 Capstone"
