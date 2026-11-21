@@ -1,0 +1,167 @@
+# Session 2 (The Prophets and the Writings), one episode per week from 33 to 72.
+# Episode 49b has no notes yet, so it has no week. Drawn by
+# _includes/guide-series.html on each discussion guide; the guide's own week
+# is highlighted.
+name: Session 2
+day_label: Book
+weeks:
+  - week: 1
+    episode: 33
+    day: "Introduction"
+    focus: "Session 2 Intro"
+  - week: 2
+    episode: 34
+    day: "Joshua"
+    focus: "The Hardest Story in the Bible (for me)"
+  - week: 3
+    episode: 35
+    day: "Joshua"
+    focus: "Crossroads of the Earth"
+  - week: 4
+    episode: 36
+    day: "Judges"
+    focus: "The Redemption Cycle"
+  - week: 5
+    episode: 37
+    day: "Ruth"
+    focus: "A Love Story"
+  - week: 6
+    episode: 38
+    day: "Samuel"
+    focus: "A Donkey Herder to Lead Us"
+  - week: 7
+    episode: 39
+    day: "Samuel"
+    focus: "A King After God’s Own Heart"
+  - week: 8
+    episode: 40
+    day: "Kings & Chronicles"
+    focus: "One Story, Two Sources"
+  - week: 9
+    episode: 41
+    day: "Kings & Chronicles"
+    focus: "The Story Behind the Story"
+  - week: 10
+    episode: 42
+    day: "Elijah & Elisha"
+    focus: "The Fire of Elijah"
+  - week: 11
+    episode: 43
+    day: "Elijah & Elisha"
+    focus: "Go in Peace"
+  - week: 12
+    episode: 44
+    day: "Psalms"
+    focus: "Our Harps in the Trees"
+  - week: 13
+    episode: 45
+    day: "Proverbs & Ecclesiastes"
+    focus: "Wisdom and Meaning"
+  - week: 14
+    episode: 46
+    day: "Song of Songs"
+    focus: "Song of Sexuality"
+  - week: 15
+    episode: 47
+    day: "The Prophets"
+    focus: "The Lord’s Mouthpiece"
+  - week: 16
+    episode: 48
+    day: "Amos"
+    focus: "Plumb Line"
+  - week: 17
+    episode: 49
+    day: "Hosea"
+    focus: "Garden"
+  - week: 18
+    episode: 50
+    day: "Micah"
+    focus: "Judge"
+  - week: 19
+    episode: 51
+    day: "Isaiah"
+    focus: "Vineyard"
+  - week: 20
+    episode: 52
+    day: "Jonah"
+    focus: "Potential"
+  - week: 21
+    episode: 53
+    day: "Nahum"
+    focus: "Diyn"
+  - week: 22
+    episode: 54
+    day: "Zephaniah"
+    focus: "T'shuvah"
+  - week: 23
+    episode: 55
+    day: "Isaiah"
+    focus: "Woe"
+  - week: 24
+    episode: 56
+    day: "Jeremiah"
+    focus: "Weeping"
+  - week: 25
+    episode: 57
+    day: "Lamentations"
+    focus: "Lament and Hope"
+  - week: 26
+    episode: 58
+    day: "Habakkuk"
+    focus: "Watchtower"
+  - week: 27
+    episode: 59
+    day: "Obadiah"
+    focus: "Petra"
+  - week: 28
+    episode: 60
+    day: "Joel"
+    focus: "Locusts"
+  - week: 29
+    episode: 61
+    day: "Ezekiel"
+    focus: "Strength"
+  - week: 30
+    episode: 62
+    day: "Daniel"
+    focus: "Son of Man"
+  - week: 31
+    episode: 63
+    day: "Job"
+    focus: "Perspective"
+  - week: 32
+    episode: 64
+    day: "Isaiah"
+    focus: "Servant"
+  - week: 33
+    episode: 65
+    day: "Isaiah"
+    focus: "Hope"
+  - week: 34
+    episode: 66
+    day: "Ezra/Nehemiah"
+    focus: "Passionate Leadership"
+  - week: 35
+    episode: 67
+    day: "Haggai"
+    focus: "Build!"
+  - week: 36
+    episode: 68
+    day: "Zechariah"
+    focus: "Apocalyptic Literature"
+  - week: 37
+    episode: 69
+    day: "Malachi"
+    focus: "Q&A"
+  - week: 38
+    episode: 70
+    day: "Esther"
+    focus: "Esther — Purim"
+  - week: 39
+    episode: 71
+    day: "The Prophets"
+    focus: "The Prophetic Table"
+  - week: 40
+    episode: 72
+    day: "Capstone"
+    focus: "Session 2 Capstone"
