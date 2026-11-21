@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include favicon.html %}
     {%- if page.episodeIndex %}
     {% assign episode = site.data.episodes[page.episodeIndex] %}
     {% assign previousEpisodeIndex = page.episodeIndex | minus: 1 %}

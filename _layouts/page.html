@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include favicon.html %}
     {%- if page.session -%}
       {%- assign session_info = site.data.sessions | where: "number", page.session | first -%}
     {%- endif -%}
