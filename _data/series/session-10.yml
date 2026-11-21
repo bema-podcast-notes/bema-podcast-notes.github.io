@@ -1,0 +1,99 @@
+# Session 10 (A Season of Mourning), one episode per week: The Four Pillars,
+# Women in Joshua & Judges, and guest episodes. Drawn by
+# _includes/guide-series.html on each discussion guide; the guide's own week
+# is highlighted.
+name: Session 10
+day_label: Series
+weeks:
+  - week: 1
+    episode: 496
+    day: "Session Introduction"
+    focus: "A Season of Mourning"
+  - week: 2
+    episode: 497
+    day: "Guest Conversation"
+    focus: "The Lord’s Prayer (Brad Gray and Brad Nelson)"
+  - week: 3
+    episode: 498
+    day: "The Four Pillars"
+    focus: "Text"
+  - week: 4
+    episode: 499
+    day: "The Four Pillars"
+    focus: "Truth in Text"
+  - week: 5
+    episode: 500
+    day: "Guest Conversation"
+    focus: "Passover (David Rudolph)"
+  - week: 6
+    episode: 501
+    day: "The Four Pillars"
+    focus: "Tome at the Center of the Spiral"
+  - week: 7
+    episode: 502
+    day: "The Four Pillars"
+    focus: "Community"
+  - week: 8
+    episode: 503
+    day: "The Four Pillars"
+    focus: "Japanese Woodworking Joint"
+  - week: 9
+    episode: 504
+    day: "The Four Pillars"
+    focus: "Coming Home to Community"
+  - week: 10
+    episode: 505
+    day: "The Four Pillars"
+    focus: "Discipleship"
+  - week: 11
+    episode: 506
+    day: "The Four Pillars"
+    focus: "Talmid & Morah"
+  - week: 12
+    episode: 507
+    day: "The Four Pillars"
+    focus: "Discipleship as a Forge"
+  - week: 13
+    episode: 508
+    day: "The Four Pillars"
+    focus: "Wrestling"
+  - week: 14
+    episode: 509
+    day: "The Four Pillars"
+    focus: "Don’t Let Go"
+  - week: 15
+    episode: 510
+    day: "The Four Pillars"
+    focus: "Soul Wrestling"
+  - week: 16
+    episode: 511
+    day: "Guest Conversation"
+    focus: "Does God See Me? (Dieula Previlon)"
+  - week: 17
+    episode: 512
+    day: "Live Episode"
+    focus: "Ten Years of BEMA"
+  - week: 18
+    episode: 513
+    day: "Women in Joshua & Judges"
+    focus: "Introduction"
+  - week: 19
+    episode: 514
+    day: "Women in Joshua & Judges"
+    focus: "Rahab"
+  - week: 20
+    episode: 515
+    day: "Women in Joshua & Judges"
+    focus: "Daughters of Zelophehad"
+  - week: 21
+    episode: 516
+    day: "Women in Joshua & Judges"
+    focus: "Akhsah"
+  - week: 22
+    episode: 517
+    day: "Book Conversation"
+    focus: "The Gospel of Being Human"
+  - week: 23
+    episode: 518
+    day: "Women in Joshua & Judges"
+    focus: "Deborah"

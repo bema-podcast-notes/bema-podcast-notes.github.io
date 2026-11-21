@@ -11,7 +11,7 @@
 <table>
     <caption class="visually-hidden">The {{ series.name }} series, week by week</caption>
     <thead>
-        <tr><th scope="col">Week</th><th scope="col">Episode</th><th scope="col">Day</th><th scope="col">Focus</th></tr>
+        <tr><th scope="col">Week</th><th scope="col">Episode</th><th scope="col">{{ series.day_label | default: "Day" }}</th><th scope="col">Focus</th></tr>
     </thead>
     <tbody>
         {%- for w in series.weeks -%}
