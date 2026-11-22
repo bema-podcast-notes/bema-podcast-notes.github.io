@@ -1,0 +1,48 @@
+# Session 7 (Stepping into Sabbath), one episode per week. Only episodes with
+# notes have a week: 17 episodes in 334-360 (The Chosen S3 bonus episodes and
+# the Sabbath Practice series) have no notes yet. Drawn by
+# _includes/guide-series.html on each discussion guide; the guide's own week
+# is highlighted.
+name: Session 7
+day_label: Series
+weeks:
+  - week: 1
+    episode: 334
+    day: "Introduction"
+    focus: "Session 7 Intro"
+  - week: 2
+    episode: 336
+    day: "Sabbath Reflection"
+    focus: "Truth"
+  - week: 3
+    episode: 338
+    day: "Sabbath Reflection"
+    focus: "Love"
+  - week: 4
+    episode: 340
+    day: "Sabbath Reflection"
+    focus: "Community"
+  - week: 5
+    episode: 342
+    day: "Sabbath Reflection"
+    focus: "Teaching"
+  - week: 6
+    episode: 344
+    day: "Sabbath Reflection"
+    focus: "Place"
+  - week: 7
+    episode: 346
+    day: "Sabbath Reflection"
+    focus: "Wonder"
+  - week: 8
+    episode: 348
+    day: "Sabbath Reflection"
+    focus: "Trust"
+  - week: 9
+    episode: 350
+    day: "Guest Conversation"
+    focus: "Storyline Bible (Kat Armstrong)"
+  - week: 10
+    episode: 360
+    day: "Capstone"
+    focus: "Session 7 Capstone"
