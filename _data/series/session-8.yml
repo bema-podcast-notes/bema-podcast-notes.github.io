@@ -1,0 +1,112 @@
+# Session 8 (Returning to Ordinary Time), one episode per week. Only episodes
+# with notes have a week: 24 episodes in 361-410 (the intro, Talmudic Matthew,
+# Practical Shabbat, most guest episodes and the capstone) have no notes yet.
+# Drawn by _includes/guide-series.html on each discussion guide; the guide's
+# own week is highlighted.
+name: Session 8
+day_label: Series
+weeks:
+  - week: 1
+    episode: 362
+    day: "Isaiah"
+    focus: "Prophetic Pathos"
+  - week: 2
+    episode: 363
+    day: "Isaiah"
+    focus: "Prophetic Imagination"
+  - week: 3
+    episode: 364
+    day: "Isaiah"
+    focus: "Opening Provocations"
+  - week: 4
+    episode: 365
+    day: "Isaiah"
+    focus: "Prophet vs. Wizard Priests"
+  - week: 5
+    episode: 366
+    day: "Isaiah"
+    focus: "Let the Man Cook!"
+  - week: 6
+    episode: 367
+    day: "Isaiah"
+    focus: "Burdens"
+  - week: 7
+    episode: 369
+    day: "Isaiah"
+    focus: "The Choice Is Yours"
+  - week: 8
+    episode: 370
+    day: "Isaiah"
+    focus: "Woes"
+  - week: 9
+    episode: 371
+    day: "Isaiah"
+    focus: "The Hulk Factor"
+  - week: 10
+    episode: 372
+    day: "Isaiah"
+    focus: "History and Redaction"
+  - week: 11
+    episode: 374
+    day: "Isaiah"
+    focus: "When Suffering Is the Way"
+  - week: 12
+    episode: 375
+    day: "Isaiah"
+    focus: "What Perseverance Produces"
+  - week: 13
+    episode: 376
+    day: "Isaiah"
+    focus: "Maternal Images of God"
+  - week: 14
+    episode: 377
+    day: "Isaiah"
+    focus: "The Fruit of Faithfulness"
+  - week: 15
+    episode: 379
+    day: "Psalms"
+    focus: "Every Season of Life"
+  - week: 16
+    episode: 380
+    day: "Psalms"
+    focus: "The Hidden Face"
+  - week: 17
+    episode: 381
+    day: "Psalms"
+    focus: "A Sheep in the Mirror"
+  - week: 18
+    episode: 382
+    day: "Psalms"
+    focus: "Small, Not Insignificant"
+  - week: 19
+    episode: 383
+    day: "Psalms"
+    focus: "Praying Hate"
+  - week: 20
+    episode: 384
+    day: "Guest Conversation"
+    focus: "Centering Jesus (Derek Vreeland)"
+  - week: 21
+    episode: 385
+    day: "Psalms"
+    focus: "Ultimate Mario Star"
+  - week: 22
+    episode: 386
+    day: "Psalms"
+    focus: "The Whole Human Experience"
+  - week: 23
+    episode: 387
+    day: "Psalms"
+    focus: "More Distant Reflections"
+  - week: 24
+    episode: 388
+    day: "Psalms"
+    focus: "Are You Listening?"
+  - week: 25
+    episode: 389
+    day: "Psalms"
+    focus: "23 & Me"
+  - week: 26
+    episode: 390
+    day: "Psalms"
+    focus: "Feeling Dumb with a Great Cloud of Witnesses"
